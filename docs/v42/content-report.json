@@ -1,0 +1,26 @@
+{
+  "units": 7,
+  "topics": 41,
+  "validated_topics": 41,
+  "old_resources": 1216,
+  "current_resources": 1220,
+  "new_resources": [
+    "assessment/v4/action-queue.mjs",
+    "mind-flow/v3/view.mjs",
+    "reader-tools.mjs",
+    "resource-hash.js"
+  ],
+  "textbook_resource_hash_changes": [],
+  "mapped_unique_exercises": 899,
+  "mapped_unique_readings": 503,
+  "pdf_bytes": 88232157,
+  "pdf_sha256": "87d33bc2cccee666fccb9327c64e712ebd39148f6b3a09a56a93e0b3240a2805",
+  "pdf_parts": 337,
+  "pdf_pages": 934,
+  "reading-content": 503,
+  "exercises": 1331,
+  "figures": 328,
+  "supplements": 4,
+  "assets": 576,
+  "chapter-reviews": 13
+}
