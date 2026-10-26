@@ -12,7 +12,7 @@ permissions:
 
 jobs:
   frontend:
-    name: Frontend regression (requires complete course resources)
+    name: Frontend regression (verified private course assets)
     runs-on: ubuntu-latest
     timeout-minutes: 25
     steps:
@@ -22,13 +22,36 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '22'
+      - name: Restore private licensed course resources
+        env:
+          COURSE_ASSETS_URL: ${{ secrets.GMF_COURSE_ASSETS_URL }}
+          COURSE_ASSETS_TOKEN: ${{ secrets.GMF_COURSE_ASSETS_TOKEN }}
+        run: bash scripts/fetch-private-course-assets.sh
       - name: Frontend regression tests
         run: npm test
 
-  backend:
-    name: Backend regression including private question isolation
+  backend-core:
+    name: Backend regression excluding 2 separately-gated DOCX cases
     runs-on: ubuntu-latest
-    timeout-minutes: 25
+    timeout-minutes: 20
+    steps:
+      - name: Checkout exact repository snapshot
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Install Python test dependencies
+        run: python -m pip install -r requirements-dev.txt
+      - name: Run non-DOCX backend suite
+        run: >-
+          python -m pytest -q tests
+          -k 'not test_docx_answers_not_in_options and not test_admin_many_papers_batch_reuses_queue_and_is_idempotent'
+
+  backend-docx:
+    name: DOCX conversion regression (LibreOffice required)
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
     steps:
       - name: Checkout exact repository snapshot
         uses: actions/checkout@v4
@@ -39,26 +62,26 @@ jobs:
       - name: Install Python test dependencies
         run: python -m pip install -r requirements-dev.txt
       - name: Install DOCX conversion dependency
-        timeout-minutes: 6
+        timeout-minutes: 20
         env:
           DEBIAN_FRONTEND: noninteractive
         shell: bash
         run: |
-          if command -v soffice || command -v libreoffice; then
-            echo 'LibreOffice is already installed.'
-          else
-            echo '::notice::LibreOffice is absent; DOCX import requires the system converter.'
-            sudo -E apt-get -o Acquire::Retries=1 -o Acquire::http::Timeout=30 -o Acquire::https::Timeout=30 update
-            sudo -E apt-get -o Acquire::Retries=1 -o Acquire::http::Timeout=30 -o Acquire::https::Timeout=30 install -y --no-install-recommends libreoffice-writer
+          if ! command -v soffice >/dev/null; then
+            sudo -E apt-get -o Acquire::Retries=2 -o Acquire::http::Timeout=60 -o Acquire::https::Timeout=60 update
+            sudo -E apt-get -o Acquire::Retries=2 -o Acquire::http::Timeout=60 -o Acquire::https::Timeout=60 install -y --no-install-recommends libreoffice-writer
           fi
-          libreoffice --version
-      - name: Backend regression tests
-        run: python -m pytest -q tests
+          soffice --version
+      - name: Run DOCX import regressions (must both pass)
+        run: |
+          python -m pytest -q \
+            tests/test_v4.py::test_docx_answers_not_in_options \
+            tests/test_v4.py::test_admin_many_papers_batch_reuses_queue_and_is_idempotent
 
   course-resources:
     name: Strict Pathline resource integrity (release gate)
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 25
     steps:
       - name: Checkout exact repository snapshot
         uses: actions/checkout@v4
@@ -66,35 +89,37 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: '3.13'
-      - name: Audit runtime asset integrity
+      - name: Restore private licensed course resources
+        env:
+          COURSE_ASSETS_URL: ${{ secrets.GMF_COURSE_ASSETS_URL }}
+          COURSE_ASSETS_TOKEN: ${{ secrets.GMF_COURSE_ASSETS_TOKEN }}
+        run: bash scripts/fetch-private-course-assets.sh
+      - name: Audit all manifest assets
         run: python scripts/audit-runtime-assets.py --dist dist --output /tmp/gmf-asset-audit.json
-      - name: Publish resource readiness summary
+      - name: Summarize course asset readiness
         if: always()
         shell: bash
         run: |
           python - <<'PY'
-          import json
-          import os
+          import json, os
           from pathlib import Path
-
           path = Path('/tmp/gmf-asset-audit.json')
           if path.is_file():
               report = json.loads(path.read_text())
-              status = 'PASS' if report['complete'] else 'FAIL — course resources incomplete'
-              text = (f"### Pathline resource integrity: {status}\n\n"
-                      f"Verified: {report['verified']}/{report['resource_count']}; "
-                      f"failures: {len(report['failures'])}.\n\n")
+              status = 'PASS' if report['complete'] else 'FAIL — incomplete content'
+              summary = (f"### Pathline integrity: {status}\n\n"
+                         f"Verified: {report['verified']}/{report['resource_count']}; "
+                         f"failures: {len(report['failures'])}.\n")
           else:
-              text = '### Pathline resource integrity: FAIL — audit did not produce a report\n\n'
-          text += ('Resources must not be replaced with placeholders to make CI pass. '
-                   'Browser, real PDF and iPad Safari acceptance remain separate release requirements.\n')
-          with open(os.environ['GITHUB_STEP_SUMMARY'], 'a') as summary:
-              summary.write(text)
+              summary = '### Pathline integrity: NOT VERIFIED (restore or audit failed)\n'
+          summary += '\nCourse assets stay private; browser/PDF/iPad Safari acceptance is separate.\n'
+          with open(os.environ['GITHUB_STEP_SUMMARY'], 'a') as output:
+              output.write(summary)
           PY
-      - name: Preserve complete resource audit report
+      - name: Upload asset metadata only (never licensed content)
         if: always()
         uses: actions/upload-artifact@v4
         with:
           name: pathline-resource-audit
           path: /tmp/gmf-asset-audit.json
-          if-no-files-found: error
+          if-no-files-found: ignore
