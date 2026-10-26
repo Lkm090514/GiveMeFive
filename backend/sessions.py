@@ -94,7 +94,7 @@ class Sessions:
     'topics':list(dict.fromkeys([*m['core'],*(m['related'] if req.get('expand_related') else [])])),
     'methods':types['methods'],'structures':types['structures'],'same_type':bool(req.get('same_type')),
     'comprehensive':bool(req.get('comprehensive')),'exclude_ids':exclude,'seen_ids':[]}
-  refs=self.bank.candidates(scope['course_id'],None,scope['topics'],scope['comprehensive'],[*scope['exclude_ids'],*scope['seen_ids']],owner_id=owner)
+  refs=self.bank.candidates(scope['course_id'],None,scope['topics'],scope['comprehensive'],[*scope['exclude_ids'],*scope['seen_ids']])
   if scope.get('source_fingerprint'):refs=[row for row in refs if row[1].fingerprint!=scope['source_fingerprint']]
   if scope['same_type']:
    methods=set(scope['methods']);structures=set(scope['structures'])
