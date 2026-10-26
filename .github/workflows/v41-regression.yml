@@ -32,7 +32,7 @@ jobs:
         run: node --test --test-concurrency=1 tests/*.test.mjs mf-stage-a-reference/tests/*.test.mjs
 
   backend-core:
-    name: Backend regression excluding 2 separately-gated DOCX cases
+    name: Backend regression excluding 3 separately-gated DOCX cases
     runs-on: ubuntu-latest
     timeout-minutes: 20
     steps:
@@ -47,7 +47,7 @@ jobs:
       - name: Run non-DOCX backend suite
         run: >-
           python -m pytest -q tests
-          -k 'not test_docx_answers_not_in_options and not test_admin_many_papers_batch_reuses_queue_and_is_idempotent'
+          -k 'not test_docx_answers_not_in_options and not test_admin_many_papers_batch_reuses_queue_and_is_idempotent and not test_student_docx_preserves_original_and_ungraded_answers'
 
   backend-docx:
     name: DOCX conversion regression (LibreOffice required)
@@ -73,11 +73,12 @@ jobs:
             sudo -E apt-get -o Acquire::Retries=2 -o Acquire::http::Timeout=60 -o Acquire::https::Timeout=60 install -y --no-install-recommends libreoffice-writer
           fi
           soffice --version
-      - name: Run DOCX import regressions (must both pass)
+      - name: Run DOCX import regressions (must all pass)
         run: |
           python -m pytest -q \
             tests/test_v4.py::test_docx_answers_not_in_options \
-            tests/test_v4.py::test_admin_many_papers_batch_reuses_queue_and_is_idempotent
+            tests/test_v4.py::test_admin_many_papers_batch_reuses_queue_and_is_idempotent \
+            tests/test_v42.py::test_student_docx_preserves_original_and_ungraded_answers
 
   course-resources:
     name: Strict Pathline resource integrity (release gate)
