@@ -1,0 +1,10 @@
+import {spawn} from 'node:child_process';
+import {existsSync} from 'node:fs';
+import {fileURLToPath} from 'node:url';
+const root=fileURLToPath(new URL('../',import.meta.url));
+const venv=fileURLToPath(new URL(process.platform==='win32'?'../.venv/Scripts/python.exe':'../.venv/bin/python',import.meta.url));
+const python=existsSync(venv)?venv:(process.platform==='win32'?'python':'python3');
+console.log('此兼容入口将启动完整 Python 网站与题库服务。');
+const child=spawn(python,['scripts/run-v4.py',...process.argv.slice(2)],{cwd:root,stdio:'inherit',windowsHide:true});
+child.on('error',()=>{console.error('请双击项目根目录 Start-GiveMeFive.cmd 安装并启动。');process.exitCode=1;});
+child.on('exit',code=>{process.exitCode=code??1;});

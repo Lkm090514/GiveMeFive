@@ -1,0 +1,28 @@
+const assert=require('node:assert/strict'),fs=require('node:fs'),vm=require('node:vm');
+const MF=require('../mind-flow/v1.js'),F=require('../fusion-core.js'),S=require('../study-sessions.js');
+const course=JSON.parse(fs.readFileSync(require.resolve('../data/course.json'),'utf8')),cid=course.course_id;
+const start=Date.now()-10000;
+const create=tid=>MF.create({session_id:'test-'+tid,course_id:cid,unit_id:course.units.find(u=>u.topic_refs.includes(tid)).unit_id,topic_id:tid,title:course.topics.find(t=>t.topic_id===tid).title,started_at:new Date(start).toISOString()});
+const c={window:{},Date};vm.createContext(c);vm.runInContext(fs.readFileSync(require.resolve('../pathline-core.js'),'utf8'),c);
+const p=c.window.PathlineEngine.ensureCourseProgress(F.makeCourse({course})),store=F.emptyEvidence();
+function accept(run){run.active_seconds=2;const e=MF.evidence(run);assert.equal(F.acceptLearning(store,p,e,run.context),true);assert.equal(F.acceptLearning(store,p,e,run.context),false);assert.equal(p[run.context.topic_id].mastery,22);assert.equal(p[run.context.topic_id].attempts,0);assert.equal(p[run.context.topic_id].confidence,.5);return e;}
+const a=create('2.5');MF.submit(a,'ΣF=ma，F 是合力',start+1000);assert.equal(a.stage,'application');MF.submit(a,'3',start+2000);MF.submit(a,'4',start+3000);assert.equal(a.final_state,'independent_success');const ea=accept(a);assert.equal(p['2.5'].intervalDays,2);
+const b=create('5.4');MF.submit(b,'只看总质量',start+1000);assert.equal(b.stage,'repair');assert.throws(()=>MF.openSource(b));MF.hint(b);assert.equal(MF.hint(b),true);assert.equal(MF.hint(b),false);MF.openSource(b);assert.ok(b.repair_sources_used.includes('os-figure-10.19'));MF.recheck(b);assert.equal(b.source_open,false);MF.submit(b,'20',start+4000);assert.equal(b.final_state,'repaired_success');const eb=accept(b);assert.equal(p['5.4'].intervalDays,.5);
+const d=create('7.5');MF.submit(d,'不知道',start+1000);MF.hint(d);MF.hint(d);MF.openSource(d);MF.recheck(d);MF.submit(d,'4',start+5000);assert.equal(d.final_state,'unresolved');const ed=accept(d);assert.equal(p['7.5'].intervalDays,.125);assert.throws(()=>MF.submit(d,'0.5'));assert.throws(()=>MF.evidence(create('7.5')));
+for(const e of [ea,eb,ed]){assert.equal(e.course_id,cid);assert.ok(course.units.find(u=>u.unit_id===e.unit_id).topic_refs.includes(e.topic_id));assert.throws(()=>F.validateLearning({...e,unit_id:'foreign'},a.context));assert.throws(()=>F.validateLearning({...e,payload:{...e.payload,active_seconds:10000}},e.topic_id==='2.5'?a.context:e.topic_id==='5.4'?b.context:d.context));}
+assert.throws(()=>F.validateLearning({...eb,payload:{...eb.payload,final_state:'independent_success'}},b.context));assert.throws(()=>F.validateLearning({...eb,payload:{...eb.payload,hint_levels_used:[2,1]}},b.context));
+const interrupted=create('2.5');MF.submit(interrupted,'net force F=ma',start+1000);interrupted.response='3';const restored=JSON.parse(JSON.stringify(interrupted));assert.equal(restored.stage,'application');assert.equal(restored.response,'3');assert.throws(()=>MF.evidence(restored));
+const late=create('2.5');MF.submit(late,'net force F=ma',start+1000);MF.submit(late,'3',start+2000);MF.submit(late,'100',start+3000);assert.equal(late.stage,'repair');MF.hint(late);MF.recheck(late);MF.submit(late,'-3',start+5000);assert.equal(late.final_state,'repaired_success');F.validateLearning(MF.evidence(late),late.context);
+assert.equal(MF.judge('2.5',MF.blueprints['2.5'].recall_prompts[0],'F=ma'),false);
+assert.equal(MF.judge('2.5',MF.blueprints['2.5'].recall_prompts[0],'F=ma，F 是单个力，不是合力'),false);
+assert.equal(MF.judge('future-topic',{kind:'recall',required:[['hello']],reject:['not hello']},'hello'),true);
+assert.equal(MF.judge('5.4',MF.blueprints['5.4'].recall_prompts[0],'I=Σmr², r is distance from the axis'),true);
+assert.equal(MF.judge('7.5',MF.blueprints['7.5'].recall_prompts[0],'T=2π√(L/g), small angle, physical pendulum needs rotational inertia'),true);
+const read=file=>JSON.parse(fs.readFileSync(require.resolve('../data/'+file+'.json'),'utf8'));
+const t={window:{PathlineTextbook:{course,readings:read('reading-content'),exercises:read('exercises'),assets:read('assets'),supplements:read('supplements'),reviews:read('chapter-reviews'),objects:read('reading-objects'),figures:read('figures')},PathlineFusion:F}};vm.createContext(t);vm.runInContext(fs.readFileSync(require.resolve('../topic-content.js'),'utf8'),t);
+for(const [id,bp] of Object.entries(MF.blueprints)){assert.deepEqual(Object.keys(bp),['core_targets','recall_prompts','application_prompts','common_errors','hint_ladder','repair_sources']);const html=t.window.PathlineContent.repair(id,bp.repair_sources);assert.ok(html.includes('source-region'));assert.ok(html.includes('OpenStax'));assert.ok(!html.includes('data-exposure-exercise'));}
+assert.throws(()=>t.window.PathlineContent.repair('2.5',MF.blueprints['5.4'].repair_sources));
+const ss={active_seconds:0,daily_seconds:{},course_id:cid,topic_id:'2.5',mode:'review'};assert.equal(S.credit(ss,start,start+300000,start,true),120);assert.equal(S.credit(ss,start+300000,start+600000,start,false),0);
+assert.equal(MF.derived(store,cid,'5.4',p['5.4']).latest_mf_result,'repaired_success');assert.equal(MF.derived(store,cid,'5.4',p['5.4']).mf_session_count,1);
+F.toggleCompletion(store,p,{event_id:'reading',course_id:cid,topic_id:'5.4'},Date.now());F.toggleCompletion(store,p,{event_id:'cancel',course_id:cid,topic_id:'5.4'},Date.now()+1);assert.equal(store.learning_repair.length,3);
+console.log('PASS: MF V1 A/B/C outcomes, independent variant, bounded repair, no abandoned evidence, canonical IDs, identity/rubric validation, idempotency, resume, real sources, schedule, no mastery mutation, idle/background time.');

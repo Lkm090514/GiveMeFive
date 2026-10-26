@@ -1,0 +1,13 @@
+const assert=require('node:assert/strict'),fs=require('node:fs'),vm=require('node:vm'),path=require('node:path');
+const root=process.argv[2]||path.resolve(__dirname,'..'),F=require(path.join(root,'fusion-core.js')),MF=require(path.join(root,'mind-flow/v1.js'));
+const c={window:{},structuredClone,Date,Promise,Map};vm.createContext(c);vm.runInContext(fs.readFileSync(path.join(root,'learning-store.js'),'utf8'),c);
+const focus={schema_version:3,event_id:'focus',session_id:'focus',source:'MF',type:'MF_SESSION_COMPLETED',course_id:'ap-physics-c-mechanics-2026-27',unit_id:2,topic_id:'2.5',occurred_at:new Date().toISOString(),payload:{mode:'focus',active_seconds:30,completed_steps:['Read']}};
+const assessment={...focus,event_id:'exam',source:'Assessment',type:'ASSESSMENT',unit_id:null,topic_id:null,payload:{answers:[]}};
+const projection=c.window.LearningStore.projection([assessment,focus]);assert.equal(projection.learning_repair[0].payload.mode,'focus');assert.equal(projection.assessment[0].source,'Assessment');assert.equal(projection.assessment[0].type,'ASSESSMENT');
+const progress={'2.5':{attempts:0,mastery:22,confidence:.5}},store=F.emptyEvidence();store.learning_repair.push(focus);F.rebuildSchedule(store,progress,focus.course_id,'2.5');assert.equal(progress['2.5'].dueAt,null);assert.equal(progress['2.5'].mastery,22);assert.equal(MF.derived(store,focus.course_id,'2.5',progress['2.5']).last_review_at,null);
+const unbound={...focus,course_id:null,unit_id:null,topic_id:null};assert.equal(c.window.LearningStore.canonical(unbound,'learning_repair').topic_id,null);
+for(const html of ['index.html','mind-flow/index.html','mind-flow/review.html','assessment/index.html'])assert.ok(!/<iframe\b/i.test(fs.readFileSync(path.join(root,html),'utf8')));
+assert.ok(!/<iframe\b/i.test(fs.readFileSync(path.join(root,'app.js'),'utf8')));
+const runtime=fs.readFileSync(path.join(root,'mind-flow/app.js'),'utf8');assert.ok(!runtime.includes('localStorage.setItem'));assert.ok(!runtime.includes('localStorage.removeItem'));
+const manifest=JSON.parse(fs.readFileSync(path.join(root,'data/app-shell.json'),'utf8'));const index=fs.readFileSync(path.join(root,'assessment/index.html'),'utf8');for(const asset of [...index.matchAll(/(?:src|href)="\.\/assets\/([^"]+)"/g)])assert.ok(manifest.includes('assessment/assets/'+asset[1]));
+console.log('PASS: Focus facts do not schedule reviews; free context stays nullable; v3 MF/Assessment facts preserve source/type; all modules are independent pages; Focus writes no localStorage; current exam assets are downloadable.');

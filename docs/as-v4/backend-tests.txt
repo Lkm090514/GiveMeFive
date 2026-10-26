@@ -1,0 +1,26 @@
+..........................                                               [100%]
+=============================== warnings summary ===============================
+preview-runtime-python/fastapi/testclient.py:1
+  /workspace/scratch/de6090c606b2/givemefive/preview-runtime-python/fastapi/testclient.py:1: StarletteDeprecationWarning: Using `httpx` with `starlette.testclient` is deprecated; install `httpx2` instead.
+    from starlette.testclient import TestClient as TestClient  # noqa
+
+tests/test_v4.py: 29 warnings
+  /workspace/scratch/de6090c606b2/givemefive/backend/app.py:260: DeprecationWarning:
+          on_event is deprecated, use lifespan event handlers instead.
+
+          Read more about it in the
+          [FastAPI docs for Lifespan Events](https://fastapi.tiangolo.com/advanced/events/).
+
+    @app.on_event('shutdown')
+
+tests/test_v4.py: 29 warnings
+  /workspace/scratch/de6090c606b2/givemefive/preview-runtime-python/fastapi/applications.py:4723: DeprecationWarning:
+          on_event is deprecated, use lifespan event handlers instead.
+
+          Read more about it in the
+          [FastAPI docs for Lifespan Events](https://fastapi.tiangolo.com/advanced/events/).
+
+    return self.router.on_event(event_type)  # ty: ignore[deprecated]
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+26 passed, 59 warnings in 12.52s

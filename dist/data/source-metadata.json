@@ -1,0 +1,34 @@
+{
+  "book": "OpenStax University Physics Volume 1",
+  "publisher": "OpenStax / Rice University",
+  "license": "CC BY-NC-SA 4.0",
+  "license_evidence": {
+    "printed_page": 1,
+    "pdf_page": 6
+  },
+  "license_text": "University Physics is licensed under a Creative \nCommons Attribution-NonCommercial-ShareAlike 4.0 \n(CC BY NC-SA) license, which means that you can non￾commercially distribute, remix, and build upon the \ncontent, as long as you provide attribution to OpenStax \nand its content contributors, and distribute all \nderivatives under the same license. \n",
+  "source_file": "source/university-physics-v1.pdf",
+  "sha256": "87d33bc2cccee666fccb9327c64e712ebd39148f6b3a09a56a93e0b3240a2805",
+  "figure_credit_policy": "Preserve individual caption credits; do not assume identical image licenses.",
+  "omitted_printed_pages": [
+    863,
+    864,
+    865,
+    866,
+    867,
+    868,
+    869,
+    870,
+    871,
+    872,
+    873,
+    874
+  ],
+  "unnumbered_pdf_pages": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ]
+}

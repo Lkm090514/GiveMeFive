@@ -1,0 +1,84 @@
+[
+  {
+    "page": "MF tasks (one completed task)",
+    "actionMenus": 1,
+    "buttons": [
+      "EN",
+      "◐",
+      "切换课程",
+      "添加任务",
+      "重新打开",
+      "继续此任务"
+    ]
+  },
+  {
+    "page": "PL pathway",
+    "buttons": [
+      "EN",
+      "◐",
+      "收起目录",
+      "总览",
+      "复习安排",
+      "切换课程",
+      "1.1Scalars and Vectors已学习✓",
+      "1.2Displacement, Velocity, and Acceleration尚未学习›",
+      "1.3Representing Motion尚未学习›",
+      "1.4Reference Frames and Relative Motion尚未学习›",
+      "1.5Motion in Two or Three Dimensions尚未学习›",
+      "2.1Systems and Center of Mass尚未学习›",
+      "2.2Forces and Free-Body Diagrams尚未学习›",
+      "2.3Newton’s Third Law尚未学习›",
+      "2.4Newton’s First Law尚未学习›",
+      "2.5Newton’s Second Law尚未学习›",
+      "2.6Gravitational Force尚未学习›",
+      "2.7Kinetic and Static Friction尚未学习›",
+      "2.8Spring Forces尚未学习›",
+      "2.9Resistive Forces尚未学习›",
+      "2.10Circular Motion尚未学习›",
+      "3.1Translational Kinetic Energy尚未学习›",
+      "3.2Work尚未学习›",
+      "3.3Potential Energy尚未学习›",
+      "3.4Conservation of Energy尚未学习›",
+      "3.5Power尚未学习›",
+      "4.1Linear Momentum尚未学习›",
+      "4.2Change in Momentum and Impulse尚未学习›",
+      "4.3Conservation of Linear Momentum尚未学习›",
+      "4.4Elastic and Inelastic Collisions尚未学习›",
+      "5.1Rotational Kinematics尚未学习›",
+      "5.2Connecting Linear and Rotational Motion尚未学习›",
+      "5.3Torque尚未学习›",
+      "5.4Rotational Inertia尚未学习›",
+      "5.5Rotational Equilibrium and Newton’s First Law in Rotational Form尚未学习›",
+      "5.6Newton’s Second Law in Rotational Form尚未学习›",
+      "6.1Rotational Kinetic Energy尚未学习›",
+      "6.2Torque and Work尚未学习›",
+      "6.3Angular Momentum and Angular Impulse尚未学习›",
+      "6.4Conservation of Angular Momentum尚未学习›",
+      "6.5Rolling尚未学习›",
+      "6.6Motion of Orbiting Satellites尚未学习›",
+      "7.1Defining Simple Harmonic Motion尚未学习›",
+      "7.2Frequency and Period of SHM尚未学习›",
+      "7.3Representing and Analyzing SHM尚未学习›",
+      "7.4Energy of Simple Harmonic Oscillators尚未学习›",
+      "7.5Simple and Physical Pendulums尚未学习›"
+    ]
+  },
+  {
+    "page": "AS practice",
+    "buttons": [
+      "EN",
+      "◐",
+      "开始自由练习"
+    ]
+  },
+  {
+    "page": "AS upload (one imported paper)",
+    "buttons": [
+      "EN",
+      "◐",
+      "上传并解析",
+      "刷新解析进度",
+      "打开我的试卷"
+    ]
+  }
+]

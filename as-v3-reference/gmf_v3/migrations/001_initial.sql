@@ -1,0 +1,21 @@
+PRAGMA foreign_keys=ON;
+CREATE TABLE IF NOT EXISTS schema_migrations(version INTEGER PRIMARY KEY, applied_at TEXT NOT NULL);
+CREATE TABLE IF NOT EXISTS documents(document_id TEXT PRIMARY KEY, scope TEXT NOT NULL, owner_id TEXT NOT NULL, payload TEXT NOT NULL);
+CREATE TABLE IF NOT EXISTS questions(question_id TEXT PRIMARY KEY, document_id TEXT NOT NULL REFERENCES documents, scope TEXT NOT NULL CHECK(scope IN ('bank','exam_private')), owner_id TEXT NOT NULL, publication TEXT NOT NULL CHECK(publication IN ('draft','approved')), current_version_id TEXT NOT NULL, payload TEXT NOT NULL);
+CREATE INDEX IF NOT EXISTS question_access ON questions(scope,owner_id,publication);
+CREATE TABLE IF NOT EXISTS question_versions(version_id TEXT PRIMARY KEY, question_id TEXT NOT NULL REFERENCES questions, version INTEGER NOT NULL, text_fingerprint TEXT NOT NULL, fingerprint TEXT NOT NULL, payload TEXT NOT NULL, UNIQUE(question_id,version));
+CREATE INDEX IF NOT EXISTS version_fingerprint ON question_versions(fingerprint);
+CREATE INDEX IF NOT EXISTS version_text_fingerprint ON question_versions(text_fingerprint);
+CREATE TABLE IF NOT EXISTS assets(asset_id TEXT PRIMARY KEY, document_id TEXT NOT NULL REFERENCES documents, payload TEXT NOT NULL);
+CREATE TABLE IF NOT EXISTS answer_evidence(evidence_id TEXT PRIMARY KEY, version_id TEXT NOT NULL REFERENCES question_versions, payload TEXT NOT NULL);
+CREATE TABLE IF NOT EXISTS answer_keys(seq INTEGER PRIMARY KEY AUTOINCREMENT, answer_key_id TEXT UNIQUE NOT NULL, version_id TEXT NOT NULL REFERENCES question_versions, revision INTEGER NOT NULL, payload TEXT NOT NULL, UNIQUE(version_id,revision));
+CREATE TABLE IF NOT EXISTS classifications(seq INTEGER PRIMARY KEY AUTOINCREMENT, classification_id TEXT UNIQUE NOT NULL, version_id TEXT NOT NULL REFERENCES question_versions, payload TEXT NOT NULL);
+CREATE TABLE IF NOT EXISTS relations(relation_id TEXT PRIMARY KEY, from_version_id TEXT NOT NULL REFERENCES question_versions, to_version_id TEXT NOT NULL REFERENCES question_versions, kind TEXT NOT NULL, payload TEXT NOT NULL, UNIQUE(from_version_id,to_version_id,kind));
+CREATE TABLE IF NOT EXISTS import_batches(batch_id TEXT PRIMARY KEY, scope TEXT NOT NULL, owner_id TEXT NOT NULL, payload TEXT NOT NULL);
+CREATE TRIGGER IF NOT EXISTS immutable_versions BEFORE UPDATE ON question_versions BEGIN SELECT RAISE(ABORT,'question versions are immutable'); END;
+CREATE TRIGGER IF NOT EXISTS immutable_evidence BEFORE UPDATE ON answer_evidence BEGIN SELECT RAISE(ABORT,'answer evidence is immutable'); END;
+CREATE TRIGGER IF NOT EXISTS immutable_answers BEFORE UPDATE ON answer_keys BEGIN SELECT RAISE(ABORT,'answer revisions are immutable'); END;
+CREATE TRIGGER IF NOT EXISTS no_delete_versions BEFORE DELETE ON question_versions BEGIN SELECT RAISE(ABORT,'question versions are immutable'); END;
+CREATE TRIGGER IF NOT EXISTS no_delete_evidence BEFORE DELETE ON answer_evidence BEGIN SELECT RAISE(ABORT,'answer evidence is immutable'); END;
+CREATE TRIGGER IF NOT EXISTS no_delete_answers BEFORE DELETE ON answer_keys BEGIN SELECT RAISE(ABORT,'answer revisions are immutable'); END;
+

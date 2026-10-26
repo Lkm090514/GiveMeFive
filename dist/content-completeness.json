@@ -1,0 +1,647 @@
+{
+  "status": "source_and_UI_audited",
+  "course": {
+    "units": 7,
+    "topics": 41,
+    "content_ready_topics": 41,
+    "verified_topics": 41
+  },
+  "content": {
+    "unique_source_sections": 62,
+    "unique_reading_regions": 503,
+    "indexed_reading_regions": 503,
+    "figures_in_reading": 315,
+    "indexed_figures": 328,
+    "examples": 177,
+    "check_your_understanding": 116,
+    "supplements": 4
+  },
+  "exercises": {
+    "unique_formal_source_exercises": 1331,
+    "visible_chapter_exercises": 1234,
+    "unique_topic_exercises": 899,
+    "illustrated_source_exercises": 196,
+    "illustrated_visible_exercises": 189,
+    "illustrated_topic_exercises": 130,
+    "image_count_method": "Original PDF embedded image >=25pt wide and >=20pt high intersects question region; page regions retain vector formulas as well.",
+    "chapters": [
+      {
+        "chapter": 2,
+        "source_exercises": 91,
+        "visible_exercises": 91,
+        "topic_exercises": 70
+      },
+      {
+        "chapter": 3,
+        "source_exercises": 115,
+        "visible_exercises": 115,
+        "topic_exercises": 81
+      },
+      {
+        "chapter": 4,
+        "source_exercises": 101,
+        "visible_exercises": 100,
+        "topic_exercises": 78
+      },
+      {
+        "chapter": 5,
+        "source_exercises": 109,
+        "visible_exercises": 108,
+        "topic_exercises": 76
+      },
+      {
+        "chapter": 6,
+        "source_exercises": 135,
+        "visible_exercises": 134,
+        "topic_exercises": 89
+      },
+      {
+        "chapter": 7,
+        "source_exercises": 108,
+        "visible_exercises": 108,
+        "topic_exercises": 72
+      },
+      {
+        "chapter": 8,
+        "source_exercises": 89,
+        "visible_exercises": 72,
+        "topic_exercises": 51
+      },
+      {
+        "chapter": 9,
+        "source_exercises": 118,
+        "visible_exercises": 108,
+        "topic_exercises": 74
+      },
+      {
+        "chapter": 10,
+        "source_exercises": 125,
+        "visible_exercises": 123,
+        "topic_exercises": 97
+      },
+      {
+        "chapter": 11,
+        "source_exercises": 98,
+        "visible_exercises": 93,
+        "topic_exercises": 72
+      },
+      {
+        "chapter": 12,
+        "source_exercises": 81,
+        "visible_exercises": 43,
+        "topic_exercises": 33
+      },
+      {
+        "chapter": 13,
+        "source_exercises": 88,
+        "visible_exercises": 78,
+        "topic_exercises": 50
+      },
+      {
+        "chapter": 15,
+        "source_exercises": 73,
+        "visible_exercises": 61,
+        "topic_exercises": 56
+      }
+    ]
+  },
+  "topics": [
+    {
+      "topic_id": "1.1",
+      "reading_regions": 44,
+      "source_sections": [
+        "2.1",
+        "2.2",
+        "2.3",
+        "2.4"
+      ],
+      "exercises": 70,
+      "figures": 31,
+      "examples": 19,
+      "checks": 16
+    },
+    {
+      "topic_id": "1.2",
+      "reading_regions": 43,
+      "source_sections": [
+        "3.1",
+        "3.2",
+        "3.3",
+        "3.4",
+        "3.5",
+        "3.6"
+      ],
+      "exercises": 81,
+      "figures": 29,
+      "examples": 17,
+      "checks": 8
+    },
+    {
+      "topic_id": "1.3",
+      "reading_regions": 21,
+      "source_sections": [
+        "3.1",
+        "3.2",
+        "3.3",
+        "3.4",
+        "3.6"
+      ],
+      "exercises": 17,
+      "figures": 12,
+      "examples": 6,
+      "checks": 4
+    },
+    {
+      "topic_id": "1.4",
+      "reading_regions": 5,
+      "source_sections": [
+        "4.5"
+      ],
+      "exercises": 15,
+      "figures": 6,
+      "examples": 2,
+      "checks": 1
+    },
+    {
+      "topic_id": "1.5",
+      "reading_regions": 33,
+      "source_sections": [
+        "4.1",
+        "4.2",
+        "4.3",
+        "4.4"
+      ],
+      "exercises": 63,
+      "figures": 22,
+      "examples": 12,
+      "checks": 5
+    },
+    {
+      "topic_id": "2.1",
+      "reading_regions": 18,
+      "source_sections": [
+        "5.3",
+        "9.6"
+      ],
+      "exercises": 22,
+      "figures": 7,
+      "examples": 4,
+      "checks": 3
+    },
+    {
+      "topic_id": "2.2",
+      "reading_regions": 26,
+      "source_sections": [
+        "5.1",
+        "5.6",
+        "5.7",
+        "6.1"
+      ],
+      "exercises": 31,
+      "figures": 19,
+      "examples": 6,
+      "checks": 4
+    },
+    {
+      "topic_id": "2.3",
+      "reading_regions": 7,
+      "source_sections": [
+        "5.5"
+      ],
+      "exercises": 7,
+      "figures": 5,
+      "examples": 3,
+      "checks": 1
+    },
+    {
+      "topic_id": "2.4",
+      "reading_regions": 10,
+      "source_sections": [
+        "5.2",
+        "6.1"
+      ],
+      "exercises": 6,
+      "figures": 5,
+      "examples": 2,
+      "checks": 1
+    },
+    {
+      "topic_id": "2.5",
+      "reading_regions": 26,
+      "source_sections": [
+        "5.3",
+        "6.1"
+      ],
+      "exercises": 41,
+      "figures": 14,
+      "examples": 15,
+      "checks": 9
+    },
+    {
+      "topic_id": "2.6",
+      "reading_regions": 18,
+      "source_sections": [
+        "13.1",
+        "13.2",
+        "5.4"
+      ],
+      "exercises": 30,
+      "figures": 9,
+      "examples": 6,
+      "checks": 3
+    },
+    {
+      "topic_id": "2.7",
+      "reading_regions": 12,
+      "source_sections": [
+        "6.2"
+      ],
+      "exercises": 23,
+      "figures": 10,
+      "examples": 5,
+      "checks": 2
+    },
+    {
+      "topic_id": "2.8",
+      "reading_regions": 2,
+      "source_sections": [
+        "5.6"
+      ],
+      "exercises": 5,
+      "figures": 1,
+      "examples": 0,
+      "checks": 0
+    },
+    {
+      "topic_id": "2.9",
+      "reading_regions": 9,
+      "source_sections": [
+        "6.4"
+      ],
+      "exercises": 15,
+      "figures": 5,
+      "examples": 2,
+      "checks": 2
+    },
+    {
+      "topic_id": "2.10",
+      "reading_regions": 17,
+      "source_sections": [
+        "4.4",
+        "6.3"
+      ],
+      "exercises": 40,
+      "figures": 15,
+      "examples": 5,
+      "checks": 2
+    },
+    {
+      "topic_id": "3.1",
+      "reading_regions": 4,
+      "source_sections": [
+        "7.2"
+      ],
+      "exercises": 9,
+      "figures": 1,
+      "examples": 3,
+      "checks": 2
+    },
+    {
+      "topic_id": "3.2",
+      "reading_regions": 14,
+      "source_sections": [
+        "7.1",
+        "7.3"
+      ],
+      "exercises": 51,
+      "figures": 11,
+      "examples": 7,
+      "checks": 5
+    },
+    {
+      "topic_id": "3.3",
+      "reading_regions": 19,
+      "source_sections": [
+        "8.1",
+        "8.2",
+        "8.4"
+      ],
+      "exercises": 28,
+      "figures": 8,
+      "examples": 8,
+      "checks": 8
+    },
+    {
+      "topic_id": "3.4",
+      "reading_regions": 12,
+      "source_sections": [
+        "8.3",
+        "8.4"
+      ],
+      "exercises": 30,
+      "figures": 6,
+      "examples": 5,
+      "checks": 5
+    },
+    {
+      "topic_id": "3.5",
+      "reading_regions": 3,
+      "source_sections": [
+        "7.4"
+      ],
+      "exercises": 12,
+      "figures": 2,
+      "examples": 2,
+      "checks": 1
+    },
+    {
+      "topic_id": "4.1",
+      "reading_regions": 2,
+      "source_sections": [
+        "9.1"
+      ],
+      "exercises": 8,
+      "figures": 3,
+      "examples": 0,
+      "checks": 0
+    },
+    {
+      "topic_id": "4.2",
+      "reading_regions": 14,
+      "source_sections": [
+        "9.2"
+      ],
+      "exercises": 14,
+      "figures": 9,
+      "examples": 5,
+      "checks": 2
+    },
+    {
+      "topic_id": "4.3",
+      "reading_regions": 12,
+      "source_sections": [
+        "9.3",
+        "9.6"
+      ],
+      "exercises": 14,
+      "figures": 6,
+      "examples": 4,
+      "checks": 4
+    },
+    {
+      "topic_id": "4.4",
+      "reading_regions": 16,
+      "source_sections": [
+        "9.4",
+        "9.5"
+      ],
+      "exercises": 23,
+      "figures": 6,
+      "examples": 6,
+      "checks": 4
+    },
+    {
+      "topic_id": "5.1",
+      "reading_regions": 14,
+      "source_sections": [
+        "10.1",
+        "10.2"
+      ],
+      "exercises": 26,
+      "figures": 12,
+      "examples": 6,
+      "checks": 2
+    },
+    {
+      "topic_id": "5.2",
+      "reading_regions": 5,
+      "source_sections": [
+        "10.3"
+      ],
+      "exercises": 11,
+      "figures": 3,
+      "examples": 1,
+      "checks": 1
+    },
+    {
+      "topic_id": "5.3",
+      "reading_regions": 6,
+      "source_sections": [
+        "10.6"
+      ],
+      "exercises": 20,
+      "figures": 6,
+      "examples": 2,
+      "checks": 1
+    },
+    {
+      "topic_id": "5.4",
+      "reading_regions": 12,
+      "source_sections": [
+        "10.4",
+        "10.5"
+      ],
+      "exercises": 14,
+      "figures": 10,
+      "examples": 4,
+      "checks": 1
+    },
+    {
+      "topic_id": "5.5",
+      "reading_regions": 22,
+      "source_sections": [
+        "12.1",
+        "12.2"
+      ],
+      "exercises": 33,
+      "figures": 16,
+      "examples": 6,
+      "checks": 8
+    },
+    {
+      "topic_id": "5.6",
+      "reading_regions": 4,
+      "source_sections": [
+        "10.7"
+      ],
+      "exercises": 6,
+      "figures": 2,
+      "examples": 1,
+      "checks": 1
+    },
+    {
+      "topic_id": "6.1",
+      "reading_regions": 12,
+      "source_sections": [
+        "10.4",
+        "11.1"
+      ],
+      "exercises": 21,
+      "figures": 7,
+      "examples": 4,
+      "checks": 1
+    },
+    {
+      "topic_id": "6.2",
+      "reading_regions": 6,
+      "source_sections": [
+        "10.8"
+      ],
+      "exercises": 10,
+      "figures": 2,
+      "examples": 3,
+      "checks": 1
+    },
+    {
+      "topic_id": "6.3",
+      "reading_regions": 9,
+      "source_sections": [
+        "11.2"
+      ],
+      "exercises": 23,
+      "figures": 5,
+      "examples": 3,
+      "checks": 2
+    },
+    {
+      "topic_id": "6.4",
+      "reading_regions": 7,
+      "source_sections": [
+        "11.3"
+      ],
+      "exercises": 29,
+      "figures": 5,
+      "examples": 3,
+      "checks": 1
+    },
+    {
+      "topic_id": "6.5",
+      "reading_regions": 8,
+      "source_sections": [
+        "11.1"
+      ],
+      "exercises": 20,
+      "figures": 7,
+      "examples": 3,
+      "checks": 1
+    },
+    {
+      "topic_id": "6.6",
+      "reading_regions": 20,
+      "source_sections": [
+        "13.3",
+        "13.4",
+        "13.5"
+      ],
+      "exercises": 31,
+      "figures": 8,
+      "examples": 8,
+      "checks": 7
+    },
+    {
+      "topic_id": "7.1",
+      "reading_regions": 9,
+      "source_sections": [
+        "15.1"
+      ],
+      "exercises": 18,
+      "figures": 9,
+      "examples": 2,
+      "checks": 0
+    },
+    {
+      "topic_id": "7.2",
+      "reading_regions": 5,
+      "source_sections": [
+        "15.1",
+        "15.4"
+      ],
+      "exercises": 32,
+      "figures": 1,
+      "examples": 2,
+      "checks": 1
+    },
+    {
+      "topic_id": "7.3",
+      "reading_regions": 11,
+      "source_sections": [
+        "15.1",
+        "15.3"
+      ],
+      "exercises": 9,
+      "figures": 10,
+      "examples": 1,
+      "checks": 1
+    },
+    {
+      "topic_id": "7.4",
+      "reading_regions": 8,
+      "source_sections": [
+        "15.2"
+      ],
+      "exercises": 11,
+      "figures": 6,
+      "examples": 0,
+      "checks": 2
+    },
+    {
+      "topic_id": "7.5",
+      "reading_regions": 6,
+      "source_sections": [
+        "15.4"
+      ],
+      "exercises": 18,
+      "figures": 2,
+      "examples": 2,
+      "checks": 1
+    }
+  ],
+  "sources": {
+    "unique_page_assets": 576,
+    "new_page_assets": 484,
+    "reused_baseline_page_assets": 92,
+    "new_asset_references": 2070,
+    "pdf_pages": 934,
+    "mapped_printed_pages": 929,
+    "missing_printed_pages": [
+      863,
+      864,
+      865,
+      866,
+      867,
+      868,
+      869,
+      870,
+      871,
+      872,
+      873,
+      874
+    ],
+    "license": "CC BY-NC-SA 4.0",
+    "source_sha256": "87d33bc2cccee666fccb9327c64e712ebd39148f6b3a09a56a93e0b3240a2805",
+    "figure_credit_entries": 43,
+    "figure_6_9_credit": [
+      "(credit a: modification of work by OS541/DoD; The appearance of U.S. Department of Defense (DoD) visual information does not imply or constitute DoD endorsement.)"
+    ],
+    "attribution_completeness": {
+      "reading_regions": 503,
+      "figures": 328,
+      "exercises": 1331
+    }
+  },
+  "validation": {
+    "all_topic_UI_pages": 41,
+    "PNG_files_decoded": 576,
+    "broken_asset_references": 0,
+    "duplicate_exercise_ids": 0,
+    "duplicate_source_assets": 0,
+    "missing_images": 0,
+    "orphan_exercises": 0,
+    "topics_without_reading": 0,
+    "topics_without_frozen_mapping": 0,
+    "protected_UI_source_files": 17,
+    "baseline_original_regions": 44,
+    "baseline_original_exercises": 73,
+    "clipped_image_candidates": []
+  }
+}

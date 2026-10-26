@@ -1,0 +1,220 @@
+{
+  "status": "passed",
+  "units": 7,
+  "topics": 41,
+  "mapped_pages": 929,
+  "pdf_pages": 934,
+  "source_sections": 99,
+  "exercises": 1331,
+  "figures_indexed": 328,
+  "figures_preserved_in_reading": 315,
+  "unique_page_assets": 576,
+  "supplements": 4,
+  "representatives": {
+    "1.1": {
+      "reading_regions": 44,
+      "exercises": 70,
+      "answer_refs": 35
+    },
+    "1.2": {
+      "reading_regions": 43,
+      "exercises": 81,
+      "answer_refs": 40
+    },
+    "1.3": {
+      "reading_regions": 21,
+      "exercises": 17,
+      "answer_refs": 8
+    },
+    "1.4": {
+      "reading_regions": 5,
+      "exercises": 15,
+      "answer_refs": 7
+    },
+    "1.5": {
+      "reading_regions": 33,
+      "exercises": 63,
+      "answer_refs": 32
+    },
+    "2.1": {
+      "reading_regions": 18,
+      "exercises": 22,
+      "answer_refs": 9
+    },
+    "2.2": {
+      "reading_regions": 26,
+      "exercises": 31,
+      "answer_refs": 16
+    },
+    "2.3": {
+      "reading_regions": 7,
+      "exercises": 7,
+      "answer_refs": 4
+    },
+    "2.4": {
+      "reading_regions": 10,
+      "exercises": 6,
+      "answer_refs": 4
+    },
+    "2.5": {
+      "reading_regions": 26,
+      "exercises": 41,
+      "answer_refs": 21
+    },
+    "2.6": {
+      "reading_regions": 18,
+      "exercises": 30,
+      "answer_refs": 15
+    },
+    "2.7": {
+      "reading_regions": 12,
+      "exercises": 23,
+      "answer_refs": 11
+    },
+    "2.8": {
+      "reading_regions": 2,
+      "exercises": 5,
+      "answer_refs": 2
+    },
+    "2.9": {
+      "reading_regions": 9,
+      "exercises": 15,
+      "answer_refs": 8
+    },
+    "2.10": {
+      "reading_regions": 17,
+      "exercises": 40,
+      "answer_refs": 19
+    },
+    "3.1": {
+      "reading_regions": 4,
+      "exercises": 9,
+      "answer_refs": 4
+    },
+    "3.2": {
+      "reading_regions": 14,
+      "exercises": 51,
+      "answer_refs": 26
+    },
+    "3.3": {
+      "reading_regions": 19,
+      "exercises": 28,
+      "answer_refs": 15
+    },
+    "3.4": {
+      "reading_regions": 12,
+      "exercises": 30,
+      "answer_refs": 15
+    },
+    "3.5": {
+      "reading_regions": 3,
+      "exercises": 12,
+      "answer_refs": 6
+    },
+    "4.1": {
+      "reading_regions": 2,
+      "exercises": 8,
+      "answer_refs": 4
+    },
+    "4.2": {
+      "reading_regions": 14,
+      "exercises": 14,
+      "answer_refs": 7
+    },
+    "4.3": {
+      "reading_regions": 12,
+      "exercises": 14,
+      "answer_refs": 7
+    },
+    "4.4": {
+      "reading_regions": 16,
+      "exercises": 23,
+      "answer_refs": 12
+    },
+    "5.1": {
+      "reading_regions": 14,
+      "exercises": 26,
+      "answer_refs": 13
+    },
+    "5.2": {
+      "reading_regions": 5,
+      "exercises": 11,
+      "answer_refs": 6
+    },
+    "5.3": {
+      "reading_regions": 6,
+      "exercises": 20,
+      "answer_refs": 11
+    },
+    "5.4": {
+      "reading_regions": 12,
+      "exercises": 14,
+      "answer_refs": 5
+    },
+    "5.5": {
+      "reading_regions": 22,
+      "exercises": 33,
+      "answer_refs": 16
+    },
+    "5.6": {
+      "reading_regions": 4,
+      "exercises": 6,
+      "answer_refs": 3
+    },
+    "6.1": {
+      "reading_regions": 12,
+      "exercises": 21,
+      "answer_refs": 15
+    },
+    "6.2": {
+      "reading_regions": 6,
+      "exercises": 10,
+      "answer_refs": 5
+    },
+    "6.3": {
+      "reading_regions": 9,
+      "exercises": 23,
+      "answer_refs": 11
+    },
+    "6.4": {
+      "reading_regions": 7,
+      "exercises": 29,
+      "answer_refs": 14
+    },
+    "6.5": {
+      "reading_regions": 8,
+      "exercises": 20,
+      "answer_refs": 11
+    },
+    "6.6": {
+      "reading_regions": 20,
+      "exercises": 31,
+      "answer_refs": 16
+    },
+    "7.1": {
+      "reading_regions": 9,
+      "exercises": 18,
+      "answer_refs": 9
+    },
+    "7.2": {
+      "reading_regions": 5,
+      "exercises": 32,
+      "answer_refs": 15
+    },
+    "7.3": {
+      "reading_regions": 11,
+      "exercises": 9,
+      "answer_refs": 4
+    },
+    "7.4": {
+      "reading_regions": 8,
+      "exercises": 11,
+      "answer_refs": 7
+    },
+    "7.5": {
+      "reading_regions": 6,
+      "exercises": 18,
+      "answer_refs": 8
+    }
+  }
+}

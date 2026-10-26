@@ -1,0 +1,16 @@
+{
+  "integration": "GiveMeFive Mind Flow V1 integrated",
+  "fusion_baseline": "41d8ad0dafd16d4064c45cfc08e62a534d6b5246",
+  "assessment_source_path": "C:/codex项目/GiveMeFive",
+  "assessment_source_commit": "862d998d3ca547e8ac5f4542c0d79fd3edda2e77",
+  "assessment_build": "dist-mf-integrated",
+  "build_command": "node node_modules/vite/bin/vite.js build --config vite.cloudbase.config.ts --base ./ --outDir ../dist-mf-integrated",
+  "original_mf_sha256": "639682603452e91d07a457aae547fddcac76384d2b5da2f652021f53400b3ee8",
+  "topics": [
+    "2.5",
+    "5.4",
+    "7.5"
+  ],
+  "canonical_course_id": "ap-physics-c-mechanics-2026-27",
+  "cloud_sync": false
+}

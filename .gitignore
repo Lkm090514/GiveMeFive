@@ -82,3 +82,24 @@ Thumbs.db
 *.tap
 *.junit.xml
 # dist/ is the required executable frontend: intentionally tracked.
+
+# Original ZIP exclusions plus import audit, 2026-10-26
+**/last-launch.json
+*.sqlite3-wal
+*.sqlite3-shm
+# Generated screenshots may contain private exams/textbook reproductions
+/docs/**/*.png
+/docs/**/*.jpg
+/docs/as-v4/V41-REAL-PDF*.json
+
+# Automatic upload review blocks CMap binaries; restore locally from original ZIP
+/dist/source/pdfjs/cmaps/*.bcmap
+/dist/assessment/vendor/pdfjs/cmaps/*.bcmap
+
+# Foxit font binaries blocked by automatic approval review
+/dist/source/pdfjs/standard_fonts/*.pfb
+/dist/assessment/vendor/pdfjs/standard_fonts/*.pfb
+
+# Liberation font binaries blocked by automatic approval review
+/dist/source/pdfjs/standard_fonts/*.ttf
+/dist/assessment/vendor/pdfjs/standard_fonts/*.ttf
