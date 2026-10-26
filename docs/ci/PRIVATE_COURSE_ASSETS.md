@@ -29,7 +29,7 @@ GitHub UI: Settings → Secrets and variables → Actions → New repository sec
 
 ## CI behavior
 
-- `frontend` downloads the private package into temporary runner storage, verifies/restores missing files, then executes `npm test`.
+- `frontend` downloads the private package into temporary runner storage, verifies/restores missing files, then runs the **entire 70-test Node suite** with independent test files scheduled sequentially (`--test-concurrency=1`). This mitigates observed nondeterministic file-level contention without skipping tests.
 - `course-resources` separately verifies all 1,216 resources. It **remains a failing release gate** until all files match the manifest.
 - `backend-core` runs all Python tests except two DOCX-specific cases. These **are not omitted from CI**: both are required in `backend-docx`.
 - `backend-docx` installs LibreOffice and runs those two cases. The installation may still fail due to GitHub runner networking; such failure must be reported, not counted as passing.
