@@ -27,8 +27,8 @@ jobs:
           COURSE_ASSETS_URL: ${{ secrets.GMF_COURSE_ASSETS_URL }}
           COURSE_ASSETS_TOKEN: ${{ secrets.GMF_COURSE_ASSETS_TOKEN }}
         run: bash scripts/fetch-private-course-assets.sh
-      - name: Frontend regression tests
-        run: npm test
+      - name: Frontend regression tests (isolated test-file processes)
+        run: node --test --test-concurrency=1 tests/*.test.mjs mf-stage-a-reference/tests/*.test.mjs
 
   backend-core:
     name: Backend regression excluding 2 separately-gated DOCX cases
