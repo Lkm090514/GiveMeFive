@@ -42,6 +42,8 @@ The first independent run, <https://github.com/Lkm090514/GiveMeFive/actions/runs
 
 `backend/bank.py` requires an external `soffice` or `libreoffice` executable for DOCX conversion; `pip install` alone does not provide it. The follow-up CI change probes for this dependency, logs whether it is absent, installs `libreoffice-writer` when needed, and prints its version before the unchanged backend suite runs. The two assertions now serialize the entire batch on failure instead of a truncated model repr; their pass/fail conditions remain identical. Actual job logs must confirm converter availability and the subsequent test outcome.
 
+The initial installation attempt in run `40290021115` remained in the system-package step for over eight minutes. A final bounded attempt adds noninteractive package configuration, 30-second HTTP/HTTPS acquisition timeouts, one acquisition retry, and a six-minute step limit. This prevents an unresponsive package mirror or configuration prompt from consuming the entire 25-minute backend job. It does not treat an installation failure as a successful backend test run.
+
 ## Local verification
 
 Local runtime: Node 24.22.1 / Python 3.12.14. GitHub's Node 22 / Python 3.13 execution must be checked separately.
