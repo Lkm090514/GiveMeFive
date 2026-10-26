@@ -37,11 +37,7 @@ jobs:
           if [ -f dist/data/runtime-manifest.json ]; then
             python scripts/audit-runtime-assets.py --dist dist --output /tmp/gmf-asset-audit.json || {
               echo "::warning::The public source snapshot is missing or differs from one or more runtime assets. Do not call this deployment-ready."
-              python - <<'PY'
-          import json
-          r=json.load(open('/tmp/gmf-asset-audit.json'))
-          print('Verified:',r['verified'],'/',r['resource_count'],'Failed:',len(r['failures']))
-          PY
+              python -c "import json; r=json.load(open('/tmp/gmf-asset-audit.json')); print('Verified:',r['verified'],'/',r['resource_count'],'Failed:',len(r['failures']))"
             }
           else
             echo "::warning::No runtime manifest: course assets are not independently verified."
