@@ -27,6 +27,9 @@ def test_directory_topic_filter_and_private_resource_isolation(env):
     assert len(r.json()) == 1
     assert r.json()[0]['topics']['tag_source'] == 'source-directory'
     assert client.get('/api/v4/questions', headers=headers('other')).json() == []
+    # Scoped discovery can include the owner's own PDFs, never another student's.
+    assert client.get('/api/v4/questions', headers=headers('other'), params={'course_id': course, 'unit_id': '2', 'topics': '2.2'}).json() == []
+    assert client.get('/api/v4/questions', headers=headers('admin'), params={'course_id': course, 'unit_id': '2', 'topics': '2.2'}).json() == []
     s = client.post('/api/v4/sessions', headers=headers(), json={'mode': 'practice', 'request_id': 'directory', 'course_id': course, 'unit_id': '2', 'topics': ['2.2'], 'count': 10})
     assert s.status_code == 200, s.text
     assert len(s.json()['questions']) == 1
