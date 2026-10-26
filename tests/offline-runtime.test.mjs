@@ -8,7 +8,7 @@ const manifest=JSON.parse(fs.readFileSync(new URL('data/runtime-manifest.json',r
 function environment(){
  const stores=new Map(),calls=[],failed=new Set();let offline=false;
  const key=x=>typeof x==='string'?x:x.url;
- const caches={async open(name){if(!stores.has(name))stores.set(name,new Map());const values=stores.get(name);return {match:async k=>values.get(key(k))?.clone(),put:async(k,v)=>values.set(key(k),v.clone()),delete:async k=>values.delete(key(k))};},keys:async()=>[...stores.keys()],delete:async name=>stores.delete(name)};
+ const caches={async open(name){if(!stores.has(name))stores.set(name,new Map());const values=stores.get(name);return {match:async k=>{const v=values.get(key(k));return v?new Response(v.body.slice(),{status:v.status}):undefined;},put:async(k,v)=>{const body=Buffer.from(await v.arrayBuffer());values.set(key(k),{body,status:v.status});},delete:async k=>values.delete(key(k))};},keys:async()=>[...stores.keys()],delete:async name=>stores.delete(name)};
  const fetch=async target=>{const url=key(target);calls.push(url);if(offline||failed.has(url))throw Error('offline');const path=new URL(url).pathname.slice(1);try{return new Response(fs.readFileSync(new URL(path,root)));}catch{return new Response('',{status:404});}};
  const window={},context={window,caches,fetch,URL,Response,crypto:webcrypto,AbortController,DOMException,Blob,setTimeout,document:{currentScript:{src:base+'content-runtime.js'}}};
  vm.runInNewContext(fs.readFileSync(new URL('content-runtime.js',root),'utf8'),context);
