@@ -1,0 +1,52 @@
+name: GMF V4.1 regression
+
+on:
+  push:
+    branches:
+      - fix/v4.1-validation-20261026
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  regression:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - name: Checkout exact repository snapshot
+        uses: actions/checkout@v4
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Install Python test dependencies
+        run: python -m pip install -r requirements-dev.txt
+      - name: Frontend regression tests
+        run: npm test
+      - name: Backend regression tests
+        run: python -m pytest -q tests
+      - name: Audit runtime asset integrity when full resources are available
+        shell: bash
+        run: |
+          if [ -f dist/data/runtime-manifest.json ]; then
+            python scripts/audit-runtime-assets.py --dist dist --output /tmp/gmf-asset-audit.json || {
+              echo "::warning::The public source snapshot is missing or differs from one or more runtime assets. Do not call this deployment-ready."
+              python - <<'PY'
+          import json
+          r=json.load(open('/tmp/gmf-asset-audit.json'))
+          print('Verified:',r['verified'],'/',r['resource_count'],'Failed:',len(r['failures']))
+          PY
+            }
+          else
+            echo "::warning::No runtime manifest: course assets are not independently verified."
+          fi
+      - name: Explain deployment readiness
+        run: |
+          echo 'Automated tests passing does not establish a complete release.'
+          echo 'Licensed course assets, browser and iPad Safari E2E, production auth and data storage require separate acceptance.'
