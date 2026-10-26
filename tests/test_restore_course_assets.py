@@ -41,7 +41,7 @@ def test_restore_rejects_corrupt_archive_before_writing(tmp_path):
     resource, _, archive, run = fixture(tmp_path)
     resource.unlink()
     with ZipFile(archive, 'w') as z:
-        z.writestr('dist/data/topics/1.1.json', b'bad response xx')
+        z.writestr('dist/data/topics/1.1.json', b'{"readings": XX}')
     assert run('restore').returncode != 0
     assert not resource.exists()
 
