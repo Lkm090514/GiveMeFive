@@ -66,7 +66,7 @@ def pack(dist, archive, resources):
     return {'mode': 'pack', 'resources': len(resources), 'package': str(archive)}
 
 
-def validate_zip(zipfile, resources):
+def validate_zip(zipfile, resources, present=frozenset()):
     index = {}
     for info in zipfile.infolist():
         name = info.filename
@@ -77,7 +77,7 @@ def validate_zip(zipfile, resources):
             raise AssetError(f'Duplicate archive member: {rel}')
         if stat.S_ISLNK(info.external_attr >> 16):
             raise AssetError(f'Archive contains symbolic link: {rel}')
-        if info.file_size != resources[rel]['bytes']:
+        if rel not in present and info.file_size != resources[rel]['bytes']:
             raise AssetError(f'Asset size mismatch in package: {rel}')
         index[rel] = info
     return index
@@ -100,7 +100,7 @@ def restore(dist, archive, resources):
         raise AssetError(f'Refusing to overwrite existing mismatched resource: {invalid[0]}')
     needed = set(resources) - present
     with ZipFile(archive) as zipfile:
-        index = validate_zip(zipfile, resources)
+        index = validate_zip(zipfile, resources, present)
         missing = sorted(needed - index.keys())
         if missing:
             raise AssetError(f'Asset package missing {len(missing)} resources; example: {missing[0]}')

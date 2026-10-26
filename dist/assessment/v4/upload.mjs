@@ -1,9 +1,9 @@
 export function validatePDF(files) {
-  if (files.length !== 1) throw Error('每次请选择一份 PDF 试卷。');
+  if (files.length !== 1) throw Error('每次请选择一份 PDF / DOCX 试卷。');
   const file = files[0];
-  if (!/\.pdf$/i.test(file.name) || !['', 'application/pdf', 'application/octet-stream'].includes(file.type)) throw Error('仅支持 PDF 文件，请重新选择。');
-  if (!file.size) throw Error('文件为空，请选择完整的 PDF。');
-  if (file.size > 50 * 1024 * 1024) throw Error('PDF 不能超过 50 MiB。');
+  const docx=/\.docx$/i.test(file.name),pdf=/\.pdf$/i.test(file.name),types=['','application/octet-stream',docx?'application/vnd.openxmlformats-officedocument.wordprocessingml.document':'application/pdf'];if((!pdf&&!docx)||!types.includes(file.type))throw Error('仅支持 PDF / DOCX 文件，请重新选择。');
+  if (!file.size) throw Error('文件为空，请选择完整的试卷。');
+  if (file.size > 50 * 1024 * 1024) throw Error('试卷不能超过 50 MiB。');
   return file;
 }
 
@@ -30,7 +30,7 @@ export function bindPDFPicker(form) {
   zone.addEventListener('dragleave', e => { if (!zone.contains(e.relatedTarget)) zone.classList.remove('dragging'); });
   zone.addEventListener('drop', e => { e.preventDefault(); zone.classList.remove('dragging'); choose(e.dataTransfer.files); });
   return () => {
-    if (!selected) throw Error('请先拖入或选择一份 PDF 试卷。');
+    if (!selected) throw Error('请先拖入或选择一份 PDF / DOCX 试卷。');
     return selected;
   };
 }

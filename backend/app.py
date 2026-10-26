@@ -103,11 +103,11 @@ def create_app(root=None,tokens=None,clock=time.time,worker=True):
  async def own_import(file:UploadFile=File(...),request_key:str=Form(...),title:str=Form('我的试卷'),duration_minutes:float=Form(45),course_id:str=Form('ap-physics-c-mechanics-2026-27'),p=Depends(auth)):
   if any(s['mode']=='exam' and s['status']=='active' for s in sessions.list(p['owner_id'])):raise ValueError('请先完成当前考试')
   name=Path(file.filename or '').name
-  if Path(name).suffix.lower()!='.pdf':raise ValueError('请上传 PDF 试卷')
+  if Path(name).suffix.lower() not in ('.pdf','.docx'):raise ValueError('请上传 PDF / DOCX 试卷')
   if course_id!=bank.catalog['course_id']:raise ValueError('请选择现有课程')
   if not 0<duration_minutes<=600 or not title.strip():raise ValueError('请填写试卷名称和考试时长')
   content=await file.read(50*1024*1024+1)
-  if len(content)>50*1024*1024:raise HTTPException(413,'PDF 超过 50 MiB')
+  if len(content)>50*1024*1024:raise HTTPException(413,'试卷超过 50 MiB')
   if not 1<=len(request_key)<=100:raise ValueError('request_key required')
   sha=hashlib.sha256(content).hexdigest();key='student:'+request_key
   with import_lock:
@@ -139,7 +139,7 @@ def create_app(root=None,tokens=None,clock=time.time,worker=True):
   if not row:raise HTTPException(404)
   payload=json.loads(row[0]);path=(bank.root/payload['relative_path']).resolve()
   if not path.is_relative_to(bank.root) or not path.is_file():raise HTTPException(404)
-  return FileResponse(path,media_type='application/pdf',filename=payload['filename'],content_disposition_type='inline')
+  return FileResponse(path,media_type='application/vnd.openxmlformats-officedocument.wordprocessingml.document' if path.suffix.lower()=='.docx' else 'application/pdf',filename=payload['filename'],content_disposition_type='inline')
  @app.post('/api/v4/sessions')
  def create_session(data:dict,p=Depends(auth)):return sessions.public(sessions.create(p['owner_id'],data))
  @app.get('/api/v4/sessions')

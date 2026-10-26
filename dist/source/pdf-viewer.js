@@ -16,11 +16,7 @@ async function loadPart(part) {
     if (!response.ok) throw new Error('教材读取失败');
     const data = new Uint8Array(await response.arrayBuffer());
     if (data.length !== part.bytes) throw new Error('教材内容不完整');
-    if (crypto.subtle) {
-      const digest = await crypto.subtle.digest('SHA-256', data);
-      const hash = Array.from(new Uint8Array(digest), n => n.toString(16).padStart(2, '0')).join('');
-      if (hash !== part.sha256) throw new Error('教材校验失败');
-    }
+    if(await window.GMFResourceHash.sha256(data)!==part.sha256)throw new Error('教材校验失败');
     loadedBytes += data.length;
     status.dataset.loadedBytes = loadedBytes;
     status.dataset.loadedParts = parts.size;

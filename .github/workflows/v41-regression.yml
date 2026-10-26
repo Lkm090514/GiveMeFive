@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - fix/v4.1-validation-20261026
+      - feat/v4.2-ux-reliability-preview
   pull_request:
   workflow_dispatch:
 

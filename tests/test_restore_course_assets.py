@@ -68,3 +68,7 @@ def test_pack_fails_if_manifest_does_not_match_disk(tmp_path):
     resource, _, _, run = fixture(tmp_path)
     resource.unlink()
     assert run('pack').returncode != 0
+
+def test_restore_keeps_verified_new_shell_and_reuses_old_private_content(tmp_path):
+ resource,body,archive,run=fixture(tmp_path);dist=resource.parents[2];shell=dist/'app.js';shell.write_bytes(b'old shell');manifest=json.loads((dist/'data/runtime-manifest.json').read_text());manifest['resources']['app.js']={'bytes':9,'sha256':hashlib.sha256(b'old shell').hexdigest()};(dist/'data/runtime-manifest.json').write_text(json.dumps(manifest));assert run('pack').returncode==0
+ shell.write_bytes(b'new verified shell');manifest['resources']['app.js']={'bytes':shell.stat().st_size,'sha256':hashlib.sha256(shell.read_bytes()).hexdigest()};(dist/'data/runtime-manifest.json').write_text(json.dumps(manifest));resource.unlink();result=run('restore');assert result.returncode==0,result.stderr;assert resource.read_bytes()==body;assert shell.read_bytes()==b'new verified shell'
