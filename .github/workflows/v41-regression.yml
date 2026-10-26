@@ -38,6 +38,17 @@ jobs:
           python-version: '3.13'
       - name: Install Python test dependencies
         run: python -m pip install -r requirements-dev.txt
+      - name: Install DOCX conversion dependency
+        shell: bash
+        run: |
+          if command -v soffice || command -v libreoffice; then
+            echo 'LibreOffice is already installed.'
+          else
+            echo '::notice::LibreOffice is absent; DOCX import requires the system converter.'
+            sudo apt-get update
+            sudo apt-get install -y --no-install-recommends libreoffice-writer
+          fi
+          libreoffice --version
       - name: Backend regression tests
         run: python -m pytest -q tests
 

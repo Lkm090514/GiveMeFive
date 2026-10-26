@@ -34,7 +34,13 @@ These errors reproduce on the local audit checkout. They are not evidence of Lin
 2. All `python -m pytest -q tests`, with Python 3.13, including private question isolation and no-AI/unknown-answer tests.
 3. Strict Pathline asset auditing. Missing assets retain a nonzero exit code. The prior `||` warning fallback is removed. A summary and complete JSON audit artifact are published even on audit failure.
 
-There is no `continue-on-error`, no skipped/deleted tests, no assertion change, and no fixture substitution. All business code and baseline hashes remain unchanged. A missing resource is still a failure, rather than an apparent pass. This also prevents a frontend failure from suppressing backend and resource evidence.
+There is no `continue-on-error`, no skipped/deleted tests, no relaxed assertion, and no fixture substitution. All business code and baseline hashes remain unchanged. A missing resource is still a failure, rather than an apparent pass. This also prevents a frontend failure from suppressing backend and resource evidence.
+
+## Newly exposed backend failures and follow-up
+
+The first independent run, <https://github.com/Lkm090514/GiveMeFive/actions/runs/40289661800>, ran all 79 backend tests under Python 3.13: 77 passed and two DOCX tests failed (`test_docx_answers_not_in_options` and `test_admin_many_papers_batch_reuses_queue_and_is_idempotent`). They assert that a DOCX import completes and that both PDF/DOCX files in a batch are imported. The previous workflow had never reached these tests.
+
+`backend/bank.py` requires an external `soffice` or `libreoffice` executable for DOCX conversion; `pip install` alone does not provide it. The follow-up CI change probes for this dependency, logs whether it is absent, installs `libreoffice-writer` when needed, and prints its version before the unchanged backend suite runs. The two assertions now serialize the entire batch on failure instead of a truncated model repr; their pass/fail conditions remain identical. Actual job logs must confirm converter availability and the subsequent test outcome.
 
 ## Local verification
 

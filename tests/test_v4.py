@@ -40,7 +40,7 @@ def test_pdf_two_mcq_shared_images_and_frq_exclusion(env):
   a=app.state.bank.store.latest_answer(q['version_id']);assert a.status==AnswerStatus.VERIFIED;assert a.label=='B'
 
 def test_docx_answers_not_in_options(env):
- app,c,clock,temp=env;b=upload(env,docx_file(temp/'mixed.docx'));assert b.status=='completed',b
+ app,c,clock,temp=env;b=upload(env,docx_file(temp/'mixed.docx'));assert b.status=='completed',b.model_dump_json()
  assert len(b.files[0]['question_ids'])==2
  for qid in b.files[0]['question_ids']:
   q=app.state.bank.public(qid);assert all('Answer' not in o['text'] for o in q['options']);assert len(q['options'])==2
@@ -138,7 +138,7 @@ def test_admin_many_papers_batch_reuses_queue_and_is_idempotent(env):
  def send():
   with p.open('rb') as f,d.open('rb') as g:return c.post('/api/v4/admin/imports/batch',headers=headers('admin'),files=[('files',('a.pdf',f)),('files',('b.docx',g))],data={'request_key':'many','reuse_confirmed':'true','license_name':'CC0'})
  r=send();assert r.status_code==200,r.text;bid=r.json()['batch_id'];assert send().json()['batch_id']==bid
- app.state.bank.jobs.work(limit=20);b=app.state.bank.store.batch(bid);assert len(b.files)==2;assert all(f['status']=='imported' for f in b.files)
+ app.state.bank.jobs.work(limit=20);b=app.state.bank.store.batch(bid);assert len(b.files)==2;assert all(f['status']=='imported' for f in b.files),b.model_dump_json()
 
 def test_closed_exam_deadline_sweep_without_browser_request(env):
  ids,_=setup_bank(env);s=exam(env,ids);app,c,clock,*_=env;clock[0]+=61;app.state.sessions.expire_due()
