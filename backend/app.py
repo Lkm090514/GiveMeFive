@@ -89,7 +89,7 @@ def create_app(root=None,tokens=None,clock=time.time,worker=True):
   return FileResponse(path,media_type='application/pdf',filename=source.filename)
  @app.get('/api/v4/questions')
  def questions(course_id:str|None=None,unit_id:str|None=None,topics:str='',comprehensive:bool=False,p=Depends(auth)):
-  rows=bank.candidates(course_id,unit_id,[x for x in topics.split(',') if x],comprehensive,owner_id=p['owner_id'])
+  rows=bank.candidates(course_id,unit_id,[x for x in topics.split(',') if x],comprehensive,owner_id=p['owner_id'] if (topics.strip() or unit_id is not None) else None)
   return [{'question_id':q.question_id,'source_number':q.source_number,'topics':bank.public(q.question_id)['topics']} for q,v,a in rows]
  @app.get('/api/v4/sets')
  def sets(p=Depends(auth)):
