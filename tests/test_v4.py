@@ -151,6 +151,9 @@ def test_student_pdf_automatically_becomes_private_exam_without_answer_editor(en
  assert r.status_code==200,r.text;bid=r.json()['batch_id'];app.state.bank.jobs.work(limit=1)
  tasks=c.get('/api/v4/papers/imports',headers=headers()).json();assert len(tasks)==1;paper_id=tasks[0]['files'][0]['paper_id'];assert paper_id
  assert c.get('/api/v4/papers/imports',headers=headers('other')).json()==[]
+ # Public question discovery must not list private PDFs, even for their owner.
+ for identity in ['student','other','admin']:
+  assert c.get('/api/v4/questions',headers=headers(identity)).json()==[]
  public=c.get('/api/v4/questions',headers=headers()).json();assert public==[]
  papers=c.get('/api/v4/sets',headers=headers()).json();assert papers[0]['source_kind']=='student-upload'
  started=c.post('/api/v4/sessions',headers=headers(),json={'mode':'exam','request_id':'pdf-exam','set_id':paper_id});assert started.status_code==200,started.text;s=started.json();assert len(s['questions'])==2;assert 'correct_answer' not in json.dumps(s)
