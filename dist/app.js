@@ -3,7 +3,7 @@
   await LearningStore.open();
   await ContentRuntime.init();
   const REVIEW_PAGE=document.body.dataset.module==='mf-review';
-  const MFV3=REVIEW_PAGE?null:await import('./mind-flow/v3/ui.mjs?v=4.1-recent-five');
+  const MFV3=REVIEW_PAGE?null:await import('./mind-flow/v3/ui.mjs?v=4.2-focus');
   const Data=window.PathlineData, Engine=window.PathlineEngine, Parsers=window.PathlineParsers, I18n=window.PathlineI18n;
   const F=window.PathlineFusion, physics=F.makeCourse(window.PathlineTextbook);
   const KEY='pathline.fusion.v0.1.state',Sessions=window.PathlineSessions;
@@ -103,7 +103,7 @@
   function localReasonList(reasons){return reasons.map(reasonText)}
 
   function moduleContext(tid=REVIEW_PAGE?state.mfContext?.topic_id:state.routeParams.topicId){if(!REVIEW_PAGE&&state.route==='mindflow'&&state.mfEntryContext?.course_id===course().id)return state.mfEntryContext;const c=course(),unit=topicById(c,tid)?.unit;return {course_id:c.id,unit_id:unit?.id??null,topic_id:unit?tid:null,return_to:REVIEW_PAGE?GMFShared.safeReturn(params.get('return_to')):new URL('?course_id='+encodeURIComponent(c.id)+'#'+(unit?'topic/'+tid+'/reading':'pathway'),new URL('.',document.baseURI)).href};}
-  async function jump(module,tid=REVIEW_PAGE?state.mfContext?.topic_id:state.routeParams.topicId){if(module==='mindflow'&&!REVIEW_PAGE){await route('mindflow',{page:'focus',topicId:tid});return;}sessionTick();await save();await LearningStore.flush();if(MFV3?.current()?.state==='Focusing')sessionStorage.setItem('gmf-mf-handoff',JSON.stringify({id:MFV3.current().session_id,at:Date.now()}));location.href=GMFShared.url(module,moduleContext(tid));}
+  async function jump(module,tid=REVIEW_PAGE?state.mfContext?.topic_id:state.routeParams.topicId){if(module==='mindflow'&&!REVIEW_PAGE){await route('mindflow',{page:'focus',topicId:tid});return;}if(module==='review'&&MFV3?.isFocusing())await MFV3.pauseForReview();sessionTick();await save();await LearningStore.flush();if(module!=='review'&&MFV3?.current()?.state==='Focusing')sessionStorage.setItem('gmf-mf-handoff',JSON.stringify({id:MFV3.current().session_id,at:Date.now()}));location.href=GMFShared.url(module,moduleContext(tid));}
   function appShell(content){
     const c=course(),directory=!REVIEW_PAGE&&['overview','pathway','study','review'].includes(state.route);setAccent();GMFShared.setCurrent(state);
     document.body.classList.toggle('gmf-root-no-directory',!directory);
@@ -112,6 +112,7 @@
   }
   function labelForRoute(){return U(({overview:'总览',pathway:'学习路径',review:'复习',progress:'进度',courses:'课程',settings:'设置',study:'学习路径',mindflow:'心流',assessment:'模考'})[state.route]||'学习路径');}
   function render(){
+    document.body.classList.toggle('gmf-mf-route',state.route==='mindflow'&&!REVIEW_PAGE);if(state.route!=='mindflow')document.body.classList.remove('mf-immersed');
     setTheme();setLanguage();
     if(!Object.keys(allCourses()).length&&!['courses','settings'].includes(state.route))state.route='courses';
     if(!allCourses()[state.activeCourseId])state.activeCourseId=Object.keys(allCourses())[0]||physics.id;
@@ -204,7 +205,7 @@
     for(const id of ['directory-toggle','directory-hide'])document.getElementById(id)?.addEventListener('click',()=>{state.directoryCollapsed=!state.directoryCollapsed;save();render();});
     if(!REVIEW_PAGE)document.querySelectorAll('.gmf-global a').forEach(a=>a.addEventListener('click',e=>{const u=new URL(a.href);if(u.pathname===location.pathname&&u.hash){if(e.defaultPrevented)return;e.preventDefault();if(u.hash.startsWith('#mindflow/')&&state.route!=='mindflow')state.mfEntryContext=moduleContext();if(u.hash===location.hash)return;location.hash=u.hash;}}));
     document.querySelectorAll('[data-route]').forEach(b=>b.onclick=()=>route(b.dataset.route));document.querySelectorAll('[data-study]').forEach(b=>b.onclick=()=>route('study',{topicId:b.dataset.study}));
-    document.querySelectorAll('[data-mf]').forEach(b=>b.onclick=()=>startMindFlow(b.dataset.mf));document.querySelectorAll('[data-course]').forEach(b=>b.onclick=()=>{state.activeCourseId=b.dataset.course;route('overview');});
+    document.querySelectorAll('[data-mf]').forEach(b=>{if(topicById(course(),b.dataset.mf))b.onclick=()=>startMindFlow(b.dataset.mf);});document.querySelectorAll('[data-course]').forEach(b=>b.onclick=()=>{state.activeCourseId=b.dataset.course;route('overview');});
     document.getElementById('target-score')?.addEventListener('change',e=>{state.targets[course().id]=F.targetScore(course(),e.target.value.trim());save();render();});
     document.getElementById('course-switch')?.addEventListener('click',showCourseSwitch);document.querySelectorAll('[data-lang-toggle]').forEach(b=>b.onclick=toggleLanguage);
     document.getElementById('theme-toggle')?.addEventListener('click',()=>{state.theme=document.documentElement.dataset.theme==='dark'?'light':'dark';save();render();});

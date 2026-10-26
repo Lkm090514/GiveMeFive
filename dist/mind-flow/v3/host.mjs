@@ -1,5 +1,5 @@
 import {SessionCoordinator} from './core/coordinator.mjs';
-import {transition,totals} from './core/session.mjs';
+import {transition,totals,requireId} from './core/session.mjs';
 import {projectLegacyRun} from './core/legacy.mjs';
 export const KEY='mf-v3';
 // Limit the visible list without changing historical totals or shared learning evidence.
@@ -38,3 +38,5 @@ export function createHost(store,{runtime_id,tab_id,stamp,onChange=()=>{}}){
  async function heartbeat(){await refresh();if(row.current?.anchor?.runtime_id===runtime_id)return command('tick');if(row.current?.anchor&&Date.now()-row.current.anchor.wall_ms>10000)return recover();return row;}
  return {get row(){return row;},coordinator,refresh,mutate,command,start,recover,heartbeat};
 }
+
+export function associateBlockerTask(blocker,task_id){const out=structuredClone(blocker);if(task_id!=null){requireId(task_id);out.task_ids=[...new Set([...(out.task_ids||[]),task_id])];}return out;}

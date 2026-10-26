@@ -1895,6 +1895,7 @@
     "mind-flow/v3/host.mjs",
     "mind-flow/v3/ui.css",
     "mind-flow/v3/ui.mjs",
+    "mind-flow/v3/view.mjs",
     "pathline-base.css",
     "pathline-core.js",
     "platform.js",
@@ -1910,8 +1911,8 @@
   ],
   "resources": {
     "app.js": {
-      "bytes": 82013,
-      "sha256": "fc862f79c0cfc0b6586baaa9350e4b0400fc9dffaad98d6410e351cdce98cf97"
+      "bytes": 82299,
+      "sha256": "5887be6ecbdf782185cb5021e784b8796e0d66ba351a6e453248e591cf812741"
     },
     "assessment/assets/index-B5kVrT9I.css": {
       "bytes": 175222,
@@ -1982,8 +1983,8 @@
       "sha256": "e7aa5145cc201dcb2804a76a13583cdea22bc484872584f83edb5e200b79a5ce"
     },
     "assessment/v4/guard.mjs": {
-      "bytes": 4593,
-      "sha256": "d00467bae59a682483412710d56b1a455f312fd36dbf9adfc2350b78c0bd481d"
+      "bytes": 5026,
+      "sha256": "5c1d327248984ef2a001054f71f450985f85df875f5fa0f04e0be3bf50d6f3e4"
     },
     "assessment/v4/question-display.mjs": {
       "bytes": 375,
@@ -4554,16 +4555,20 @@
       "sha256": "e9c6336e0ca7e10445a2106ce7b49c66ebce4b62e91e570011603289630c110d"
     },
     "mind-flow/v3/host.mjs": {
-      "bytes": 5264,
-      "sha256": "d3add8226a14261a7527f829707de6823dc1abefa411b22d1d99dcd690d39815"
+      "bytes": 5474,
+      "sha256": "b9d5fbb5f2da323c2216ee1c982363260de2b703afa4769f6a775b74c80d8780"
     },
     "mind-flow/v3/ui.css": {
-      "bytes": 3263,
-      "sha256": "24104c8d98f278ebff685e74bf6a508032689ecd1c875c42d6762271aef5f7d1"
+      "bytes": 7202,
+      "sha256": "15ad7e32a279cf3bc09a5d39b8727afd238a83d9a7be416b5f24c5a2891e4395"
     },
     "mind-flow/v3/ui.mjs": {
-      "bytes": 23280,
-      "sha256": "27b9e36e94c756c98f99128e3f8e240905a21aceefadd0e90a133ea7ac3186e8"
+      "bytes": 23669,
+      "sha256": "cb4246c0e503bb3df8bdf1be5387163f9de38daf63f5835af80d48464e69b11c"
+    },
+    "mind-flow/v3/view.mjs": {
+      "bytes": 4586,
+      "sha256": "b0483f146aac08569fd3047a998a0155fc01b7f4431954ac01c9e9d870e1d734"
     },
     "pathline-base.css": {
       "bytes": 20518,
@@ -6774,7 +6779,7 @@
       "sha256": "f3143ef1c1cacaee13a030c4cd57da0c51f7d27d6e56961c4bce50015b537108"
     }
   },
-  "resource_version": "2b328d047a2fc1d33b67",
+  "resource_version": "9cebcb88c26e5c4908bc",
   "license": {
     "source": "data/source-metadata.json",
     "scope": "existing-course-only",
