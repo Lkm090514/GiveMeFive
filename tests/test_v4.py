@@ -177,6 +177,12 @@ def test_private_error_matches_same_type_in_admin_public_bank(env):
  with p.open('rb') as f:r=c.post('/api/v4/papers/import',headers=headers(),files={'file':('private.pdf',f)},data={'request_key':'private-related','title':'学生试卷','duration_minutes':'1'})
  app.state.bank.jobs.work(limit=1);b=app.state.bank.store.batch(r.json()['batch_id']);private_id=b.files[0]['question_ids'][0]
  assert app.state.bank.store.question(private_id).scope=='exam_private';assert private_id not in ids
+ # Public directory is stable regardless of the viewer's private PDF imports.
+ assert {x['question_id'] for x in c.get('/api/v4/questions',headers=headers()).json()}==set(ids)
+ assert {x['question_id'] for x in c.get('/api/v4/questions',headers=headers('other')).json()}==set(ids)
+ own_scoped={x['question_id'] for x in c.get('/api/v4/questions',headers=headers(),params={'course_id':app.state.bank.catalog['course_id'],'topics':'2.5','comprehensive':'true'}).json()}
+ other_scoped={x['question_id'] for x in c.get('/api/v4/questions',headers=headers('other'),params={'course_id':app.state.bank.catalog['course_id'],'topics':'2.5','comprehensive':'true'}).json()}
+ assert private_id in own_scoped and private_id not in other_scoped
  r=c.post('/api/v4/sessions',headers=headers(),json={'mode':'practice','request_id':'same-type','related_to':private_id,'same_type':True,'comprehensive':True,'count':20});assert r.status_code==200,r.text
  assert r.json()['questions'];assert all(q['question_id'] in ids for q in r.json()['questions']);assert private_id not in [q['question_id'] for q in r.json()['questions']]
 
