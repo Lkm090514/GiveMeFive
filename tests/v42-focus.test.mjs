@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {createSession,transition} from '../dist/mind-flow/v3/core/session.mjs';
-import {focusMarkup,recordsModel} from '../dist/mind-flow/v3/view.mjs';
+import {focusMarkup,recordsModel,dialogMarkup} from '../dist/mind-flow/v3/view.mjs';
 import {empty,calendar,createHost,associateBlockerTask} from '../dist/mind-flow/v3/host.mjs';
 const stamp=(n=0)=>({runtime_id:'qa',wall_ms:1800000000000+n,mono_ms:n});
 const setup={mode:'free',focus_min:25,rest_min:5,task_id:null};
@@ -16,3 +16,14 @@ test('portable SHA-256 agrees with native hashes across padding and large inputs
 test('private images remain verified online without persistent CacheStorage',async()=>{const before={fetch:globalThis.fetch,caches:globalThis.caches,location:globalThis.location,GMFCacheAvailable:globalThis.GMFCacheAvailable,GMFResourceHash:globalThis.GMFResourceHash};const bytes=Buffer.from('QA original image');let puts=0;try{Object.assign(globalThis,{GMFCacheAvailable:false,GMFResourceHash:{sha256:async b=>createHash('sha256').update(new Uint8Array(b)).digest('hex')},location:{origin:'http://qa.test'},caches:{open:async()=>({match:async()=>undefined,put:async()=>{puts++;throw Error('no cache');}})},fetch:async()=>new Response(bytes)});const item={url:'/api/image',bytes:bytes.length,sha256:createHash('sha256').update(bytes).digest('hex')};assert.equal(await (await resource({namespace:'qa'},{document_id:'d',version:'1'},item)).text(),bytes.toString());assert.equal(puts,0);await assert.rejects(resource({namespace:'qa'},{document_id:'d',version:'1'},{...item,sha256:'0'.repeat(64)}),/完整性/);}finally{Object.assign(globalThis,before);}});
 test('DOCX MIME parity is strict; disguised files are rejected',()=>{assert.equal(validatePDF([{name:'paper.docx',type:'application/vnd.openxmlformats-officedocument.wordprocessingml.document',size:20}]).name,'paper.docx');assert.throws(()=>validatePDF([{name:'bad.docx',type:'image/png',size:20}]));});
 test('online-only reader still rejects tampered Topic bytes',async()=>{const window={crypto:{getRandomValues:b=>b}},ctx={window,crypto:window.crypto,Uint8Array,Uint32Array,DataView,URL,Response,AbortController,Blob,DOMException,setTimeout,document:{currentScript:{src:'http://qa.test/content-runtime.js'}}};vm.createContext(ctx);vm.runInContext(fs.readFileSync('dist/platform.js','utf8'),ctx);ctx.caches=window.caches;vm.runInContext(fs.readFileSync('dist/resource-hash.js','utf8'),ctx);let corrupt=false;ctx.fetch=async url=>{const p=new URL(url).pathname.slice(1);return new Response(corrupt&&p.includes('topics/')?'bad':fs.readFileSync('dist/'+p));};vm.runInContext(fs.readFileSync('dist/content-runtime.js','utf8'),ctx);await window.ContentRuntime.init();await window.ContentRuntime.ensureTopic('1.1');assert.equal(window.PathlineTextbook.course.topics.length,41);await assert.rejects(window.ContentRuntime.download(),/HTTPS/);corrupt=true;await assert.rejects(window.ContentRuntime.ensureTopic('2.5'),/verification failed/);});
+
+test('help is strictly read-only and editing still exposes submit and cancel',()=>{
+ const info=dialogMarkup('使用帮助','<p>简短说明</p>',false);
+ assert.match(info,/data-cancel>关闭/);
+ assert.doesNotMatch(info,/保存|data-error|type="submit"/);
+ const form=dialogMarkup('编辑任务','<input name="title">');
+ assert.match(form,/保存/);
+ assert.match(form,/data-cancel>取消/);
+ assert.match(form,/data-error/);
+ assert.match(dialogMarkup('<script>','',false),/&lt;script&gt;/);
+});
