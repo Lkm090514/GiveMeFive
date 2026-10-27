@@ -79,24 +79,20 @@ jobs:
           python-version: '3.13'
       - name: Install Python test dependencies
         run: python -m pip install -r requirements-dev.txt
-      - name: Install DOCX conversion dependency
-        timeout-minutes: 20
-        env:
-          DEBIAN_FRONTEND: noninteractive
-        shell: bash
+      - name: Build the verified deployment image with LibreOffice
+        run: docker build -t gmf-docx-v43 .
+      - name: Run the same four DOCX regressions inside the deployment image
         run: |
-          if ! command -v soffice >/dev/null; then
-            sudo -E apt-get -o Acquire::Retries=2 -o Acquire::http::Timeout=60 -o Acquire::https::Timeout=60 update
-            sudo -E apt-get -o Acquire::Retries=2 -o Acquire::http::Timeout=60 -o Acquire::https::Timeout=60 install -y --no-install-recommends libreoffice-writer
-          fi
-          soffice --version
-      - name: Run DOCX import regressions (must all pass)
-        run: |
-          python -m pytest -q \
-            tests/test_v4.py::test_docx_answers_not_in_options \
-            tests/test_v4.py::test_admin_many_papers_batch_reuses_queue_and_is_idempotent \
-            tests/test_v42.py::test_student_docx_preserves_original_and_ungraded_answers \
-            tests/test_online_auth.py::test_student_docx_online_review_and_original_bytes
+          docker run --rm --entrypoint sh -v "$PWD:/work:ro" -w /work \
+            -e GMF_AUTH_MODE=local -e GMF_ENV=testing \
+            -e PYTHONPATH=/work:/work/as-v3-reference gmf-docx-v43 -c '
+              python -m pip install -r requirements-dev.txt &&
+              python -m pytest -q \
+                tests/test_v4.py::test_docx_answers_not_in_options \
+                tests/test_v4.py::test_admin_many_papers_batch_reuses_queue_and_is_idempotent \
+                tests/test_v42.py::test_student_docx_preserves_original_and_ungraded_answers \
+                tests/test_online_auth.py::test_student_docx_online_review_and_original_bytes
+            '
 
   course-resources:
     name: Strict Pathline resource integrity (release gate)

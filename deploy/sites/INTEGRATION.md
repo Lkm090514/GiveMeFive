@@ -1,14 +1,36 @@
-# Same-origin adapter (prepared, not activated)
+# Existing Site same-origin gateway
 
-Keep this Site's identity, access policy, full assets and URLs. Do not change audience.
-After the persistent backend is approved and its HTTPS health/readiness pass:
+The existing owner-private Site is migrated from static hosting to the supported
+Vinext/Cloudflare Worker profile. All original GMF assets are retained verbatim
+under `public/`; the build copies them to `dist/client/`. The native Sites access
+policy remains owner-only. The new Worker only intercepts `/api/v4/*`; every
+other request goes to the `ASSETS` binding. It does not replace any module UI.
 
-1. Open the existing owner-private Site using its source helper. Migrate its static profile to the supported Vinext starter following Sites' static-to-Worker guidance; preserve existing `dist/` resources as static `public/` assets. Never substitute a fresh UI or omit textbook assets.
-2. Copy `api-proxy.mjs` and `route.ts` beside each other into `app/api/v4/[...path]/`. The route is server-only; never import the proxy into client code.
-3. Set Sites runtime secrets `GMF_AS_BACKEND_URL` (the actual backend HTTPS origin) and `GMF_AS_GATEWAY_KEY`; set the same key as backend `GMF_GATEWAY_KEY`. They must never be in hosting.json, HTML or browser storage.
-4. Build/package using the Sites helpers. Verify the entire original runtime manifest and authenticated asset access. Publish owner-private. These source files alone do not activate the proxy.
-5. Health/API test must return JSON at the existing `/api/v4/*` paths; an anonymous call must fail. Exercise actual login in Safari.
+`worker.ts` and `api-proxy.mjs` are the exact server entry and proxy source.
+Set `assets: { binding: 'ASSETS', run_worker_first: true }` in the Cloudflare Vite
+configuration and retain the Sites build integration. `route.ts` is an optional
+route-handler adapter for installations using app routes; this Site uses the
+Worker entry directly.
 
-The browser stores only its own Secure/HttpOnly session cookie on the GMF origin. Sites sign-in remains the outer private gate; invitation/password identifies individual Assessment users. The proxy forwards only the GMF cookie and selected request headers, never Sites cookies or the platform service token. CORS is not enabled. Backend rejects direct requests without the server gateway key and validates Origin + custom header on mutations.
+After the persistent backend is approved, built and its HTTPS readiness passes:
 
-Do not publish a gateway configured to an invented/placeholder host. Current static publication fixes error text but does not yet provide backend connectivity. Activation requires the actual approved service URL.
+1. Set Sites runtime secrets `GMF_AS_BACKEND_URL` to the actual HTTPS backend
+   origin and `GMF_AS_GATEWAY_KEY` to the same secret as backend `GMF_GATEWAY_KEY`.
+2. Redeploy the saved gateway version with the new environment revision using
+   native Sites tools. No browser code needs an API origin or a service key.
+3. Issue the initial admin invitation from the private backend operator CLI;
+   register through `/assessment/login.html#invite=...`. Then issue separate
+   student invitations. Never use the browser QA users in production.
+4. Verify actual password login, PDF/DOCX, full examination and persistence over
+   the public HTTPS path. They are still pending until paid hosting is authorized.
+
+Without backend configuration every API path intentionally returns **503 JSON**,
+not an HTML fallback or a mock successful response. Anonymous users still pass
+through the existing native private Site sign-in gate. The browser receives only
+its own Secure/HttpOnly cookie; the proxy forwards only the GMF cookie and selected
+headers, never Sites cookies or the platform service token. The backend rejects
+direct API calls without its gateway secret and validates Origin + custom header
+on mutations. No CORS wildcard is enabled.
+
+Do not set an invented/placeholder backend URL or mark this gateway as a deployed
+Python service. Frontend hosting and backend hosting are separate results.

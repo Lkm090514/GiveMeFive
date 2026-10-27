@@ -1997,8 +1997,8 @@
       "sha256": "6b1955e22f67144d1405238fe15e3f532fa699c54eeeeea067f4f94b5155aecc"
     },
     "assessment/v4/guard.mjs": {
-      "bytes": 5060,
-      "sha256": "62f45ade899aaee39a8515e682b1bbe32fe7987a9c4ce0aabc7cca1f0f7991d1"
+      "bytes": 5056,
+      "sha256": "8ca1dce8c86d95199438e3b77628d7280cebeb536d951582daa998a31d50dd3e"
     },
     "assessment/v4/login.mjs": {
       "bytes": 1104,
@@ -6829,7 +6829,7 @@
       "sha256": "f3143ef1c1cacaee13a030c4cd57da0c51f7d27d6e56961c4bce50015b537108"
     }
   },
-  "resource_version": "163845cc7a70e63719d5",
+  "resource_version": "bce4a1bddb1f8c511d0b",
   "license": {
     "source": "data/source-metadata.json",
     "scope": "existing-course-only",
