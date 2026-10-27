@@ -66,10 +66,18 @@ def pack(dist, archive, resources):
     return {'mode': 'pack', 'resources': len(resources), 'package': str(archive)}
 
 
-def validate_zip(zipfile, resources, present=frozenset()):
+def validate_zip(zipfile, resources, present=frozenset(), source_root=None):
     index = {}
     for info in zipfile.infolist():
         name = info.filename
+        if source_root is not None:
+            logical = PurePosixPath(name)
+            if logical.is_absolute() or '..' in logical.parts or '\\' in name:
+                raise AssetError(f'Unsafe source archive member: {name!r}')
+            prefix = source_root.rstrip('/') + '/dist/'
+            if not name.startswith(prefix) or name[len(prefix):] not in resources or info.is_dir():
+                continue
+            name = 'dist/' + name[len(prefix):]
         if not name.startswith('dist/') or name[5:] not in resources or info.is_dir():
             raise AssetError(f'Unexpected archive member: {name}')
         rel = name[5:]
@@ -93,14 +101,14 @@ def verify_stream(zipfile, info, spec):
     return count == spec['bytes'] and h.hexdigest() == spec['sha256']
 
 
-def restore(dist, archive, resources):
+def restore(dist, archive, resources, source_root=None):
     present = {rel for rel, spec in resources.items() if matches_file(target_path(dist, rel), spec)}
     invalid = [rel for rel in resources if target_path(dist, rel).exists() and rel not in present]
     if invalid:
         raise AssetError(f'Refusing to overwrite existing mismatched resource: {invalid[0]}')
     needed = set(resources) - present
     with ZipFile(archive) as zipfile:
-        index = validate_zip(zipfile, resources, present)
+        index = validate_zip(zipfile, resources, present, source_root)
         missing = sorted(needed - index.keys())
         if missing:
             raise AssetError(f'Asset package missing {len(missing)} resources; example: {missing[0]}')
@@ -129,11 +137,12 @@ def main():
     parser.add_argument('mode', choices=['pack', 'restore'])
     parser.add_argument('--dist', type=Path, default=Path(__file__).resolve().parents[1] / 'dist')
     parser.add_argument('--archive', type=Path, required=True)
+    parser.add_argument('--source-root', help='Explicit root folder in original V4.1 source ZIP; unrelated source files are ignored')
     args = parser.parse_args()
     try:
         resources = verified_manifest(args.dist.resolve())
         result = (pack(args.dist.resolve(), args.archive, resources)
-                  if args.mode == 'pack' else restore(args.dist.resolve(), args.archive, resources))
+                  if args.mode == 'pack' else restore(args.dist.resolve(), args.archive, resources, args.source_root))
     except (AssetError, ValueError, OSError, KeyError) as exc:
         parser.exit(1, f'ERROR: {exc}\n')
     print(json.dumps(result, ensure_ascii=False))

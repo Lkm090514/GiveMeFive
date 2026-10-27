@@ -4313,13 +4313,33 @@
       "bytes": 7048,
       "sha256": "25e2bb66ac276d7eb87cc2902fd0a38cff621779f4c15a97f87599891d764e28"
     },
+    "data/chapter-reviews.json": {
+      "bytes": 65734,
+      "sha256": "5d3b5d4d37e2a84e9ce5d960eb31c96225cbda78b38ed505073411d0ace5bc93"
+    },
     "data/course.json": {
       "bytes": 64649,
       "sha256": "b6d48bbb17be5dcb1d5e8a902735fd8b3d5672199921076cf93ae73bff107e20"
     },
+    "data/exercises.json": {
+      "bytes": 1974636,
+      "sha256": "8f03907952e8cb1b689e45985752fcc4f4cdcb6dd88c6f55bf5e5ef55349b0f4"
+    },
+    "data/figures.json": {
+      "bytes": 280057,
+      "sha256": "1bac08b5e46b6237b9d3437f4467b97c57659d99556cbd86e37263be67c1d07b"
+    },
+    "data/reading-content.json": {
+      "bytes": 1657188,
+      "sha256": "b2a375ced7a67ba4b8987ef1a68ca2ddc03e04bc5f579e9960f53948c9946379"
+    },
     "data/source-metadata.json": {
       "bytes": 1023,
       "sha256": "0b0993fedac22ca2af95847eff2c44dab34949d137ff98709c42a33d9cfa7f79"
+    },
+    "data/textbook.js": {
+      "bytes": 3699706,
+      "sha256": "2f010bfafca1a50658e42098fd6d39b9718bd3ec6ee7c00f4f05c0f3e31be399"
     },
     "data/topics/2026-10-21-378e0a8e6e/1.1.json": {
       "bytes": 279864,
@@ -4570,12 +4590,12 @@
       "sha256": "15ad7e32a279cf3bc09a5d39b8727afd238a83d9a7be416b5f24c5a2891e4395"
     },
     "mind-flow/v3/ui.mjs": {
-      "bytes": 23669,
-      "sha256": "cb4246c0e503bb3df8bdf1be5387163f9de38daf63f5835af80d48464e69b11c"
+      "bytes": 23244,
+      "sha256": "93c527bf04eed72f72ac99979a2728fbfb631924bf3b5b252d6d27560f87f739"
     },
     "mind-flow/v3/view.mjs": {
-      "bytes": 4586,
-      "sha256": "b0483f146aac08569fd3047a998a0155fc01b7f4431954ac01c9e9d870e1d734"
+      "bytes": 5086,
+      "sha256": "77af0308a1f6e390ece563f0070682b33742769b1f99d2a2d87f261a419c7194"
     },
     "pathline-base.css": {
       "bytes": 20518,
@@ -6794,7 +6814,7 @@
       "sha256": "f3143ef1c1cacaee13a030c4cd57da0c51f7d27d6e56961c4bce50015b537108"
     }
   },
-  "resource_version": "8d1338d5dd45a4cf3d82",
+  "resource_version": "67a1afc3cac4f5ac0321",
   "license": {
     "source": "data/source-metadata.json",
     "scope": "existing-course-only",

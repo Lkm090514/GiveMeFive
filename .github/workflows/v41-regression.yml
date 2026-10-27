@@ -38,7 +38,9 @@ jobs:
           node-version: '22'
       - name: Restore private licensed course resources
         env:
-          COURSE_ASSETS_URL: ${{ secrets.GMF_COURSE_ASSETS_URL }}
+          COURSE_ASSETS_URL: ${{ secrets.GMF_COURSE_ASSETS_URL || 'https://gmf-fusion-dev-20261021.lkm31620.chatgpt.site' }}
+          COURSE_ASSETS_FORMAT: ${{ vars.GMF_COURSE_ASSETS_FORMAT || 'tree' }}
+          COURSE_ASSETS_AUTH: ${{ vars.GMF_COURSE_ASSETS_AUTH || 'sites' }}
           COURSE_ASSETS_TOKEN: ${{ secrets.GMF_COURSE_ASSETS_TOKEN }}
         run: bash scripts/fetch-private-course-assets.sh
       - name: Frontend regression tests (isolated test-file processes)
@@ -106,7 +108,9 @@ jobs:
           python-version: '3.13'
       - name: Restore private licensed course resources
         env:
-          COURSE_ASSETS_URL: ${{ secrets.GMF_COURSE_ASSETS_URL }}
+          COURSE_ASSETS_URL: ${{ secrets.GMF_COURSE_ASSETS_URL || 'https://gmf-fusion-dev-20261021.lkm31620.chatgpt.site' }}
+          COURSE_ASSETS_FORMAT: ${{ vars.GMF_COURSE_ASSETS_FORMAT || 'tree' }}
+          COURSE_ASSETS_AUTH: ${{ vars.GMF_COURSE_ASSETS_AUTH || 'sites' }}
           COURSE_ASSETS_TOKEN: ${{ secrets.GMF_COURSE_ASSETS_TOKEN }}
         run: bash scripts/fetch-private-course-assets.sh
       - name: Audit all manifest assets

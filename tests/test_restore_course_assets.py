@@ -72,3 +72,27 @@ def test_pack_fails_if_manifest_does_not_match_disk(tmp_path):
 def test_restore_keeps_verified_new_shell_and_reuses_old_private_content(tmp_path):
  resource,body,archive,run=fixture(tmp_path);dist=resource.parents[2];shell=dist/'app.js';shell.write_bytes(b'old shell');manifest=json.loads((dist/'data/runtime-manifest.json').read_text());manifest['resources']['app.js']={'bytes':9,'sha256':hashlib.sha256(b'old shell').hexdigest()};(dist/'data/runtime-manifest.json').write_text(json.dumps(manifest));assert run('pack').returncode==0
  shell.write_bytes(b'new verified shell');manifest['resources']['app.js']={'bytes':shell.stat().st_size,'sha256':hashlib.sha256(shell.read_bytes()).hexdigest()};(dist/'data/runtime-manifest.json').write_text(json.dumps(manifest));resource.unlink();result=run('restore');assert result.returncode==0,result.stderr;assert resource.read_bytes()==body;assert shell.read_bytes()==b'new verified shell'
+
+
+def test_original_source_zip_restores_only_manifest_assets(tmp_path):
+    resource, body, archive, run = fixture(tmp_path)
+    resource.unlink()
+    with ZipFile(archive, 'w') as z:
+        z.writestr('GiveMeFive-AS-V4.1/dist/data/topics/1.1.json',body)
+        z.writestr('GiveMeFive-AS-V4.1/dist/app.js',b'old code must not be extracted')
+        z.writestr('GiveMeFive-AS-V4.1/backend/app.py',b'old backend')
+    result=subprocess.run([sys.executable,str(SCRIPT),'restore','--dist',str(resource.parents[2]),'--archive',str(archive),'--source-root','GiveMeFive-AS-V4.1'],capture_output=True,text=True)
+    assert result.returncode==0,result.stderr
+    assert resource.read_bytes()==body
+    assert not (resource.parents[2]/'app.js').exists()
+
+
+def test_original_source_zip_rejects_traversal(tmp_path):
+    resource, body, archive, run = fixture(tmp_path)
+    resource.unlink()
+    with ZipFile(archive,'w') as z:
+        z.writestr('GiveMeFive-AS-V4.1/dist/data/topics/1.1.json',body)
+        z.writestr('../outside',b'untrusted')
+    result=subprocess.run([sys.executable,str(SCRIPT),'restore','--dist',str(resource.parents[2]),'--archive',str(archive),'--source-root','GiveMeFive-AS-V4.1'],capture_output=True,text=True)
+    assert result.returncode!=0
+    assert not resource.exists()
