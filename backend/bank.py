@@ -20,6 +20,7 @@ class Bank(Modules):
   with self.store.connect(write=True) as c:c.executescript((ROOT/'backend/migrations/003_assessment_v4.sql').read_text())
   with self.store.connect(write=True) as c:c.executescript((ROOT/'backend/migrations/004_review.sql').read_text())
   with self.store.connect(write=True) as c:c.executescript((ROOT/'backend/migrations/005_import_archives.sql').read_text())
+  with self.store.connect(write=True) as c:c.executescript((ROOT/'backend/migrations/006_online_identity.sql').read_text())
  def registry(self):return {**{k:self.catalog[k] for k in ['course_id','units','topics']},'question_types':TYPE_CATALOG}
  def validate_tags(self,course_id,core,related):
   if course_id is None:
@@ -192,7 +193,7 @@ class Bank(Modules):
    summary['unclassified']=sum(not self.meta(self.store.question(qid).current_version_id)['core'] for qid in ids)
    if safe:
     paper_id='student-paper_'+digest((options['owner_id']+'|'+result.source.document_id+'|'+str(original.parent)).encode())[:32]
-    paper={'set_id':paper_id,'owner_id':options['owner_id'],'source_kind':'student-upload','document_id':result.source.document_id,'course_id':paper_config.get('course_id') or self.catalog['course_id'],'title':paper_config.get('paper_title') or original.stem,'source_year':None,'section':'MCQ','duration_minutes':paper_config.get('duration_minutes') or 45,'question_ids':safe,'version_ids':[self.store.question(qid).current_version_id for qid in safe],'source_question_count':summary['candidate_count'],'excluded_question_count':summary['candidate_count']-len(safe),'published':True,'created_at':now()}
+    paper={'set_id':paper_id,'owner_id':options['owner_id'],'source_kind':'student-upload','document_id':result.source.document_id,'course_id':paper_config.get('course_id') or self.catalog['course_id'],'title':paper_config.get('paper_title') or original.stem,'source_year':None,'section':'MCQ','duration_minutes':paper_config.get('duration_minutes') or 45,'question_ids':safe,'version_ids':[self.store.question(qid).current_version_id for qid in safe],'source_question_count':summary['candidate_count'],'excluded_question_count':summary['candidate_count']-len(safe),'published':not getattr(self,'private_review_required',False),'review_required':getattr(self,'private_review_required',False),'review_revision':0,'created_at':now()}
     with self.store.connect(write=True) as c:c.execute('INSERT OR IGNORE INTO v4_sets VALUES(?,?,?)',(paper_id,result.source.document_id,json.dumps(paper)))
   diagnostics['exam_admission']={'paper_created':bool(paper_id),'admitted':len(safe) if options['scope']=='exam_private' else summary['publishable']}
   diagnostics['stage']='finished'
@@ -202,7 +203,7 @@ class Bank(Modules):
   elif options['scope']=='exam_private' and not paper_id:
    review_reason='已识别题目，但题干、选项或图像仍需复核，暂未生成可作答试卷。原文件已保留。'
   if review_reason:diagnostics['failure_stage']='text_extraction' if not diagnostics.get('text_extraction',{}).get('extracted_characters') else 'question_detection' if not diagnostics.get('question_detection',{}).get('candidates') else 'option_split' if not ids else 'structure_validation'
-  return {'filename':original.name,'paper_id':paper_id,'document_id':result.source.document_id,'question_ids':ids,'status':'needs_review' if review_reason else 'imported','error':review_reason,'diagnostics':diagnostics,'warnings':result.warnings,'summary':summary,'answer_states':{qid:(self.store.latest_answer(self.store.question(qid).current_version_id).status.value if self.store.latest_answer(self.store.question(qid).current_version_id) else 'Unresolved') for qid in ids}}
+  return {'filename':original.name,'paper_id':paper_id,'requires_review':bool(paper_id and getattr(self,'private_review_required',False)),'document_id':result.source.document_id,'question_ids':ids,'status':'needs_review' if review_reason else 'imported','error':review_reason,'diagnostics':diagnostics,'warnings':result.warnings,'summary':summary,'answer_states':{qid:(self.store.latest_answer(self.store.question(qid).current_version_id).status.value if self.store.latest_answer(self.store.question(qid).current_version_id) else 'Unresolved') for qid in ids}}
  def display_crop(self,a,layout,original):
   # Tighten only empty bottom margins; include every text/image/vector inside the existing answer-safe span.
   if not a.bbox or not layout:return a.asset_id
@@ -385,6 +386,9 @@ class Bank(Modules):
  def public(self,qid,vid=None):
   q=self.store.question(qid);v=self.store.version(vid or q.current_version_id);m=self.meta(v.version_id)
   return {'source_section':v.source_section,'question_id':qid,'version_id':v.version_id,'source_number':q.source_number,'stem':v.stem,'options':[o.model_dump() for o in v.options],'has_visual':v.has_visual,'display_mode':m.get('display_mode'),'formula_fragments':v.formula_fragments,'spans':[s.model_dump() for s in v.spans],'assets':m.get('safe_assets',[]),'shared_stem':m.get('shared_stem',''),'shared_assets':m.get('shared_assets',[]),'shared_ref':m.get('shared_ref'),'types':self.types(v.version_id),'origin':'public-bank' if q.scope=='bank' else 'my-paper','topics':{k:m.get(k) for k in ['course_id','core','related','unit_ids','tag_source']}}
+ def private_question_confirmed(self,owner,qid):
+  with self.store.connect() as c:
+   return any(p.get('owner_id')==owner and p.get('published') and qid in p.get('question_ids',[]) for p in [json.loads(r[0]) for r in c.execute('SELECT payload FROM v4_sets')])
  def candidates(self,course_id=None,unit_id=None,topics=(),comprehensive=False,exclude=(),owner_id=None):
   rows=self.store.list_questions(scope='bank',limit=None);out=[]
   if owner_id:
@@ -393,6 +397,7 @@ class Bank(Modules):
   if selected:self.validate_tags(course_id,list(selected),[])
   for q,v,cls,a in rows:
    m=self.meta(v.version_id)
+   if q.scope=='exam_private' and getattr(self,'private_review_required',False) and not self.private_question_confirmed(owner_id,q.question_id):continue
    if q.scope=='exam_private' and (not m.get('core') or m.get('issues')):continue
    if q.question_id in exclude or course_id and m['course_id']!=course_id:continue
    if unit_id is not None and str(unit_id) not in [str(x) for x in m.get('unit_ids',[])]:continue

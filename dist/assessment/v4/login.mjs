@@ -1,0 +1,5 @@
+import {request} from './api.mjs';
+const form=document.getElementById('login'),status=document.getElementById('status');
+let invitation=new URLSearchParams(location.hash.slice(1)).get('invite');
+if(invitation){history.replaceState(null,'',location.pathname);document.getElementById('title').textContent='接受邀请';form.querySelector('button').textContent='注册并登录';form.elements.password.autocomplete='new-password';}
+form.onsubmit=async e=>{e.preventDefault();const button=form.querySelector('button');button.disabled=true;status.textContent='正在验证…';const data=Object.fromEntries(new FormData(form));try{if(invitation){await request('/auth/register',{method:'POST',body:{...data,invite:invitation}});invitation=null;}await request('/auth/login',{method:'POST',body:data});form.reset();location.replace('/assessment/');}catch(error){status.textContent=error.message;}finally{button.disabled=false;}};

@@ -1,5 +1,5 @@
 from __future__ import annotations
-import hashlib,hmac,json,os,secrets,tempfile,threading,time
+import hashlib,hmac,json,logging,os,secrets,tempfile,threading,time
 from pathlib import Path
 from typing import Annotated
 from fastapi import Depends,FastAPI,File,Form,Header,HTTPException,Request,Response,UploadFile
@@ -14,20 +14,32 @@ from .local_auth import load_local_tokens,LaunchTickets,COOKIE_SECONDS,data_inst
 def create_app(root=None,tokens=None,clock=time.time,worker=True):
  root=Path(root or os.getenv('GMF_DATA_DIR',ROOT/'runtime/v4')).resolve();bank=Bank(root);sessions=Sessions(bank,clock)
  mode=os.getenv('GMF_AUTH_MODE','local')
- if mode not in ('local','token','qa'):raise RuntimeError('此版本尚未接入正式邮箱账号认证；不能将本地开发登录用于正式部署。')
+ if mode not in ('local','token','qa','password'):raise RuntimeError('此版本尚未接入正式邮箱账号认证；不能将本地开发登录用于正式部署。')
  qa=os.getenv('GMF_QA_FIXTURE')=='1'
  if qa and mode!='qa':raise RuntimeError('固定 QA 身份只能在 GMF_AUTH_MODE=qa 的独立验收环境中启用。')
+ cloud=mode=='password';bank.private_review_required=cloud;production=os.getenv('GMF_ENV')=='production'
+ if production and not cloud:raise RuntimeError('Production requires independent online identities')
+ origin=os.getenv('GMF_PUBLIC_ORIGIN','').rstrip('/')
+ gateway=os.getenv('GMF_GATEWAY_KEY','')
+ if cloud and (not origin or production and (not origin.startswith('https://') or len(gateway)<32 or qa)):raise RuntimeError('Online mode requires HTTPS origin, gateway secret and QA disabled')
  local_bootstrap=tokens is None and not os.getenv('GMF_API_TOKENS') and mode=='local' and not qa
  if qa and tokens is None:tokens={'preview-fixture-admin':{'owner_id':'qa-admin','role':'admin'},'preview-fixture-student':{'owner_id':'qa-student','role':'student'}}
+ if cloud:tokens={}
  if tokens is None:
   if os.getenv('GMF_API_TOKENS'):tokens=json.loads(os.environ['GMF_API_TOKENS'])
   elif local_bootstrap:tokens=load_local_tokens(root)
   else:raise RuntimeError('独立认证模式需要明确配置身份提供方；不会自动生成本机管理员身份。')
- cookie_name="gmf_session_"+data_instance(root)
+ from .identity import Identity
+ identity=Identity(bank.store,clock) if cloud else None
+ cookie_name=('__Host-gmf_cloud_session' if production else 'gmf_cloud_session_test') if cloud else 'gmf_session_'+data_instance(root)
  tickets=LaunchTickets(clock)
  app=FastAPI(title='GiveMeFive Fusion + Assessment V4.1',version='4.1.0');app.state.bank=bank;app.state.sessions=sessions;app.state.tokens=tokens;app.state.auth_cookie_name=cookie_name
  running=threading.Event();running.set();import_lock=threading.Lock()
  def auth(request:Request,authorization:Annotated[str|None,Header()]=None):
+  if cloud:
+   principal=identity.principal(request.cookies.get(cookie_name))
+   if not principal:raise HTTPException(401,{'code':'auth_required','message':'请登录后继续'})
+   return principal
   token=(authorization or '').removeprefix('Bearer ') or request.cookies.get(cookie_name) or request.cookies.get('gmf_session','')
   principal=next((p for k,p in tokens.items() if token and hmac.compare_digest(token,k)),None)
   if not principal:raise HTTPException(401,{'code':'auth_expired' if authorization or request.cookies.get(cookie_name) else 'auth_required','message':'登录状态已失效。请重新运行统一启动器。' if authorization or request.cookies.get(cookie_name) else '尚未登录。请双击项目根目录 Start-GiveMeFive.cmd，再使用它提供的登录入口。'})
@@ -39,6 +51,10 @@ def create_app(root=None,tokens=None,clock=time.time,worker=True):
   return p
  @app.middleware('http')
  async def security(request,call_next):
+  if cloud and request.url.path.startswith('/api/') and request.url.path not in ('/api/v4/health','/api/v4/ready'):
+   if production and not hmac.compare_digest(request.headers.get('x-gmf-gateway-key',''),gateway):return JSONResponse({'detail':'Gateway required'},status_code=403)
+   if request.method not in ('GET','HEAD','OPTIONS') and (request.headers.get('origin')!=origin or request.headers.get('x-gmf-request')!='1'):
+    return JSONResponse({'detail':'请求来源无效，请重新打开 GiveMeFive'},status_code=403)
   if local_bootstrap and request.method=='GET' and not request.url.path.startswith('/api/') and request.url.hostname in ('127.0.0.1','::1'):
    return RedirectResponse(str(request.url.replace(netloc='localhost'+(':'+str(request.url.port) if request.url.port else ''))),status_code=307)
   response=await call_next(request)
@@ -55,7 +71,14 @@ def create_app(root=None,tokens=None,clock=time.time,worker=True):
  @app.exception_handler(KeyError)
  async def missing(request,exc):return JSONResponse(status_code=404,content={'detail':'Record not found'})
  @app.get('/api/v4/health')
- def health():return {'service':'givemefive-python','startup_protocol':2,'data_instance':data_instance(root),'auth_mode':'local' if local_bootstrap else ('qa' if qa else 'token'),'version':'4.1.0','persistence':'sqlite-v3+v4','time':sessions.ms(),'auth':'local-token-development' if local_bootstrap else 'configured-token','cloud_sync':False,'ai_enabled':False}
+ def health():return {'service':'givemefive-python','startup_protocol':2,'data_instance':data_instance(root),'auth_mode':'password' if cloud else 'local' if local_bootstrap else ('qa' if qa else 'token'),'version':'4.1.0','persistence':'sqlite-v3+v4','time':sessions.ms(),'auth':'invite-password' if cloud else 'local-token-development' if local_bootstrap else 'configured-token','cloud_sync':False,'ai_enabled':False,'worker_enabled':worker,'docx_available':bool(__import__('shutil').which('soffice') or __import__('shutil').which('libreoffice'))}
+ @app.get('/api/v4/ready')
+ def ready():
+  try:
+   with bank.store.connect() as c:c.execute('SELECT 1').fetchone()
+   okay=worker and getattr(app.state,'import_worker',None) is not None and app.state.import_worker.is_alive() and bool(__import__('shutil').which('soffice') or __import__('shutil').which('libreoffice'))
+  except Exception:okay=False
+  return JSONResponse({'ready':okay,'ai_enabled':False},status_code=200 if okay else 503)
  @app.post('/api/v4/local-launch')
  def local_launch(request:Request,p=Depends(auth)):
   if not local_bootstrap or not loopback_request(request):raise HTTPException(403,'Local launcher is disabled for this environment')
@@ -64,6 +87,7 @@ def create_app(root=None,tokens=None,clock=time.time,worker=True):
   return {'login_path':'/local-login#launch='+tickets.issue(token),'expires_in':300}
  @app.post('/api/v4/login')
  async def login(request:Request,response:Response):
+  if cloud:raise HTTPException(404)
   data=await request.json();token=data.get('token','')
   if 'ticket' in data:
    token=tickets.consume(data['ticket']) if local_bootstrap and loopback_request(request) else None
@@ -71,9 +95,25 @@ def create_app(root=None,tokens=None,clock=time.time,worker=True):
   if not principal:raise HTTPException(401,{'code':'auth_expired','message':'登录链接已失效或已使用。请重新运行 Start-GiveMeFive.cmd 获取新入口。'})
   response.set_cookie(cookie_name,token,httponly=True,samesite='strict',secure=request.url.scheme=='https',max_age=COOKIE_SECONDS,path='/');return {'role':principal['role'],'owner_id':principal['owner_id']}
  @app.post('/api/v4/logout')
- def logout(response:Response,p=Depends(auth)):response.delete_cookie(cookie_name,path='/');response.delete_cookie('gmf_session',path='/');return {'ok':True}
+ def logout(request:Request,response:Response,p=Depends(auth)):
+  if cloud:identity.logout(request.cookies.get(cookie_name,''))
+  response.delete_cookie(cookie_name,path='/');response.delete_cookie('gmf_session',path='/');return {'ok':True}
+ @app.post('/api/v4/auth/register')
+ async def register(request:Request):
+  if not cloud:raise HTTPException(404)
+  data=await request.json();identity.register(data.get('email'),data.get('password'),data.get('invite'));return {'registered':True}
+ @app.post('/api/v4/auth/login')
+ async def online_login(request:Request,response:Response):
+  if not cloud:raise HTTPException(404)
+  data=await request.json();token=identity.login(data.get('email'),data.get('password'),request.client.host if request.client else 'unknown')
+  response.set_cookie(cookie_name,token,httponly=True,secure=production,samesite='lax',max_age=COOKIE_SECONDS,path='/')
+  return identity.principal(token)
+ @app.post('/api/v4/admin/invites')
+ async def invite(request:Request,p=Depends(admin)):
+  if not cloud:raise HTTPException(404)
+  data=await request.json();return {'invite':identity.invite(data.get('email'),'student')}
  @app.get('/api/v4/me')
- def me(p=Depends(auth)):return {**p,'server_now':sessions.ms()}
+ def me(p=Depends(auth)):return {**p,'auth_mode':mode,'server_now':sessions.ms()}
  @app.get('/api/v4/registry')
  def registry(p=Depends(auth)):return bank.registry()
  @app.get('/api/v4/library')
@@ -119,6 +159,14 @@ def create_app(root=None,tokens=None,clock=time.time,worker=True):
     path=Path(temp)/name;path.write_bytes(content)
     batch=bank.jobs.enqueue([path],scope='exam_private',owner_id=p['owner_id'],auto_solve=False,paper_title=title,duration_minutes=duration_minutes,course_id=course_id,on_commit=lambda c,b:c.execute('INSERT INTO v4_imports VALUES(?,?,?,?,?)',(p['owner_id'],key,sha,b.batch_id,json.dumps({'filename':name}))))
   return {'batch_id':batch.batch_id,'status':batch.status}
+ from .private_review import PrivateReview
+ private_review=PrivateReview(bank)
+ @app.get('/api/v4/papers/{pid}/review')
+ def read_private(pid:str,p=Depends(auth)):return private_review.read(p['owner_id'],pid)
+ @app.patch('/api/v4/papers/{pid}/review/{qid}')
+ def edit_private(pid:str,qid:str,data:dict,p=Depends(auth)):return private_review.edit(p['owner_id'],pid,qid,data)
+ @app.post('/api/v4/papers/{pid}/confirm')
+ def confirm_private(pid:str,data:dict,p=Depends(auth)):return private_review.confirm(p['owner_id'],pid,data)
  @app.post('/api/v4/papers/imports/{bid}/retry')
  def retry_own(bid:str,p=Depends(auth)):
   b=bank.store.batch(bid)
@@ -306,22 +354,26 @@ def create_app(root=None,tokens=None,clock=time.time,worker=True):
  @app.post('/api/v4/admin/sessions/{sid}/regrade')
  def regrade(sid:str,data:dict,p=Depends(admin)):return sessions.regrade(sid,p['owner_id'],data.get('reason',''))
  @app.get('/local-login')
- def local_login():return HTMLResponse('''<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>GiveMeFive · 本地登录</title><main style="font:16px/1.8 system-ui;max-width:660px;margin:12vh auto;padding:24px"><h1>GiveMeFive 本地登录</h1><p id="status" role="status">正在验证启动入口…</p><p>请双击项目根目录的 Start-GiveMeFive.cmd。入口仅在本机使用，有效期五分钟；不同浏览器需使用新的入口。</p><a href="/">返回学习路径</a></main><script src="/local-login.js?v=4.1-auth2"></script></html>''')
+ def local_login():
+  if cloud:raise HTTPException(404)
+  return HTMLResponse('''<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>GiveMeFive · 本地登录</title><main style="font:16px/1.8 system-ui;max-width:660px;margin:12vh auto;padding:24px"><h1>GiveMeFive 本地登录</h1><p id="status" role="status">正在验证启动入口…</p><p>请双击项目根目录的 Start-GiveMeFive.cmd。入口仅在本机使用，有效期五分钟；不同浏览器需使用新的入口。</p><a href="/">返回学习路径</a></main><script src="/local-login.js?v=4.1-auth2"></script></html>''')
  @app.get('/local-login.js')
- def local_login_script():return FileResponse(ROOT/'dist/local-login.js',media_type='text/javascript',headers={'Cache-Control':'no-store','Referrer-Policy':'no-referrer'})
+ def local_login_script():
+  if cloud:raise HTTPException(404)
+  return FileResponse(ROOT/'dist/local-login.js',media_type='text/javascript',headers={'Cache-Control':'no-store','Referrer-Policy':'no-referrer'})
  def process():
   while running.is_set():
    try:bank.jobs.work(limit=1)
-   except Exception:pass
+   except Exception:logging.getLogger('gmf.worker').exception('Background task failed')
    running.wait(.2) if not running.is_set() else time.sleep(.2)
  def deadlines():
   while running.is_set():
    try:sessions.expire_due()
-   except Exception:pass
+   except Exception:logging.getLogger('gmf.worker').exception('Background task failed')
    time.sleep(.5)
  if worker:
-  threading.Thread(target=process,daemon=True).start()
-  threading.Thread(target=deadlines,daemon=True).start()
+  app.state.import_worker=threading.Thread(target=process,daemon=True);app.state.import_worker.start()
+  app.state.deadline_worker=threading.Thread(target=deadlines,daemon=True);app.state.deadline_worker.start()
  @app.on_event('shutdown')
  def shutdown():running.clear()
  if qa:
@@ -329,5 +381,7 @@ def create_app(root=None,tokens=None,clock=time.time,worker=True):
   def qa_fixture(role:str):
    if role not in ['admin','student']:raise HTTPException(404)
    response=HTMLResponse('<!doctype html><meta charset="utf-8"><p>正在打开隔离的 QA 验收环境…</p><script>location.replace("/assessment/")</script>');response.set_cookie(cookie_name,'preview-fixture-'+role,httponly=True,samesite='strict',path='/');return response
+ if cloud and production:
+  return app
  app.mount('/',StaticFiles(directory=ROOT/'dist',html=True),name='fusion')
  return app

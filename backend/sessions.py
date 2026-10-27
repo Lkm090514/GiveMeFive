@@ -138,7 +138,7 @@ class Sessions:
      for qid in chosen:
       try:private=self.bank.store.question(qid)
       except KeyError:continue
-      if private.scope=='exam_private' and private.owner_id==owner:
+      if private.scope=='exam_private' and private.owner_id==owner and (not getattr(self.bank,'private_review_required',False) or self.bank.private_question_confirmed(owner,qid)):
        version=self.bank.store.version(private.current_version_id)
        if not self.bank.meta(version.version_id).get('issues'):available[qid]=(private,version,None)
      refs=[available[qid] for qid in chosen if qid in available]
@@ -147,6 +147,7 @@ class Sessions:
      if not paper_row:raise KeyError('Paper not found')
      private_paper=json.loads(paper_row[0])
      if private_paper.get('owner_id')!=owner:raise KeyError('Paper not found')
+     if not private_paper.get('published'):raise ValueError('请先校对并确认自己的试卷')
      refs=[(self.bank.store.question(qid),self.bank.store.version(vid),None) for qid,vid in zip(private_paper['question_ids'],private_paper['version_ids'])];title=private_paper['title']
     if req.get('random'):random.SystemRandom().shuffle(refs)
     available=len(refs)

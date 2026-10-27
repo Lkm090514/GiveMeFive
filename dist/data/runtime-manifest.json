@@ -1857,11 +1857,14 @@
     "assessment/index.html",
     "assessment/learning-bridge.css",
     "assessment/learning-bridge.js",
+    "assessment/login.html",
     "assessment/v4/action-queue.mjs",
     "assessment/v4/admin-bank.mjs",
     "assessment/v4/analysis-ui.mjs",
     "assessment/v4/api.mjs",
     "assessment/v4/guard.mjs",
+    "assessment/v4/login.mjs",
+    "assessment/v4/private-review.mjs",
     "assessment/v4/question-display.mjs",
     "assessment/v4/result-summary.mjs",
     "assessment/v4/reviews-ui.mjs",
@@ -1973,6 +1976,10 @@
       "bytes": 12537,
       "sha256": "e5ce137e042b4affa3bf784a503a4d1b20aa0d5c078baa9f0a3e6030cc1cc71a"
     },
+    "assessment/login.html": {
+      "bytes": 887,
+      "sha256": "ab2c94333a93ac1ea2c00808ec0e6e5ca3dffd2156c1e81f4836f87e1b2b6fb7"
+    },
     "assessment/v4/action-queue.mjs": {
       "bytes": 213,
       "sha256": "d9ca184c6110852ad8a885b4bfa60858805f684340696fa101119fb2800e0216"
@@ -1986,12 +1993,20 @@
       "sha256": "93a9713e32ac0f1a0010b1c1c65c69e95f51b75d2ffa7c2a49140ac4703a6dc2"
     },
     "assessment/v4/api.mjs": {
-      "bytes": 1741,
-      "sha256": "e7aa5145cc201dcb2804a76a13583cdea22bc484872584f83edb5e200b79a5ce"
+      "bytes": 2057,
+      "sha256": "46adaf00fd37ad7357785131ef9ec41b85c7072e22cf299987da6fd862b975f7"
     },
     "assessment/v4/guard.mjs": {
       "bytes": 5026,
       "sha256": "5c1d327248984ef2a001054f71f450985f85df875f5fa0f04e0be3bf50d6f3e4"
+    },
+    "assessment/v4/login.mjs": {
+      "bytes": 923,
+      "sha256": "32f9dc9313786265fce884a6b0cde24ce9a4df0cfa7af16e258cbc2b0282895e"
+    },
+    "assessment/v4/private-review.mjs": {
+      "bytes": 3427,
+      "sha256": "584626702aea1d7979404778602635586af6c704b0dcb5c683b94984ebd2da32"
     },
     "assessment/v4/question-display.mjs": {
       "bytes": 375,
@@ -2010,16 +2025,16 @@
       "sha256": "ba3d5feb9aca1f11fe76a4e18d1972d99ae9679609974e8cb3a2ce3ca528dcdb"
     },
     "assessment/v4/startup-errors.mjs": {
-      "bytes": 1587,
-      "sha256": "365430528208c9627c3787be00f116fede4572555b054cf34b4502a9b5f29bbc"
+      "bytes": 1441,
+      "sha256": "aa78ec3746e5e81c6a59ef754552a346b1019e6e3e2ad7c722c467a70db95cca"
     },
     "assessment/v4/ui.css": {
       "bytes": 8807,
       "sha256": "45b1fa39c7a7387c98e016ec798e252bcb98604bdce9f6f0b793436134024087"
     },
     "assessment/v4/ui.mjs": {
-      "bytes": 51865,
-      "sha256": "e339f0e1d6862abc0b3f7451e6a7d065678b95c0a3f28b6eed08ac5848143013"
+      "bytes": 52706,
+      "sha256": "c702cdfd0e4d6adbb94565776d3f007d57d66bb7e506768bb8a9e06580c10ff1"
     },
     "assessment/v4/upload.mjs": {
       "bytes": 2820,
@@ -6814,7 +6829,7 @@
       "sha256": "f3143ef1c1cacaee13a030c4cd57da0c51f7d27d6e56961c4bce50015b537108"
     }
   },
-  "resource_version": "67a1afc3cac4f5ac0321",
+  "resource_version": "a011ed4c8eeb80dfb0d8",
   "license": {
     "source": "data/source-metadata.json",
     "scope": "existing-course-only",

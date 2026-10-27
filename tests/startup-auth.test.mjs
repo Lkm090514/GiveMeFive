@@ -11,13 +11,13 @@ test('startup diagnostics distinguish no login, expired identity, static server,
  const prior=globalThis.fetch;
  try{
   for(const [response,kind,title] of [
-   [new Response(JSON.stringify({detail:{code:'auth_required',message:'need login'}}),{status:401}),'auth-required','尚未登录'],
+   [new Response(JSON.stringify({detail:{code:'auth_required',message:'need login'}}),{status:401}),'auth-required','请登录后继续'],
    [new Response(JSON.stringify({detail:{code:'auth_expired',message:'expired'}}),{status:401}),'auth-expired','登录状态已失效'],
-   [new Response('<html>static</html>',{status:404}),'backend-missing','未连接完整题库服务'],
-   [new Response('Internal Server Error',{status:500}),'server','题库服务内部错误'],
+   [new Response('<html>static</html>',{status:404}),'backend-missing','模考服务暂时不可用'],
+   [new Response('Internal Server Error',{status:500}),'server','模考服务暂时不可用'],
    [new Response(JSON.stringify({detail:'forbidden'}),{status:403}),'api','题库请求未完成']
   ]){globalThis.fetch=async()=>response;await assert.rejects(request('/me'),error=>{assert.equal(error.kind,kind);assert.equal(startupFailure(error).title,title);return true;});}
-  globalThis.fetch=async()=>{throw Error('disconnected');};await assert.rejects(request('/me'),error=>startupFailure(error).title==='本地服务未运行或连接中断');
+  globalThis.fetch=async()=>{throw Error('disconnected');};await assert.rejects(request('/me'),error=>startupFailure(error).title==='模考服务暂时不可用');
   globalThis.fetch=async()=>new Response('[]');assert.deepEqual(await request('/questions'),[],'empty bank is a successful response');
  }finally{globalThis.fetch=prior;}
 });
