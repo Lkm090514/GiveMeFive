@@ -11,7 +11,7 @@ import os
 from pathlib import Path, PurePosixPath
 import stat
 import tempfile
-from zipfile import ZIP_DEFLATED, ZipFile
+from zipfile import ZIP_DEFLATED, ZipFile, BadZipFile
 
 
 class AssetError(Exception):
@@ -143,7 +143,7 @@ def main():
         resources = verified_manifest(args.dist.resolve())
         result = (pack(args.dist.resolve(), args.archive, resources)
                   if args.mode == 'pack' else restore(args.dist.resolve(), args.archive, resources, args.source_root))
-    except (AssetError, ValueError, OSError, KeyError) as exc:
+    except (AssetError, ValueError, OSError, KeyError, BadZipFile) as exc:
         parser.exit(1, f'ERROR: {exc}\n')
     print(json.dumps(result, ensure_ascii=False))
 

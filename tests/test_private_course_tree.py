@@ -63,3 +63,19 @@ def test_tree_never_overwrites_edited_checkout_or_follows_redirects(tmp_path):
         module.restore_tree(dist,'https://example.test','test',opener=opener)
     assert not opener.requests
     assert module.NoRedirect().redirect_request(None,None,302,'',{},'https://elsewhere.test') is None
+
+
+def test_tree_stops_pending_downloads_after_authentication_failure(tmp_path):
+    dist, _, _ = fixture(tmp_path)
+    resources={f'data/{i}.json':{'bytes':1,'sha256':hashlib.sha256(b'x').hexdigest()} for i in range(100)}
+    (dist/'data/runtime-manifest.json').write_text(json.dumps({'resources':resources}))
+    class FailingOpener:
+        calls=0
+        def open(self,req,timeout):
+            self.calls+=1
+            raise urllib.error.HTTPError(req.full_url,403,'Forbidden',{},None)
+    opener=FailingOpener()
+    with pytest.raises(module.assets.AssetError,match='Private resource fetch failed'):
+        module.restore_tree(dist,'https://example.test','invalid-test-token',opener=opener)
+    assert opener.calls<=8
+    assert not list((dist/'data').glob('[0-9]*.json'))

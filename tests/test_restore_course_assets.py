@@ -96,3 +96,13 @@ def test_original_source_zip_rejects_traversal(tmp_path):
     result=subprocess.run([sys.executable,str(SCRIPT),'restore','--dist',str(resource.parents[2]),'--archive',str(archive),'--source-root','GiveMeFive-AS-V4.1'],capture_output=True,text=True)
     assert result.returncode!=0
     assert not resource.exists()
+
+
+def test_corrupt_source_zip_fails_with_actionable_error_without_traceback(tmp_path):
+    resource,_,archive,_=fixture(tmp_path)
+    resource.unlink();archive.write_bytes(b'truncated archive')
+    result=subprocess.run([sys.executable,str(SCRIPT),'restore','--dist',str(resource.parents[2]),'--archive',str(archive),'--source-root','GiveMeFive-AS-V4.1'],text=True,capture_output=True)
+    assert result.returncode!=0
+    assert 'ERROR:' in result.stderr
+    assert 'Traceback' not in result.stderr
+    assert not resource.exists()

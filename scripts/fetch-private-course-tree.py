@@ -11,6 +11,7 @@ import os
 from pathlib import Path
 import shutil
 import tempfile
+import threading
 import urllib.error
 import urllib.parse
 import urllib.request
@@ -44,7 +45,8 @@ def restore_tree(dist, base, token, auth='sites', workers=8, opener=None):
     opener = opener or urllib.request.build_opener(NoRedirect())
     with tempfile.TemporaryDirectory(prefix='gmf-private-assets-') as tmp:
         stage = Path(tmp)
-        def download(rel):
+        stop = threading.Event()
+        def fetch_one(rel):
             address = base.rstrip('/') + '/' + urllib.parse.quote(rel, safe='/')
             req = urllib.request.Request(address, headers={headers[auth]: 'Bearer ' + token})
             spec = resources[rel]
@@ -64,6 +66,13 @@ def restore_tree(dist, base, token, auth='sites', workers=8, opener=None):
                 raise assets.AssetError('Private resource fetch failed: ' + rel + '; check service token, origin and access policy') from None
             if not assets.matches_file(target, spec):
                 raise assets.AssetError('Resource hash mismatch: ' + rel)
+        def download(rel):
+            if stop.is_set(): return
+            try:
+                fetch_one(rel)
+            except Exception:
+                stop.set()
+                raise
         with concurrent.futures.ThreadPoolExecutor(max_workers=workers) as pool:
             list(pool.map(download, needed))
         for rel in needed:
