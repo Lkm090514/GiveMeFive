@@ -1,6 +1,11 @@
 import {recordsSummary} from './core/records.mjs';
 import {recentSessions} from './host.mjs';
 export const escapeHTML=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+// Read-only help is a dialog, not an edit form. Never show a fake “saved” message.
+export function dialogMarkup(title,body,editable=true){
+ const footer=editable?'<button class="btn accent">保存</button><button type="button" class="ghost-btn" data-cancel>取消</button>':'<button type="button" class="btn accent" data-cancel>关闭</button>';
+ return `<form><h2>${escapeHTML(title)}</h2>${body}${editable?'<p data-error role="alert"></p>':''}<div class="mf-inline">${footer}</div></form>`;
+}
 export function recordsModel(row,keys,calendar){const all=[...row.history,...(row.current?[row.current]:[])];return {summary:recordsSummary(all,keys,calendar),visible:recentSessions(all.filter(s=>!row.hidden_ids.includes(s.session_id)))};}
 export function focusMarkup({session:s,tasks,archived=[],setup,context={},showSetup=false,guide=false,reviewURL=null}){
  const esc=escapeHTML,active=s&&s.state!=='Ended',ended=s?.state==='Ended'&&!showSetup,selected=active||ended?s?.task_id:setup.task_id,task=tasks.find(t=>t.task_id===selected);
