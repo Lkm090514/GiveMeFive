@@ -1,0 +1,50 @@
+{
+  "date": "2026-10-27",
+  "code_commit": "c482fda12110df3a017f89fca4a977b6322de00a",
+  "run_url": "https://github.com/Lkm090514/GiveMeFive/actions/runs/40469618772",
+  "overall": "failure",
+  "jobs": [
+    {
+      "name": "MF standalone",
+      "passed": 39,
+      "failed": 0,
+      "skipped": 0
+    },
+    {
+      "name": "backend core",
+      "passed": 102,
+      "deselected": 3
+    },
+    {
+      "name": "DOCX LibreOffice",
+      "passed": 3
+    },
+    {
+      "name": "frontend full",
+      "status": "blocked before tests",
+      "reason": "Missing GMF_COURSE_ASSETS_TOKEN"
+    },
+    {
+      "name": "course integrity",
+      "status": "blocked before audit",
+      "reason": "Missing GMF_COURSE_ASSETS_TOKEN"
+    }
+  ],
+  "local_frontend": {
+    "passed": 88,
+    "failed": 0,
+    "skipped": 0
+  },
+  "local_targeted_resources": {
+    "passed": 22
+  },
+  "deployment": {
+    "id": "appgdep_6ae05522ba408191b79a924a42bdacd3",
+    "version": 3,
+    "status": "succeeded",
+    "source_commit": "e84814e379c6a9b83e2684be61c4308b11df6002",
+    "url": "https://gmf-fusion-dev-20261021.lkm31620.chatgpt.site",
+    "audience": "owner-only"
+  },
+  "safari": "not verified"
+}

@@ -1,0 +1,15 @@
+.github/workflows/v41-regression.yml
+dist/data/runtime-manifest.json
+docs/v42/CI-AND-PRIVATE-PREVIEW-20261027.md
+docs/v42/changed-files-20261027.txt
+docs/v42/ci-evidence-20261027.json
+docs/v42/node-tests-20261027.txt
+docs/v42/private-host-verification.json
+docs/v42/resource-audit-20261027.json
+scripts/build-offline-manifest.py
+scripts/fetch-private-course-assets.sh
+scripts/fetch-private-course-tree.py
+scripts/restore-course-assets.py
+tests/test_offline_manifest.py
+tests/test_private_course_tree.py
+tests/test_restore_course_assets.py
