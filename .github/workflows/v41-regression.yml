@@ -13,6 +13,18 @@ permissions:
   contents: read
 
 jobs:
+  mf-experience:
+    name: Mind Flow standalone UX & session regressions (no private assets)
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Run focus UX, dialogs, records and MF state machine tests
+        run: node --test --test-concurrency=1 tests/v42-mf-interface.test.mjs mf-stage-a-reference/tests/*.test.mjs
+
   frontend:
     name: Frontend regression (verified private course assets)
     runs-on: ubuntu-latest
