@@ -5,7 +5,7 @@ services:
     runtime: docker
     repo: https://github.com/Lkm090514/GiveMeFive
     branch: fix/v4.3-assessment-online-backend-20261027
-    plan: standard
+    plan: 1c-2g
     region: singapore
     dockerfilePath: ./Dockerfile
     healthCheckPath: /api/v4/ready

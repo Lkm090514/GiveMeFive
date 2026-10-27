@@ -1,0 +1,78 @@
+[
+  {
+    "path": "index.html",
+    "canonical_redirects": [
+      "https://gmf-fusion-dev-20261021.lkm31620.chatgpt.site/"
+    ],
+    "status": 200,
+    "content_type": "text/html",
+    "bytes": 1530,
+    "sha256": "e6b8c1dcbe066b4aae389c8cb27a4e75779d45c0de6591b7d15a902b8f089e8e",
+    "matches_source": true
+  },
+  {
+    "path": "data/runtime-manifest.json",
+    "canonical_redirects": [],
+    "status": 200,
+    "content_type": "application/json",
+    "bytes": 247497,
+    "sha256": "17bf3a4d8f719af0d83d7e5214f6081af650b1282cb87e05abb9ef50fedccdc1",
+    "matches_source": true
+  },
+  {
+    "path": "assessment/login.html",
+    "canonical_redirects": [
+      "https://gmf-fusion-dev-20261021.lkm31620.chatgpt.site/assessment/login"
+    ],
+    "status": 200,
+    "content_type": "text/html",
+    "bytes": 887,
+    "sha256": "ab2c94333a93ac1ea2c00808ec0e6e5ca3dffd2156c1e81f4836f87e1b2b6fb7",
+    "matches_source": true
+  },
+  {
+    "path": "assessment/v4/private-review.mjs",
+    "canonical_redirects": [],
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 3427,
+    "sha256": "584626702aea1d7979404778602635586af6c704b0dcb5c683b94984ebd2da32",
+    "matches_source": true
+  },
+  {
+    "path": "data/topics/2026-10-21-378e0a8e6e/1.1.json",
+    "canonical_redirects": [],
+    "status": 200,
+    "content_type": "application/json",
+    "bytes": 279864,
+    "sha256": "6c4b64aa044963061944d7ee8701063283babc81ec657b699746c19e822624bd",
+    "matches_source": true
+  },
+  {
+    "path": "assets/pages/0092.webp",
+    "canonical_redirects": [],
+    "status": 200,
+    "content_type": "image/webp",
+    "bytes": 79524,
+    "sha256": "4e9d3a6c5d5f0ebc1d37658cf1950e8babd1211e517a474be321ee98a03046c8",
+    "matches_source": true
+  },
+  {
+    "path": "source/pdfjs/pdf.mjs",
+    "canonical_redirects": [],
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 810118,
+    "sha256": "43c67d941a73a2d65be72c97f5e68d9a7963df53b219cc1c0aa85f2b8bd1c9bd",
+    "matches_source": true
+  },
+  {
+    "path": "assessment/vendor/pdfjs/standard_fonts/FoxitFixed.pfb",
+    "canonical_redirects": [],
+    "status": 200,
+    "content_type": "application/octet-stream",
+    "bytes": 17597,
+    "sha256": "b6c8fe53f134b8b6d4578cd2d544df4cee9624c4efa8d51a560fb40ea296101b",
+    "matches_source": true
+  }
+]

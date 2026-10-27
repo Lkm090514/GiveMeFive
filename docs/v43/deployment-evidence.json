@@ -1,0 +1,22 @@
+{
+  "checked_at": "2026-10-27",
+  "site_url": "https://gmf-fusion-dev-20261021.lkm31620.chatgpt.site",
+  "version_number": 4,
+  "version_id": "appgprj_6ad858b26aec81918225894a80451caa~appgver_524234d7e6ec81918052ca021cd6c70d",
+  "deployment_id": "appgdep_6ae098ce9ec88191b315128afb1f2063",
+  "deployment_status": "succeeded",
+  "private_source_commit": "ad8a909d6e5f1a934c7d9eac70969aac90465db1",
+  "audience": "owner-only",
+  "external_visitors": 0,
+  "allowed_account_count": 1,
+  "environment_revision": 0,
+  "backend_provisioned": false,
+  "backend_https_url": null,
+  "new_paid_resources_created": false,
+  "new_backend_spend_usd": 0,
+  "api_response_expected": "503 application/json until real backend secrets are configured",
+  "textbook_manifest_verified": 1228,
+  "preserved_extra_legacy_assets": 190,
+  "expanded_archive_mib": 185.89,
+  "initial_archive_failure": "Old static build output duplicated in dist; native save rejected 265.4 MiB expanded archive. Preserved historical output separately and retained all required assets in public/dist-client before successful publication."
+}

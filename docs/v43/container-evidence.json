@@ -1,0 +1,15 @@
+{
+  "code_sha": "e9d8cac3d27741abcc299db51a00b40e400b9f48",
+  "run_url": "https://github.com/Lkm090514/GiveMeFive/actions/runs/40501392837",
+  "real_http": true,
+  "pdf": true,
+  "docx": true,
+  "background_queue": true,
+  "private_review": true,
+  "exam_submit": true,
+  "ungraded_without_key": true,
+  "restart_persistence": true,
+  "relogin": true,
+  "two_students_isolated": true,
+  "tls_browser_acceptance": false
+}
