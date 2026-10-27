@@ -79,3 +79,41 @@ def test_tree_stops_pending_downloads_after_authentication_failure(tmp_path):
         module.restore_tree(dist,'https://example.test','invalid-test-token',opener=opener)
     assert opener.calls<=8
     assert not list((dist/'data').glob('[0-9]*.json'))
+
+
+def test_tree_retries_transient_hash_response_without_weakening_verification(tmp_path):
+    dist,data,_=fixture(tmp_path)
+    class Response(io.BytesIO):status=200
+    class Opener:
+        calls=0
+        def open(self,req,timeout):
+            self.calls+=1
+            return Response(b'corrupt response!' if self.calls==1 else data['data/topic.json'])
+    opener=Opener()
+    result=module.restore_tree(dist,'https://example.test','test',opener=opener)
+    assert opener.calls==2
+    assert result['restored']==1
+    assert (dist/'data/topic.json').read_bytes()==data['data/topic.json']
+
+
+def test_tree_transient_http_error_retries_but_permanent_corruption_still_fails(tmp_path):
+    dist,data,_=fixture(tmp_path)
+    class Response(io.BytesIO):status=200
+    class Opener:
+        calls=0
+        def open(self,req,timeout):
+            self.calls+=1
+            if self.calls==1:raise urllib.error.HTTPError(req.full_url,503,'Unavailable',{},None)
+            return Response(data['data/topic.json'])
+    opener=Opener()
+    assert module.restore_tree(dist,'https://example.test','test',opener=opener)['restored']==1
+    assert opener.calls==2
+    (dist/'data/topic.json').unlink()
+    class Corrupt:
+        calls=0
+        def open(self,req,timeout):self.calls+=1;return Response(b'corrupt response!')
+    corrupt=Corrupt()
+    with pytest.raises(module.assets.AssetError,match='hash mismatch'):
+        module.restore_tree(dist,'https://example.test','test',opener=corrupt)
+    assert corrupt.calls==3
+    assert not (dist/'data/topic.json').exists()

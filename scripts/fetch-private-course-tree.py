@@ -21,6 +21,10 @@ assets = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(assets)
 
 
+class TransientAssetError(assets.AssetError):
+    pass
+
+
 class NoRedirect(urllib.request.HTTPRedirectHandler):
     def redirect_request(self, req, fp, code, msg, headers, newurl):
         return None
@@ -48,7 +52,7 @@ def restore_tree(dist, base, token, auth='sites', workers=8, opener=None):
         stop = threading.Event()
         def fetch_one(rel):
             address = base.rstrip('/') + '/' + urllib.parse.quote(rel, safe='/')
-            req = urllib.request.Request(address, headers={headers[auth]: 'Bearer ' + token})
+            req = urllib.request.Request(address, headers={headers[auth]: 'Bearer ' + token, 'Cache-Control': 'no-cache'})
             spec = resources[rel]
             target = stage / rel
             target.parent.mkdir(parents=True, exist_ok=True)
@@ -60,19 +64,29 @@ def restore_tree(dist, base, token, auth='sites', workers=8, opener=None):
                     while chunk := response.read(128 * 1024):
                         count += len(chunk)
                         if count > spec['bytes']:
-                            raise assets.AssetError('Resource exceeds pinned size: ' + rel)
+                            raise TransientAssetError('Resource exceeds pinned size: ' + rel)
                         output.write(chunk)
+            except urllib.error.HTTPError as error:
+                kind = TransientAssetError if error.code in (429, 502, 503, 504) else assets.AssetError
+                raise kind('Private resource fetch failed: ' + rel + '; check service token, origin and access policy') from None
             except (urllib.error.URLError, TimeoutError, OSError):
-                raise assets.AssetError('Private resource fetch failed: ' + rel + '; check service token, origin and access policy') from None
+                raise TransientAssetError('Private resource fetch failed: ' + rel + '; network unavailable') from None
             if not assets.matches_file(target, spec):
-                raise assets.AssetError('Resource hash mismatch: ' + rel)
+                raise TransientAssetError('Resource hash mismatch: ' + rel)
         def download(rel):
             if stop.is_set(): return
-            try:
-                fetch_one(rel)
-            except Exception:
-                stop.set()
-                raise
+            for attempt in range(3):
+                if stop.is_set(): return
+                try:
+                    fetch_one(rel)
+                    return
+                except TransientAssetError:
+                    if attempt == 2:
+                        stop.set()
+                        raise
+                except Exception:
+                    stop.set()
+                    raise
         with concurrent.futures.ThreadPoolExecutor(max_workers=workers) as pool:
             list(pool.map(download, needed))
         for rel in needed:
