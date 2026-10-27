@@ -1,0 +1,35 @@
+name: V4.3 real Assessment container
+on:
+  push:
+    branches: [fix/v4.3-assessment-online-backend-20261027, feat/v4.3-multicourse-platform-foundation]
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  persistent-backend:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - run: python -m pip install httpx
+      - name: Build actual FastAPI and LibreOffice image
+        run: docker build -t gmf-assessment-v43 .
+      - name: Test real HTTP uploads, queue, authentication, exams and restart
+        shell: bash
+        run: |
+          set -euo pipefail
+          export GMF_GATEWAY_KEY="$(openssl rand -hex 32)"
+          echo "::add-mask::$GMF_GATEWAY_KEY"
+          export GMF_PUBLIC_ORIGIN=https://gmf-ci.example
+          export GMF_SMOKE_ORIGIN=http://127.0.0.1:18080
+          export GMF_SMOKE_CONTAINER=gmf-v43-ci
+          docker volume create gmf-v43-private-test >/dev/null
+          trap 'docker rm -f gmf-v43-ci >/dev/null 2>&1 || true; docker volume rm gmf-v43-private-test >/dev/null 2>&1 || true' EXIT
+          docker run -d --name gmf-v43-ci -p 127.0.0.1:18080:8000 \
+            -e GMF_GATEWAY_KEY -e GMF_PUBLIC_ORIGIN -e GMF_PERSISTENCE_CONFIRMED=1 \
+            -v gmf-v43-private-test:/var/data gmf-assessment-v43 >/dev/null
+          python scripts/smoke-online-container.py

@@ -1917,8 +1917,8 @@
   ],
   "resources": {
     "app.js": {
-      "bytes": 82535,
-      "sha256": "1d63b2cf384d8517569ac77841a6d2e61182c4402e45a79d41bce9ba21bbaa90"
+      "bytes": 82747,
+      "sha256": "73d3c3768759f56317c0c8f1f564d8a5f85cd7b8ae1fac3dce4ea76351d83469"
     },
     "assessment/assets/index-B5kVrT9I.css": {
       "bytes": 175222,
@@ -1993,16 +1993,16 @@
       "sha256": "93a9713e32ac0f1a0010b1c1c65c69e95f51b75d2ffa7c2a49140ac4703a6dc2"
     },
     "assessment/v4/api.mjs": {
-      "bytes": 2057,
-      "sha256": "46adaf00fd37ad7357785131ef9ec41b85c7072e22cf299987da6fd862b975f7"
+      "bytes": 2415,
+      "sha256": "6b1955e22f67144d1405238fe15e3f532fa699c54eeeeea067f4f94b5155aecc"
     },
     "assessment/v4/guard.mjs": {
-      "bytes": 5026,
-      "sha256": "5c1d327248984ef2a001054f71f450985f85df875f5fa0f04e0be3bf50d6f3e4"
+      "bytes": 5060,
+      "sha256": "62f45ade899aaee39a8515e682b1bbe32fe7987a9c4ce0aabc7cca1f0f7991d1"
     },
     "assessment/v4/login.mjs": {
-      "bytes": 923,
-      "sha256": "32f9dc9313786265fce884a6b0cde24ce9a4df0cfa7af16e258cbc2b0282895e"
+      "bytes": 1104,
+      "sha256": "261ad77fe94c191250a553e669e50ac1fcf1872b14db6411be8ca00381d9288d"
     },
     "assessment/v4/private-review.mjs": {
       "bytes": 3427,
@@ -2033,8 +2033,8 @@
       "sha256": "45b1fa39c7a7387c98e016ec798e252bcb98604bdce9f6f0b793436134024087"
     },
     "assessment/v4/ui.mjs": {
-      "bytes": 52706,
-      "sha256": "c702cdfd0e4d6adbb94565776d3f007d57d66bb7e506768bb8a9e06580c10ff1"
+      "bytes": 52786,
+      "sha256": "af92fb5a1c22e91c21aeb47ba97f1ef3c9a1c520b497c482622af1995d7e44f3"
     },
     "assessment/v4/upload.mjs": {
       "bytes": 2820,
@@ -4533,8 +4533,8 @@
       "sha256": "e6b8c1dcbe066b4aae389c8cb27a4e75779d45c0de6591b7d15a902b8f089e8e"
     },
     "learning-store.js": {
-      "bytes": 11476,
-      "sha256": "7e08babcf977ca764f86c5200c38e2b0490d87bdea2c8149f91a7af1fd920fdd"
+      "bytes": 12285,
+      "sha256": "6a28f11dfaafefb9c1046ec4da0bd8d99f4cb0e2f0784f0c3d7abb4cce87764d"
     },
     "local-login.js": {
       "bytes": 1415,
@@ -6829,7 +6829,7 @@
       "sha256": "f3143ef1c1cacaee13a030c4cd57da0c51f7d27d6e56961c4bce50015b537108"
     }
   },
-  "resource_version": "a011ed4c8eeb80dfb0d8",
+  "resource_version": "163845cc7a70e63719d5",
   "license": {
     "source": "data/source-metadata.json",
     "scope": "existing-course-only",

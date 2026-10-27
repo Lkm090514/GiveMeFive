@@ -2,6 +2,9 @@
   'use strict';
   const databaseName=document.currentScript?.dataset.database||'givemefive-learning-v1';
   let db,opening,queue=Promise.resolve();
+  let userScope=!!root.location&&!['localhost','127.0.0.1','[::1]'].includes(root.location.hostname),owner=null;
+  function setIdentity(p){const enabled=p?p.auth_mode==='password':userScope,next=enabled?p?.owner_id||null:null;if(enabled===userScope&&next===owner)return;userScope=enabled;owner=next;root.dispatchEvent?.(new CustomEvent('gmf-identity-change'));}
+  function visible(e){return !userScope||!(buckets[e.type]==='assessment'||['Assessment','assessment','givemefive'].includes(e.source)||e.mode==='assessment')||!!owner&&e.user_id===owner;}
   const buckets={EXPOSURE:'exposure',PRACTICE:'practice',MF_SESSION_COMPLETED:'learning_repair',LEARNING_REPAIR:'learning_repair',ASSESSMENT:'assessment',ASSESSMENT_ITEM_RESULT:'assessment'};
   function open(){if(db)return Promise.resolve();if(opening)return opening;return opening=new Promise((resolve,reject)=>{const req=indexedDB.open(databaseName,1);req.onupgradeneeded=()=>{for(const [name,key] of [['state','key'],['ledger','event_id'],['sessions','session_id'],['pending_sync','key']])req.result.createObjectStore(name,{keyPath:key});};req.onsuccess=()=>{db=req.result;db.onversionchange=()=>db.close();resolve();};req.onerror=()=>reject(req.error);req.onblocked=()=>reject(new Error('Close the older GiveMeFive tab and reload.'));});}
   function request(req){return new Promise((resolve,reject)=>{req.onsuccess=()=>resolve(req.result);req.onerror=()=>reject(req.error);});}
@@ -10,12 +13,13 @@
   const legacyType={EXPOSURE:'exposure',PRACTICE:'practice',LEARNING_REPAIR:'learning_repair',ASSESSMENT:'assessment'};
   function assessmentRevisionKey(e){return e.schema_version>=4&&e.source==='Assessment'&&e.session_id&&buckets[e.type]==='assessment'?e.session_id+'|'+(e.exercise_id?'item:'+e.exercise_id:'summary'):null;}
   function projection(events){
+    events=events.filter(visible);
     const highest=new Map();for(const e of events){const key=assessmentRevisionKey(e),revision=e.payload?.grading_revision||1;if(key&&Number.isInteger(revision)&&revision>0)highest.set(key,Math.max(highest.get(key)||1,revision));}
     const evidence={exposure:[],practice:[],learning_repair:[],assessment:[]};
     for(const e of [...events].sort((a,b)=>Date.parse(a.occurred_at)-Date.parse(b.occurred_at))){const key=assessmentRevisionKey(e);if(key&&(e.payload?.grading_revision||1)<highest.get(key))continue;const bucket=buckets[e.type];if(bucket)evidence[bucket].push(e.schema_version>=2?e:{...e,type:legacyType[e.type]||e.type,source:e.source==='MF'?'mind-flow':e.source==='PL'?'pathline':e.source});}
     return evidence;
   }
-  async function restore(legacy,course){const tx=db.transaction(['state','ledger','sessions']);const [saved,events,sessions]=await Promise.all([request(tx.objectStore('state').get('current')),request(tx.objectStore('ledger').getAll()),request(tx.objectStore('sessions').getAll())]);for(const e of events)known.set(e.event_id,JSON.stringify(e));for(const session of sessions)knownSessions.set(session.session_id,JSON.stringify(session));if(saved)return {...legacy,...saved.value,evidence:projection(events),sessions};await save(legacy,course);return legacy;}
+  async function restore(legacy,course){const tx=db.transaction(['state','ledger','sessions']);const [saved,events,sessions]=await Promise.all([request(tx.objectStore('state').get('current')),request(tx.objectStore('ledger').getAll()),request(tx.objectStore('sessions').getAll())]);for(const e of events)known.set(e.event_id,JSON.stringify(e));for(const session of sessions)knownSessions.set(session.session_id,JSON.stringify(session));if(saved)return {...legacy,...saved.value,evidence:projection(events),sessions:sessions.filter(visible)};await save(legacy,course);return {...legacy,evidence:projection(events.length?events:Object.entries(legacy.evidence).flatMap(([bucket,list])=>list.map(e=>canonical(e,bucket,course)))),sessions:legacy.sessions.filter(visible)};}
   const known=new Map(),knownSessions=new Map();
   function save(state,course){const snapshot=structuredClone(state);queue=queue.catch(()=>{}).then(async()=>{const metadata={...snapshot};delete metadata.evidence;delete metadata.sessions;const events=Object.entries(snapshot.evidence).flatMap(([bucket,list])=>list.map(e=>canonical(e,bucket,course)));const changes=events.filter(e=>known.get(e.event_id)!==JSON.stringify(e)),sessionChanges=snapshot.sessions.filter(s=>knownSessions.get(s.session_id)!==JSON.stringify(s));await transaction(['state','ledger','sessions','pending_sync'],tx=>{tx.objectStore('state').put({key:'current',value:metadata});for(const e of changes){tx.objectStore('ledger').put(e);tx.objectStore('pending_sync').put({key:'event:'+e.event_id,kind:'event',event_id:e.event_id,status:'pending',queued_at:new Date().toISOString()});}for(const s of sessionChanges){tx.objectStore('sessions').put(s);tx.objectStore('pending_sync').put({key:'session:'+s.session_id,kind:'study_session',session_id:s.session_id,status:'pending',queued_at:new Date().toISOString()});}});for(const e of changes)known.set(e.event_id,JSON.stringify(e));for(const s of sessionChanges)knownSessions.set(s.session_id,JSON.stringify(s));return true;});return queue;}
   async function reset(){await queue.catch(()=>{});await transaction(['state','ledger','sessions','pending_sync'],tx=>{for(const n of ['state','ledger','sessions','pending_sync'])tx.objectStore(n).clear();});known.clear();knownSessions.clear();}
@@ -66,6 +70,6 @@
       }catch(e){error=e;tx.abort();}
     };}
   });}
-  root.LearningStore={open,atomicModules,restore,save,reset,canonical,projection,getModule,atomicModule,exportAll,restoreBackup,putModule:(key,value)=>commit(key,value),commit,patchCurrent,flush:()=>queue};
+  root.LearningStore={setIdentity,open,atomicModules,restore,save,reset,canonical,projection,getModule,atomicModule,exportAll,restoreBackup,putModule:(key,value)=>commit(key,value),commit,patchCurrent,flush:()=>queue};
 })(window);
 

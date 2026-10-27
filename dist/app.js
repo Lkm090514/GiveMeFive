@@ -385,6 +385,7 @@
     if(kind==='topic' && topicById(course(),id)){state.route='study';state.routeParams={topicId:id,section:section||'reading'};}
     else if(!REVIEW_PAGE&&['overview','pathway','review','progress','courses','settings','mindflow','assessment'].includes(kind)){state.route=kind;state.routeParams=kind==='mindflow'?{page:id||'focus'}:{};}
   }
+  window.addEventListener('gmf-identity-change',async()=>{const latest=await LearningStore.restore(state,window.PathlineTextbook.course);state.evidence=latest.evidence;state.sessions=latest.sessions;render();});
   window.addEventListener('hashchange',async()=>{readHash();if(state.route==='progress'){const latest=await LearningStore.restore(state,window.PathlineTextbook.course);state.evidence=latest.evidence;state.sessions=latest.sessions;}if(state.route==='study')await ContentRuntime.ensureTopic(state.routeParams.topicId);save();render();});
   if(!REVIEW_PAGE&&location.hash.startsWith('#mindflow/')&&params.get('return_to')){const tid=params.get('topic_id'),unit=topicById(course(),tid)?.unit;state.mfEntryContext={course_id:course().id,unit_id:unit?.id??null,topic_id:unit?tid:null,return_to:GMFShared.safeReturn(params.get('return_to'))};}
   readHash();

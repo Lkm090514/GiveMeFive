@@ -3,7 +3,7 @@ import {createActionQueue} from './action-queue.mjs';
 import {hydrateImages} from '../../practice-library.mjs';
 import {bindPDFPicker, uploadPDF} from './upload.mjs';
 import {renderResultSummary} from './result-summary.mjs';
-import {request,ensureIdentity} from './api.mjs?v=4.1-auth2';
+import {request,announceIdentityChange,ensureIdentity} from './api.mjs?v=4.1-auth2';
 import {startupFailure} from './startup-errors.mjs';
 import {usesOriginalVisual, optionCaption} from './question-display.mjs';
 import {cachedExamLock} from './session-navigation.mjs';
@@ -57,7 +57,7 @@ async function syncLedger(s){const data=await request('/sessions/'+encodeURIComp
 function confirmSubmit(){const s=session,unanswered=s.questions.length-Object.keys(s.answers).length;const d=document.createElement('dialog');d.innerHTML=`<h2>${s.mode==='exam'?'提交考试？':'完成本次练习？'}</h2><p>已作答 ${s.questions.length-unanswered} 题，未作答 ${unanswered} 题，标记 ${s.flags.length} 题。</p><p class="muted">提交后本次作答保留，可以从结果页开始新练习。</p><div class="as-actions">${button('继续检查','data-close')}${button('确认提交','data-confirm',true)}</div>`;document.body.append(d);d.querySelector('[data-close]').onclick=()=>{d.close();d.remove();};d.querySelector('[data-confirm]').onclick=()=>act(async()=>{await cmd('submit');d.close();d.remove();});d.showModal();}
 function examReady(set_id){const paper=papers.find(x=>x.set_id===set_id),d=document.createElement('dialog');d.innerHTML=`<span class="eyebrow">MCQ SECTION</span><h2>${esc(paper.title)}</h2><p>${paper.question_count} 题 · ${paper.duration_minutes} 分钟 · ${esc(paper.source_year||'年份未提供')}</p><p>点击开始后立即计时，刷新、休眠和关闭标签页不会暂停考试。有可靠原卷答案的题目在交卷后评分；没有答案的题目保存作答，成绩保持未知。</p>${paper.excluded_question_count?`<p class="as-status">原卷识别 ${paper.source_question_count} 题，其中 ${paper.excluded_question_count} 题存在结构异常、尚未纳入。本次仅包含 ${paper.question_count} 道可作答题，不代表完整原卷。</p>`:''}<p>心流会自动暂停，考试结束后由你手动恢复。</p><div class="as-actions">${button('返回选卷','data-close')}${button('正式开始考试','data-start',true)}</div>`;document.body.append(d);d.querySelector('[data-close]').onclick=()=>{d.close();d.remove();};d.querySelector('[data-start]').onclick=()=>act(async()=>{const temp='pending:'+crypto.randomUUID();await setExamLock(temp);try{const s=await request('/sessions',{method:'POST',body:{mode:'exam',set_id,request_id:crypto.randomUUID(),context:context()}});await setExamLock(s.id);d.close();d.remove();openSession(s);}catch(e){await reconcile();throw e;}});d.showModal();}
 function bind(){
- document.querySelector('[data-logout]')?.addEventListener('click',()=>act(async()=>{await request('/logout',{method:'POST'});location.replace('/assessment/login.html');}));
+ document.querySelector('[data-logout]')?.addEventListener('click',()=>act(async()=>{await request('/logout',{method:'POST'});announceIdentityChange();LearningStore.setIdentity(null);location.replace('/assessment/login.html');}));
  hydrateImages(app);
  const form=document.getElementById('practice-form');if(form){form.elements.unit_id.onchange=filterTopics;form.onsubmit=e=>{e.preventDefault();const f=new FormData(form);act(async()=>openSession(await request('/sessions',{method:'POST',body:{mode:'practice',request_id:crypto.randomUUID(),course_id:f.get('course_id'),unit_id:f.get('unit_id')||null,topics:f.getAll('topic'),count:Number(f.get('count')),random:f.get('order')==='random',comprehensive:f.has('comprehensive'),context:context()}})));};}
  bindReviews({request,act,say,openSession,refresh:async()=>{mistakes=await request('/mistakes');mistakesPage();}});

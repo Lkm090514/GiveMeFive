@@ -24,6 +24,9 @@ export async function request(path,options={}){
 }
 export function ensureIdentity(force=false){
  if(force)identityFlight=null;
- if(!identityFlight)identityFlight=request('/me').then(value=>{if(typeof sessionStorage!=='undefined')sessionStorage.setItem('gmf-had-auth','1');return value;}).catch(error=>{identityFlight=null;throw error;});
+ if(!identityFlight)identityFlight=request('/me').then(value=>{globalThis.LearningStore?.setIdentity(value);if(typeof sessionStorage!=='undefined')sessionStorage.setItem('gmf-had-auth','1');return value;}).catch(error=>{identityFlight=null;throw error;});
  return identityFlight;
 }
+
+export function announceIdentityChange(){try{localStorage.setItem('gmf-auth-change',Date.now()+':'+Math.random());}catch{}}
+if(typeof addEventListener==='function')addEventListener('storage',e=>{if(e.key==='gmf-auth-change'){identityFlight=null;globalThis.LearningStore?.setIdentity(null);location.reload();}});
