@@ -1,0 +1,26 @@
+name: V4.3 source snapshot for recovery
+on:
+  push:
+    branches:
+      - fix/v4.3-resource-recovery-20261028
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  source-snapshot:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Package tracked V4.3 source only
+        run: |
+          mkdir -p /tmp/gmf
+          git archive --format=zip --output=/tmp/gmf/GMF-V43-GitHub-source-only.zip HEAD
+          unzip -t /tmp/gmf/GMF-V43-GitHub-source-only.zip | tail -1
+      - uses: actions/upload-artifact@v4
+        with:
+          name: gmf-v43-source-only
+          path: /tmp/gmf/GMF-V43-GitHub-source-only.zip
+          if-no-files-found: error
+          retention-days: 7
