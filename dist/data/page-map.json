@@ -1,0 +1,5606 @@
+[
+  {
+    "pdf_page": 1,
+    "printed_page": null,
+    "header": "",
+    "mapping_method": "unnumbered_frontmatter"
+  },
+  {
+    "pdf_page": 2,
+    "printed_page": null,
+    "header": "",
+    "mapping_method": "unnumbered_frontmatter"
+  },
+  {
+    "pdf_page": 3,
+    "printed_page": null,
+    "header": "",
+    "mapping_method": "unnumbered_frontmatter"
+  },
+  {
+    "pdf_page": 4,
+    "printed_page": null,
+    "header": "",
+    "mapping_method": "unnumbered_frontmatter"
+  },
+  {
+    "pdf_page": 5,
+    "printed_page": null,
+    "header": "",
+    "mapping_method": "unnumbered_frontmatter"
+  },
+  {
+    "pdf_page": 6,
+    "printed_page": 1,
+    "header": "Preface 1",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 7,
+    "printed_page": 2,
+    "header": "2 Preface",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 8,
+    "printed_page": 3,
+    "header": "Preface 3",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 9,
+    "printed_page": 4,
+    "header": "4 Preface",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 10,
+    "printed_page": 5,
+    "header": "",
+    "mapping_method": "chapter_opening_between_verified_neighbors"
+  },
+  {
+    "pdf_page": 11,
+    "printed_page": 6,
+    "header": "6 1 • Units and Measurement",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 12,
+    "printed_page": 7,
+    "header": "1.1 • The Scope and Scale of Physics 7",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 13,
+    "printed_page": 8,
+    "header": "8 1 • Units and Measurement",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 14,
+    "printed_page": 9,
+    "header": "1.1 • The Scope and Scale of Physics 9",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 15,
+    "printed_page": 10,
+    "header": "10 1 • Units and Measurement",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 16,
+    "printed_page": 11,
+    "header": "1.1 • The Scope and Scale of Physics 11",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 17,
+    "printed_page": 12,
+    "header": "12 1 • Units and Measurement",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 18,
+    "printed_page": 13,
+    "header": "1.2 • Units and Standards 13",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 19,
+    "printed_page": 14,
+    "header": "14 1 • Units and Measurement",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 20,
+    "printed_page": 15,
+    "header": "1.2 • Units and Standards 15",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 21,
+    "printed_page": 16,
+    "header": "16 1 • Units and Measurement",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 22,
+    "printed_page": 17,
+    "header": "1.2 • Units and Standards 17",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 23,
+    "printed_page": 18,
+    "header": "18 1 • Units and Measurement",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 24,
+    "printed_page": 19,
+    "header": "1.3 • Unit Conversion 19",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 25,
+    "printed_page": 20,
+    "header": "20 1 • Units and Measurement",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 26,
+    "printed_page": 21,
+    "header": "1.4 • Dimensional Analysis 21",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 27,
+    "printed_page": 22,
+    "header": "22 1 • Units and Measurement",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 28,
+    "printed_page": 23,
+    "header": "1.5 • Estimates and Fermi Calculations 23",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 29,
+    "printed_page": 24,
+    "header": "24 1 • Units and Measurement",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 30,
+    "printed_page": 25,
+    "header": "1.5 • Estimates and Fermi Calculations 25",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 31,
+    "printed_page": 26,
+    "header": "26 1 • Units and Measurement",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 32,
+    "printed_page": 27,
+    "header": "1.6 • Significant Figures 27",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 33,
+    "printed_page": 28,
+    "header": "28 1 • Units and Measurement",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 34,
+    "printed_page": 29,
+    "header": "1.6 • Significant Figures 29",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 35,
+    "printed_page": 30,
+    "header": "30 1 • Units and Measurement",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 36,
+    "printed_page": 31,
+    "header": "1.7 • Solving Problems in Physics 31",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 37,
+    "printed_page": 32,
+    "header": "32 1 • Units and Measurement",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 38,
+    "printed_page": 33,
+    "header": "1 • Chapter Review 33",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 39,
+    "printed_page": 34,
+    "header": "34 1 • Chapter Review",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 40,
+    "printed_page": 35,
+    "header": "1 • Chapter Review 35",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 41,
+    "printed_page": 36,
+    "header": "36 1 • Chapter Review",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 42,
+    "printed_page": 37,
+    "header": "1 • Chapter Review 37",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 43,
+    "printed_page": 38,
+    "header": "38 1 • Chapter Review",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 44,
+    "printed_page": 39,
+    "header": "1 • Chapter Review 39",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 45,
+    "printed_page": 40,
+    "header": "40 1 • Chapter Review",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 46,
+    "printed_page": 41,
+    "header": "",
+    "mapping_method": "chapter_opening_between_verified_neighbors"
+  },
+  {
+    "pdf_page": 47,
+    "printed_page": 42,
+    "header": "42 2 • Vectors",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 48,
+    "printed_page": 43,
+    "header": "2.1 • Scalars and Vectors 43",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 49,
+    "printed_page": 44,
+    "header": "44 2 • Vectors",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 50,
+    "printed_page": 45,
+    "header": "2.1 • Scalars and Vectors 45",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 51,
+    "printed_page": 46,
+    "header": "46 2 • Vectors",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 52,
+    "printed_page": 47,
+    "header": "2.1 • Scalars and Vectors 47",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 53,
+    "printed_page": 48,
+    "header": "48 2 • Vectors",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 54,
+    "printed_page": 49,
+    "header": "2.1 • Scalars and Vectors 49",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 55,
+    "printed_page": 50,
+    "header": "50 2 • Vectors",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 56,
+    "printed_page": 51,
+    "header": "2.1 • Scalars and Vectors 51",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 57,
+    "printed_page": 52,
+    "header": "52 2 • Vectors",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 58,
+    "printed_page": 53,
+    "header": "2.2 • Coordinate Systems and Components of a Vector 53",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 59,
+    "printed_page": 54,
+    "header": "54 2 • Vectors",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 60,
+    "printed_page": 55,
+    "header": "2.2 • Coordinate Systems and Components of a Vector 55",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 61,
+    "printed_page": 56,
+    "header": "56 2 • Vectors",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 62,
+    "printed_page": 57,
+    "header": "2.2 • Coordinate Systems and Components of a Vector 57",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 63,
+    "printed_page": 58,
+    "header": "58 2 • Vectors",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 64,
+    "printed_page": 59,
+    "header": "2.2 • Coordinate Systems and Components of a Vector 59",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 65,
+    "printed_page": 60,
+    "header": "60 2 • Vectors",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 66,
+    "printed_page": 61,
+    "header": "2.2 • Coordinate Systems and Components of a Vector 61",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 67,
+    "printed_page": 62,
+    "header": "62 2 • Vectors",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 68,
+    "printed_page": 63,
+    "header": "2.3 • Algebra of Vectors 63",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 69,
+    "printed_page": 64,
+    "header": "64 2 • Vectors",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 70,
+    "printed_page": 65,
+    "header": "2.3 • Algebra of Vectors 65",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 71,
+    "printed_page": 66,
+    "header": "66 2 • Vectors",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 72,
+    "printed_page": 67,
+    "header": "2.3 • Algebra of Vectors 67",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 73,
+    "printed_page": 68,
+    "header": "68 2 • Vectors",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 74,
+    "printed_page": 69,
+    "header": "2.3 • Algebra of Vectors 69",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 75,
+    "printed_page": 70,
+    "header": "70 2 • Vectors",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 76,
+    "printed_page": 71,
+    "header": "2.3 • Algebra of Vectors 71",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 77,
+    "printed_page": 72,
+    "header": "72 2 • Vectors",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 78,
+    "printed_page": 73,
+    "header": "2.4 • Products of Vectors 73",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 79,
+    "printed_page": 74,
+    "header": "74 2 • Vectors",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 80,
+    "printed_page": 75,
+    "header": "2.4 • Products of Vectors 75",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 81,
+    "printed_page": 76,
+    "header": "76 2 • Vectors",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 82,
+    "printed_page": 77,
+    "header": "2.4 • Products of Vectors 77",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 83,
+    "printed_page": 78,
+    "header": "78 2 • Vectors",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 84,
+    "printed_page": 79,
+    "header": "2.4 • Products of Vectors 79",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 85,
+    "printed_page": 80,
+    "header": "80 2 • Vectors",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 86,
+    "printed_page": 81,
+    "header": "2.4 • Products of Vectors 81",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 87,
+    "printed_page": 82,
+    "header": "82 2 • Vectors",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 88,
+    "printed_page": 83,
+    "header": "2.4 • Products of Vectors 83",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 89,
+    "printed_page": 84,
+    "header": "84 2 • Chapter Review",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 90,
+    "printed_page": 85,
+    "header": "2 • Chapter Review 85",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 91,
+    "printed_page": 86,
+    "header": "86 2 • Chapter Review",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 92,
+    "printed_page": 87,
+    "header": "2 • Chapter Review 87",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 93,
+    "printed_page": 88,
+    "header": "88 2 • Chapter Review",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 94,
+    "printed_page": 89,
+    "header": "2 • Chapter Review 89",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 95,
+    "printed_page": 90,
+    "header": "90 2 • Chapter Review",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 96,
+    "printed_page": 91,
+    "header": "2 • Chapter Review 91",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 97,
+    "printed_page": 92,
+    "header": "92 2 • Chapter Review",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 98,
+    "printed_page": 93,
+    "header": "2 • Chapter Review 93",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 99,
+    "printed_page": 94,
+    "header": "94 2 • Chapter Review",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 100,
+    "printed_page": 95,
+    "header": "2 • Chapter Review 95",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 101,
+    "printed_page": 96,
+    "header": "96 2 • Chapter Review",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 102,
+    "printed_page": 97,
+    "header": "",
+    "mapping_method": "chapter_opening_between_verified_neighbors"
+  },
+  {
+    "pdf_page": 103,
+    "printed_page": 98,
+    "header": "98 3 • Motion Along a Straight Line",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 104,
+    "printed_page": 99,
+    "header": "3.1 • Position, Displacement, and Average Velocity 99",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 105,
+    "printed_page": 100,
+    "header": "100 3 • Motion Along a Straight Line",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 106,
+    "printed_page": 101,
+    "header": "3.1 • Position, Displacement, and Average Velocity 101",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 107,
+    "printed_page": 102,
+    "header": "102 3 • Motion Along a Straight Line",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 108,
+    "printed_page": 103,
+    "header": "3.2 • Instantaneous Velocity and Speed 103",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 109,
+    "printed_page": 104,
+    "header": "104 3 • Motion Along a Straight Line",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 110,
+    "printed_page": 105,
+    "header": "3.2 • Instantaneous Velocity and Speed 105",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 111,
+    "printed_page": 106,
+    "header": "106 3 • Motion Along a Straight Line",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 112,
+    "printed_page": 107,
+    "header": "3.3 • Average and Instantaneous Acceleration 107",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 113,
+    "printed_page": 108,
+    "header": "108 3 • Motion Along a Straight Line",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 114,
+    "printed_page": 109,
+    "header": "3.3 • Average and Instantaneous Acceleration 109",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 115,
+    "printed_page": 110,
+    "header": "110 3 • Motion Along a Straight Line",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 116,
+    "printed_page": 111,
+    "header": "3.3 • Average and Instantaneous Acceleration 111",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 117,
+    "printed_page": 112,
+    "header": "112 3 • Motion Along a Straight Line",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 118,
+    "printed_page": 113,
+    "header": "3.3 • Average and Instantaneous Acceleration 113",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 119,
+    "printed_page": 114,
+    "header": "114 3 • Motion Along a Straight Line",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 120,
+    "printed_page": 115,
+    "header": "3.4 • Motion with Constant Acceleration 115",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 121,
+    "printed_page": 116,
+    "header": "116 3 • Motion Along a Straight Line",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 122,
+    "printed_page": 117,
+    "header": "3.4 • Motion with Constant Acceleration 117",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 123,
+    "printed_page": 118,
+    "header": "118 3 • Motion Along a Straight Line",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 124,
+    "printed_page": 119,
+    "header": "3.4 • Motion with Constant Acceleration 119",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 125,
+    "printed_page": 120,
+    "header": "120 3 • Motion Along a Straight Line",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 126,
+    "printed_page": 121,
+    "header": "3.4 • Motion with Constant Acceleration 121",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 127,
+    "printed_page": 122,
+    "header": "122 3 • Motion Along a Straight Line",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 128,
+    "printed_page": 123,
+    "header": "3.4 • Motion with Constant Acceleration 123",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 129,
+    "printed_page": 124,
+    "header": "124 3 • Motion Along a Straight Line",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 130,
+    "printed_page": 125,
+    "header": "3.4 • Motion with Constant Acceleration 125",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 131,
+    "printed_page": 126,
+    "header": "126 3 • Motion Along a Straight Line",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 132,
+    "printed_page": 127,
+    "header": "3.5 • Free Fall 127",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 133,
+    "printed_page": 128,
+    "header": "128 3 • Motion Along a Straight Line",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 134,
+    "printed_page": 129,
+    "header": "3.5 • Free Fall 129",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 135,
+    "printed_page": 130,
+    "header": "130 3 • Motion Along a Straight Line",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 136,
+    "printed_page": 131,
+    "header": "3.5 • Free Fall 131",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 137,
+    "printed_page": 132,
+    "header": "132 3 • Motion Along a Straight Line",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 138,
+    "printed_page": 133,
+    "header": "3.6 • Finding Velocity and Displacement from Acceleration 133",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 139,
+    "printed_page": 134,
+    "header": "134 3 • Motion Along a Straight Line",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 140,
+    "printed_page": 135,
+    "header": "3.6 • Finding Velocity and Displacement from Acceleration 135",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 141,
+    "printed_page": 136,
+    "header": "136 3 • Chapter Review",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 142,
+    "printed_page": 137,
+    "header": "3 • Chapter Review 137",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 143,
+    "printed_page": 138,
+    "header": "138 3 • Chapter Review",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 144,
+    "printed_page": 139,
+    "header": "3 • Chapter Review 139",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 145,
+    "printed_page": 140,
+    "header": "140 3 • Chapter Review",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 146,
+    "printed_page": 141,
+    "header": "3 • Chapter Review 141",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 147,
+    "printed_page": 142,
+    "header": "142 3 • Chapter Review",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 148,
+    "printed_page": 143,
+    "header": "3 • Chapter Review 143",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 149,
+    "printed_page": 144,
+    "header": "144 3 • Chapter Review",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 150,
+    "printed_page": 145,
+    "header": "3 • Chapter Review 145",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 151,
+    "printed_page": 146,
+    "header": "146 3 • Chapter Review",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 152,
+    "printed_page": 147,
+    "header": "",
+    "mapping_method": "chapter_opening_between_verified_neighbors"
+  },
+  {
+    "pdf_page": 153,
+    "printed_page": 148,
+    "header": "148 4 • Motion in Two and Three Dimensions",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 154,
+    "printed_page": 149,
+    "header": "4.1 • Displacement and Velocity Vectors 149",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 155,
+    "printed_page": 150,
+    "header": "150 4 • Motion in Two and Three Dimensions",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 156,
+    "printed_page": 151,
+    "header": "4.1 • Displacement and Velocity Vectors 151",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 157,
+    "printed_page": 152,
+    "header": "152 4 • Motion in Two and Three Dimensions",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 158,
+    "printed_page": 153,
+    "header": "4.1 • Displacement and Velocity Vectors 153",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 159,
+    "printed_page": 154,
+    "header": "154 4 • Motion in Two and Three Dimensions",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 160,
+    "printed_page": 155,
+    "header": "4.2 • Acceleration Vector 155",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 161,
+    "printed_page": 156,
+    "header": "156 4 • Motion in Two and Three Dimensions",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 162,
+    "printed_page": 157,
+    "header": "4.2 • Acceleration Vector 157",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 163,
+    "printed_page": 158,
+    "header": "158 4 • Motion in Two and Three Dimensions",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 164,
+    "printed_page": 159,
+    "header": "4.2 • Acceleration Vector 159",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 165,
+    "printed_page": 160,
+    "header": "160 4 • Motion in Two and Three Dimensions",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 166,
+    "printed_page": 161,
+    "header": "4.3 • Projectile Motion 161",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 167,
+    "printed_page": 162,
+    "header": "162 4 • Motion in Two and Three Dimensions",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 168,
+    "printed_page": 163,
+    "header": "4.3 • Projectile Motion 163",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 169,
+    "printed_page": 164,
+    "header": "164 4 • Motion in Two and Three Dimensions",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 170,
+    "printed_page": 165,
+    "header": "4.3 • Projectile Motion 165",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 171,
+    "printed_page": 166,
+    "header": "166 4 • Motion in Two and Three Dimensions",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 172,
+    "printed_page": 167,
+    "header": "4.3 • Projectile Motion 167",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 173,
+    "printed_page": 168,
+    "header": "168 4 • Motion in Two and Three Dimensions",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 174,
+    "printed_page": 169,
+    "header": "4.3 • Projectile Motion 169",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 175,
+    "printed_page": 170,
+    "header": "170 4 • Motion in Two and Three Dimensions",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 176,
+    "printed_page": 171,
+    "header": "4.4 • Uniform and Nonuniform Circular Motion 171",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 177,
+    "printed_page": 172,
+    "header": "172 4 • Motion in Two and Three Dimensions",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 178,
+    "printed_page": 173,
+    "header": "4.4 • Uniform and Nonuniform Circular Motion 173",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 179,
+    "printed_page": 174,
+    "header": "174 4 • Motion in Two and Three Dimensions",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 180,
+    "printed_page": 175,
+    "header": "4.4 • Uniform and Nonuniform Circular Motion 175",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 181,
+    "printed_page": 176,
+    "header": "176 4 • Motion in Two and Three Dimensions",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 182,
+    "printed_page": 177,
+    "header": "4.5 • Relative Motion in One and Two Dimensions 177",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 183,
+    "printed_page": 178,
+    "header": "178 4 • Motion in Two and Three Dimensions",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 184,
+    "printed_page": 179,
+    "header": "4.5 • Relative Motion in One and Two Dimensions 179",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 185,
+    "printed_page": 180,
+    "header": "180 4 • Motion in Two and Three Dimensions",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 186,
+    "printed_page": 181,
+    "header": "4.5 • Relative Motion in One and Two Dimensions 181",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 187,
+    "printed_page": 182,
+    "header": "182 4 • Chapter Review",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 188,
+    "printed_page": 183,
+    "header": "4 • Chapter Review 183",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 189,
+    "printed_page": 184,
+    "header": "184 4 • Chapter Review",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 190,
+    "printed_page": 185,
+    "header": "4 • Chapter Review 185",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 191,
+    "printed_page": 186,
+    "header": "186 4 • Chapter Review",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 192,
+    "printed_page": 187,
+    "header": "4 • Chapter Review 187",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 193,
+    "printed_page": 188,
+    "header": "188 4 • Chapter Review",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 194,
+    "printed_page": 189,
+    "header": "4 • Chapter Review 189",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 195,
+    "printed_page": 190,
+    "header": "190 4 • Chapter Review",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 196,
+    "printed_page": 191,
+    "header": "4 • Chapter Review 191",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 197,
+    "printed_page": 192,
+    "header": "192 4 • Chapter Review",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 198,
+    "printed_page": 193,
+    "header": "",
+    "mapping_method": "chapter_opening_between_verified_neighbors"
+  },
+  {
+    "pdf_page": 199,
+    "printed_page": 194,
+    "header": "194 5 • Newton's Laws of Motion",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 200,
+    "printed_page": 195,
+    "header": "5.1 • Forces 195",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 201,
+    "printed_page": 196,
+    "header": "196 5 • Newton's Laws of Motion",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 202,
+    "printed_page": 197,
+    "header": "5.1 • Forces 197",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 203,
+    "printed_page": 198,
+    "header": "198 5 • Newton's Laws of Motion",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 204,
+    "printed_page": 199,
+    "header": "5.2 • Newton's First Law 199",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 205,
+    "printed_page": 200,
+    "header": "200 5 • Newton's Laws of Motion",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 206,
+    "printed_page": 201,
+    "header": "5.2 • Newton's First Law 201",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 207,
+    "printed_page": 202,
+    "header": "202 5 • Newton's Laws of Motion",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 208,
+    "printed_page": 203,
+    "header": "5.3 • Newton's Second Law 203",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 209,
+    "printed_page": 204,
+    "header": "204 5 • Newton's Laws of Motion",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 210,
+    "printed_page": 205,
+    "header": "5.3 • Newton's Second Law 205",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 211,
+    "printed_page": 206,
+    "header": "206 5 • Newton's Laws of Motion",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 212,
+    "printed_page": 207,
+    "header": "5.3 • Newton's Second Law 207",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 213,
+    "printed_page": 208,
+    "header": "208 5 • Newton's Laws of Motion",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 214,
+    "printed_page": 209,
+    "header": "5.3 • Newton's Second Law 209",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 215,
+    "printed_page": 210,
+    "header": "210 5 • Newton's Laws of Motion",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 216,
+    "printed_page": 211,
+    "header": "5.3 • Newton's Second Law 211",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 217,
+    "printed_page": 212,
+    "header": "212 5 • Newton's Laws of Motion",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 218,
+    "printed_page": 213,
+    "header": "5.4 • Mass and Weight 213",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 219,
+    "printed_page": 214,
+    "header": "214 5 • Newton's Laws of Motion",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 220,
+    "printed_page": 215,
+    "header": "5.5 • Newton’s Third Law 215",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 221,
+    "printed_page": 216,
+    "header": "216 5 • Newton's Laws of Motion",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 222,
+    "printed_page": 217,
+    "header": "5.5 • Newton’s Third Law 217",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 223,
+    "printed_page": 218,
+    "header": "218 5 • Newton's Laws of Motion",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 224,
+    "printed_page": 219,
+    "header": "5.5 • Newton’s Third Law 219",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 225,
+    "printed_page": 220,
+    "header": "220 5 • Newton's Laws of Motion",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 226,
+    "printed_page": 221,
+    "header": "5.6 • Common Forces 221",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 227,
+    "printed_page": 222,
+    "header": "222 5 • Newton's Laws of Motion",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 228,
+    "printed_page": 223,
+    "header": "5.6 • Common Forces 223",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 229,
+    "printed_page": 224,
+    "header": "224 5 • Newton's Laws of Motion",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 230,
+    "printed_page": 225,
+    "header": "5.6 • Common Forces 225",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 231,
+    "printed_page": 226,
+    "header": "226 5 • Newton's Laws of Motion",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 232,
+    "printed_page": 227,
+    "header": "5.6 • Common Forces 227",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 233,
+    "printed_page": 228,
+    "header": "228 5 • Newton's Laws of Motion",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 234,
+    "printed_page": 229,
+    "header": "5.6 • Common Forces 229",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 235,
+    "printed_page": 230,
+    "header": "230 5 • Newton's Laws of Motion",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 236,
+    "printed_page": 231,
+    "header": "5.7 • Drawing Free-Body Diagrams 231",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 237,
+    "printed_page": 232,
+    "header": "232 5 • Newton's Laws of Motion",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 238,
+    "printed_page": 233,
+    "header": "5.7 • Drawing Free-Body Diagrams 233",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 239,
+    "printed_page": 234,
+    "header": "234 5 • Newton's Laws of Motion",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 240,
+    "printed_page": 235,
+    "header": "5 • Chapter Review 235",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 241,
+    "printed_page": 236,
+    "header": "236 5 • Chapter Review",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 242,
+    "printed_page": 237,
+    "header": "5 • Chapter Review 237",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 243,
+    "printed_page": 238,
+    "header": "238 5 • Chapter Review",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 244,
+    "printed_page": 239,
+    "header": "5 • Chapter Review 239",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 245,
+    "printed_page": 240,
+    "header": "240 5 • Chapter Review",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 246,
+    "printed_page": 241,
+    "header": "5 • Chapter Review 241",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 247,
+    "printed_page": 242,
+    "header": "242 5 • Chapter Review",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 248,
+    "printed_page": 243,
+    "header": "5 • Chapter Review 243",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 249,
+    "printed_page": 244,
+    "header": "244 5 • Chapter Review",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 250,
+    "printed_page": 245,
+    "header": "5 • Chapter Review 245",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 251,
+    "printed_page": 246,
+    "header": "246 5 • Chapter Review",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 252,
+    "printed_page": 247,
+    "header": "5 • Chapter Review 247",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 253,
+    "printed_page": 248,
+    "header": "248 5 • Chapter Review",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 254,
+    "printed_page": 249,
+    "header": "",
+    "mapping_method": "chapter_opening_between_verified_neighbors"
+  },
+  {
+    "pdf_page": 255,
+    "printed_page": 250,
+    "header": "250 6 • Applications of Newton's Laws",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 256,
+    "printed_page": 251,
+    "header": "6.1 • Solving Problems with Newton’s Laws 251",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 257,
+    "printed_page": 252,
+    "header": "252 6 • Applications of Newton's Laws",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 258,
+    "printed_page": 253,
+    "header": "6.1 • Solving Problems with Newton’s Laws 253",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 259,
+    "printed_page": 254,
+    "header": "254 6 • Applications of Newton's Laws",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 260,
+    "printed_page": 255,
+    "header": "6.1 • Solving Problems with Newton’s Laws 255",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 261,
+    "printed_page": 256,
+    "header": "256 6 • Applications of Newton's Laws",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 262,
+    "printed_page": 257,
+    "header": "6.1 • Solving Problems with Newton’s Laws 257",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 263,
+    "printed_page": 258,
+    "header": "258 6 • Applications of Newton's Laws",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 264,
+    "printed_page": 259,
+    "header": "6.1 • Solving Problems with Newton’s Laws 259",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 265,
+    "printed_page": 260,
+    "header": "260 6 • Applications of Newton's Laws",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 266,
+    "printed_page": 261,
+    "header": "6.1 • Solving Problems with Newton’s Laws 261",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 267,
+    "printed_page": 262,
+    "header": "262 6 • Applications of Newton's Laws",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 268,
+    "printed_page": 263,
+    "header": "6.1 • Solving Problems with Newton’s Laws 263",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 269,
+    "printed_page": 264,
+    "header": "264 6 • Applications of Newton's Laws",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 270,
+    "printed_page": 265,
+    "header": "6.2 • Friction 265",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 271,
+    "printed_page": 266,
+    "header": "266 6 • Applications of Newton's Laws",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 272,
+    "printed_page": 267,
+    "header": "6.2 • Friction 267",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 273,
+    "printed_page": 268,
+    "header": "268 6 • Applications of Newton's Laws",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 274,
+    "printed_page": 269,
+    "header": "6.2 • Friction 269",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 275,
+    "printed_page": 270,
+    "header": "270 6 • Applications of Newton's Laws",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 276,
+    "printed_page": 271,
+    "header": "6.2 • Friction 271",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 277,
+    "printed_page": 272,
+    "header": "272 6 • Applications of Newton's Laws",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 278,
+    "printed_page": 273,
+    "header": "6.2 • Friction 273",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 279,
+    "printed_page": 274,
+    "header": "274 6 • Applications of Newton's Laws",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 280,
+    "printed_page": 275,
+    "header": "6.2 • Friction 275",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 281,
+    "printed_page": 276,
+    "header": "276 6 • Applications of Newton's Laws",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 282,
+    "printed_page": 277,
+    "header": "6.3 • Centripetal Force 277",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 283,
+    "printed_page": 278,
+    "header": "278 6 • Applications of Newton's Laws",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 284,
+    "printed_page": 279,
+    "header": "6.3 • Centripetal Force 279",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 285,
+    "printed_page": 280,
+    "header": "280 6 • Applications of Newton's Laws",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 286,
+    "printed_page": 281,
+    "header": "6.3 • Centripetal Force 281",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 287,
+    "printed_page": 282,
+    "header": "282 6 • Applications of Newton's Laws",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 288,
+    "printed_page": 283,
+    "header": "6.3 • Centripetal Force 283",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 289,
+    "printed_page": 284,
+    "header": "284 6 • Applications of Newton's Laws",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 290,
+    "printed_page": 285,
+    "header": "6.4 • Drag Force and Terminal Speed 285",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 291,
+    "printed_page": 286,
+    "header": "286 6 • Applications of Newton's Laws",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 292,
+    "printed_page": 287,
+    "header": "6.4 • Drag Force and Terminal Speed 287",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 293,
+    "printed_page": 288,
+    "header": "288 6 • Applications of Newton's Laws",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 294,
+    "printed_page": 289,
+    "header": "6.4 • Drag Force and Terminal Speed 289",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 295,
+    "printed_page": 290,
+    "header": "290 6 • Applications of Newton's Laws",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 296,
+    "printed_page": 291,
+    "header": "6.4 • Drag Force and Terminal Speed 291",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 297,
+    "printed_page": 292,
+    "header": "292 6 • Applications of Newton's Laws",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 298,
+    "printed_page": 293,
+    "header": "6 • Chapter Review 293",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 299,
+    "printed_page": 294,
+    "header": "294 6 • Chapter Review",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 300,
+    "printed_page": 295,
+    "header": "6 • Chapter Review 295",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 301,
+    "printed_page": 296,
+    "header": "296 6 • Chapter Review",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 302,
+    "printed_page": 297,
+    "header": "6 • Chapter Review 297",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 303,
+    "printed_page": 298,
+    "header": "298 6 • Chapter Review",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 304,
+    "printed_page": 299,
+    "header": "6 • Chapter Review 299",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 305,
+    "printed_page": 300,
+    "header": "300 6 • Chapter Review",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 306,
+    "printed_page": 301,
+    "header": "6 • Chapter Review 301",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 307,
+    "printed_page": 302,
+    "header": "302 6 • Chapter Review",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 308,
+    "printed_page": 303,
+    "header": "6 • Chapter Review 303",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 309,
+    "printed_page": 304,
+    "header": "304 6 • Chapter Review",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 310,
+    "printed_page": 305,
+    "header": "6 • Chapter Review 305",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 311,
+    "printed_page": 306,
+    "header": "306 6 • Chapter Review",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 312,
+    "printed_page": 307,
+    "header": "6 • Chapter Review 307",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 313,
+    "printed_page": 308,
+    "header": "308 6 • Chapter Review",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 314,
+    "printed_page": 309,
+    "header": "6 • Chapter Review 309",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 315,
+    "printed_page": 310,
+    "header": "310 6 • Chapter Review",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 316,
+    "printed_page": 311,
+    "header": "",
+    "mapping_method": "chapter_opening_between_verified_neighbors"
+  },
+  {
+    "pdf_page": 317,
+    "printed_page": 312,
+    "header": "312 7 • Work and Kinetic Energy",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 318,
+    "printed_page": 313,
+    "header": "7.1 • Work 313",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 319,
+    "printed_page": 314,
+    "header": "314 7 • Work and Kinetic Energy",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 320,
+    "printed_page": 315,
+    "header": "7.1 • Work 315",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 321,
+    "printed_page": 316,
+    "header": "316 7 • Work and Kinetic Energy",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 322,
+    "printed_page": 317,
+    "header": "7.1 • Work 317",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 323,
+    "printed_page": 318,
+    "header": "318 7 • Work and Kinetic Energy",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 324,
+    "printed_page": 319,
+    "header": "7.1 • Work 319",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 325,
+    "printed_page": 320,
+    "header": "320 7 • Work and Kinetic Energy",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 326,
+    "printed_page": 321,
+    "header": "7.2 • Kinetic Energy 321",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 327,
+    "printed_page": 322,
+    "header": "322 7 • Work and Kinetic Energy",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 328,
+    "printed_page": 323,
+    "header": "7.3 • Work-Energy Theorem 323",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 329,
+    "printed_page": 324,
+    "header": "324 7 • Work and Kinetic Energy",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 330,
+    "printed_page": 325,
+    "header": "7.3 • Work-Energy Theorem 325",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 331,
+    "printed_page": 326,
+    "header": "326 7 • Work and Kinetic Energy",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 332,
+    "printed_page": 327,
+    "header": "7.3 • Work-Energy Theorem 327",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 333,
+    "printed_page": 328,
+    "header": "328 7 • Work and Kinetic Energy",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 334,
+    "printed_page": 329,
+    "header": "7.4 • Power 329",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 335,
+    "printed_page": 330,
+    "header": "330 7 • Work and Kinetic Energy",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 336,
+    "printed_page": 331,
+    "header": "7 • Chapter Review 331",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 337,
+    "printed_page": 332,
+    "header": "332 7 • Chapter Review",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 338,
+    "printed_page": 333,
+    "header": "7 • Chapter Review 333",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 339,
+    "printed_page": 334,
+    "header": "334 7 • Chapter Review",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 340,
+    "printed_page": 335,
+    "header": "7 • Chapter Review 335",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 341,
+    "printed_page": 336,
+    "header": "336 7 • Chapter Review",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 342,
+    "printed_page": 337,
+    "header": "7 • Chapter Review 337",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 343,
+    "printed_page": 338,
+    "header": "338 7 • Chapter Review",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 344,
+    "printed_page": 339,
+    "header": "7 • Chapter Review 339",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 345,
+    "printed_page": 340,
+    "header": "340 7 • Chapter Review",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 346,
+    "printed_page": 341,
+    "header": "",
+    "mapping_method": "chapter_opening_between_verified_neighbors"
+  },
+  {
+    "pdf_page": 347,
+    "printed_page": 342,
+    "header": "342 8 • Potential Energy and Conservation of Energy",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 348,
+    "printed_page": 343,
+    "header": "8.1 • Potential Energy of a System 343",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 349,
+    "printed_page": 344,
+    "header": "344 8 • Potential Energy and Conservation of Energy",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 350,
+    "printed_page": 345,
+    "header": "8.1 • Potential Energy of a System 345",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 351,
+    "printed_page": 346,
+    "header": "346 8 • Potential Energy and Conservation of Energy",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 352,
+    "printed_page": 347,
+    "header": "8.1 • Potential Energy of a System 347",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 353,
+    "printed_page": 348,
+    "header": "348 8 • Potential Energy and Conservation of Energy",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 354,
+    "printed_page": 349,
+    "header": "8.1 • Potential Energy of a System 349",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 355,
+    "printed_page": 350,
+    "header": "350 8 • Potential Energy and Conservation of Energy",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 356,
+    "printed_page": 351,
+    "header": "8.2 • Conservative and Non-Conservative Forces 351",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 357,
+    "printed_page": 352,
+    "header": "352 8 • Potential Energy and Conservation of Energy",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 358,
+    "printed_page": 353,
+    "header": "8.3 • Conservation of Energy 353",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 359,
+    "printed_page": 354,
+    "header": "354 8 • Potential Energy and Conservation of Energy",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 360,
+    "printed_page": 355,
+    "header": "8.3 • Conservation of Energy 355",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 361,
+    "printed_page": 356,
+    "header": "356 8 • Potential Energy and Conservation of Energy",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 362,
+    "printed_page": 357,
+    "header": "8.3 • Conservation of Energy 357",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 363,
+    "printed_page": 358,
+    "header": "358 8 • Potential Energy and Conservation of Energy",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 364,
+    "printed_page": 359,
+    "header": "8.4 • Potential Energy Diagrams and Stability 359",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 365,
+    "printed_page": 360,
+    "header": "360 8 • Potential Energy and Conservation of Energy",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 366,
+    "printed_page": 361,
+    "header": "8.4 • Potential Energy Diagrams and Stability 361",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 367,
+    "printed_page": 362,
+    "header": "362 8 • Potential Energy and Conservation of Energy",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 368,
+    "printed_page": 363,
+    "header": "8.5 • Sources of Energy 363",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 369,
+    "printed_page": 364,
+    "header": "364 8 • Potential Energy and Conservation of Energy",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 370,
+    "printed_page": 365,
+    "header": "8.5 • Sources of Energy 365",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 371,
+    "printed_page": 366,
+    "header": "366 8 • Potential Energy and Conservation of Energy",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 372,
+    "printed_page": 367,
+    "header": "8 • Chapter Review 367",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 373,
+    "printed_page": 368,
+    "header": "368 8 • Chapter Review",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 374,
+    "printed_page": 369,
+    "header": "8 • Chapter Review 369",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 375,
+    "printed_page": 370,
+    "header": "370 8 • Chapter Review",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 376,
+    "printed_page": 371,
+    "header": "8 • Chapter Review 371",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 377,
+    "printed_page": 372,
+    "header": "372 8 • Chapter Review",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 378,
+    "printed_page": 373,
+    "header": "8 • Chapter Review 373",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 379,
+    "printed_page": 374,
+    "header": "374 8 • Chapter Review",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 380,
+    "printed_page": 375,
+    "header": "8 • Chapter Review 375",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 381,
+    "printed_page": 376,
+    "header": "376 8 • Chapter Review",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 382,
+    "printed_page": 377,
+    "header": "8 • Chapter Review 377",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 383,
+    "printed_page": 378,
+    "header": "378 8 • Chapter Review",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 384,
+    "printed_page": 379,
+    "header": "",
+    "mapping_method": "chapter_opening_between_verified_neighbors"
+  },
+  {
+    "pdf_page": 385,
+    "printed_page": 380,
+    "header": "380 9 • Linear Momentum and Collisions",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 386,
+    "printed_page": 381,
+    "header": "9.1 • Linear Momentum 381",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 387,
+    "printed_page": 382,
+    "header": "382 9 • Linear Momentum and Collisions",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 388,
+    "printed_page": 383,
+    "header": "9.2 • Impulse and Collisions 383",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 389,
+    "printed_page": 384,
+    "header": "384 9 • Linear Momentum and Collisions",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 390,
+    "printed_page": 385,
+    "header": "9.2 • Impulse and Collisions 385",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 391,
+    "printed_page": 386,
+    "header": "386 9 • Linear Momentum and Collisions",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 392,
+    "printed_page": 387,
+    "header": "9.2 • Impulse and Collisions 387",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 393,
+    "printed_page": 388,
+    "header": "388 9 • Linear Momentum and Collisions",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 394,
+    "printed_page": 389,
+    "header": "9.2 • Impulse and Collisions 389",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 395,
+    "printed_page": 390,
+    "header": "390 9 • Linear Momentum and Collisions",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 396,
+    "printed_page": 391,
+    "header": "9.2 • Impulse and Collisions 391",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 397,
+    "printed_page": 392,
+    "header": "392 9 • Linear Momentum and Collisions",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 398,
+    "printed_page": 393,
+    "header": "9.2 • Impulse and Collisions 393",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 399,
+    "printed_page": 394,
+    "header": "394 9 • Linear Momentum and Collisions",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 400,
+    "printed_page": 395,
+    "header": "9.3 • Conservation of Linear Momentum 395",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 401,
+    "printed_page": 396,
+    "header": "396 9 • Linear Momentum and Collisions",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 402,
+    "printed_page": 397,
+    "header": "9.3 • Conservation of Linear Momentum 397",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 403,
+    "printed_page": 398,
+    "header": "398 9 • Linear Momentum and Collisions",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 404,
+    "printed_page": 399,
+    "header": "9.3 • Conservation of Linear Momentum 399",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 405,
+    "printed_page": 400,
+    "header": "400 9 • Linear Momentum and Collisions",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 406,
+    "printed_page": 401,
+    "header": "9.3 • Conservation of Linear Momentum 401",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 407,
+    "printed_page": 402,
+    "header": "402 9 • Linear Momentum and Collisions",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 408,
+    "printed_page": 403,
+    "header": "9.3 • Conservation of Linear Momentum 403",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 409,
+    "printed_page": 404,
+    "header": "404 9 • Linear Momentum and Collisions",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 410,
+    "printed_page": 405,
+    "header": "9.4 • Types of Collisions 405",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 411,
+    "printed_page": 406,
+    "header": "406 9 • Linear Momentum and Collisions",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 412,
+    "printed_page": 407,
+    "header": "9.4 • Types of Collisions 407",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 413,
+    "printed_page": 408,
+    "header": "408 9 • Linear Momentum and Collisions",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 414,
+    "printed_page": 409,
+    "header": "9.4 • Types of Collisions 409",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 415,
+    "printed_page": 410,
+    "header": "410 9 • Linear Momentum and Collisions",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 416,
+    "printed_page": 411,
+    "header": "9.4 • Types of Collisions 411",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 417,
+    "printed_page": 412,
+    "header": "412 9 • Linear Momentum and Collisions",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 418,
+    "printed_page": 413,
+    "header": "9.5 • Collisions in Multiple Dimensions 413",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 419,
+    "printed_page": 414,
+    "header": "414 9 • Linear Momentum and Collisions",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 420,
+    "printed_page": 415,
+    "header": "9.5 • Collisions in Multiple Dimensions 415",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 421,
+    "printed_page": 416,
+    "header": "416 9 • Linear Momentum and Collisions",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 422,
+    "printed_page": 417,
+    "header": "9.5 • Collisions in Multiple Dimensions 417",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 423,
+    "printed_page": 418,
+    "header": "418 9 • Linear Momentum and Collisions",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 424,
+    "printed_page": 419,
+    "header": "9.6 • Center of Mass 419",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 425,
+    "printed_page": 420,
+    "header": "420 9 • Linear Momentum and Collisions",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 426,
+    "printed_page": 421,
+    "header": "9.6 • Center of Mass 421",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 427,
+    "printed_page": 422,
+    "header": "422 9 • Linear Momentum and Collisions",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 428,
+    "printed_page": 423,
+    "header": "9.6 • Center of Mass 423",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 429,
+    "printed_page": 424,
+    "header": "424 9 • Linear Momentum and Collisions",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 430,
+    "printed_page": 425,
+    "header": "9.6 • Center of Mass 425",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 431,
+    "printed_page": 426,
+    "header": "426 9 • Linear Momentum and Collisions",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 432,
+    "printed_page": 427,
+    "header": "9.6 • Center of Mass 427",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 433,
+    "printed_page": 428,
+    "header": "428 9 • Linear Momentum and Collisions",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 434,
+    "printed_page": 429,
+    "header": "9.6 • Center of Mass 429",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 435,
+    "printed_page": 430,
+    "header": "430 9 • Linear Momentum and Collisions",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 436,
+    "printed_page": 431,
+    "header": "9.6 • Center of Mass 431",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 437,
+    "printed_page": 432,
+    "header": "432 9 • Linear Momentum and Collisions",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 438,
+    "printed_page": 433,
+    "header": "9.6 • Center of Mass 433",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 439,
+    "printed_page": 434,
+    "header": "434 9 • Linear Momentum and Collisions",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 440,
+    "printed_page": 435,
+    "header": "9.7 • Rocket Propulsion 435",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 441,
+    "printed_page": 436,
+    "header": "436 9 • Linear Momentum and Collisions",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 442,
+    "printed_page": 437,
+    "header": "9.7 • Rocket Propulsion 437",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 443,
+    "printed_page": 438,
+    "header": "438 9 • Linear Momentum and Collisions",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 444,
+    "printed_page": 439,
+    "header": "9 • Chapter Review 439",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 445,
+    "printed_page": 440,
+    "header": "440 9 • Chapter Review",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 446,
+    "printed_page": 441,
+    "header": "9 • Chapter Review 441",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 447,
+    "printed_page": 442,
+    "header": "442 9 • Chapter Review",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 448,
+    "printed_page": 443,
+    "header": "9 • Chapter Review 443",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 449,
+    "printed_page": 444,
+    "header": "444 9 • Chapter Review",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 450,
+    "printed_page": 445,
+    "header": "9 • Chapter Review 445",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 451,
+    "printed_page": 446,
+    "header": "446 9 • Chapter Review",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 452,
+    "printed_page": 447,
+    "header": "9 • Chapter Review 447",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 453,
+    "printed_page": 448,
+    "header": "448 9 • Chapter Review",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 454,
+    "printed_page": 449,
+    "header": "9 • Chapter Review 449",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 455,
+    "printed_page": 450,
+    "header": "450 9 • Chapter Review",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 456,
+    "printed_page": 451,
+    "header": "",
+    "mapping_method": "chapter_opening_between_verified_neighbors"
+  },
+  {
+    "pdf_page": 457,
+    "printed_page": 452,
+    "header": "452 10 • Fixed-Axis Rotation",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 458,
+    "printed_page": 453,
+    "header": "10.1 • Rotational Variables 453",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 459,
+    "printed_page": 454,
+    "header": "454 10 • Fixed-Axis Rotation",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 460,
+    "printed_page": 455,
+    "header": "10.1 • Rotational Variables 455",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 461,
+    "printed_page": 456,
+    "header": "456 10 • Fixed-Axis Rotation",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 462,
+    "printed_page": 457,
+    "header": "10.1 • Rotational Variables 457",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 463,
+    "printed_page": 458,
+    "header": "458 10 • Fixed-Axis Rotation",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 464,
+    "printed_page": 459,
+    "header": "10.1 • Rotational Variables 459",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 465,
+    "printed_page": 460,
+    "header": "460 10 • Fixed-Axis Rotation",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 466,
+    "printed_page": 461,
+    "header": "10.2 • Rotation with Constant Angular Acceleration 461",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 467,
+    "printed_page": 462,
+    "header": "462 10 • Fixed-Axis Rotation",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 468,
+    "printed_page": 463,
+    "header": "10.2 • Rotation with Constant Angular Acceleration 463",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 469,
+    "printed_page": 464,
+    "header": "464 10 • Fixed-Axis Rotation",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 470,
+    "printed_page": 465,
+    "header": "10.3 • Relating Angular and Translational Quantities 465",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 471,
+    "printed_page": 466,
+    "header": "466 10 • Fixed-Axis Rotation",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 472,
+    "printed_page": 467,
+    "header": "10.3 • Relating Angular and Translational Quantities 467",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 473,
+    "printed_page": 468,
+    "header": "468 10 • Fixed-Axis Rotation",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 474,
+    "printed_page": 469,
+    "header": "10.4 • Moment of Inertia and Rotational Kinetic Energy 469",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 475,
+    "printed_page": 470,
+    "header": "470 10 • Fixed-Axis Rotation",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 476,
+    "printed_page": 471,
+    "header": "10.4 • Moment of Inertia and Rotational Kinetic Energy 471",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 477,
+    "printed_page": 472,
+    "header": "472 10 • Fixed-Axis Rotation",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 478,
+    "printed_page": 473,
+    "header": "10.4 • Moment of Inertia and Rotational Kinetic Energy 473",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 479,
+    "printed_page": 474,
+    "header": "474 10 • Fixed-Axis Rotation",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 480,
+    "printed_page": 475,
+    "header": "10.4 • Moment of Inertia and Rotational Kinetic Energy 475",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 481,
+    "printed_page": 476,
+    "header": "476 10 • Fixed-Axis Rotation",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 482,
+    "printed_page": 477,
+    "header": "10.5 • Calculating Moments of Inertia 477",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 483,
+    "printed_page": 478,
+    "header": "478 10 • Fixed-Axis Rotation",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 484,
+    "printed_page": 479,
+    "header": "10.5 • Calculating Moments of Inertia 479",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 485,
+    "printed_page": 480,
+    "header": "480 10 • Fixed-Axis Rotation",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 486,
+    "printed_page": 481,
+    "header": "10.5 • Calculating Moments of Inertia 481",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 487,
+    "printed_page": 482,
+    "header": "482 10 • Fixed-Axis Rotation",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 488,
+    "printed_page": 483,
+    "header": "10.5 • Calculating Moments of Inertia 483",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 489,
+    "printed_page": 484,
+    "header": "484 10 • Fixed-Axis Rotation",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 490,
+    "printed_page": 485,
+    "header": "10.6 • Torque 485",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 491,
+    "printed_page": 486,
+    "header": "486 10 • Fixed-Axis Rotation",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 492,
+    "printed_page": 487,
+    "header": "10.6 • Torque 487",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 493,
+    "printed_page": 488,
+    "header": "488 10 • Fixed-Axis Rotation",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 494,
+    "printed_page": 489,
+    "header": "10.6 • Torque 489",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 495,
+    "printed_page": 490,
+    "header": "490 10 • Fixed-Axis Rotation",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 496,
+    "printed_page": 491,
+    "header": "10.7 • Newton’s Second Law for Rotation 491",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 497,
+    "printed_page": 492,
+    "header": "492 10 • Fixed-Axis Rotation",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 498,
+    "printed_page": 493,
+    "header": "10.7 • Newton’s Second Law for Rotation 493",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 499,
+    "printed_page": 494,
+    "header": "494 10 • Fixed-Axis Rotation",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 500,
+    "printed_page": 495,
+    "header": "10.8 • Work and Power for Rotational Motion 495",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 501,
+    "printed_page": 496,
+    "header": "496 10 • Fixed-Axis Rotation",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 502,
+    "printed_page": 497,
+    "header": "10.8 • Work and Power for Rotational Motion 497",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 503,
+    "printed_page": 498,
+    "header": "498 10 • Fixed-Axis Rotation",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 504,
+    "printed_page": 499,
+    "header": "10.8 • Work and Power for Rotational Motion 499",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 505,
+    "printed_page": 500,
+    "header": "500 10 • Chapter Review",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 506,
+    "printed_page": 501,
+    "header": "10 • Chapter Review 501",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 507,
+    "printed_page": 502,
+    "header": "502 10 • Chapter Review",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 508,
+    "printed_page": 503,
+    "header": "10 • Chapter Review 503",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 509,
+    "printed_page": 504,
+    "header": "504 10 • Chapter Review",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 510,
+    "printed_page": 505,
+    "header": "10 • Chapter Review 505",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 511,
+    "printed_page": 506,
+    "header": "506 10 • Chapter Review",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 512,
+    "printed_page": 507,
+    "header": "10 • Chapter Review 507",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 513,
+    "printed_page": 508,
+    "header": "508 10 • Chapter Review",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 514,
+    "printed_page": 509,
+    "header": "10 • Chapter Review 509",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 515,
+    "printed_page": 510,
+    "header": "510 10 • Chapter Review",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 516,
+    "printed_page": 511,
+    "header": "10 • Chapter Review 511",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 517,
+    "printed_page": 512,
+    "header": "512 10 • Chapter Review",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 518,
+    "printed_page": 513,
+    "header": "10 • Chapter Review 513",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 519,
+    "printed_page": 514,
+    "header": "514 10 • Chapter Review",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 520,
+    "printed_page": 515,
+    "header": "",
+    "mapping_method": "chapter_opening_between_verified_neighbors"
+  },
+  {
+    "pdf_page": 521,
+    "printed_page": 516,
+    "header": "516 11 • Angular Momentum",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 522,
+    "printed_page": 517,
+    "header": "11.1 • Rolling Motion 517",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 523,
+    "printed_page": 518,
+    "header": "518 11 • Angular Momentum",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 524,
+    "printed_page": 519,
+    "header": "11.1 • Rolling Motion 519",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 525,
+    "printed_page": 520,
+    "header": "520 11 • Angular Momentum",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 526,
+    "printed_page": 521,
+    "header": "11.1 • Rolling Motion 521",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 527,
+    "printed_page": 522,
+    "header": "522 11 • Angular Momentum",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 528,
+    "printed_page": 523,
+    "header": "11.2 • Angular Momentum 523",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 529,
+    "printed_page": 524,
+    "header": "524 11 • Angular Momentum",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 530,
+    "printed_page": 525,
+    "header": "11.2 • Angular Momentum 525",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 531,
+    "printed_page": 526,
+    "header": "526 11 • Angular Momentum",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 532,
+    "printed_page": 527,
+    "header": "11.2 • Angular Momentum 527",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 533,
+    "printed_page": 528,
+    "header": "528 11 • Angular Momentum",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 534,
+    "printed_page": 529,
+    "header": "11.2 • Angular Momentum 529",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 535,
+    "printed_page": 530,
+    "header": "530 11 • Angular Momentum",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 536,
+    "printed_page": 531,
+    "header": "11.3 • Conservation of Angular Momentum 531",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 537,
+    "printed_page": 532,
+    "header": "532 11 • Angular Momentum",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 538,
+    "printed_page": 533,
+    "header": "11.3 • Conservation of Angular Momentum 533",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 539,
+    "printed_page": 534,
+    "header": "534 11 • Angular Momentum",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 540,
+    "printed_page": 535,
+    "header": "11.3 • Conservation of Angular Momentum 535",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 541,
+    "printed_page": 536,
+    "header": "536 11 • Angular Momentum",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 542,
+    "printed_page": 537,
+    "header": "11.4 • Precession of a Gyroscope 537",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 543,
+    "printed_page": 538,
+    "header": "538 11 • Angular Momentum",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 544,
+    "printed_page": 539,
+    "header": "11.4 • Precession of a Gyroscope 539",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 545,
+    "printed_page": 540,
+    "header": "540 11 • Angular Momentum",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 546,
+    "printed_page": 541,
+    "header": "11.4 • Precession of a Gyroscope 541",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 547,
+    "printed_page": 542,
+    "header": "542 11 • Chapter Review",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 548,
+    "printed_page": 543,
+    "header": "11 • Chapter Review 543",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 549,
+    "printed_page": 544,
+    "header": "544 11 • Chapter Review",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 550,
+    "printed_page": 545,
+    "header": "11 • Chapter Review 545",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 551,
+    "printed_page": 546,
+    "header": "546 11 • Chapter Review",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 552,
+    "printed_page": 547,
+    "header": "11 • Chapter Review 547",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 553,
+    "printed_page": 548,
+    "header": "548 11 • Chapter Review",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 554,
+    "printed_page": 549,
+    "header": "11 • Chapter Review 549",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 555,
+    "printed_page": 550,
+    "header": "550 11 • Chapter Review",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 556,
+    "printed_page": 551,
+    "header": "11 • Chapter Review 551",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 557,
+    "printed_page": 552,
+    "header": "552 11 • Chapter Review",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 558,
+    "printed_page": 553,
+    "header": "",
+    "mapping_method": "chapter_opening_between_verified_neighbors"
+  },
+  {
+    "pdf_page": 559,
+    "printed_page": 554,
+    "header": "554 12 • Static Equilibrium and Elasticity",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 560,
+    "printed_page": 555,
+    "header": "12.1 • Conditions for Static Equilibrium 555",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 561,
+    "printed_page": 556,
+    "header": "556 12 • Static Equilibrium and Elasticity",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 562,
+    "printed_page": 557,
+    "header": "12.1 • Conditions for Static Equilibrium 557",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 563,
+    "printed_page": 558,
+    "header": "558 12 • Static Equilibrium and Elasticity",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 564,
+    "printed_page": 559,
+    "header": "12.1 • Conditions for Static Equilibrium 559",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 565,
+    "printed_page": 560,
+    "header": "560 12 • Static Equilibrium and Elasticity",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 566,
+    "printed_page": 561,
+    "header": "12.1 • Conditions for Static Equilibrium 561",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 567,
+    "printed_page": 562,
+    "header": "562 12 • Static Equilibrium and Elasticity",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 568,
+    "printed_page": 563,
+    "header": "12.2 • Examples of Static Equilibrium 563",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 569,
+    "printed_page": 564,
+    "header": "564 12 • Static Equilibrium and Elasticity",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 570,
+    "printed_page": 565,
+    "header": "12.2 • Examples of Static Equilibrium 565",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 571,
+    "printed_page": 566,
+    "header": "566 12 • Static Equilibrium and Elasticity",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 572,
+    "printed_page": 567,
+    "header": "12.2 • Examples of Static Equilibrium 567",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 573,
+    "printed_page": 568,
+    "header": "568 12 • Static Equilibrium and Elasticity",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 574,
+    "printed_page": 569,
+    "header": "12.2 • Examples of Static Equilibrium 569",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 575,
+    "printed_page": 570,
+    "header": "570 12 • Static Equilibrium and Elasticity",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 576,
+    "printed_page": 571,
+    "header": "12.2 • Examples of Static Equilibrium 571",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 577,
+    "printed_page": 572,
+    "header": "572 12 • Static Equilibrium and Elasticity",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 578,
+    "printed_page": 573,
+    "header": "12.2 • Examples of Static Equilibrium 573",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 579,
+    "printed_page": 574,
+    "header": "574 12 • Static Equilibrium and Elasticity",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 580,
+    "printed_page": 575,
+    "header": "12.3 • Stress, Strain, and Elastic Modulus 575",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 581,
+    "printed_page": 576,
+    "header": "576 12 • Static Equilibrium and Elasticity",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 582,
+    "printed_page": 577,
+    "header": "12.3 • Stress, Strain, and Elastic Modulus 577",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 583,
+    "printed_page": 578,
+    "header": "578 12 • Static Equilibrium and Elasticity",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 584,
+    "printed_page": 579,
+    "header": "12.3 • Stress, Strain, and Elastic Modulus 579",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 585,
+    "printed_page": 580,
+    "header": "580 12 • Static Equilibrium and Elasticity",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 586,
+    "printed_page": 581,
+    "header": "12.3 • Stress, Strain, and Elastic Modulus 581",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 587,
+    "printed_page": 582,
+    "header": "582 12 • Static Equilibrium and Elasticity",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 588,
+    "printed_page": 583,
+    "header": "12.3 • Stress, Strain, and Elastic Modulus 583",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 589,
+    "printed_page": 584,
+    "header": "584 12 • Static Equilibrium and Elasticity",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 590,
+    "printed_page": 585,
+    "header": "12.4 • Elasticity and Plasticity 585",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 591,
+    "printed_page": 586,
+    "header": "586 12 • Static Equilibrium and Elasticity",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 592,
+    "printed_page": 587,
+    "header": "12 • Chapter Review 587",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 593,
+    "printed_page": 588,
+    "header": "588 12 • Chapter Review",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 594,
+    "printed_page": 589,
+    "header": "12 • Chapter Review 589",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 595,
+    "printed_page": 590,
+    "header": "590 12 • Chapter Review",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 596,
+    "printed_page": 591,
+    "header": "12 • Chapter Review 591",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 597,
+    "printed_page": 592,
+    "header": "592 12 • Chapter Review",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 598,
+    "printed_page": 593,
+    "header": "12 • Chapter Review 593",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 599,
+    "printed_page": 594,
+    "header": "594 12 • Chapter Review",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 600,
+    "printed_page": 595,
+    "header": "12 • Chapter Review 595",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 601,
+    "printed_page": 596,
+    "header": "596 12 • Chapter Review",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 602,
+    "printed_page": 597,
+    "header": "12 • Chapter Review 597",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 603,
+    "printed_page": 598,
+    "header": "598 12 • Chapter Review",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 604,
+    "printed_page": 599,
+    "header": "",
+    "mapping_method": "chapter_opening_between_verified_neighbors"
+  },
+  {
+    "pdf_page": 605,
+    "printed_page": 600,
+    "header": "600 13 • Gravitation",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 606,
+    "printed_page": 601,
+    "header": "13.1 • Newton's Law of Universal Gravitation 601",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 607,
+    "printed_page": 602,
+    "header": "602 13 • Gravitation",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 608,
+    "printed_page": 603,
+    "header": "13.1 • Newton's Law of Universal Gravitation 603",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 609,
+    "printed_page": 604,
+    "header": "604 13 • Gravitation",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 610,
+    "printed_page": 605,
+    "header": "13.2 • Gravitation Near Earth's Surface 605",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 611,
+    "printed_page": 606,
+    "header": "606 13 • Gravitation",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 612,
+    "printed_page": 607,
+    "header": "13.2 • Gravitation Near Earth's Surface 607",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 613,
+    "printed_page": 608,
+    "header": "608 13 • Gravitation",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 614,
+    "printed_page": 609,
+    "header": "13.2 • Gravitation Near Earth's Surface 609",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 615,
+    "printed_page": 610,
+    "header": "610 13 • Gravitation",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 616,
+    "printed_page": 611,
+    "header": "13.2 • Gravitation Near Earth's Surface 611",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 617,
+    "printed_page": 612,
+    "header": "612 13 • Gravitation",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 618,
+    "printed_page": 613,
+    "header": "13.3 • Gravitational Potential Energy and Total Energy 613",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 619,
+    "printed_page": 614,
+    "header": "614 13 • Gravitation",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 620,
+    "printed_page": 615,
+    "header": "13.3 • Gravitational Potential Energy and Total Energy 615",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 621,
+    "printed_page": 616,
+    "header": "616 13 • Gravitation",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 622,
+    "printed_page": 617,
+    "header": "13.4 • Satellite Orbits and Energy 617",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 623,
+    "printed_page": 618,
+    "header": "618 13 • Gravitation",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 624,
+    "printed_page": 619,
+    "header": "13.4 • Satellite Orbits and Energy 619",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 625,
+    "printed_page": 620,
+    "header": "620 13 • Gravitation",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 626,
+    "printed_page": 621,
+    "header": "13.4 • Satellite Orbits and Energy 621",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 627,
+    "printed_page": 622,
+    "header": "622 13 • Gravitation",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 628,
+    "printed_page": 623,
+    "header": "13.4 • Satellite Orbits and Energy 623",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 629,
+    "printed_page": 624,
+    "header": "624 13 • Gravitation",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 630,
+    "printed_page": 625,
+    "header": "13.5 • Kepler's Laws of Planetary Motion 625",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 631,
+    "printed_page": 626,
+    "header": "626 13 • Gravitation",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 632,
+    "printed_page": 627,
+    "header": "13.5 • Kepler's Laws of Planetary Motion 627",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 633,
+    "printed_page": 628,
+    "header": "628 13 • Gravitation",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 634,
+    "printed_page": 629,
+    "header": "13.5 • Kepler's Laws of Planetary Motion 629",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 635,
+    "printed_page": 630,
+    "header": "630 13 • Gravitation",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 636,
+    "printed_page": 631,
+    "header": "13.6 • Tidal Forces 631",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 637,
+    "printed_page": 632,
+    "header": "632 13 • Gravitation",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 638,
+    "printed_page": 633,
+    "header": "13.6 • Tidal Forces 633",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 639,
+    "printed_page": 634,
+    "header": "634 13 • Gravitation",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 640,
+    "printed_page": 635,
+    "header": "13.6 • Tidal Forces 635",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 641,
+    "printed_page": 636,
+    "header": "636 13 • Gravitation",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 642,
+    "printed_page": 637,
+    "header": "13.7 • Einstein's Theory of Gravity 637",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 643,
+    "printed_page": 638,
+    "header": "638 13 • Gravitation",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 644,
+    "printed_page": 639,
+    "header": "13.7 • Einstein's Theory of Gravity 639",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 645,
+    "printed_page": 640,
+    "header": "640 13 • Gravitation",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 646,
+    "printed_page": 641,
+    "header": "13.7 • Einstein's Theory of Gravity 641",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 647,
+    "printed_page": 642,
+    "header": "642 13 • Gravitation",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 648,
+    "printed_page": 643,
+    "header": "13.7 • Einstein's Theory of Gravity 643",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 649,
+    "printed_page": 644,
+    "header": "644 13 • Chapter Review",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 650,
+    "printed_page": 645,
+    "header": "13 • Chapter Review 645",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 651,
+    "printed_page": 646,
+    "header": "646 13 • Chapter Review",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 652,
+    "printed_page": 647,
+    "header": "13 • Chapter Review 647",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 653,
+    "printed_page": 648,
+    "header": "648 13 • Chapter Review",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 654,
+    "printed_page": 649,
+    "header": "13 • Chapter Review 649",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 655,
+    "printed_page": 650,
+    "header": "650 13 • Chapter Review",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 656,
+    "printed_page": 651,
+    "header": "13 • Chapter Review 651",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 657,
+    "printed_page": 652,
+    "header": "652 13 • Chapter Review",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 658,
+    "printed_page": 653,
+    "header": "",
+    "mapping_method": "chapter_opening_between_verified_neighbors"
+  },
+  {
+    "pdf_page": 659,
+    "printed_page": 654,
+    "header": "654 14 • Fluid Mechanics",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 660,
+    "printed_page": 655,
+    "header": "14.1 • Fluids, Density, and Pressure 655",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 661,
+    "printed_page": 656,
+    "header": "656 14 • Fluid Mechanics",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 662,
+    "printed_page": 657,
+    "header": "14.1 • Fluids, Density, and Pressure 657",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 663,
+    "printed_page": 658,
+    "header": "658 14 • Fluid Mechanics",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 664,
+    "printed_page": 659,
+    "header": "14.1 • Fluids, Density, and Pressure 659",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 665,
+    "printed_page": 660,
+    "header": "660 14 • Fluid Mechanics",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 666,
+    "printed_page": 661,
+    "header": "14.1 • Fluids, Density, and Pressure 661",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 667,
+    "printed_page": 662,
+    "header": "662 14 • Fluid Mechanics",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 668,
+    "printed_page": 663,
+    "header": "14.1 • Fluids, Density, and Pressure 663",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 669,
+    "printed_page": 664,
+    "header": "664 14 • Fluid Mechanics",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 670,
+    "printed_page": 665,
+    "header": "14.2 • Measuring Pressure 665",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 671,
+    "printed_page": 666,
+    "header": "666 14 • Fluid Mechanics",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 672,
+    "printed_page": 667,
+    "header": "14.2 • Measuring Pressure 667",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 673,
+    "printed_page": 668,
+    "header": "668 14 • Fluid Mechanics",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 674,
+    "printed_page": 669,
+    "header": "14.3 • Pascal's Principle and Hydraulics 669",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 675,
+    "printed_page": 670,
+    "header": "670 14 • Fluid Mechanics",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 676,
+    "printed_page": 671,
+    "header": "14.3 • Pascal's Principle and Hydraulics 671",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 677,
+    "printed_page": 672,
+    "header": "672 14 • Fluid Mechanics",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 678,
+    "printed_page": 673,
+    "header": "14.3 • Pascal's Principle and Hydraulics 673",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 679,
+    "printed_page": 674,
+    "header": "674 14 • Fluid Mechanics",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 680,
+    "printed_page": 675,
+    "header": "14.4 • Archimedes’ Principle and Buoyancy 675",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 681,
+    "printed_page": 676,
+    "header": "676 14 • Fluid Mechanics",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 682,
+    "printed_page": 677,
+    "header": "14.4 • Archimedes’ Principle and Buoyancy 677",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 683,
+    "printed_page": 678,
+    "header": "678 14 • Fluid Mechanics",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 684,
+    "printed_page": 679,
+    "header": "14.5 • Fluid Dynamics 679",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 685,
+    "printed_page": 680,
+    "header": "680 14 • Fluid Mechanics",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 686,
+    "printed_page": 681,
+    "header": "14.5 • Fluid Dynamics 681",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 687,
+    "printed_page": 682,
+    "header": "682 14 • Fluid Mechanics",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 688,
+    "printed_page": 683,
+    "header": "14.6 • Bernoulli’s Equation 683",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 689,
+    "printed_page": 684,
+    "header": "684 14 • Fluid Mechanics",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 690,
+    "printed_page": 685,
+    "header": "14.6 • Bernoulli’s Equation 685",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 691,
+    "printed_page": 686,
+    "header": "686 14 • Fluid Mechanics",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 692,
+    "printed_page": 687,
+    "header": "14.6 • Bernoulli’s Equation 687",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 693,
+    "printed_page": 688,
+    "header": "688 14 • Fluid Mechanics",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 694,
+    "printed_page": 689,
+    "header": "14.7 • Viscosity and Turbulence 689",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 695,
+    "printed_page": 690,
+    "header": "690 14 • Fluid Mechanics",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 696,
+    "printed_page": 691,
+    "header": "14.7 • Viscosity and Turbulence 691",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 697,
+    "printed_page": 692,
+    "header": "692 14 • Fluid Mechanics",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 698,
+    "printed_page": 693,
+    "header": "14.7 • Viscosity and Turbulence 693",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 699,
+    "printed_page": 694,
+    "header": "694 14 • Fluid Mechanics",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 700,
+    "printed_page": 695,
+    "header": "14.7 • Viscosity and Turbulence 695",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 701,
+    "printed_page": 696,
+    "header": "696 14 • Chapter Review",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 702,
+    "printed_page": 697,
+    "header": "14 • Chapter Review 697",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 703,
+    "printed_page": 698,
+    "header": "698 14 • Chapter Review",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 704,
+    "printed_page": 699,
+    "header": "14 • Chapter Review 699",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 705,
+    "printed_page": 700,
+    "header": "700 14 • Chapter Review",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 706,
+    "printed_page": 701,
+    "header": "14 • Chapter Review 701",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 707,
+    "printed_page": 702,
+    "header": "702 14 • Chapter Review",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 708,
+    "printed_page": 703,
+    "header": "14 • Chapter Review 703",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 709,
+    "printed_page": 704,
+    "header": "704 14 • Chapter Review",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 710,
+    "printed_page": 705,
+    "header": "14 • Chapter Review 705",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 711,
+    "printed_page": 706,
+    "header": "706 14 • Chapter Review",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 712,
+    "printed_page": 707,
+    "header": "14 • Chapter Review 707",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 713,
+    "printed_page": 708,
+    "header": "708 14 • Chapter Review",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 714,
+    "printed_page": 709,
+    "header": "",
+    "mapping_method": "chapter_opening_between_verified_neighbors"
+  },
+  {
+    "pdf_page": 715,
+    "printed_page": 710,
+    "header": "710 15 • Oscillations",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 716,
+    "printed_page": 711,
+    "header": "15.1 • Simple Harmonic Motion 711",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 717,
+    "printed_page": 712,
+    "header": "712 15 • Oscillations",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 718,
+    "printed_page": 713,
+    "header": "15.1 • Simple Harmonic Motion 713",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 719,
+    "printed_page": 714,
+    "header": "714 15 • Oscillations",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 720,
+    "printed_page": 715,
+    "header": "15.1 • Simple Harmonic Motion 715",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 721,
+    "printed_page": 716,
+    "header": "716 15 • Oscillations",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 722,
+    "printed_page": 717,
+    "header": "15.1 • Simple Harmonic Motion 717",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 723,
+    "printed_page": 718,
+    "header": "718 15 • Oscillations",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 724,
+    "printed_page": 719,
+    "header": "15.2 • Energy in Simple Harmonic Motion 719",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 725,
+    "printed_page": 720,
+    "header": "720 15 • Oscillations",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 726,
+    "printed_page": 721,
+    "header": "15.2 • Energy in Simple Harmonic Motion 721",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 727,
+    "printed_page": 722,
+    "header": "722 15 • Oscillations",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 728,
+    "printed_page": 723,
+    "header": "15.2 • Energy in Simple Harmonic Motion 723",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 729,
+    "printed_page": 724,
+    "header": "724 15 • Oscillations",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 730,
+    "printed_page": 725,
+    "header": "15.3 • Comparing Simple Harmonic Motion and Circular Motion 725",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 731,
+    "printed_page": 726,
+    "header": "726 15 • Oscillations",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 732,
+    "printed_page": 727,
+    "header": "15.3 • Comparing Simple Harmonic Motion and Circular Motion 727",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 733,
+    "printed_page": 728,
+    "header": "728 15 • Oscillations",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 734,
+    "printed_page": 729,
+    "header": "15.4 • Pendulums 729",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 735,
+    "printed_page": 730,
+    "header": "730 15 • Oscillations",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 736,
+    "printed_page": 731,
+    "header": "15.4 • Pendulums 731",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 737,
+    "printed_page": 732,
+    "header": "732 15 • Oscillations",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 738,
+    "printed_page": 733,
+    "header": "15.4 • Pendulums 733",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 739,
+    "printed_page": 734,
+    "header": "734 15 • Oscillations",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 740,
+    "printed_page": 735,
+    "header": "15.5 • Damped Oscillations 735",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 741,
+    "printed_page": 736,
+    "header": "736 15 • Oscillations",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 742,
+    "printed_page": 737,
+    "header": "15.6 • Forced Oscillations 737",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 743,
+    "printed_page": 738,
+    "header": "738 15 • Oscillations",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 744,
+    "printed_page": 739,
+    "header": "15.6 • Forced Oscillations 739",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 745,
+    "printed_page": 740,
+    "header": "740 15 • Oscillations",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 746,
+    "printed_page": 741,
+    "header": "15.6 • Forced Oscillations 741",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 747,
+    "printed_page": 742,
+    "header": "742 15 • Chapter Review",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 748,
+    "printed_page": 743,
+    "header": "15 • Chapter Review 743",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 749,
+    "printed_page": 744,
+    "header": "744 15 • Chapter Review",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 750,
+    "printed_page": 745,
+    "header": "15 • Chapter Review 745",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 751,
+    "printed_page": 746,
+    "header": "746 15 • Chapter Review",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 752,
+    "printed_page": 747,
+    "header": "15 • Chapter Review 747",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 753,
+    "printed_page": 748,
+    "header": "748 15 • Chapter Review",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 754,
+    "printed_page": 749,
+    "header": "15 • Chapter Review 749",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 755,
+    "printed_page": 750,
+    "header": "750 15 • Chapter Review",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 756,
+    "printed_page": 751,
+    "header": "",
+    "mapping_method": "chapter_opening_between_verified_neighbors"
+  },
+  {
+    "pdf_page": 757,
+    "printed_page": 752,
+    "header": "752 16 • Waves",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 758,
+    "printed_page": 753,
+    "header": "16.1 • Traveling Waves 753",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 759,
+    "printed_page": 754,
+    "header": "754 16 • Waves",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 760,
+    "printed_page": 755,
+    "header": "16.1 • Traveling Waves 755",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 761,
+    "printed_page": 756,
+    "header": "756 16 • Waves",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 762,
+    "printed_page": 757,
+    "header": "16.2 • Mathematics of Waves 757",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 763,
+    "printed_page": 758,
+    "header": "758 16 • Waves",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 764,
+    "printed_page": 759,
+    "header": "16.2 • Mathematics of Waves 759",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 765,
+    "printed_page": 760,
+    "header": "760 16 • Waves",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 766,
+    "printed_page": 761,
+    "header": "16.2 • Mathematics of Waves 761",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 767,
+    "printed_page": 762,
+    "header": "762 16 • Waves",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 768,
+    "printed_page": 763,
+    "header": "16.2 • Mathematics of Waves 763",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 769,
+    "printed_page": 764,
+    "header": "764 16 • Waves",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 770,
+    "printed_page": 765,
+    "header": "16.2 • Mathematics of Waves 765",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 771,
+    "printed_page": 766,
+    "header": "766 16 • Waves",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 772,
+    "printed_page": 767,
+    "header": "16.3 • Wave Speed on a Stretched String 767",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 773,
+    "printed_page": 768,
+    "header": "768 16 • Waves",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 774,
+    "printed_page": 769,
+    "header": "16.4 • Energy and Power of a Wave 769",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 775,
+    "printed_page": 770,
+    "header": "770 16 • Waves",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 776,
+    "printed_page": 771,
+    "header": "16.4 • Energy and Power of a Wave 771",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 777,
+    "printed_page": 772,
+    "header": "772 16 • Waves",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 778,
+    "printed_page": 773,
+    "header": "16.4 • Energy and Power of a Wave 773",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 779,
+    "printed_page": 774,
+    "header": "774 16 • Waves",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 780,
+    "printed_page": 775,
+    "header": "16.5 • Interference of Waves 775",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 781,
+    "printed_page": 776,
+    "header": "776 16 • Waves",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 782,
+    "printed_page": 777,
+    "header": "16.5 • Interference of Waves 777",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 783,
+    "printed_page": 778,
+    "header": "778 16 • Waves",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 784,
+    "printed_page": 779,
+    "header": "16.5 • Interference of Waves 779",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 785,
+    "printed_page": 780,
+    "header": "780 16 • Waves",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 786,
+    "printed_page": 781,
+    "header": "16.6 • Standing Waves and Resonance 781",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 787,
+    "printed_page": 782,
+    "header": "782 16 • Waves",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 788,
+    "printed_page": 783,
+    "header": "16.6 • Standing Waves and Resonance 783",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 789,
+    "printed_page": 784,
+    "header": "784 16 • Waves",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 790,
+    "printed_page": 785,
+    "header": "16.6 • Standing Waves and Resonance 785",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 791,
+    "printed_page": 786,
+    "header": "786 16 • Waves",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 792,
+    "printed_page": 787,
+    "header": "16.6 • Standing Waves and Resonance 787",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 793,
+    "printed_page": 788,
+    "header": "788 16 • Waves",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 794,
+    "printed_page": 789,
+    "header": "16.6 • Standing Waves and Resonance 789",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 795,
+    "printed_page": 790,
+    "header": "790 16 • Waves",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 796,
+    "printed_page": 791,
+    "header": "16 • Chapter Review 791",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 797,
+    "printed_page": 792,
+    "header": "792 16 • Chapter Review",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 798,
+    "printed_page": 793,
+    "header": "16 • Chapter Review 793",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 799,
+    "printed_page": 794,
+    "header": "794 16 • Chapter Review",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 800,
+    "printed_page": 795,
+    "header": "16 • Chapter Review 795",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 801,
+    "printed_page": 796,
+    "header": "796 16 • Chapter Review",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 802,
+    "printed_page": 797,
+    "header": "16 • Chapter Review 797",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 803,
+    "printed_page": 798,
+    "header": "798 16 • Chapter Review",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 804,
+    "printed_page": 799,
+    "header": "16 • Chapter Review 799",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 805,
+    "printed_page": 800,
+    "header": "800 16 • Chapter Review",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 806,
+    "printed_page": 801,
+    "header": "16 • Chapter Review 801",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 807,
+    "printed_page": 802,
+    "header": "802 16 • Chapter Review",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 808,
+    "printed_page": 803,
+    "header": "16 • Chapter Review 803",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 809,
+    "printed_page": 804,
+    "header": "804 16 • Chapter Review",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 810,
+    "printed_page": 805,
+    "header": "16 • Chapter Review 805",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 811,
+    "printed_page": 806,
+    "header": "806 16 • Chapter Review",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 812,
+    "printed_page": 807,
+    "header": "",
+    "mapping_method": "chapter_opening_between_verified_neighbors"
+  },
+  {
+    "pdf_page": 813,
+    "printed_page": 808,
+    "header": "808 17 • Sound",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 814,
+    "printed_page": 809,
+    "header": "17.1 • Sound Waves 809",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 815,
+    "printed_page": 810,
+    "header": "810 17 • Sound",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 816,
+    "printed_page": 811,
+    "header": "17.2 • Speed of Sound 811",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 817,
+    "printed_page": 812,
+    "header": "812 17 • Sound",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 818,
+    "printed_page": 813,
+    "header": "17.2 • Speed of Sound 813",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 819,
+    "printed_page": 814,
+    "header": "814 17 • Sound",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 820,
+    "printed_page": 815,
+    "header": "17.2 • Speed of Sound 815",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 821,
+    "printed_page": 816,
+    "header": "816 17 • Sound",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 822,
+    "printed_page": 817,
+    "header": "17.2 • Speed of Sound 817",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 823,
+    "printed_page": 818,
+    "header": "818 17 • Sound",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 824,
+    "printed_page": 819,
+    "header": "17.3 • Sound Intensity 819",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 825,
+    "printed_page": 820,
+    "header": "820 17 • Sound",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 826,
+    "printed_page": 821,
+    "header": "17.3 • Sound Intensity 821",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 827,
+    "printed_page": 822,
+    "header": "822 17 • Sound",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 828,
+    "printed_page": 823,
+    "header": "17.3 • Sound Intensity 823",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 829,
+    "printed_page": 824,
+    "header": "824 17 • Sound",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 830,
+    "printed_page": 825,
+    "header": "17.3 • Sound Intensity 825",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 831,
+    "printed_page": 826,
+    "header": "826 17 • Sound",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 832,
+    "printed_page": 827,
+    "header": "17.4 • Normal Modes of a Standing Sound Wave 827",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 833,
+    "printed_page": 828,
+    "header": "828 17 • Sound",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 834,
+    "printed_page": 829,
+    "header": "17.4 • Normal Modes of a Standing Sound Wave 829",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 835,
+    "printed_page": 830,
+    "header": "830 17 • Sound",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 836,
+    "printed_page": 831,
+    "header": "17.4 • Normal Modes of a Standing Sound Wave 831",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 837,
+    "printed_page": 832,
+    "header": "832 17 • Sound",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 838,
+    "printed_page": 833,
+    "header": "17.4 • Normal Modes of a Standing Sound Wave 833",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 839,
+    "printed_page": 834,
+    "header": "834 17 • Sound",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 840,
+    "printed_page": 835,
+    "header": "17.5 • Sources of Musical Sound 835",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 841,
+    "printed_page": 836,
+    "header": "836 17 • Sound",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 842,
+    "printed_page": 837,
+    "header": "17.5 • Sources of Musical Sound 837",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 843,
+    "printed_page": 838,
+    "header": "838 17 • Sound",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 844,
+    "printed_page": 839,
+    "header": "17.6 • Beats 839",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 845,
+    "printed_page": 840,
+    "header": "840 17 • Sound",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 846,
+    "printed_page": 841,
+    "header": "17.7 • The Doppler Effect 841",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 847,
+    "printed_page": 842,
+    "header": "842 17 • Sound",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 848,
+    "printed_page": 843,
+    "header": "17.7 • The Doppler Effect 843",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 849,
+    "printed_page": 844,
+    "header": "844 17 • Sound",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 850,
+    "printed_page": 845,
+    "header": "17.7 • The Doppler Effect 845",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 851,
+    "printed_page": 846,
+    "header": "846 17 • Sound",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 852,
+    "printed_page": 847,
+    "header": "17.8 • Shock Waves 847",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 853,
+    "printed_page": 848,
+    "header": "848 17 • Sound",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 854,
+    "printed_page": 849,
+    "header": "17.8 • Shock Waves 849",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 855,
+    "printed_page": 850,
+    "header": "850 17 • Chapter Review",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 856,
+    "printed_page": 851,
+    "header": "17 • Chapter Review 851",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 857,
+    "printed_page": 852,
+    "header": "852 17 • Chapter Review",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 858,
+    "printed_page": 853,
+    "header": "17 • Chapter Review 853",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 859,
+    "printed_page": 854,
+    "header": "854 17 • Chapter Review",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 860,
+    "printed_page": 855,
+    "header": "17 • Chapter Review 855",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 861,
+    "printed_page": 856,
+    "header": "856 17 • Chapter Review",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 862,
+    "printed_page": 857,
+    "header": "17 • Chapter Review 857",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 863,
+    "printed_page": 858,
+    "header": "858 17 • Chapter Review",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 864,
+    "printed_page": 859,
+    "header": "17 • Chapter Review 859",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 865,
+    "printed_page": 860,
+    "header": "860 17 • Chapter Review",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 866,
+    "printed_page": 861,
+    "header": "17 • Chapter Review 861",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 867,
+    "printed_page": 862,
+    "header": "862 17 • Chapter Review",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 868,
+    "printed_page": 875,
+    "header": "E • Mathematical Formulas 875",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 869,
+    "printed_page": 876,
+    "header": "876 E • Mathematical Formulas",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 870,
+    "printed_page": 877,
+    "header": "E • Mathematical Formulas 877",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 871,
+    "printed_page": 878,
+    "header": "878 E • Mathematical Formulas",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 872,
+    "printed_page": 879,
+    "header": "F • Chemistry 879",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 873,
+    "printed_page": 880,
+    "header": "880 F • Chemistry",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 874,
+    "printed_page": 881,
+    "header": "G • The Greek Alphabet 881",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 875,
+    "printed_page": 882,
+    "header": "882 G • The Greek Alphabet",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 876,
+    "printed_page": 883,
+    "header": "Answer Key 883",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 877,
+    "printed_page": 884,
+    "header": "884 Answer Key",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 878,
+    "printed_page": 885,
+    "header": "Answer Key 885",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 879,
+    "printed_page": 886,
+    "header": "886 Answer Key",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 880,
+    "printed_page": 887,
+    "header": "Answer Key 887",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 881,
+    "printed_page": 888,
+    "header": "888 Answer Key",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 882,
+    "printed_page": 889,
+    "header": "Answer Key 889",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 883,
+    "printed_page": 890,
+    "header": "890 Answer Key",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 884,
+    "printed_page": 891,
+    "header": "Answer Key 891",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 885,
+    "printed_page": 892,
+    "header": "892 Answer Key",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 886,
+    "printed_page": 893,
+    "header": "Answer Key 893",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 887,
+    "printed_page": 894,
+    "header": "894 Answer Key",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 888,
+    "printed_page": 895,
+    "header": "Answer Key 895",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 889,
+    "printed_page": 896,
+    "header": "896 Answer Key",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 890,
+    "printed_page": 897,
+    "header": "Answer Key 897",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 891,
+    "printed_page": 898,
+    "header": "898 Answer Key",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 892,
+    "printed_page": 899,
+    "header": "Answer Key 899",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 893,
+    "printed_page": 900,
+    "header": "900 Answer Key",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 894,
+    "printed_page": 901,
+    "header": "Answer Key 901",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 895,
+    "printed_page": 902,
+    "header": "902 Answer Key",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 896,
+    "printed_page": 903,
+    "header": "Answer Key 903",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 897,
+    "printed_page": 904,
+    "header": "904 Answer Key",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 898,
+    "printed_page": 905,
+    "header": "Answer Key 905",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 899,
+    "printed_page": 906,
+    "header": "906 Answer Key",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 900,
+    "printed_page": 907,
+    "header": "Answer Key 907",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 901,
+    "printed_page": 908,
+    "header": "908 Answer Key",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 902,
+    "printed_page": 909,
+    "header": "Answer Key 909",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 903,
+    "printed_page": 910,
+    "header": "910 Answer Key",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 904,
+    "printed_page": 911,
+    "header": "Answer Key 911",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 905,
+    "printed_page": 912,
+    "header": "912 Answer Key",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 906,
+    "printed_page": 913,
+    "header": "Answer Key 913",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 907,
+    "printed_page": 914,
+    "header": "914 Answer Key",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 908,
+    "printed_page": 915,
+    "header": "Answer Key 915",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 909,
+    "printed_page": 916,
+    "header": "916 Answer Key",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 910,
+    "printed_page": 917,
+    "header": "Answer Key 917",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 911,
+    "printed_page": 918,
+    "header": "918 Answer Key",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 912,
+    "printed_page": 919,
+    "header": "Answer Key 919",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 913,
+    "printed_page": 920,
+    "header": "920 Answer Key",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 914,
+    "printed_page": 921,
+    "header": "Answer Key 921",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 915,
+    "printed_page": 922,
+    "header": "922 Answer Key",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 916,
+    "printed_page": 923,
+    "header": "Answer Key 923",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 917,
+    "printed_page": 924,
+    "header": "924 Answer Key",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 918,
+    "printed_page": 925,
+    "header": "Answer Key 925",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 919,
+    "printed_page": 926,
+    "header": "926 Answer Key",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 920,
+    "printed_page": 927,
+    "header": "Answer Key 927",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 921,
+    "printed_page": 928,
+    "header": "928 Answer Key",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 922,
+    "printed_page": 929,
+    "header": "Answer Key 929",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 923,
+    "printed_page": 930,
+    "header": "930 Answer Key",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 924,
+    "printed_page": 931,
+    "header": "Answer Key 931",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 925,
+    "printed_page": 932,
+    "header": "932 Answer Key",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 926,
+    "printed_page": 933,
+    "header": "Answer Key 933",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 927,
+    "printed_page": 934,
+    "header": "934 Answer Key",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 928,
+    "printed_page": 935,
+    "header": "Answer Key 935",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 929,
+    "printed_page": 936,
+    "header": "936 Answer Key",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 930,
+    "printed_page": 937,
+    "header": "Answer Key 937",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 931,
+    "printed_page": 938,
+    "header": "938 Answer Key",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 932,
+    "printed_page": 939,
+    "header": "Answer Key 939",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 933,
+    "printed_page": 940,
+    "header": "940 Answer Key",
+    "mapping_method": "printed_header"
+  },
+  {
+    "pdf_page": 934,
+    "printed_page": 941,
+    "header": "Answer Key 941",
+    "mapping_method": "printed_header"
+  }
+]

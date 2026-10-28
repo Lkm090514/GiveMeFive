@@ -1,0 +1,64 @@
+const assert = require('node:assert/strict');
+const {suggest,createRun,currentStep,clockAdvance,completeStep,skipStep,shrinkStep} = require('../mind-flow/app.js');
+
+const plan = suggest('Physics 1–12');
+assert.deepEqual(plan,['完成第 1–3 题','完成第 4–6 题','完成第 7–9 题','完成第 10–12 题']);
+assert.equal(suggest('练习 1–2').length,1);
+assert.equal(suggest('读第 2–8 页')[0],'阅读第 2–4 页');
+assert.equal(suggest('写一段 Introduction').length,3);
+assert.throws(()=>createRun('test',[],'free',25));
+assert.throws(()=>createRun('test',['task'],'focus',0));
+
+const run=createRun('Physics',plan,'free',25,0);
+assert.equal(shrinkStep(run,'完成第 1 题','完成第 1 题'),true);
+assert.equal(run.steps[1].title,'完成第 2–3 题');
+assert.equal(completeStep(run),'done');
+assert.equal(currentStep(run).title,'完成第 2–3 题');
+skipStep(run);
+assert.equal(run.steps[1].status,'skipped');
+assert.equal(run.steps.filter(s=>s.status==='done').length,1);
+assert.equal(shrinkStep(run,'读题，圈出已知条件','不同建议'),true);
+assert.equal(completeStep(run),'micro');
+assert.equal(currentStep(run).status,'pending');
+assert.deepEqual(currentStep(run).smallDone,['读题，圈出已知条件']);
+assert.equal(shrinkStep(run,'读题，圈出已知条件','不同建议'),false);
+while(currentStep(run))skipStep(run);
+assert.equal(run.steps.filter(s=>s.status==='skipped').length,4);
+assert.equal(run.current,null);
+
+const timer=createRun('Timed',['One','Two'],'focus',1,1000);
+clockAdvance(timer,31000);assert.equal(timer.remaining,30000);
+timer.paused=true;clockAdvance(timer,61000);assert.equal(timer.remaining,30000);
+assert.equal(completeStep(timer),false);
+timer.paused=false;clockAdvance(timer,101000);
+assert.equal(timer.remaining,0);assert.equal(timer.elapsed,60000);assert.equal(timer.expired,true);
+assert.equal(timer.steps[0].status,'pending');
+const restored=JSON.parse(JSON.stringify(createRun('Resume',['One'],'focus',1,0)));
+clockAdvance(restored,90000);assert.equal(restored.expired,true);assert.equal(restored.elapsed,60000);
+console.log('Passed: editable range suggestions, lossless shrinking, micro-step honesty, deferred tasks, pause, expiry and refresh recovery.');
+
+const {prepareResume,carryRun,taskType,methodHint}=require('../mind-flow/app.js');
+const free=createRun('Free',['First','Second'],'free',25,0);
+clockAdvance(free,12000);assert.equal(free.elapsed,12000);
+free.paused=true;clockAdvance(free,45000);assert.equal(free.elapsed,12000);
+free.paused=false;clockAdvance(free,51000);assert.equal(free.elapsed,18000);
+free.notes.push({taskId:2,title:'Second',text:'Need to revisit this point'});
+completeStep(free);
+const resumed=prepareResume(JSON.parse(JSON.stringify(free)),999999);
+clockAdvance(resumed,1099999);assert.equal(resumed.elapsed,18000);
+assert.equal(currentStep(resumed).title,'Second');assert.equal(resumed.notes[0].text,free.notes[0].text);
+resumed.paused=false;clockAdvance(resumed,1104999);assert.equal(resumed.elapsed,23000);
+const carried=carryRun(resumed,0);
+assert.deepEqual(carried.steps.map(step=>step.title),['Second']);
+assert.equal(carried.steps[0].status,'pending');assert.equal(carried.paused,true);assert.equal(carried.started,false);
+assert.equal(carried.elapsed,0);assert.equal(carried.notes[0].taskId,1);
+assert.equal(carryRun({...free,steps:free.steps.map(step=>({...step,status:'done'}))}),null);
+const timedResume=prepareResume(createRun('Timed',['Task'],'focus',25,0),9000000);
+clockAdvance(timedResume,10000000);assert.equal(timedResume.remaining,1500000);assert.equal(timedResume.elapsed,0);
+assert.equal(taskType('做一道练习题','听一节课'),'practice');
+assert.equal(taskType('背诵单词','阅读课文'),'memory');
+assert.equal(taskType('听一节课','写作'),'reading');
+assert.equal(taskType('写完草稿',''),'writing');
+assert.ok(methodHint('用自己的话解释刚才的内容','听课','zh').includes('暂时不看材料'));
+console.log('Passed: free count-up, paused time freeze, offline recovery, pending task/note carry-over and task-specific help.');
+

@@ -1,0 +1,6779 @@
+[
+  {
+    "object_id": "os-example-5.2",
+    "object_type": "example",
+    "number": "5.2",
+    "content_ref": "os-reading-5.3-p205",
+    "printed_page": 205,
+    "pdf_page": 210,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-reading-5.3-p205-strategy-448",
+    "object_type": "strategy",
+    "content_ref": "os-reading-5.3-p205",
+    "printed_page": 205,
+    "pdf_page": 210,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-reading-5.3-p205-solution-508",
+    "object_type": "solution",
+    "content_ref": "os-reading-5.3-p205",
+    "printed_page": 205,
+    "pdf_page": 210,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-reading-5.3-p205-significance-626",
+    "object_type": "significance",
+    "content_ref": "os-reading-5.3-p205",
+    "printed_page": 205,
+    "pdf_page": 210,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-check-your-understanding-5.3",
+    "object_type": "check_your_understanding",
+    "number": "5.3",
+    "content_ref": "os-reading-5.3-p206",
+    "printed_page": 206,
+    "pdf_page": 211,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-5.3",
+    "object_type": "example",
+    "number": "5.3",
+    "content_ref": "os-reading-5.3-p206",
+    "printed_page": 206,
+    "pdf_page": 211,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-reading-5.3-p206-strategy-577",
+    "object_type": "strategy",
+    "content_ref": "os-reading-5.3-p206",
+    "printed_page": 206,
+    "pdf_page": 211,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-reading-5.3-p206-solution-624",
+    "object_type": "solution",
+    "content_ref": "os-reading-5.3-p206",
+    "printed_page": 206,
+    "pdf_page": 211,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-reading-5.3-p206-significance-692",
+    "object_type": "significance",
+    "content_ref": "os-reading-5.3-p206",
+    "printed_page": 206,
+    "pdf_page": 211,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-5.4",
+    "object_type": "example",
+    "number": "5.4",
+    "content_ref": "os-reading-5.3-p207",
+    "printed_page": 207,
+    "pdf_page": 212,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-reading-5.3-p207-strategy-582",
+    "object_type": "strategy",
+    "content_ref": "os-reading-5.3-p207",
+    "printed_page": 207,
+    "pdf_page": 212,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-reading-5.3-p207-solution-654",
+    "object_type": "solution",
+    "content_ref": "os-reading-5.3-p207",
+    "printed_page": 207,
+    "pdf_page": 212,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-reading-5.3-p208-significance-309",
+    "object_type": "significance",
+    "content_ref": "os-reading-5.3-p208",
+    "printed_page": 208,
+    "pdf_page": 213,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-check-your-understanding-5.4",
+    "object_type": "check_your_understanding",
+    "number": "5.4",
+    "content_ref": "os-reading-5.3-p208",
+    "printed_page": 208,
+    "pdf_page": 213,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-5.5",
+    "object_type": "example",
+    "number": "5.5",
+    "content_ref": "os-reading-5.3-p209",
+    "printed_page": 209,
+    "pdf_page": 214,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-reading-5.3-p209-strategy-154",
+    "object_type": "strategy",
+    "content_ref": "os-reading-5.3-p209",
+    "printed_page": 209,
+    "pdf_page": 214,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-reading-5.3-p209-solution-202",
+    "object_type": "solution",
+    "content_ref": "os-reading-5.3-p209",
+    "printed_page": 209,
+    "pdf_page": 214,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-reading-5.3-p209-significance-306",
+    "object_type": "significance",
+    "content_ref": "os-reading-5.3-p209",
+    "printed_page": 209,
+    "pdf_page": 214,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-5.6",
+    "object_type": "example",
+    "number": "5.6",
+    "content_ref": "os-reading-5.3-p209",
+    "printed_page": 209,
+    "pdf_page": 214,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-reading-5.3-p209-strategy-461",
+    "object_type": "strategy",
+    "content_ref": "os-reading-5.3-p209",
+    "printed_page": 209,
+    "pdf_page": 214,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-reading-5.3-p209-solution-510",
+    "object_type": "solution",
+    "content_ref": "os-reading-5.3-p209",
+    "printed_page": 209,
+    "pdf_page": 214,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-reading-5.3-p209-significance-575",
+    "object_type": "significance",
+    "content_ref": "os-reading-5.3-p209",
+    "printed_page": 209,
+    "pdf_page": 214,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-5.7",
+    "object_type": "example",
+    "number": "5.7",
+    "content_ref": "os-reading-5.3-p209",
+    "printed_page": 209,
+    "pdf_page": 214,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-reading-5.3-p210-strategy-308",
+    "object_type": "strategy",
+    "content_ref": "os-reading-5.3-p210",
+    "printed_page": 210,
+    "pdf_page": 215,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-reading-5.3-p210-solution-358",
+    "object_type": "solution",
+    "content_ref": "os-reading-5.3-p210",
+    "printed_page": 210,
+    "pdf_page": 215,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-reading-5.3-p210-significance-553",
+    "object_type": "significance",
+    "content_ref": "os-reading-5.3-p210",
+    "printed_page": 210,
+    "pdf_page": 215,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-check-your-understanding-5.5",
+    "object_type": "check_your_understanding",
+    "number": "5.5",
+    "content_ref": "os-reading-5.3-p210",
+    "printed_page": 210,
+    "pdf_page": 215,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-6.1",
+    "object_type": "example",
+    "number": "6.1",
+    "content_ref": "os-reading-6.1-p251",
+    "printed_page": 251,
+    "pdf_page": 256,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-reading-6.1-p252-strategy-443",
+    "object_type": "strategy",
+    "content_ref": "os-reading-6.1-p252",
+    "printed_page": 252,
+    "pdf_page": 257,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-reading-6.1-p252-solution-540",
+    "object_type": "solution",
+    "content_ref": "os-reading-6.1-p252",
+    "printed_page": 252,
+    "pdf_page": 257,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-reading-6.1-p253-significance-373",
+    "object_type": "significance",
+    "content_ref": "os-reading-6.1-p253",
+    "printed_page": 253,
+    "pdf_page": 258,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-6.2",
+    "object_type": "example",
+    "number": "6.2",
+    "content_ref": "os-reading-6.1-p253",
+    "printed_page": 253,
+    "pdf_page": 258,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-reading-6.1-p254-strategy-278",
+    "object_type": "strategy",
+    "content_ref": "os-reading-6.1-p254",
+    "printed_page": 254,
+    "pdf_page": 259,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-reading-6.1-p254-solution-447",
+    "object_type": "solution",
+    "content_ref": "os-reading-6.1-p254",
+    "printed_page": 254,
+    "pdf_page": 259,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-reading-6.1-p255-significance-191",
+    "object_type": "significance",
+    "content_ref": "os-reading-6.1-p255",
+    "printed_page": 255,
+    "pdf_page": 260,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-6.3",
+    "object_type": "example",
+    "number": "6.3",
+    "content_ref": "os-reading-6.1-p255",
+    "printed_page": 255,
+    "pdf_page": 260,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-reading-6.1-p256-strategy-466",
+    "object_type": "strategy",
+    "content_ref": "os-reading-6.1-p256",
+    "printed_page": 256,
+    "pdf_page": 261,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-reading-6.1-p257-solution-105",
+    "object_type": "solution",
+    "content_ref": "os-reading-6.1-p257",
+    "printed_page": 257,
+    "pdf_page": 262,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-reading-6.1-p257-significance-305",
+    "object_type": "significance",
+    "content_ref": "os-reading-6.1-p257",
+    "printed_page": 257,
+    "pdf_page": 262,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-check-your-understanding-6.1",
+    "object_type": "check_your_understanding",
+    "number": "6.1",
+    "content_ref": "os-reading-6.1-p257",
+    "printed_page": 257,
+    "pdf_page": 262,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-6.4",
+    "object_type": "example",
+    "number": "6.4",
+    "content_ref": "os-reading-6.1-p257",
+    "printed_page": 257,
+    "pdf_page": 262,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-reading-6.1-p258-strategy-309",
+    "object_type": "strategy",
+    "content_ref": "os-reading-6.1-p258",
+    "printed_page": 258,
+    "pdf_page": 263,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-reading-6.1-p258-solution-482",
+    "object_type": "solution",
+    "content_ref": "os-reading-6.1-p258",
+    "printed_page": 258,
+    "pdf_page": 263,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-reading-6.1-p259-significance-108",
+    "object_type": "significance",
+    "content_ref": "os-reading-6.1-p259",
+    "printed_page": 259,
+    "pdf_page": 264,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-check-your-understanding-6.2",
+    "object_type": "check_your_understanding",
+    "number": "6.2",
+    "content_ref": "os-reading-6.1-p259",
+    "printed_page": 259,
+    "pdf_page": 264,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-6.5",
+    "object_type": "example",
+    "number": "6.5",
+    "content_ref": "os-reading-6.1-p259",
+    "printed_page": 259,
+    "pdf_page": 264,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-reading-6.1-p259-strategy-594",
+    "object_type": "strategy",
+    "content_ref": "os-reading-6.1-p259",
+    "printed_page": 259,
+    "pdf_page": 264,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-reading-6.1-p259-solution-666",
+    "object_type": "solution",
+    "content_ref": "os-reading-6.1-p259",
+    "printed_page": 259,
+    "pdf_page": 264,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-reading-6.1-p260-significance-207",
+    "object_type": "significance",
+    "content_ref": "os-reading-6.1-p260",
+    "printed_page": 260,
+    "pdf_page": 265,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-check-your-understanding-6.3",
+    "object_type": "check_your_understanding",
+    "number": "6.3",
+    "content_ref": "os-reading-6.1-p260",
+    "printed_page": 260,
+    "pdf_page": 265,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-6.6",
+    "object_type": "example",
+    "number": "6.6",
+    "content_ref": "os-reading-6.1-p260",
+    "printed_page": 260,
+    "pdf_page": 265,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-reading-6.1-p260-strategy-591",
+    "object_type": "strategy",
+    "content_ref": "os-reading-6.1-p260",
+    "printed_page": 260,
+    "pdf_page": 265,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-reading-6.1-p260-solution-663",
+    "object_type": "solution",
+    "content_ref": "os-reading-6.1-p260",
+    "printed_page": 260,
+    "pdf_page": 265,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-reading-6.1-p261-significance-287",
+    "object_type": "significance",
+    "content_ref": "os-reading-6.1-p261",
+    "printed_page": 261,
+    "pdf_page": 266,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-check-your-understanding-6.4",
+    "object_type": "check_your_understanding",
+    "number": "6.4",
+    "content_ref": "os-reading-6.1-p261",
+    "printed_page": 261,
+    "pdf_page": 266,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-6.7",
+    "object_type": "example",
+    "number": "6.7",
+    "content_ref": "os-reading-6.1-p261",
+    "printed_page": 261,
+    "pdf_page": 266,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-reading-6.1-p261-strategy-567",
+    "object_type": "strategy",
+    "content_ref": "os-reading-6.1-p261",
+    "printed_page": 261,
+    "pdf_page": 266,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-reading-6.1-p261-solution-628",
+    "object_type": "solution",
+    "content_ref": "os-reading-6.1-p261",
+    "printed_page": 261,
+    "pdf_page": 266,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-reading-6.1-p262-significance-107",
+    "object_type": "significance",
+    "content_ref": "os-reading-6.1-p262",
+    "printed_page": 262,
+    "pdf_page": 267,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-check-your-understanding-6.5",
+    "object_type": "check_your_understanding",
+    "number": "6.5",
+    "content_ref": "os-reading-6.1-p262",
+    "printed_page": 262,
+    "pdf_page": 267,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-6.8",
+    "object_type": "example",
+    "number": "6.8",
+    "content_ref": "os-reading-6.1-p262",
+    "printed_page": 262,
+    "pdf_page": 267,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-reading-6.1-p262-strategy-524",
+    "object_type": "strategy",
+    "content_ref": "os-reading-6.1-p262",
+    "printed_page": 262,
+    "pdf_page": 267,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-reading-6.1-p262-solution-598",
+    "object_type": "solution",
+    "content_ref": "os-reading-6.1-p262",
+    "printed_page": 262,
+    "pdf_page": 267,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-reading-6.1-p263-significance-141",
+    "object_type": "significance",
+    "content_ref": "os-reading-6.1-p263",
+    "printed_page": 263,
+    "pdf_page": 268,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-6.9",
+    "object_type": "example",
+    "number": "6.9",
+    "content_ref": "os-reading-6.1-p263",
+    "printed_page": 263,
+    "pdf_page": 268,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-reading-6.1-p263-strategy-686",
+    "object_type": "strategy",
+    "content_ref": "os-reading-6.1-p263",
+    "printed_page": 263,
+    "pdf_page": 268,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-reading-6.1-p264-solution-61",
+    "object_type": "solution",
+    "content_ref": "os-reading-6.1-p264",
+    "printed_page": 264,
+    "pdf_page": 269,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-reading-6.1-p264-significance-409",
+    "object_type": "significance",
+    "content_ref": "os-reading-6.1-p264",
+    "printed_page": 264,
+    "pdf_page": 269,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-check-your-understanding-6.6",
+    "object_type": "check_your_understanding",
+    "number": "6.6",
+    "content_ref": "os-reading-6.1-p264",
+    "printed_page": 264,
+    "pdf_page": 269,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-10.8",
+    "object_type": "example",
+    "number": "10.8",
+    "content_ref": "os-reading-10.4-inertia-p472",
+    "printed_page": 472,
+    "pdf_page": 477,
+    "placement": "reading_flow",
+    "content_refs": [
+      "os-reading-10.4-inertia-p472",
+      "os-content-10.4-p472-55-746"
+    ]
+  },
+  {
+    "object_id": "os-reading-10.4-inertia-p473-strategy-211",
+    "object_type": "strategy",
+    "content_ref": "os-reading-10.4-inertia-p473",
+    "printed_page": 473,
+    "pdf_page": 478,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-reading-10.4-inertia-p473-solution-287",
+    "object_type": "solution",
+    "content_ref": "os-reading-10.4-inertia-p473",
+    "printed_page": 473,
+    "pdf_page": 478,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-reading-10.4-inertia-p473-significance-380",
+    "object_type": "significance",
+    "content_ref": "os-reading-10.4-inertia-p473",
+    "printed_page": 473,
+    "pdf_page": 478,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-check-your-understanding-10.5",
+    "object_type": "check_your_understanding",
+    "number": "10.5",
+    "content_ref": "os-reading-10.5-p480",
+    "printed_page": 480,
+    "pdf_page": 485,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-10.11",
+    "object_type": "example",
+    "number": "10.11",
+    "content_ref": "os-reading-10.5-p482",
+    "printed_page": 482,
+    "pdf_page": 487,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-reading-10.5-p482-strategy-601",
+    "object_type": "strategy",
+    "content_ref": "os-reading-10.5-p482",
+    "printed_page": 482,
+    "pdf_page": 487,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-reading-10.5-p483-solution-61",
+    "object_type": "solution",
+    "content_ref": "os-reading-10.5-p483",
+    "printed_page": 483,
+    "pdf_page": 488,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-reading-10.5-p483-significance-126",
+    "object_type": "significance",
+    "content_ref": "os-reading-10.5-p483",
+    "printed_page": 483,
+    "pdf_page": 488,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-10.12",
+    "object_type": "example",
+    "number": "10.12",
+    "content_ref": "os-reading-10.5-p483",
+    "printed_page": 483,
+    "pdf_page": 488,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-reading-10.5-p483-strategy-404",
+    "object_type": "strategy",
+    "content_ref": "os-reading-10.5-p483",
+    "printed_page": 483,
+    "pdf_page": 488,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-reading-10.5-p483-significance-639",
+    "object_type": "significance",
+    "content_ref": "os-reading-10.5-p483",
+    "printed_page": 483,
+    "pdf_page": 488,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-10.13",
+    "object_type": "example",
+    "number": "10.13",
+    "content_ref": "os-reading-10.5-p484",
+    "printed_page": 484,
+    "pdf_page": 489,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-reading-10.5-p484-strategy-307",
+    "object_type": "strategy",
+    "content_ref": "os-reading-10.5-p484",
+    "printed_page": 484,
+    "pdf_page": 489,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-reading-10.5-p484-solution-366",
+    "object_type": "solution",
+    "content_ref": "os-reading-10.5-p484",
+    "printed_page": 484,
+    "pdf_page": 489,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-reading-10.5-p484-significance-639",
+    "object_type": "significance",
+    "content_ref": "os-reading-10.5-p484",
+    "printed_page": 484,
+    "pdf_page": 489,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-15.3",
+    "object_type": "example",
+    "number": "15.3",
+    "content_ref": "os-reading-15.4-simple-physical-p730",
+    "printed_page": 730,
+    "pdf_page": 735,
+    "placement": "reading_flow",
+    "content_refs": [
+      "os-reading-15.4-simple-physical-p730",
+      "os-content-15.4-p730-55-633_82"
+    ]
+  },
+  {
+    "object_id": "os-reading-15.4-simple-physical-p730-strategy-276",
+    "object_type": "strategy",
+    "content_ref": "os-reading-15.4-simple-physical-p730",
+    "printed_page": 730,
+    "pdf_page": 735,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-reading-15.4-simple-physical-p730-solution-331",
+    "object_type": "solution",
+    "content_ref": "os-reading-15.4-simple-physical-p730",
+    "printed_page": 730,
+    "pdf_page": 735,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-reading-15.4-simple-physical-p730-significance-479",
+    "object_type": "significance",
+    "content_ref": "os-reading-15.4-simple-physical-p730",
+    "printed_page": 730,
+    "pdf_page": 735,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-check-your-understanding-15.4",
+    "object_type": "check_your_understanding",
+    "number": "15.4",
+    "content_ref": "os-reading-15.4-simple-physical-p730",
+    "printed_page": 730,
+    "pdf_page": 735,
+    "placement": "reading_flow",
+    "content_refs": [
+      "os-reading-15.4-simple-physical-p730",
+      "os-content-15.4-p730-55-633_82"
+    ]
+  },
+  {
+    "object_id": "os-example-15.4",
+    "object_type": "example",
+    "number": "15.4",
+    "content_ref": "os-reading-15.4-simple-physical-p732",
+    "printed_page": 732,
+    "pdf_page": 737,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-reading-15.4-simple-physical-p732-strategy-567",
+    "object_type": "strategy",
+    "content_ref": "os-reading-15.4-simple-physical-p732",
+    "printed_page": 732,
+    "pdf_page": 737,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-reading-15.4-simple-physical-p732-solution-614",
+    "object_type": "solution",
+    "content_ref": "os-reading-15.4-simple-physical-p732",
+    "printed_page": 732,
+    "pdf_page": 737,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-reading-15.4-simple-physical-p733-significance-145",
+    "object_type": "significance",
+    "content_ref": "os-reading-15.4-simple-physical-p733",
+    "printed_page": 733,
+    "pdf_page": 738,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-check-your-understanding-2.1",
+    "object_type": "check_your_understanding",
+    "number": "2.1",
+    "content_ref": "os-content-2.1-p44-55-746",
+    "printed_page": 44,
+    "pdf_page": 49,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-2.1",
+    "object_type": "example",
+    "number": "2.1",
+    "content_ref": "os-content-2.1-p47-55-746",
+    "printed_page": 47,
+    "pdf_page": 52,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-2.1-p47-55-746-strategy-655",
+    "object_type": "strategy",
+    "content_ref": "os-content-2.1-p47-55-746",
+    "printed_page": 47,
+    "pdf_page": 52,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-2.1-p48-55-746-solution-442",
+    "object_type": "solution",
+    "content_ref": "os-content-2.1-p48-55-746",
+    "printed_page": 48,
+    "pdf_page": 53,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-check-your-understanding-2.2",
+    "object_type": "check_your_understanding",
+    "number": "2.2",
+    "content_ref": "os-content-2.1-p48-55-746",
+    "printed_page": 48,
+    "pdf_page": 53,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-2.2",
+    "object_type": "example",
+    "number": "2.2",
+    "content_ref": "os-content-2.1-p52-55-746",
+    "printed_page": 52,
+    "pdf_page": 57,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-2.1-p52-55-746-strategy-347",
+    "object_type": "strategy",
+    "content_ref": "os-content-2.1-p52-55-746",
+    "printed_page": 52,
+    "pdf_page": 57,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-2.1-p52-55-746-solution-419",
+    "object_type": "solution",
+    "content_ref": "os-content-2.1-p52-55-746",
+    "printed_page": 52,
+    "pdf_page": 57,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-check-your-understanding-2.3",
+    "object_type": "check_your_understanding",
+    "number": "2.3",
+    "content_ref": "os-content-2.1-p53-55-541_88",
+    "printed_page": 53,
+    "pdf_page": 58,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-2.3",
+    "object_type": "example",
+    "number": "2.3",
+    "content_ref": "os-content-2.2-p55-55-746",
+    "printed_page": 55,
+    "pdf_page": 60,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-2.2-p55-55-746-strategy-153",
+    "object_type": "strategy",
+    "content_ref": "os-content-2.2-p55-55-746",
+    "printed_page": 55,
+    "pdf_page": 60,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-2.2-p55-55-746-solution-255",
+    "object_type": "solution",
+    "content_ref": "os-content-2.2-p55-55-746",
+    "printed_page": 55,
+    "pdf_page": 60,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-2.2-p55-55-746-significance-613",
+    "object_type": "significance",
+    "content_ref": "os-content-2.2-p55-55-746",
+    "printed_page": 55,
+    "pdf_page": 60,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-check-your-understanding-2.4",
+    "object_type": "check_your_understanding",
+    "number": "2.4",
+    "content_ref": "os-content-2.2-p56-55-746",
+    "printed_page": 56,
+    "pdf_page": 61,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-2.4",
+    "object_type": "example",
+    "number": "2.4",
+    "content_ref": "os-content-2.2-p57-55-746",
+    "printed_page": 57,
+    "pdf_page": 62,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-2.2-p57-55-746-strategy-425",
+    "object_type": "strategy",
+    "content_ref": "os-content-2.2-p57-55-746",
+    "printed_page": 57,
+    "pdf_page": 62,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-2.2-p57-55-746-solution-488",
+    "object_type": "solution",
+    "content_ref": "os-content-2.2-p57-55-746",
+    "printed_page": 57,
+    "pdf_page": 62,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-check-your-understanding-2.5",
+    "object_type": "check_your_understanding",
+    "number": "2.5",
+    "content_ref": "os-content-2.2-p57-55-746",
+    "printed_page": 57,
+    "pdf_page": 62,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-2.5",
+    "object_type": "example",
+    "number": "2.5",
+    "content_ref": "os-content-2.2-p58-55-746",
+    "printed_page": 58,
+    "pdf_page": 63,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-2.2-p58-55-746-strategy-460",
+    "object_type": "strategy",
+    "content_ref": "os-content-2.2-p58-55-746",
+    "printed_page": 58,
+    "pdf_page": 63,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-2.2-p58-55-746-solution-546",
+    "object_type": "solution",
+    "content_ref": "os-content-2.2-p58-55-746",
+    "printed_page": 58,
+    "pdf_page": 63,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-check-your-understanding-2.6",
+    "object_type": "check_your_understanding",
+    "number": "2.6",
+    "content_ref": "os-content-2.2-p59-55-746",
+    "printed_page": 59,
+    "pdf_page": 64,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-2.6",
+    "object_type": "example",
+    "number": "2.6",
+    "content_ref": "os-content-2.2-p60-55-746",
+    "printed_page": 60,
+    "pdf_page": 65,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-2.2-p60-55-746-strategy-383",
+    "object_type": "strategy",
+    "content_ref": "os-content-2.2-p60-55-746",
+    "printed_page": 60,
+    "pdf_page": 65,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-2.2-p60-55-746-solution-455",
+    "object_type": "solution",
+    "content_ref": "os-content-2.2-p60-55-746",
+    "printed_page": 60,
+    "pdf_page": 65,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-2.7",
+    "object_type": "example",
+    "number": "2.7",
+    "content_ref": "os-content-2.2-p62-55-746",
+    "printed_page": 62,
+    "pdf_page": 67,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-2.2-p62-55-746-strategy-538",
+    "object_type": "strategy",
+    "content_ref": "os-content-2.2-p62-55-746",
+    "printed_page": 62,
+    "pdf_page": 67,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-2.2-p62-55-746-solution-624",
+    "object_type": "solution",
+    "content_ref": "os-content-2.2-p62-55-746",
+    "printed_page": 62,
+    "pdf_page": 67,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-check-your-understanding-2.7",
+    "object_type": "check_your_understanding",
+    "number": "2.7",
+    "content_ref": "os-content-2.2-p63-55-232_43",
+    "printed_page": 63,
+    "pdf_page": 68,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-2.8",
+    "object_type": "example",
+    "number": "2.8",
+    "content_ref": "os-content-2.3-p63-232_43-746",
+    "printed_page": 63,
+    "pdf_page": 68,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-2.3-p63-232_43-746-solution-570",
+    "object_type": "solution",
+    "content_ref": "os-content-2.3-p63-232_43-746",
+    "printed_page": 63,
+    "pdf_page": 68,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-2.9",
+    "object_type": "example",
+    "number": "2.9",
+    "content_ref": "os-content-2.3-p65-55-746",
+    "printed_page": 65,
+    "pdf_page": 70,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-2.3-p65-55-746-strategy-215",
+    "object_type": "strategy",
+    "content_ref": "os-content-2.3-p65-55-746",
+    "printed_page": 65,
+    "pdf_page": 70,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-2.3-p65-55-746-solution-274",
+    "object_type": "solution",
+    "content_ref": "os-content-2.3-p65-55-746",
+    "printed_page": 65,
+    "pdf_page": 70,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-2.3-p66-55-746-significance-61",
+    "object_type": "significance",
+    "content_ref": "os-content-2.3-p66-55-746",
+    "printed_page": 66,
+    "pdf_page": 71,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-check-your-understanding-2.8",
+    "object_type": "check_your_understanding",
+    "number": "2.8",
+    "content_ref": "os-content-2.3-p66-55-746",
+    "printed_page": 66,
+    "pdf_page": 71,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-2.10",
+    "object_type": "example",
+    "number": "2.10",
+    "content_ref": "os-content-2.3-p66-55-746",
+    "printed_page": 66,
+    "pdf_page": 71,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-2.3-p67-55-746-strategy-273",
+    "object_type": "strategy",
+    "content_ref": "os-content-2.3-p67-55-746",
+    "printed_page": 67,
+    "pdf_page": 72,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-2.3-p67-55-746-solution-364",
+    "object_type": "solution",
+    "content_ref": "os-content-2.3-p67-55-746",
+    "printed_page": 67,
+    "pdf_page": 72,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-check-your-understanding-2.9",
+    "object_type": "check_your_understanding",
+    "number": "2.9",
+    "content_ref": "os-content-2.3-p68-55-746",
+    "printed_page": 68,
+    "pdf_page": 73,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-2.11",
+    "object_type": "example",
+    "number": "2.11",
+    "content_ref": "os-content-2.3-p68-55-746",
+    "printed_page": 68,
+    "pdf_page": 73,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-2.3-p68-55-746-strategy-288",
+    "object_type": "strategy",
+    "content_ref": "os-content-2.3-p68-55-746",
+    "printed_page": 68,
+    "pdf_page": 73,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-2.3-p68-55-746-solution-352",
+    "object_type": "solution",
+    "content_ref": "os-content-2.3-p68-55-746",
+    "printed_page": 68,
+    "pdf_page": 73,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-2.12",
+    "object_type": "example",
+    "number": "2.12",
+    "content_ref": "os-content-2.3-p68-55-746",
+    "printed_page": 68,
+    "pdf_page": 73,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-2.3-p68-55-746-strategy-648",
+    "object_type": "strategy",
+    "content_ref": "os-content-2.3-p68-55-746",
+    "printed_page": 68,
+    "pdf_page": 73,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-2.3-p69-55-746-solution-111",
+    "object_type": "solution",
+    "content_ref": "os-content-2.3-p69-55-746",
+    "printed_page": 69,
+    "pdf_page": 74,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-2.3-p69-55-746-significance-367",
+    "object_type": "significance",
+    "content_ref": "os-content-2.3-p69-55-746",
+    "printed_page": 69,
+    "pdf_page": 74,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-2.13",
+    "object_type": "example",
+    "number": "2.13",
+    "content_ref": "os-content-2.3-p69-55-746",
+    "printed_page": 69,
+    "pdf_page": 74,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-2.3-p70-55-746-strategy-257",
+    "object_type": "strategy",
+    "content_ref": "os-content-2.3-p70-55-746",
+    "printed_page": 70,
+    "pdf_page": 75,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-2.3-p70-55-746-solution-360",
+    "object_type": "solution",
+    "content_ref": "os-content-2.3-p70-55-746",
+    "printed_page": 70,
+    "pdf_page": 75,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-2.14",
+    "object_type": "example",
+    "number": "2.14",
+    "content_ref": "os-content-2.3-p71-55-746",
+    "printed_page": 71,
+    "pdf_page": 76,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-2.3-p71-55-746-strategy-253",
+    "object_type": "strategy",
+    "content_ref": "os-content-2.3-p71-55-746",
+    "printed_page": 71,
+    "pdf_page": 76,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-2.3-p71-55-746-solution-299",
+    "object_type": "solution",
+    "content_ref": "os-content-2.3-p71-55-746",
+    "printed_page": 71,
+    "pdf_page": 76,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-2.3-p71-55-746-significance-465",
+    "object_type": "significance",
+    "content_ref": "os-content-2.3-p71-55-746",
+    "printed_page": 71,
+    "pdf_page": 76,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-check-your-understanding-2.10",
+    "object_type": "check_your_understanding",
+    "number": "2.10",
+    "content_ref": "os-content-2.3-p71-55-746",
+    "printed_page": 71,
+    "pdf_page": 76,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-2.15",
+    "object_type": "example",
+    "number": "2.15",
+    "content_ref": "os-content-2.4-p73-55-746",
+    "printed_page": 73,
+    "pdf_page": 78,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-2.4-p73-55-746-strategy-152",
+    "object_type": "strategy",
+    "content_ref": "os-content-2.4-p73-55-746",
+    "printed_page": 73,
+    "pdf_page": 78,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-2.4-p73-55-746-solution-201",
+    "object_type": "solution",
+    "content_ref": "os-content-2.4-p73-55-746",
+    "printed_page": 73,
+    "pdf_page": 78,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-check-your-understanding-2.11",
+    "object_type": "check_your_understanding",
+    "number": "2.11",
+    "content_ref": "os-content-2.4-p73-55-746",
+    "printed_page": 73,
+    "pdf_page": 78,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-check-your-understanding-2.12",
+    "object_type": "check_your_understanding",
+    "number": "2.12",
+    "content_ref": "os-content-2.4-p74-55-746",
+    "printed_page": 74,
+    "pdf_page": 79,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-2.16",
+    "object_type": "example",
+    "number": "2.16",
+    "content_ref": "os-content-2.4-p74-55-746",
+    "printed_page": 74,
+    "pdf_page": 79,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-2.4-p75-55-746-strategy-248",
+    "object_type": "strategy",
+    "content_ref": "os-content-2.4-p75-55-746",
+    "printed_page": 75,
+    "pdf_page": 80,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-2.4-p75-55-746-solution-315",
+    "object_type": "solution",
+    "content_ref": "os-content-2.4-p75-55-746",
+    "printed_page": 75,
+    "pdf_page": 80,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-2.4-p75-55-746-significance-551",
+    "object_type": "significance",
+    "content_ref": "os-content-2.4-p75-55-746",
+    "printed_page": 75,
+    "pdf_page": 80,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-check-your-understanding-2.13",
+    "object_type": "check_your_understanding",
+    "number": "2.13",
+    "content_ref": "os-content-2.4-p75-55-746",
+    "printed_page": 75,
+    "pdf_page": 80,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-2.17",
+    "object_type": "example",
+    "number": "2.17",
+    "content_ref": "os-content-2.4-p76-55-746",
+    "printed_page": 76,
+    "pdf_page": 81,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-2.4-p76-55-746-strategy-160",
+    "object_type": "strategy",
+    "content_ref": "os-content-2.4-p76-55-746",
+    "printed_page": 76,
+    "pdf_page": 81,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-2.4-p76-55-746-solution-211",
+    "object_type": "solution",
+    "content_ref": "os-content-2.4-p76-55-746",
+    "printed_page": 76,
+    "pdf_page": 81,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-2.4-p76-55-746-significance-298",
+    "object_type": "significance",
+    "content_ref": "os-content-2.4-p76-55-746",
+    "printed_page": 76,
+    "pdf_page": 81,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-check-your-understanding-2.14",
+    "object_type": "check_your_understanding",
+    "number": "2.14",
+    "content_ref": "os-content-2.4-p76-55-746",
+    "printed_page": 76,
+    "pdf_page": 81,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-2.18",
+    "object_type": "example",
+    "number": "2.18",
+    "content_ref": "os-content-2.4-p78-55-746",
+    "printed_page": 78,
+    "pdf_page": 83,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-2.4-p79-55-746-strategy-319",
+    "object_type": "strategy",
+    "content_ref": "os-content-2.4-p79-55-746",
+    "printed_page": 79,
+    "pdf_page": 84,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-2.4-p79-55-746-solution-413",
+    "object_type": "solution",
+    "content_ref": "os-content-2.4-p79-55-746",
+    "printed_page": 79,
+    "pdf_page": 84,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-2.4-p79-55-746-significance-614",
+    "object_type": "significance",
+    "content_ref": "os-content-2.4-p79-55-746",
+    "printed_page": 79,
+    "pdf_page": 84,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-check-your-understanding-2.15",
+    "object_type": "check_your_understanding",
+    "number": "2.15",
+    "content_ref": "os-content-2.4-p80-55-746",
+    "printed_page": 80,
+    "pdf_page": 85,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-2.19",
+    "object_type": "example",
+    "number": "2.19",
+    "content_ref": "os-content-2.4-p82-55-746",
+    "printed_page": 82,
+    "pdf_page": 87,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-2.4-p82-55-746-strategy-296",
+    "object_type": "strategy",
+    "content_ref": "os-content-2.4-p82-55-746",
+    "printed_page": 82,
+    "pdf_page": 87,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-2.4-p82-55-746-solution-414",
+    "object_type": "solution",
+    "content_ref": "os-content-2.4-p82-55-746",
+    "printed_page": 82,
+    "pdf_page": 87,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-2.4-p83-55-746-significance-290",
+    "object_type": "significance",
+    "content_ref": "os-content-2.4-p83-55-746",
+    "printed_page": 83,
+    "pdf_page": 88,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-check-your-understanding-2.16",
+    "object_type": "check_your_understanding",
+    "number": "2.16",
+    "content_ref": "os-content-2.4-p83-55-746",
+    "printed_page": 83,
+    "pdf_page": 88,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-3.1",
+    "object_type": "example",
+    "number": "3.1",
+    "content_ref": "os-content-3.1-p100-55-746",
+    "printed_page": 100,
+    "pdf_page": 105,
+    "placement": "reading_flow",
+    "content_refs": [
+      "os-content-3.1-p100-55-746",
+      "os-content-3.1-p100-162_51-746"
+    ]
+  },
+  {
+    "object_id": "os-content-3.1-p101-55-746-strategy-239",
+    "object_type": "strategy",
+    "content_ref": "os-content-3.1-p101-55-746",
+    "printed_page": 101,
+    "pdf_page": 106,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-3.1-p101-55-746-solution-485",
+    "object_type": "solution",
+    "content_ref": "os-content-3.1-p101-55-746",
+    "printed_page": 101,
+    "pdf_page": 106,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-3.1-p102-55-546_17-significance-278",
+    "object_type": "significance",
+    "content_ref": "os-content-3.1-p102-55-546_17",
+    "printed_page": 102,
+    "pdf_page": 107,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-check-your-understanding-3.1",
+    "object_type": "check_your_understanding",
+    "number": "3.1",
+    "content_ref": "os-content-3.1-p102-55-546_17",
+    "printed_page": 102,
+    "pdf_page": 107,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-3.2",
+    "object_type": "example",
+    "number": "3.2",
+    "content_ref": "os-content-3.2-p103-55-746",
+    "printed_page": 103,
+    "pdf_page": 108,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-3.2-p104-55-746-strategy-299",
+    "object_type": "strategy",
+    "content_ref": "os-content-3.2-p104-55-746",
+    "printed_page": 104,
+    "pdf_page": 109,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-3.2-p104-55-746-solution-346",
+    "object_type": "solution",
+    "content_ref": "os-content-3.2-p104-55-746",
+    "printed_page": 104,
+    "pdf_page": 109,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-3.2-p104-55-746-significance-625",
+    "object_type": "significance",
+    "content_ref": "os-content-3.2-p104-55-746",
+    "printed_page": 104,
+    "pdf_page": 109,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-3.3",
+    "object_type": "example",
+    "number": "3.3",
+    "content_ref": "os-content-3.2-p106-55-746",
+    "printed_page": 106,
+    "pdf_page": 111,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-3.2-p106-55-746-strategy-254",
+    "object_type": "strategy",
+    "content_ref": "os-content-3.2-p106-55-746",
+    "printed_page": 106,
+    "pdf_page": 111,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-3.2-p106-55-746-solution-314",
+    "object_type": "solution",
+    "content_ref": "os-content-3.2-p106-55-746",
+    "printed_page": 106,
+    "pdf_page": 111,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-3.2-p106-55-746-significance-481",
+    "object_type": "significance",
+    "content_ref": "os-content-3.2-p106-55-746",
+    "printed_page": 106,
+    "pdf_page": 111,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-3.4",
+    "object_type": "example",
+    "number": "3.4",
+    "content_ref": "os-content-3.2-p106-55-746",
+    "printed_page": 106,
+    "pdf_page": 111,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-3.2-p106-55-746-strategy-672",
+    "object_type": "strategy",
+    "content_ref": "os-content-3.2-p106-55-746",
+    "printed_page": 106,
+    "pdf_page": 111,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-3.2-p107-55-532_63-solution-61",
+    "object_type": "solution",
+    "content_ref": "os-content-3.2-p107-55-532_63",
+    "printed_page": 107,
+    "pdf_page": 112,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-3.2-p107-55-532_63-significance-132",
+    "object_type": "significance",
+    "content_ref": "os-content-3.2-p107-55-532_63",
+    "printed_page": 107,
+    "pdf_page": 112,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-check-your-understanding-3.2",
+    "object_type": "check_your_understanding",
+    "number": "3.2",
+    "content_ref": "os-content-3.2-p107-55-532_63",
+    "printed_page": 107,
+    "pdf_page": 112,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-3.5",
+    "object_type": "example",
+    "number": "3.5",
+    "content_ref": "os-content-3.3-p109-55-746",
+    "printed_page": 109,
+    "pdf_page": 114,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-3.3-p109-55-746-strategy-511",
+    "object_type": "strategy",
+    "content_ref": "os-content-3.3-p109-55-746",
+    "printed_page": 109,
+    "pdf_page": 114,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-3.3-p110-55-746-solution-61",
+    "object_type": "solution",
+    "content_ref": "os-content-3.3-p110-55-746",
+    "printed_page": 110,
+    "pdf_page": 115,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-3.3-p110-55-746-significance-204",
+    "object_type": "significance",
+    "content_ref": "os-content-3.3-p110-55-746",
+    "printed_page": 110,
+    "pdf_page": 115,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-check-your-understanding-3.3",
+    "object_type": "check_your_understanding",
+    "number": "3.3",
+    "content_ref": "os-content-3.3-p110-55-746",
+    "printed_page": 110,
+    "pdf_page": 115,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-3.6",
+    "object_type": "example",
+    "number": "3.6",
+    "content_ref": "os-content-3.3-p111-55-746",
+    "printed_page": 111,
+    "pdf_page": 116,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-3.3-p112-55-746-strategy-105",
+    "object_type": "strategy",
+    "content_ref": "os-content-3.3-p112-55-746",
+    "printed_page": 112,
+    "pdf_page": 117,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-3.3-p112-55-746-solution-164",
+    "object_type": "solution",
+    "content_ref": "os-content-3.3-p112-55-746",
+    "printed_page": 112,
+    "pdf_page": 117,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-3.3-p113-55-746-significance-530",
+    "object_type": "significance",
+    "content_ref": "os-content-3.3-p113-55-746",
+    "printed_page": 113,
+    "pdf_page": 118,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-check-your-understanding-3.4",
+    "object_type": "check_your_understanding",
+    "number": "3.4",
+    "content_ref": "os-content-3.3-p113-55-746",
+    "printed_page": 113,
+    "pdf_page": 118,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-3.7",
+    "object_type": "example",
+    "number": "3.7",
+    "content_ref": "os-content-3.4-p117-55-746",
+    "printed_page": 117,
+    "pdf_page": 122,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-3.4-p117-55-746-strategy-546",
+    "object_type": "strategy",
+    "content_ref": "os-content-3.4-p117-55-746",
+    "printed_page": 117,
+    "pdf_page": 122,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-3.4-p117-55-746-solution-631",
+    "object_type": "solution",
+    "content_ref": "os-content-3.4-p117-55-746",
+    "printed_page": 117,
+    "pdf_page": 122,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-3.4-p118-55-746-significance-168",
+    "object_type": "significance",
+    "content_ref": "os-content-3.4-p118-55-746",
+    "printed_page": 118,
+    "pdf_page": 123,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-3.8",
+    "object_type": "example",
+    "number": "3.8",
+    "content_ref": "os-content-3.4-p118-55-746",
+    "printed_page": 118,
+    "pdf_page": 123,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-3.4-p119-55-746-strategy-277",
+    "object_type": "strategy",
+    "content_ref": "os-content-3.4-p119-55-746",
+    "printed_page": 119,
+    "pdf_page": 124,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-3.4-p119-55-746-solution-487",
+    "object_type": "solution",
+    "content_ref": "os-content-3.4-p119-55-746",
+    "printed_page": 119,
+    "pdf_page": 124,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-3.4-p119-55-746-significance-677",
+    "object_type": "significance",
+    "content_ref": "os-content-3.4-p119-55-746",
+    "printed_page": 119,
+    "pdf_page": 124,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-3.9",
+    "object_type": "example",
+    "number": "3.9",
+    "content_ref": "os-content-3.4-p120-55-746",
+    "printed_page": 120,
+    "pdf_page": 125,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-3.4-p120-55-746-strategy-404",
+    "object_type": "strategy",
+    "content_ref": "os-content-3.4-p120-55-746",
+    "printed_page": 120,
+    "pdf_page": 125,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-3.4-p120-55-746-solution-453",
+    "object_type": "solution",
+    "content_ref": "os-content-3.4-p120-55-746",
+    "printed_page": 120,
+    "pdf_page": 125,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-3.4-p120-55-746-significance-614",
+    "object_type": "significance",
+    "content_ref": "os-content-3.4-p120-55-746",
+    "printed_page": 120,
+    "pdf_page": 125,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-3.10",
+    "object_type": "example",
+    "number": "3.10",
+    "content_ref": "os-content-3.4-p121-55-746",
+    "printed_page": 121,
+    "pdf_page": 126,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-3.4-p121-55-746-strategy-654",
+    "object_type": "strategy",
+    "content_ref": "os-content-3.4-p121-55-746",
+    "printed_page": 121,
+    "pdf_page": 126,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-3.4-p122-55-746-solution-212",
+    "object_type": "solution",
+    "content_ref": "os-content-3.4-p122-55-746",
+    "printed_page": 122,
+    "pdf_page": 127,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-3.4-p123-55-746-significance-246",
+    "object_type": "significance",
+    "content_ref": "os-content-3.4-p123-55-746",
+    "printed_page": 123,
+    "pdf_page": 128,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-3.11",
+    "object_type": "example",
+    "number": "3.11",
+    "content_ref": "os-content-3.4-p123-55-746",
+    "printed_page": 123,
+    "pdf_page": 128,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-3.4-p123-55-746-strategy-451",
+    "object_type": "strategy",
+    "content_ref": "os-content-3.4-p123-55-746",
+    "printed_page": 123,
+    "pdf_page": 128,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-3.4-p123-55-746-solution-628",
+    "object_type": "solution",
+    "content_ref": "os-content-3.4-p123-55-746",
+    "printed_page": 123,
+    "pdf_page": 128,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-3.4-p124-55-746-significance-297",
+    "object_type": "significance",
+    "content_ref": "os-content-3.4-p124-55-746",
+    "printed_page": 124,
+    "pdf_page": 129,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-check-your-understanding-3.5",
+    "object_type": "check_your_understanding",
+    "number": "3.5",
+    "content_ref": "os-content-3.4-p124-55-746",
+    "printed_page": 124,
+    "pdf_page": 129,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-3.12",
+    "object_type": "example",
+    "number": "3.12",
+    "content_ref": "os-content-3.4-p124-55-746",
+    "printed_page": 124,
+    "pdf_page": 129,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-3.4-p124-55-746-strategy-522",
+    "object_type": "strategy",
+    "content_ref": "os-content-3.4-p124-55-746",
+    "printed_page": 124,
+    "pdf_page": 129,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-3.4-p124-55-746-solution-594",
+    "object_type": "solution",
+    "content_ref": "os-content-3.4-p124-55-746",
+    "printed_page": 124,
+    "pdf_page": 129,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-3.4-p125-55-746-significance-81",
+    "object_type": "significance",
+    "content_ref": "os-content-3.4-p125-55-746",
+    "printed_page": 125,
+    "pdf_page": 130,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-3.13",
+    "object_type": "example",
+    "number": "3.13",
+    "content_ref": "os-content-3.4-p125-55-746",
+    "printed_page": 125,
+    "pdf_page": 130,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-3.4-p125-55-746-strategy-568",
+    "object_type": "strategy",
+    "content_ref": "os-content-3.4-p125-55-746",
+    "printed_page": 125,
+    "pdf_page": 130,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-3.4-p125-55-746-solution-677",
+    "object_type": "solution",
+    "content_ref": "os-content-3.4-p125-55-746",
+    "printed_page": 125,
+    "pdf_page": 130,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-3.4-p126-55-542_67-significance-401",
+    "object_type": "significance",
+    "content_ref": "os-content-3.4-p126-55-542_67",
+    "printed_page": 126,
+    "pdf_page": 131,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-check-your-understanding-3.6",
+    "object_type": "check_your_understanding",
+    "number": "3.6",
+    "content_ref": "os-content-3.4-p126-55-542_67",
+    "printed_page": 126,
+    "pdf_page": 131,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-3.14",
+    "object_type": "example",
+    "number": "3.14",
+    "content_ref": "os-content-3.5-p128-55-746",
+    "printed_page": 128,
+    "pdf_page": 133,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-3.5-p129-55-746-strategy-244",
+    "object_type": "strategy",
+    "content_ref": "os-content-3.5-p129-55-746",
+    "printed_page": 129,
+    "pdf_page": 134,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-3.5-p129-55-746-solution-291",
+    "object_type": "solution",
+    "content_ref": "os-content-3.5-p129-55-746",
+    "printed_page": 129,
+    "pdf_page": 134,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-3.5-p129-55-746-significance-508",
+    "object_type": "significance",
+    "content_ref": "os-content-3.5-p129-55-746",
+    "printed_page": 129,
+    "pdf_page": 134,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-3.15",
+    "object_type": "example",
+    "number": "3.15",
+    "content_ref": "os-content-3.5-p129-55-746",
+    "printed_page": 129,
+    "pdf_page": 134,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-3.5-p130-55-746-strategy-306",
+    "object_type": "strategy",
+    "content_ref": "os-content-3.5-p130-55-746",
+    "printed_page": 130,
+    "pdf_page": 135,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-3.5-p130-55-746-solution-352",
+    "object_type": "solution",
+    "content_ref": "os-content-3.5-p130-55-746",
+    "printed_page": 130,
+    "pdf_page": 135,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-3.5-p130-55-746-significance-685",
+    "object_type": "significance",
+    "content_ref": "os-content-3.5-p130-55-746",
+    "printed_page": 130,
+    "pdf_page": 135,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-check-your-understanding-3.7",
+    "object_type": "check_your_understanding",
+    "number": "3.7",
+    "content_ref": "os-content-3.5-p131-55-746",
+    "printed_page": 131,
+    "pdf_page": 136,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-3.16",
+    "object_type": "example",
+    "number": "3.16",
+    "content_ref": "os-content-3.5-p131-55-746",
+    "printed_page": 131,
+    "pdf_page": 136,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-3.5-p131-55-746-strategy-614",
+    "object_type": "strategy",
+    "content_ref": "os-content-3.5-p131-55-746",
+    "printed_page": 131,
+    "pdf_page": 136,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-3.5-p132-55-405_68-solution-61",
+    "object_type": "solution",
+    "content_ref": "os-content-3.5-p132-55-405_68",
+    "printed_page": 132,
+    "pdf_page": 137,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-3.5-p132-55-405_68-significance-214",
+    "object_type": "significance",
+    "content_ref": "os-content-3.5-p132-55-405_68",
+    "printed_page": 132,
+    "pdf_page": 137,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-3.17",
+    "object_type": "example",
+    "number": "3.17",
+    "content_ref": "os-content-3.6-p133-55-746",
+    "printed_page": 133,
+    "pdf_page": 138,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-3.6-p134-55-746-strategy-61",
+    "object_type": "strategy",
+    "content_ref": "os-content-3.6-p134-55-746",
+    "printed_page": 134,
+    "pdf_page": 139,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-3.6-p134-55-746-solution-133",
+    "object_type": "solution",
+    "content_ref": "os-content-3.6-p134-55-746",
+    "printed_page": 134,
+    "pdf_page": 139,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-3.6-p135-55-746-significance-61",
+    "object_type": "significance",
+    "content_ref": "os-content-3.6-p135-55-746",
+    "printed_page": 135,
+    "pdf_page": 140,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-check-your-understanding-3.8",
+    "object_type": "check_your_understanding",
+    "number": "3.8",
+    "content_ref": "os-content-3.6-p135-55-746",
+    "printed_page": 135,
+    "pdf_page": 140,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-4.13",
+    "object_type": "example",
+    "number": "4.13",
+    "content_ref": "os-content-4.5-p179-55-746",
+    "printed_page": 179,
+    "pdf_page": 184,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-4.5-p179-55-746-strategy-606",
+    "object_type": "strategy",
+    "content_ref": "os-content-4.5-p179-55-746",
+    "printed_page": 179,
+    "pdf_page": 184,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-4.5-p179-55-746-solution-665",
+    "object_type": "solution",
+    "content_ref": "os-content-4.5-p179-55-746",
+    "printed_page": 179,
+    "pdf_page": 184,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-4.5-p180-55-746-significance-383",
+    "object_type": "significance",
+    "content_ref": "os-content-4.5-p180-55-746",
+    "printed_page": 180,
+    "pdf_page": 185,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-check-your-understanding-4.6",
+    "object_type": "check_your_understanding",
+    "number": "4.6",
+    "content_ref": "os-content-4.5-p180-55-746",
+    "printed_page": 180,
+    "pdf_page": 185,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-4.14",
+    "object_type": "example",
+    "number": "4.14",
+    "content_ref": "os-content-4.5-p180-55-746",
+    "printed_page": 180,
+    "pdf_page": 185,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-4.5-p180-55-746-strategy-609",
+    "object_type": "strategy",
+    "content_ref": "os-content-4.5-p180-55-746",
+    "printed_page": 180,
+    "pdf_page": 185,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-4.5-p181-55-746-solution-61",
+    "object_type": "solution",
+    "content_ref": "os-content-4.5-p181-55-746",
+    "printed_page": 181,
+    "pdf_page": 186,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-4.1",
+    "object_type": "example",
+    "number": "4.1",
+    "content_ref": "os-content-4.1-p149-55-746",
+    "printed_page": 149,
+    "pdf_page": 154,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-4.1-p149-55-746-strategy-351",
+    "object_type": "strategy",
+    "content_ref": "os-content-4.1-p149-55-746",
+    "printed_page": 149,
+    "pdf_page": 154,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-4.1-p149-55-746-solution-397",
+    "object_type": "solution",
+    "content_ref": "os-content-4.1-p149-55-746",
+    "printed_page": 149,
+    "pdf_page": 154,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-4.1-p150-55-746-significance-609",
+    "object_type": "significance",
+    "content_ref": "os-content-4.1-p150-55-746",
+    "printed_page": 150,
+    "pdf_page": 155,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-4.2",
+    "object_type": "example",
+    "number": "4.2",
+    "content_ref": "os-content-4.1-p151-55-746",
+    "printed_page": 151,
+    "pdf_page": 156,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-4.1-p152-55-746-solution-249",
+    "object_type": "solution",
+    "content_ref": "os-content-4.1-p152-55-746",
+    "printed_page": 152,
+    "pdf_page": 157,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-4.1-p152-55-746-significance-410",
+    "object_type": "significance",
+    "content_ref": "os-content-4.1-p152-55-746",
+    "printed_page": 152,
+    "pdf_page": 157,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-4.3",
+    "object_type": "example",
+    "number": "4.3",
+    "content_ref": "os-content-4.1-p153-55-746",
+    "printed_page": 153,
+    "pdf_page": 158,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-4.1-p153-55-746-solution-536",
+    "object_type": "solution",
+    "content_ref": "os-content-4.1-p153-55-746",
+    "printed_page": 153,
+    "pdf_page": 158,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-4.1-p153-55-746-significance-700",
+    "object_type": "significance",
+    "content_ref": "os-content-4.1-p153-55-746",
+    "printed_page": 153,
+    "pdf_page": 158,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-check-your-understanding-4.1",
+    "object_type": "check_your_understanding",
+    "number": "4.1",
+    "content_ref": "os-content-4.1-p154-55-746",
+    "printed_page": 154,
+    "pdf_page": 159,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-4.4",
+    "object_type": "example",
+    "number": "4.4",
+    "content_ref": "os-content-4.2-p156-55-746",
+    "printed_page": 156,
+    "pdf_page": 161,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-4.2-p156-55-746-solution-339",
+    "object_type": "solution",
+    "content_ref": "os-content-4.2-p156-55-746",
+    "printed_page": 156,
+    "pdf_page": 161,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-4.2-p156-55-746-significance-442",
+    "object_type": "significance",
+    "content_ref": "os-content-4.2-p156-55-746",
+    "printed_page": 156,
+    "pdf_page": 161,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-4.5",
+    "object_type": "example",
+    "number": "4.5",
+    "content_ref": "os-content-4.2-p156-55-746",
+    "printed_page": 156,
+    "pdf_page": 161,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-4.2-p156-55-746-strategy-590",
+    "object_type": "strategy",
+    "content_ref": "os-content-4.2-p156-55-746",
+    "printed_page": 156,
+    "pdf_page": 161,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-4.2-p156-55-746-solution-650",
+    "object_type": "solution",
+    "content_ref": "os-content-4.2-p156-55-746",
+    "printed_page": 156,
+    "pdf_page": 161,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-4.2-p157-55-746-significance-546",
+    "object_type": "significance",
+    "content_ref": "os-content-4.2-p157-55-746",
+    "printed_page": 157,
+    "pdf_page": 162,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-check-your-understanding-4.2",
+    "object_type": "check_your_understanding",
+    "number": "4.2",
+    "content_ref": "os-content-4.2-p157-55-746",
+    "printed_page": 157,
+    "pdf_page": 162,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-4.6",
+    "object_type": "example",
+    "number": "4.6",
+    "content_ref": "os-content-4.2-p158-55-746",
+    "printed_page": 158,
+    "pdf_page": 163,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-4.2-p159-55-746-strategy-331",
+    "object_type": "strategy",
+    "content_ref": "os-content-4.2-p159-55-746",
+    "printed_page": 159,
+    "pdf_page": 164,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-4.2-p159-55-746-solution-403",
+    "object_type": "solution",
+    "content_ref": "os-content-4.2-p159-55-746",
+    "printed_page": 159,
+    "pdf_page": 164,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-4.2-p160-55-369_76-significance-159",
+    "object_type": "significance",
+    "content_ref": "os-content-4.2-p160-55-369_76",
+    "printed_page": 160,
+    "pdf_page": 165,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-4.7",
+    "object_type": "example",
+    "number": "4.7",
+    "content_ref": "os-content-4.3-p162-55-746",
+    "printed_page": 162,
+    "pdf_page": 167,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-4.3-p163-55-746-strategy-268",
+    "object_type": "strategy",
+    "content_ref": "os-content-4.3-p163-55-746",
+    "printed_page": 163,
+    "pdf_page": 168,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-4.3-p163-55-746-solution-316",
+    "object_type": "solution",
+    "content_ref": "os-content-4.3-p163-55-746",
+    "printed_page": 163,
+    "pdf_page": 168,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-check-your-understanding-4.3",
+    "object_type": "check_your_understanding",
+    "number": "4.3",
+    "content_ref": "os-content-4.3-p164-55-746",
+    "printed_page": 164,
+    "pdf_page": 169,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-4.8",
+    "object_type": "example",
+    "number": "4.8",
+    "content_ref": "os-content-4.3-p165-55-746",
+    "printed_page": 165,
+    "pdf_page": 170,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-4.3-p165-55-746-strategy-374",
+    "object_type": "strategy",
+    "content_ref": "os-content-4.3-p165-55-746",
+    "printed_page": 165,
+    "pdf_page": 170,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-4.3-p165-55-746-solution-458",
+    "object_type": "solution",
+    "content_ref": "os-content-4.3-p165-55-746",
+    "printed_page": 165,
+    "pdf_page": 170,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-4.3-p166-55-746-significance-343",
+    "object_type": "significance",
+    "content_ref": "os-content-4.3-p166-55-746",
+    "printed_page": 166,
+    "pdf_page": 171,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-4.9",
+    "object_type": "example",
+    "number": "4.9",
+    "content_ref": "os-content-4.3-p168-55-746",
+    "printed_page": 168,
+    "pdf_page": 173,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-4.3-p168-55-746-strategy-598",
+    "object_type": "strategy",
+    "content_ref": "os-content-4.3-p168-55-746",
+    "printed_page": 168,
+    "pdf_page": 173,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-4.3-p168-55-746-solution-645",
+    "object_type": "solution",
+    "content_ref": "os-content-4.3-p168-55-746",
+    "printed_page": 168,
+    "pdf_page": 173,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-4.3-p169-55-746-significance-492",
+    "object_type": "significance",
+    "content_ref": "os-content-4.3-p169-55-746",
+    "printed_page": 169,
+    "pdf_page": 174,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-check-your-understanding-4.4",
+    "object_type": "check_your_understanding",
+    "number": "4.4",
+    "content_ref": "os-content-4.3-p169-55-746",
+    "printed_page": 169,
+    "pdf_page": 174,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-4.10",
+    "object_type": "example",
+    "number": "4.10",
+    "content_ref": "os-content-4.4-p172-55-746",
+    "printed_page": 172,
+    "pdf_page": 177,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-4.4-p172-55-746-strategy-355",
+    "object_type": "strategy",
+    "content_ref": "os-content-4.4-p172-55-746",
+    "printed_page": 172,
+    "pdf_page": 177,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-4.4-p172-55-746-solution-389",
+    "object_type": "solution",
+    "content_ref": "os-content-4.4-p172-55-746",
+    "printed_page": 172,
+    "pdf_page": 177,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-4.4-p172-55-746-significance-476",
+    "object_type": "significance",
+    "content_ref": "os-content-4.4-p172-55-746",
+    "printed_page": 172,
+    "pdf_page": 177,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-check-your-understanding-4.5",
+    "object_type": "check_your_understanding",
+    "number": "4.5",
+    "content_ref": "os-content-4.4-p172-55-746",
+    "printed_page": 172,
+    "pdf_page": 177,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-4.11",
+    "object_type": "example",
+    "number": "4.11",
+    "content_ref": "os-content-4.4-p174-55-746",
+    "printed_page": 174,
+    "pdf_page": 179,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-4.4-p174-55-746-solution-231",
+    "object_type": "solution",
+    "content_ref": "os-content-4.4-p174-55-746",
+    "printed_page": 174,
+    "pdf_page": 179,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-4.4-p175-55-746-significance-311",
+    "object_type": "significance",
+    "content_ref": "os-content-4.4-p175-55-746",
+    "printed_page": 175,
+    "pdf_page": 180,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-4.12",
+    "object_type": "example",
+    "number": "4.12",
+    "content_ref": "os-content-4.4-p176-55-746",
+    "printed_page": 176,
+    "pdf_page": 181,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-4.4-p176-55-746-strategy-349",
+    "object_type": "strategy",
+    "content_ref": "os-content-4.4-p176-55-746",
+    "printed_page": 176,
+    "pdf_page": 181,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-4.4-p176-55-746-solution-421",
+    "object_type": "solution",
+    "content_ref": "os-content-4.4-p176-55-746",
+    "printed_page": 176,
+    "pdf_page": 181,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-4.4-p177-55-301_12-significance-231",
+    "object_type": "significance",
+    "content_ref": "os-content-4.4-p177-55-301_12",
+    "printed_page": 177,
+    "pdf_page": 182,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-9.16",
+    "object_type": "example",
+    "number": "9.16",
+    "content_ref": "os-content-9.6-p425-55-746",
+    "printed_page": 425,
+    "pdf_page": 430,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-9.6-p425-55-746-strategy-483",
+    "object_type": "strategy",
+    "content_ref": "os-content-9.6-p425-55-746",
+    "printed_page": 425,
+    "pdf_page": 430,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-9.6-p425-55-746-solution-529",
+    "object_type": "solution",
+    "content_ref": "os-content-9.6-p425-55-746",
+    "printed_page": 425,
+    "pdf_page": 430,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-9.6-p426-55-746-significance-112",
+    "object_type": "significance",
+    "content_ref": "os-content-9.6-p426-55-746",
+    "printed_page": 426,
+    "pdf_page": 431,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-check-your-understanding-9.11",
+    "object_type": "check_your_understanding",
+    "number": "9.11",
+    "content_ref": "os-content-9.6-p426-55-746",
+    "printed_page": 426,
+    "pdf_page": 431,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-9.17",
+    "object_type": "example",
+    "number": "9.17",
+    "content_ref": "os-content-9.6-p426-55-746",
+    "printed_page": 426,
+    "pdf_page": 431,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-9.6-p427-55-746-strategy-353",
+    "object_type": "strategy",
+    "content_ref": "os-content-9.6-p427-55-746",
+    "printed_page": 427,
+    "pdf_page": 432,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-9.6-p427-55-746-solution-400",
+    "object_type": "solution",
+    "content_ref": "os-content-9.6-p427-55-746",
+    "printed_page": 427,
+    "pdf_page": 432,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-9.6-p428-55-746-significance-551",
+    "object_type": "significance",
+    "content_ref": "os-content-9.6-p428-55-746",
+    "printed_page": 428,
+    "pdf_page": 433,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-check-your-understanding-9.12",
+    "object_type": "check_your_understanding",
+    "number": "9.12",
+    "content_ref": "os-content-9.6-p428-55-746",
+    "printed_page": 428,
+    "pdf_page": 433,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-9.18",
+    "object_type": "example",
+    "number": "9.18",
+    "content_ref": "os-content-9.6-p429-55-746",
+    "printed_page": 429,
+    "pdf_page": 434,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-9.6-p429-55-746-strategy-388",
+    "object_type": "strategy",
+    "content_ref": "os-content-9.6-p429-55-746",
+    "printed_page": 429,
+    "pdf_page": 434,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-9.6-p429-55-746-solution-548",
+    "object_type": "solution",
+    "content_ref": "os-content-9.6-p429-55-746",
+    "printed_page": 429,
+    "pdf_page": 434,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-9.19",
+    "object_type": "example",
+    "number": "9.19",
+    "content_ref": "os-content-9.6-p432-55-746",
+    "printed_page": 432,
+    "pdf_page": 437,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-9.6-p432-55-746-solution-618",
+    "object_type": "solution",
+    "content_ref": "os-content-9.6-p432-55-746",
+    "printed_page": 432,
+    "pdf_page": 437,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-9.6-p433-55-746-significance-309",
+    "object_type": "significance",
+    "content_ref": "os-content-9.6-p433-55-746",
+    "printed_page": 433,
+    "pdf_page": 438,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-check-your-understanding-9.13",
+    "object_type": "check_your_understanding",
+    "number": "9.13",
+    "content_ref": "os-content-9.6-p433-55-746",
+    "printed_page": 433,
+    "pdf_page": 438,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-check-your-understanding-5.1",
+    "object_type": "check_your_understanding",
+    "number": "5.1",
+    "content_ref": "os-content-5.1-p198-55-577_08",
+    "printed_page": 198,
+    "pdf_page": 203,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-5.12",
+    "object_type": "example",
+    "number": "5.12",
+    "content_ref": "os-content-5.6-p221-55-746",
+    "printed_page": 221,
+    "pdf_page": 226,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-5.6-p222-55-746-strategy-337",
+    "object_type": "strategy",
+    "content_ref": "os-content-5.6-p222-55-746",
+    "printed_page": 222,
+    "pdf_page": 227,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-5.6-p222-55-746-solution-498",
+    "object_type": "solution",
+    "content_ref": "os-content-5.6-p222-55-746",
+    "printed_page": 222,
+    "pdf_page": 227,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-5.6-p223-55-746-significance-372",
+    "object_type": "significance",
+    "content_ref": "os-content-5.6-p223-55-746",
+    "printed_page": 223,
+    "pdf_page": 228,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-check-your-understanding-5.8",
+    "object_type": "check_your_understanding",
+    "number": "5.8",
+    "content_ref": "os-content-5.6-p224-55-746",
+    "printed_page": 224,
+    "pdf_page": 229,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-5.13",
+    "object_type": "example",
+    "number": "5.13",
+    "content_ref": "os-content-5.6-p225-55-746",
+    "printed_page": 225,
+    "pdf_page": 230,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-5.6-p226-55-746-strategy-280",
+    "object_type": "strategy",
+    "content_ref": "os-content-5.6-p226-55-746",
+    "printed_page": 226,
+    "pdf_page": 231,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-5.6-p226-55-746-solution-463",
+    "object_type": "solution",
+    "content_ref": "os-content-5.6-p226-55-746",
+    "printed_page": 226,
+    "pdf_page": 231,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-5.6-p227-55-746-significance-634",
+    "object_type": "significance",
+    "content_ref": "os-content-5.6-p227-55-746",
+    "printed_page": 227,
+    "pdf_page": 232,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-check-your-understanding-5.9",
+    "object_type": "check_your_understanding",
+    "number": "5.9",
+    "content_ref": "os-content-5.6-p228-55-746",
+    "printed_page": 228,
+    "pdf_page": 233,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-5.14",
+    "object_type": "example",
+    "number": "5.14",
+    "content_ref": "os-content-5.7-p231-55-746",
+    "printed_page": 231,
+    "pdf_page": 236,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-5.7-p231-55-746-strategy-366",
+    "object_type": "strategy",
+    "content_ref": "os-content-5.7-p231-55-746",
+    "printed_page": 231,
+    "pdf_page": 236,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-5.7-p231-55-746-solution-401",
+    "object_type": "solution",
+    "content_ref": "os-content-5.7-p231-55-746",
+    "printed_page": 231,
+    "pdf_page": 236,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-5.7-p232-55-746-significance-242",
+    "object_type": "significance",
+    "content_ref": "os-content-5.7-p232-55-746",
+    "printed_page": 232,
+    "pdf_page": 237,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-5.15",
+    "object_type": "example",
+    "number": "5.15",
+    "content_ref": "os-content-5.7-p232-55-746",
+    "printed_page": 232,
+    "pdf_page": 237,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-5.7-p232-55-746-strategy-408",
+    "object_type": "strategy",
+    "content_ref": "os-content-5.7-p232-55-746",
+    "printed_page": 232,
+    "pdf_page": 237,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-5.7-p232-55-746-solution-570",
+    "object_type": "solution",
+    "content_ref": "os-content-5.7-p232-55-746",
+    "printed_page": 232,
+    "pdf_page": 237,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-5.7-p233-55-746-significance-61",
+    "object_type": "significance",
+    "content_ref": "os-content-5.7-p233-55-746",
+    "printed_page": 233,
+    "pdf_page": 238,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-5.16",
+    "object_type": "example",
+    "number": "5.16",
+    "content_ref": "os-content-5.7-p233-55-746",
+    "printed_page": 233,
+    "pdf_page": 238,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-5.7-p233-55-746-strategy-217",
+    "object_type": "strategy",
+    "content_ref": "os-content-5.7-p233-55-746",
+    "printed_page": 233,
+    "pdf_page": 238,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-5.7-p233-55-746-solution-437",
+    "object_type": "solution",
+    "content_ref": "os-content-5.7-p233-55-746",
+    "printed_page": 233,
+    "pdf_page": 238,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-5.7-p233-55-746-significance-587",
+    "object_type": "significance",
+    "content_ref": "os-content-5.7-p233-55-746",
+    "printed_page": 233,
+    "pdf_page": 238,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-check-your-understanding-5.10",
+    "object_type": "check_your_understanding",
+    "number": "5.10",
+    "content_ref": "os-content-5.7-p234-55-746",
+    "printed_page": 234,
+    "pdf_page": 239,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-6.1-p253-55-431_29-significance-373",
+    "object_type": "significance",
+    "content_ref": "os-content-6.1-p253-55-431_29",
+    "printed_page": 253,
+    "pdf_page": 258,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-5.9",
+    "object_type": "example",
+    "number": "5.9",
+    "content_ref": "os-content-5.5-p216-55-746",
+    "printed_page": 216,
+    "pdf_page": 221,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-5.5-p217-55-746-strategy-404",
+    "object_type": "strategy",
+    "content_ref": "os-content-5.5-p217-55-746",
+    "printed_page": 217,
+    "pdf_page": 222,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-5.5-p217-55-746-significance-547",
+    "object_type": "significance",
+    "content_ref": "os-content-5.5-p217-55-746",
+    "printed_page": 217,
+    "pdf_page": 222,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-5.10",
+    "object_type": "example",
+    "number": "5.10",
+    "content_ref": "os-content-5.5-p217-55-746",
+    "printed_page": 217,
+    "pdf_page": 222,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-5.5-p218-55-746-strategy-355",
+    "object_type": "strategy",
+    "content_ref": "os-content-5.5-p218-55-746",
+    "printed_page": 218,
+    "pdf_page": 223,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-5.5-p218-55-746-solution-492",
+    "object_type": "solution",
+    "content_ref": "os-content-5.5-p218-55-746",
+    "printed_page": 218,
+    "pdf_page": 223,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-5.5-p218-55-746-significance-677",
+    "object_type": "significance",
+    "content_ref": "os-content-5.5-p218-55-746",
+    "printed_page": 218,
+    "pdf_page": 223,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-5.11",
+    "object_type": "example",
+    "number": "5.11",
+    "content_ref": "os-content-5.5-p219-55-746",
+    "printed_page": 219,
+    "pdf_page": 224,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-5.5-p219-55-746-strategy-199",
+    "object_type": "strategy",
+    "content_ref": "os-content-5.5-p219-55-746",
+    "printed_page": 219,
+    "pdf_page": 224,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-5.5-p219-55-746-solution-274",
+    "object_type": "solution",
+    "content_ref": "os-content-5.5-p219-55-746",
+    "printed_page": 219,
+    "pdf_page": 224,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-5.5-p219-55-746-significance-554",
+    "object_type": "significance",
+    "content_ref": "os-content-5.5-p219-55-746",
+    "printed_page": 219,
+    "pdf_page": 224,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-check-your-understanding-5.7",
+    "object_type": "check_your_understanding",
+    "number": "5.7",
+    "content_ref": "os-content-5.5-p219-55-746",
+    "printed_page": 219,
+    "pdf_page": 224,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-5.1",
+    "object_type": "example",
+    "number": "5.1",
+    "content_ref": "os-content-5.2-p201-55-746",
+    "printed_page": 201,
+    "pdf_page": 206,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-5.2-p201-55-746-strategy-580",
+    "object_type": "strategy",
+    "content_ref": "os-content-5.2-p201-55-746",
+    "printed_page": 201,
+    "pdf_page": 206,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-5.2-p201-55-746-solution-626",
+    "object_type": "solution",
+    "content_ref": "os-content-5.2-p201-55-746",
+    "printed_page": 201,
+    "pdf_page": 206,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-5.2-p202-55-368_82-significance-105",
+    "object_type": "significance",
+    "content_ref": "os-content-5.2-p202-55-368_82",
+    "printed_page": 202,
+    "pdf_page": 207,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-check-your-understanding-5.2",
+    "object_type": "check_your_understanding",
+    "number": "5.2",
+    "content_ref": "os-content-5.2-p202-55-368_82",
+    "printed_page": 202,
+    "pdf_page": 207,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-5.8",
+    "object_type": "example",
+    "number": "5.8",
+    "content_ref": "os-content-5.4-p213-55-746",
+    "printed_page": 213,
+    "pdf_page": 218,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-5.4-p213-55-746-strategy-470",
+    "object_type": "strategy",
+    "content_ref": "os-content-5.4-p213-55-746",
+    "printed_page": 213,
+    "pdf_page": 218,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-5.4-p213-55-746-solution-530",
+    "object_type": "solution",
+    "content_ref": "os-content-5.4-p213-55-746",
+    "printed_page": 213,
+    "pdf_page": 218,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-5.4-p214-55-297_6-significance-181",
+    "object_type": "significance",
+    "content_ref": "os-content-5.4-p214-55-297_6",
+    "printed_page": 214,
+    "pdf_page": 219,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-check-your-understanding-5.6",
+    "object_type": "check_your_understanding",
+    "number": "5.6",
+    "content_ref": "os-content-5.4-p214-55-297_6",
+    "printed_page": 214,
+    "pdf_page": 219,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-13.1",
+    "object_type": "example",
+    "number": "13.1",
+    "content_ref": "os-content-13.1-p602-55-746",
+    "printed_page": 602,
+    "pdf_page": 607,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-13.1-p602-55-746-strategy-633",
+    "object_type": "strategy",
+    "content_ref": "os-content-13.1-p602-55-746",
+    "printed_page": 602,
+    "pdf_page": 607,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-13.1-p603-55-746-solution-61",
+    "object_type": "solution",
+    "content_ref": "os-content-13.1-p603-55-746",
+    "printed_page": 603,
+    "pdf_page": 608,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-13.1-p603-55-746-significance-325",
+    "object_type": "significance",
+    "content_ref": "os-content-13.1-p603-55-746",
+    "printed_page": 603,
+    "pdf_page": 608,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-check-your-understanding-13.1",
+    "object_type": "check_your_understanding",
+    "number": "13.1",
+    "content_ref": "os-content-13.1-p603-55-746",
+    "printed_page": 603,
+    "pdf_page": 608,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-13.2",
+    "object_type": "example",
+    "number": "13.2",
+    "content_ref": "os-content-13.1-p604-55-746",
+    "printed_page": 604,
+    "pdf_page": 609,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-13.1-p604-55-746-strategy-519",
+    "object_type": "strategy",
+    "content_ref": "os-content-13.1-p604-55-746",
+    "printed_page": 604,
+    "pdf_page": 609,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-13.1-p604-55-746-solution-592",
+    "object_type": "solution",
+    "content_ref": "os-content-13.1-p604-55-746",
+    "printed_page": 604,
+    "pdf_page": 609,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-13.1-p605-55-509_24-significance-61",
+    "object_type": "significance",
+    "content_ref": "os-content-13.1-p605-55-509_24",
+    "printed_page": 605,
+    "pdf_page": 610,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-13.3",
+    "object_type": "example",
+    "number": "13.3",
+    "content_ref": "os-content-13.2-p606-55-746",
+    "printed_page": 606,
+    "pdf_page": 611,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-13.2-p606-55-746-strategy-567",
+    "object_type": "strategy",
+    "content_ref": "os-content-13.2-p606-55-746",
+    "printed_page": 606,
+    "pdf_page": 611,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-13.2-p606-55-746-solution-614",
+    "object_type": "solution",
+    "content_ref": "os-content-13.2-p606-55-746",
+    "printed_page": 606,
+    "pdf_page": 611,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-13.2-p607-55-746-significance-151",
+    "object_type": "significance",
+    "content_ref": "os-content-13.2-p607-55-746",
+    "printed_page": 607,
+    "pdf_page": 612,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-13.4",
+    "object_type": "example",
+    "number": "13.4",
+    "content_ref": "os-content-13.2-p607-55-746",
+    "printed_page": 607,
+    "pdf_page": 612,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-13.2-p607-55-746-strategy-425",
+    "object_type": "strategy",
+    "content_ref": "os-content-13.2-p607-55-746",
+    "printed_page": 607,
+    "pdf_page": 612,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-13.2-p607-55-746-significance-515",
+    "object_type": "significance",
+    "content_ref": "os-content-13.2-p607-55-746",
+    "printed_page": 607,
+    "pdf_page": 612,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-check-your-understanding-13.2",
+    "object_type": "check_your_understanding",
+    "number": "13.2",
+    "content_ref": "os-content-13.2-p607-55-746",
+    "printed_page": 607,
+    "pdf_page": 612,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-13.5",
+    "object_type": "example",
+    "number": "13.5",
+    "content_ref": "os-content-13.2-p610-55-746",
+    "printed_page": 610,
+    "pdf_page": 615,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-13.2-p610-55-746-strategy-141",
+    "object_type": "strategy",
+    "content_ref": "os-content-13.2-p610-55-746",
+    "printed_page": 610,
+    "pdf_page": 615,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-13.2-p610-55-746-solution-200",
+    "object_type": "solution",
+    "content_ref": "os-content-13.2-p610-55-746",
+    "printed_page": 610,
+    "pdf_page": 615,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-13.2-p610-55-746-significance-437",
+    "object_type": "significance",
+    "content_ref": "os-content-13.2-p610-55-746",
+    "printed_page": 610,
+    "pdf_page": 615,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-6.10",
+    "object_type": "example",
+    "number": "6.10",
+    "content_ref": "os-content-6.2-p269-55-746",
+    "printed_page": 269,
+    "pdf_page": 274,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-6.2-p269-55-746-strategy-367",
+    "object_type": "strategy",
+    "content_ref": "os-content-6.2-p269-55-746",
+    "printed_page": 269,
+    "pdf_page": 274,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-6.2-p269-55-746-solution-414",
+    "object_type": "solution",
+    "content_ref": "os-content-6.2-p269-55-746",
+    "printed_page": 269,
+    "pdf_page": 274,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-6.2-p269-55-746-significance-699",
+    "object_type": "significance",
+    "content_ref": "os-content-6.2-p269-55-746",
+    "printed_page": 269,
+    "pdf_page": 274,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-check-your-understanding-6.7",
+    "object_type": "check_your_understanding",
+    "number": "6.7",
+    "content_ref": "os-content-6.2-p270-55-746",
+    "printed_page": 270,
+    "pdf_page": 275,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-6.11",
+    "object_type": "example",
+    "number": "6.11",
+    "content_ref": "os-content-6.2-p270-55-746",
+    "printed_page": 270,
+    "pdf_page": 275,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-6.2-p270-55-746-strategy-348",
+    "object_type": "strategy",
+    "content_ref": "os-content-6.2-p270-55-746",
+    "printed_page": 270,
+    "pdf_page": 275,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-6.2-p271-55-746-solution-133",
+    "object_type": "solution",
+    "content_ref": "os-content-6.2-p271-55-746",
+    "printed_page": 271,
+    "pdf_page": 276,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-6.2-p271-55-746-significance-250",
+    "object_type": "significance",
+    "content_ref": "os-content-6.2-p271-55-746",
+    "printed_page": 271,
+    "pdf_page": 276,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-6.12",
+    "object_type": "example",
+    "number": "6.12",
+    "content_ref": "os-content-6.2-p273-55-746",
+    "printed_page": 273,
+    "pdf_page": 278,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-6.2-p273-55-746-strategy-432",
+    "object_type": "strategy",
+    "content_ref": "os-content-6.2-p273-55-746",
+    "printed_page": 273,
+    "pdf_page": 278,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-6.2-p273-55-746-solution-542",
+    "object_type": "solution",
+    "content_ref": "os-content-6.2-p273-55-746",
+    "printed_page": 273,
+    "pdf_page": 278,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-6.2-p274-55-746-significance-78",
+    "object_type": "significance",
+    "content_ref": "os-content-6.2-p274-55-746",
+    "printed_page": 274,
+    "pdf_page": 279,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-6.13",
+    "object_type": "example",
+    "number": "6.13",
+    "content_ref": "os-content-6.2-p274-55-746",
+    "printed_page": 274,
+    "pdf_page": 279,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-6.2-p274-55-746-strategy-378",
+    "object_type": "strategy",
+    "content_ref": "os-content-6.2-p274-55-746",
+    "printed_page": 274,
+    "pdf_page": 279,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-6.2-p274-55-746-solution-437",
+    "object_type": "solution",
+    "content_ref": "os-content-6.2-p274-55-746",
+    "printed_page": 274,
+    "pdf_page": 279,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-6.2-p275-55-746-significance-61",
+    "object_type": "significance",
+    "content_ref": "os-content-6.2-p275-55-746",
+    "printed_page": 275,
+    "pdf_page": 280,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-6.14",
+    "object_type": "example",
+    "number": "6.14",
+    "content_ref": "os-content-6.2-p275-55-746",
+    "printed_page": 275,
+    "pdf_page": 280,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-6.2-p275-55-746-strategy-469",
+    "object_type": "strategy",
+    "content_ref": "os-content-6.2-p275-55-746",
+    "printed_page": 275,
+    "pdf_page": 280,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-6.2-p275-55-746-solution-568",
+    "object_type": "solution",
+    "content_ref": "os-content-6.2-p275-55-746",
+    "printed_page": 275,
+    "pdf_page": 280,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-6.2-p275-55-746-significance-693",
+    "object_type": "significance",
+    "content_ref": "os-content-6.2-p275-55-746",
+    "printed_page": 275,
+    "pdf_page": 280,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-check-your-understanding-6.8",
+    "object_type": "check_your_understanding",
+    "number": "6.8",
+    "content_ref": "os-content-6.2-p276-55-149_22",
+    "printed_page": 276,
+    "pdf_page": 281,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-6.17",
+    "object_type": "example",
+    "number": "6.17",
+    "content_ref": "os-content-6.4-p288-55-746",
+    "printed_page": 288,
+    "pdf_page": 293,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-6.4-p288-55-746-strategy-359",
+    "object_type": "strategy",
+    "content_ref": "os-content-6.4-p288-55-746",
+    "printed_page": 288,
+    "pdf_page": 293,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-6.4-p288-55-746-solution-408",
+    "object_type": "solution",
+    "content_ref": "os-content-6.4-p288-55-746",
+    "printed_page": 288,
+    "pdf_page": 293,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-6.4-p288-55-746-significance-483",
+    "object_type": "significance",
+    "content_ref": "os-content-6.4-p288-55-746",
+    "printed_page": 288,
+    "pdf_page": 293,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-check-your-understanding-6.10",
+    "object_type": "check_your_understanding",
+    "number": "6.10",
+    "content_ref": "os-content-6.4-p288-55-746",
+    "printed_page": 288,
+    "pdf_page": 293,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-6.18",
+    "object_type": "example",
+    "number": "6.18",
+    "content_ref": "os-content-6.4-p291-55-746",
+    "printed_page": 291,
+    "pdf_page": 296,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-6.4-p291-55-746-solution-404",
+    "object_type": "solution",
+    "content_ref": "os-content-6.4-p291-55-746",
+    "printed_page": 291,
+    "pdf_page": 296,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-6.4-p292-55-746-significance-391",
+    "object_type": "significance",
+    "content_ref": "os-content-6.4-p292-55-746",
+    "printed_page": 292,
+    "pdf_page": 297,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-check-your-understanding-6.11",
+    "object_type": "check_your_understanding",
+    "number": "6.11",
+    "content_ref": "os-content-6.4-p292-55-746",
+    "printed_page": 292,
+    "pdf_page": 297,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-6.15",
+    "object_type": "example",
+    "number": "6.15",
+    "content_ref": "os-content-6.3-p277-55-746",
+    "printed_page": 277,
+    "pdf_page": 282,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-6.3-p278-55-746-strategy-61",
+    "object_type": "strategy",
+    "content_ref": "os-content-6.3-p278-55-746",
+    "printed_page": 278,
+    "pdf_page": 283,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-6.3-p278-55-746-significance-411",
+    "object_type": "significance",
+    "content_ref": "os-content-6.3-p278-55-746",
+    "printed_page": 278,
+    "pdf_page": 283,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-check-your-understanding-6.9",
+    "object_type": "check_your_understanding",
+    "number": "6.9",
+    "content_ref": "os-content-6.3-p278-55-746",
+    "printed_page": 278,
+    "pdf_page": 283,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-6.16",
+    "object_type": "example",
+    "number": "6.16",
+    "content_ref": "os-content-6.3-p280-55-746",
+    "printed_page": 280,
+    "pdf_page": 285,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-6.3-p280-55-746-strategy-166",
+    "object_type": "strategy",
+    "content_ref": "os-content-6.3-p280-55-746",
+    "printed_page": 280,
+    "pdf_page": 285,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-6.3-p280-55-746-solution-213",
+    "object_type": "solution",
+    "content_ref": "os-content-6.3-p280-55-746",
+    "printed_page": 280,
+    "pdf_page": 285,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-6.3-p280-55-746-significance-367",
+    "object_type": "significance",
+    "content_ref": "os-content-6.3-p280-55-746",
+    "printed_page": 280,
+    "pdf_page": 285,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-7.6",
+    "object_type": "example",
+    "number": "7.6",
+    "content_ref": "os-content-7.2-p321-55-746",
+    "printed_page": 321,
+    "pdf_page": 326,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-7.2-p321-55-746-strategy-211",
+    "object_type": "strategy",
+    "content_ref": "os-content-7.2-p321-55-746",
+    "printed_page": 321,
+    "pdf_page": 326,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-7.2-p321-55-746-solution-258",
+    "object_type": "solution",
+    "content_ref": "os-content-7.2-p321-55-746",
+    "printed_page": 321,
+    "pdf_page": 326,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-7.2-p321-55-746-significance-355",
+    "object_type": "significance",
+    "content_ref": "os-content-7.2-p321-55-746",
+    "printed_page": 321,
+    "pdf_page": 326,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-check-your-understanding-7.5",
+    "object_type": "check_your_understanding",
+    "number": "7.5",
+    "content_ref": "os-content-7.2-p321-55-746",
+    "printed_page": 321,
+    "pdf_page": 326,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-7.7",
+    "object_type": "example",
+    "number": "7.7",
+    "content_ref": "os-content-7.2-p321-55-746",
+    "printed_page": 321,
+    "pdf_page": 326,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-7.2-p322-55-746-strategy-80",
+    "object_type": "strategy",
+    "content_ref": "os-content-7.2-p322-55-746",
+    "printed_page": 322,
+    "pdf_page": 327,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-7.2-p322-55-746-solution-280",
+    "object_type": "solution",
+    "content_ref": "os-content-7.2-p322-55-746",
+    "printed_page": 322,
+    "pdf_page": 327,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-7.2-p322-55-746-significance-416",
+    "object_type": "significance",
+    "content_ref": "os-content-7.2-p322-55-746",
+    "printed_page": 322,
+    "pdf_page": 327,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-check-your-understanding-7.6",
+    "object_type": "check_your_understanding",
+    "number": "7.6",
+    "content_ref": "os-content-7.2-p322-55-746",
+    "printed_page": 322,
+    "pdf_page": 327,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-7.8",
+    "object_type": "example",
+    "number": "7.8",
+    "content_ref": "os-content-7.2-p323-55-569_94",
+    "printed_page": 323,
+    "pdf_page": 328,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-7.2-p323-55-569_94-strategy-204",
+    "object_type": "strategy",
+    "content_ref": "os-content-7.2-p323-55-569_94",
+    "printed_page": 323,
+    "pdf_page": 328,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-7.2-p323-55-569_94-solution-294",
+    "object_type": "solution",
+    "content_ref": "os-content-7.2-p323-55-569_94",
+    "printed_page": 323,
+    "pdf_page": 328,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-7.2-p323-55-569_94-significance-450",
+    "object_type": "significance",
+    "content_ref": "os-content-7.2-p323-55-569_94",
+    "printed_page": 323,
+    "pdf_page": 328,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-7.1",
+    "object_type": "example",
+    "number": "7.1",
+    "content_ref": "os-content-7.1-p314-55-746",
+    "printed_page": 314,
+    "pdf_page": 319,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-7.1-p314-55-746-strategy-222",
+    "object_type": "strategy",
+    "content_ref": "os-content-7.1-p314-55-746",
+    "printed_page": 314,
+    "pdf_page": 319,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-7.1-p314-55-746-solution-281",
+    "object_type": "solution",
+    "content_ref": "os-content-7.1-p314-55-746",
+    "printed_page": 314,
+    "pdf_page": 319,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-7.1-p314-55-746-significance-368",
+    "object_type": "significance",
+    "content_ref": "os-content-7.1-p314-55-746",
+    "printed_page": 314,
+    "pdf_page": 319,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-7.2",
+    "object_type": "example",
+    "number": "7.2",
+    "content_ref": "os-content-7.1-p315-55-746",
+    "printed_page": 315,
+    "pdf_page": 320,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-7.1-p315-55-746-strategy-351",
+    "object_type": "strategy",
+    "content_ref": "os-content-7.1-p315-55-746",
+    "printed_page": 315,
+    "pdf_page": 320,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-7.1-p315-55-746-solution-423",
+    "object_type": "solution",
+    "content_ref": "os-content-7.1-p315-55-746",
+    "printed_page": 315,
+    "pdf_page": 320,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-7.1-p315-55-746-significance-508",
+    "object_type": "significance",
+    "content_ref": "os-content-7.1-p315-55-746",
+    "printed_page": 315,
+    "pdf_page": 320,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-check-your-understanding-7.1",
+    "object_type": "check_your_understanding",
+    "number": "7.1",
+    "content_ref": "os-content-7.1-p315-55-746",
+    "printed_page": 315,
+    "pdf_page": 320,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-7.3",
+    "object_type": "example",
+    "number": "7.3",
+    "content_ref": "os-content-7.1-p316-55-746",
+    "printed_page": 316,
+    "pdf_page": 321,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-7.1-p316-55-746-strategy-419",
+    "object_type": "strategy",
+    "content_ref": "os-content-7.1-p316-55-746",
+    "printed_page": 316,
+    "pdf_page": 321,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-7.1-p316-55-746-solution-478",
+    "object_type": "solution",
+    "content_ref": "os-content-7.1-p316-55-746",
+    "printed_page": 316,
+    "pdf_page": 321,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-7.1-p316-55-746-significance-546",
+    "object_type": "significance",
+    "content_ref": "os-content-7.1-p316-55-746",
+    "printed_page": 316,
+    "pdf_page": 321,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-check-your-understanding-7.2",
+    "object_type": "check_your_understanding",
+    "number": "7.2",
+    "content_ref": "os-content-7.1-p317-55-746",
+    "printed_page": 317,
+    "pdf_page": 322,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-7.4",
+    "object_type": "example",
+    "number": "7.4",
+    "content_ref": "os-content-7.1-p317-55-746",
+    "printed_page": 317,
+    "pdf_page": 322,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-7.1-p317-55-746-strategy-478",
+    "object_type": "strategy",
+    "content_ref": "os-content-7.1-p317-55-746",
+    "printed_page": 317,
+    "pdf_page": 322,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-7.1-p317-55-746-solution-564",
+    "object_type": "solution",
+    "content_ref": "os-content-7.1-p317-55-746",
+    "printed_page": 317,
+    "pdf_page": 322,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-7.1-p317-55-746-significance-691",
+    "object_type": "significance",
+    "content_ref": "os-content-7.1-p317-55-746",
+    "printed_page": 317,
+    "pdf_page": 322,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-check-your-understanding-7.3",
+    "object_type": "check_your_understanding",
+    "number": "7.3",
+    "content_ref": "os-content-7.1-p318-55-746",
+    "printed_page": 318,
+    "pdf_page": 323,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-7.5",
+    "object_type": "example",
+    "number": "7.5",
+    "content_ref": "os-content-7.1-p319-55-746",
+    "printed_page": 319,
+    "pdf_page": 324,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-7.1-p319-55-746-strategy-522",
+    "object_type": "strategy",
+    "content_ref": "os-content-7.1-p319-55-746",
+    "printed_page": 319,
+    "pdf_page": 324,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-7.1-p319-55-746-solution-617",
+    "object_type": "solution",
+    "content_ref": "os-content-7.1-p319-55-746",
+    "printed_page": 319,
+    "pdf_page": 324,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-7.1-p319-55-746-significance-673",
+    "object_type": "significance",
+    "content_ref": "os-content-7.1-p319-55-746",
+    "printed_page": 319,
+    "pdf_page": 324,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-check-your-understanding-7.4",
+    "object_type": "check_your_understanding",
+    "number": "7.4",
+    "content_ref": "os-content-7.1-p320-55-200_2",
+    "printed_page": 320,
+    "pdf_page": 325,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-7.9",
+    "object_type": "example",
+    "number": "7.9",
+    "content_ref": "os-content-7.3-p325-55-746",
+    "printed_page": 325,
+    "pdf_page": 330,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-7.3-p326-55-746-strategy-205",
+    "object_type": "strategy",
+    "content_ref": "os-content-7.3-p326-55-746",
+    "printed_page": 326,
+    "pdf_page": 331,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-7.3-p326-55-746-solution-403",
+    "object_type": "solution",
+    "content_ref": "os-content-7.3-p326-55-746",
+    "printed_page": 326,
+    "pdf_page": 331,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-7.3-p326-55-746-significance-470",
+    "object_type": "significance",
+    "content_ref": "os-content-7.3-p326-55-746",
+    "printed_page": 326,
+    "pdf_page": 331,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-check-your-understanding-7.7",
+    "object_type": "check_your_understanding",
+    "number": "7.7",
+    "content_ref": "os-content-7.3-p326-55-746",
+    "printed_page": 326,
+    "pdf_page": 331,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-7.10",
+    "object_type": "example",
+    "number": "7.10",
+    "content_ref": "os-content-7.3-p327-55-746",
+    "printed_page": 327,
+    "pdf_page": 332,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-7.3-p327-55-746-strategy-282",
+    "object_type": "strategy",
+    "content_ref": "os-content-7.3-p327-55-746",
+    "printed_page": 327,
+    "pdf_page": 332,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-7.3-p327-55-746-solution-382",
+    "object_type": "solution",
+    "content_ref": "os-content-7.3-p327-55-746",
+    "printed_page": 327,
+    "pdf_page": 332,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-7.3-p327-55-746-significance-489",
+    "object_type": "significance",
+    "content_ref": "os-content-7.3-p327-55-746",
+    "printed_page": 327,
+    "pdf_page": 332,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-8.1",
+    "object_type": "example",
+    "number": "8.1",
+    "content_ref": "os-content-8.1-p343-55-746",
+    "printed_page": 343,
+    "pdf_page": 348,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-8.1-p343-55-746-strategy-185",
+    "object_type": "strategy",
+    "content_ref": "os-content-8.1-p343-55-746",
+    "printed_page": 343,
+    "pdf_page": 348,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-8.1-p343-55-746-solution-296",
+    "object_type": "solution",
+    "content_ref": "os-content-8.1-p343-55-746",
+    "printed_page": 343,
+    "pdf_page": 348,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-8.1-p343-55-746-significance-564",
+    "object_type": "significance",
+    "content_ref": "os-content-8.1-p343-55-746",
+    "printed_page": 343,
+    "pdf_page": 348,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-check-your-understanding-8.1",
+    "object_type": "check_your_understanding",
+    "number": "8.1",
+    "content_ref": "os-content-8.1-p343-55-746",
+    "printed_page": 343,
+    "pdf_page": 348,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-8.2",
+    "object_type": "example",
+    "number": "8.2",
+    "content_ref": "os-content-8.1-p344-55-746",
+    "printed_page": 344,
+    "pdf_page": 349,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-8.1-p345-55-746-strategy-172",
+    "object_type": "strategy",
+    "content_ref": "os-content-8.1-p345-55-746",
+    "printed_page": 345,
+    "pdf_page": 350,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-8.1-p345-55-746-solution-231",
+    "object_type": "solution",
+    "content_ref": "os-content-8.1-p345-55-746",
+    "printed_page": 345,
+    "pdf_page": 350,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-8.1-p345-55-746-significance-351",
+    "object_type": "significance",
+    "content_ref": "os-content-8.1-p345-55-746",
+    "printed_page": 345,
+    "pdf_page": 350,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-check-your-understanding-8.2",
+    "object_type": "check_your_understanding",
+    "number": "8.2",
+    "content_ref": "os-content-8.1-p345-55-746",
+    "printed_page": 345,
+    "pdf_page": 350,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-8.3",
+    "object_type": "example",
+    "number": "8.3",
+    "content_ref": "os-content-8.1-p346-55-746",
+    "printed_page": 346,
+    "pdf_page": 351,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-8.1-p346-55-746-strategy-198",
+    "object_type": "strategy",
+    "content_ref": "os-content-8.1-p346-55-746",
+    "printed_page": 346,
+    "pdf_page": 351,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-8.1-p346-55-746-solution-270",
+    "object_type": "solution",
+    "content_ref": "os-content-8.1-p346-55-746",
+    "printed_page": 346,
+    "pdf_page": 351,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-8.1-p346-55-746-significance-351",
+    "object_type": "significance",
+    "content_ref": "os-content-8.1-p346-55-746",
+    "printed_page": 346,
+    "pdf_page": 351,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-check-your-understanding-8.3",
+    "object_type": "check_your_understanding",
+    "number": "8.3",
+    "content_ref": "os-content-8.1-p346-55-746",
+    "printed_page": 346,
+    "pdf_page": 351,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-8.4",
+    "object_type": "example",
+    "number": "8.4",
+    "content_ref": "os-content-8.1-p348-55-746",
+    "printed_page": 348,
+    "pdf_page": 353,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-8.1-p348-55-746-strategy-436",
+    "object_type": "strategy",
+    "content_ref": "os-content-8.1-p348-55-746",
+    "printed_page": 348,
+    "pdf_page": 353,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-8.1-p348-55-746-solution-508",
+    "object_type": "solution",
+    "content_ref": "os-content-8.1-p348-55-746",
+    "printed_page": 348,
+    "pdf_page": 353,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-8.1-p349-55-746-significance-164",
+    "object_type": "significance",
+    "content_ref": "os-content-8.1-p349-55-746",
+    "printed_page": 349,
+    "pdf_page": 354,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-check-your-understanding-8.4",
+    "object_type": "check_your_understanding",
+    "number": "8.4",
+    "content_ref": "os-content-8.1-p349-55-746",
+    "printed_page": 349,
+    "pdf_page": 354,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-8.5",
+    "object_type": "example",
+    "number": "8.5",
+    "content_ref": "os-content-8.2-p351-55-746",
+    "printed_page": 351,
+    "pdf_page": 356,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-8.2-p352-55-746-strategy-90",
+    "object_type": "strategy",
+    "content_ref": "os-content-8.2-p352-55-746",
+    "printed_page": 352,
+    "pdf_page": 357,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-8.2-p352-55-746-solution-162",
+    "object_type": "solution",
+    "content_ref": "os-content-8.2-p352-55-746",
+    "printed_page": 352,
+    "pdf_page": 357,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-8.2-p352-55-746-significance-275",
+    "object_type": "significance",
+    "content_ref": "os-content-8.2-p352-55-746",
+    "printed_page": 352,
+    "pdf_page": 357,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-check-your-understanding-8.5",
+    "object_type": "check_your_understanding",
+    "number": "8.5",
+    "content_ref": "os-content-8.2-p352-55-746",
+    "printed_page": 352,
+    "pdf_page": 357,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-8.6",
+    "object_type": "example",
+    "number": "8.6",
+    "content_ref": "os-content-8.2-p353-55-617_47",
+    "printed_page": 353,
+    "pdf_page": 358,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-8.2-p353-55-617_47-strategy-271",
+    "object_type": "strategy",
+    "content_ref": "os-content-8.2-p353-55-617_47",
+    "printed_page": 353,
+    "pdf_page": 358,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-8.2-p353-55-617_47-solution-330",
+    "object_type": "solution",
+    "content_ref": "os-content-8.2-p353-55-617_47",
+    "printed_page": 353,
+    "pdf_page": 358,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-8.2-p353-55-617_47-significance-501",
+    "object_type": "significance",
+    "content_ref": "os-content-8.2-p353-55-617_47",
+    "printed_page": 353,
+    "pdf_page": 358,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-check-your-understanding-8.6",
+    "object_type": "check_your_understanding",
+    "number": "8.6",
+    "content_ref": "os-content-8.2-p353-55-617_47",
+    "printed_page": 353,
+    "pdf_page": 358,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-8.10",
+    "object_type": "example",
+    "number": "8.10",
+    "content_ref": "os-content-8.4-p361-55-746",
+    "printed_page": 361,
+    "pdf_page": 366,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-8.4-p361-55-746-strategy-212",
+    "object_type": "strategy",
+    "content_ref": "os-content-8.4-p361-55-746",
+    "printed_page": 361,
+    "pdf_page": 366,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-8.4-p361-55-746-solution-671",
+    "object_type": "solution",
+    "content_ref": "os-content-8.4-p361-55-746",
+    "printed_page": 361,
+    "pdf_page": 366,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-8.4-p362-55-746-significance-235",
+    "object_type": "significance",
+    "content_ref": "os-content-8.4-p362-55-746",
+    "printed_page": 362,
+    "pdf_page": 367,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-check-your-understanding-8.10",
+    "object_type": "check_your_understanding",
+    "number": "8.10",
+    "content_ref": "os-content-8.4-p362-55-746",
+    "printed_page": 362,
+    "pdf_page": 367,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-8.11",
+    "object_type": "example",
+    "number": "8.11",
+    "content_ref": "os-content-8.4-p362-55-746",
+    "printed_page": 362,
+    "pdf_page": 367,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-8.4-p362-55-746-strategy-507",
+    "object_type": "strategy",
+    "content_ref": "os-content-8.4-p362-55-746",
+    "printed_page": 362,
+    "pdf_page": 367,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-8.4-p362-55-746-solution-567",
+    "object_type": "solution",
+    "content_ref": "os-content-8.4-p362-55-746",
+    "printed_page": 362,
+    "pdf_page": 367,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-8.4-p363-55-219_26-significance-61",
+    "object_type": "significance",
+    "content_ref": "os-content-8.4-p363-55-219_26",
+    "printed_page": 363,
+    "pdf_page": 368,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-check-your-understanding-8.11",
+    "object_type": "check_your_understanding",
+    "number": "8.11",
+    "content_ref": "os-content-8.4-p363-55-219_26",
+    "printed_page": 363,
+    "pdf_page": 368,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-8.7",
+    "object_type": "example",
+    "number": "8.7",
+    "content_ref": "os-content-8.3-p355-55-746",
+    "printed_page": 355,
+    "pdf_page": 360,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-8.3-p355-55-746-strategy-427",
+    "object_type": "strategy",
+    "content_ref": "os-content-8.3-p355-55-746",
+    "printed_page": 355,
+    "pdf_page": 360,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-8.3-p355-55-746-solution-562",
+    "object_type": "solution",
+    "content_ref": "os-content-8.3-p355-55-746",
+    "printed_page": 355,
+    "pdf_page": 360,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-8.3-p356-55-746-significance-221",
+    "object_type": "significance",
+    "content_ref": "os-content-8.3-p356-55-746",
+    "printed_page": 356,
+    "pdf_page": 361,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-check-your-understanding-8.7",
+    "object_type": "check_your_understanding",
+    "number": "8.7",
+    "content_ref": "os-content-8.3-p356-55-746",
+    "printed_page": 356,
+    "pdf_page": 361,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-8.8",
+    "object_type": "example",
+    "number": "8.8",
+    "content_ref": "os-content-8.3-p356-55-746",
+    "printed_page": 356,
+    "pdf_page": 361,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-8.3-p357-55-746-strategy-350",
+    "object_type": "strategy",
+    "content_ref": "os-content-8.3-p357-55-746",
+    "printed_page": 357,
+    "pdf_page": 362,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-8.3-p357-55-746-solution-517",
+    "object_type": "solution",
+    "content_ref": "os-content-8.3-p357-55-746",
+    "printed_page": 357,
+    "pdf_page": 362,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-8.3-p357-55-746-significance-601",
+    "object_type": "significance",
+    "content_ref": "os-content-8.3-p357-55-746",
+    "printed_page": 357,
+    "pdf_page": 362,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-check-your-understanding-8.8",
+    "object_type": "check_your_understanding",
+    "number": "8.8",
+    "content_ref": "os-content-8.3-p357-55-746",
+    "printed_page": 357,
+    "pdf_page": 362,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-8.9",
+    "object_type": "example",
+    "number": "8.9",
+    "content_ref": "os-content-8.3-p358-55-746",
+    "printed_page": 358,
+    "pdf_page": 363,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-8.3-p358-55-746-strategy-446",
+    "object_type": "strategy",
+    "content_ref": "os-content-8.3-p358-55-746",
+    "printed_page": 358,
+    "pdf_page": 363,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-8.3-p358-55-746-solution-505",
+    "object_type": "solution",
+    "content_ref": "os-content-8.3-p358-55-746",
+    "printed_page": 358,
+    "pdf_page": 363,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-8.3-p358-55-746-significance-609",
+    "object_type": "significance",
+    "content_ref": "os-content-8.3-p358-55-746",
+    "printed_page": 358,
+    "pdf_page": 363,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-check-your-understanding-8.9",
+    "object_type": "check_your_understanding",
+    "number": "8.9",
+    "content_ref": "os-content-8.3-p358-55-746",
+    "printed_page": 358,
+    "pdf_page": 363,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-7.11",
+    "object_type": "example",
+    "number": "7.11",
+    "content_ref": "os-content-7.4-p328-56_52-746",
+    "printed_page": 328,
+    "pdf_page": 333,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-7.4-p329-55-746-strategy-268",
+    "object_type": "strategy",
+    "content_ref": "os-content-7.4-p329-55-746",
+    "printed_page": 329,
+    "pdf_page": 334,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-7.4-p329-55-746-solution-327",
+    "object_type": "solution",
+    "content_ref": "os-content-7.4-p329-55-746",
+    "printed_page": 329,
+    "pdf_page": 334,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-7.4-p329-55-746-significance-393",
+    "object_type": "significance",
+    "content_ref": "os-content-7.4-p329-55-746",
+    "printed_page": 329,
+    "pdf_page": 334,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-check-your-understanding-7.8",
+    "object_type": "check_your_understanding",
+    "number": "7.8",
+    "content_ref": "os-content-7.4-p329-55-746",
+    "printed_page": 329,
+    "pdf_page": 334,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-7.12",
+    "object_type": "example",
+    "number": "7.12",
+    "content_ref": "os-content-7.4-p329-55-746",
+    "printed_page": 329,
+    "pdf_page": 334,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-7.4-p330-55-746-strategy-160",
+    "object_type": "strategy",
+    "content_ref": "os-content-7.4-p330-55-746",
+    "printed_page": 330,
+    "pdf_page": 335,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-7.4-p330-55-746-solution-232",
+    "object_type": "solution",
+    "content_ref": "os-content-7.4-p330-55-746",
+    "printed_page": 330,
+    "pdf_page": 335,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-7.4-p330-55-746-significance-352",
+    "object_type": "significance",
+    "content_ref": "os-content-7.4-p330-55-746",
+    "printed_page": 330,
+    "pdf_page": 335,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-9.1",
+    "object_type": "example",
+    "number": "9.1",
+    "content_ref": "os-content-9.2-p384-55-746",
+    "printed_page": 384,
+    "pdf_page": 389,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-9.2-p384-55-746-strategy-574",
+    "object_type": "strategy",
+    "content_ref": "os-content-9.2-p384-55-746",
+    "printed_page": 384,
+    "pdf_page": 389,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-9.2-p385-55-746-solution-61",
+    "object_type": "solution",
+    "content_ref": "os-content-9.2-p385-55-746",
+    "printed_page": 385,
+    "pdf_page": 390,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-9.2-p386-55-746-significance-471",
+    "object_type": "significance",
+    "content_ref": "os-content-9.2-p386-55-746",
+    "printed_page": 386,
+    "pdf_page": 391,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-9.2",
+    "object_type": "example",
+    "number": "9.2",
+    "content_ref": "os-content-9.2-p387-55-746",
+    "printed_page": 387,
+    "pdf_page": 392,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-9.2-p387-55-746-strategy-601",
+    "object_type": "strategy",
+    "content_ref": "os-content-9.2-p387-55-746",
+    "printed_page": 387,
+    "pdf_page": 392,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-9.2-p387-55-746-solution-648",
+    "object_type": "solution",
+    "content_ref": "os-content-9.2-p387-55-746",
+    "printed_page": 387,
+    "pdf_page": 392,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-9.2-p388-55-746-significance-274",
+    "object_type": "significance",
+    "content_ref": "os-content-9.2-p388-55-746",
+    "printed_page": 388,
+    "pdf_page": 393,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-9.3",
+    "object_type": "example",
+    "number": "9.3",
+    "content_ref": "os-content-9.2-p390-55-746",
+    "printed_page": 390,
+    "pdf_page": 395,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-9.2-p390-55-746-strategy-414",
+    "object_type": "strategy",
+    "content_ref": "os-content-9.2-p390-55-746",
+    "printed_page": 390,
+    "pdf_page": 395,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-9.2-p390-55-746-solution-486",
+    "object_type": "solution",
+    "content_ref": "os-content-9.2-p390-55-746",
+    "printed_page": 390,
+    "pdf_page": 395,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-9.2-p391-55-746-significance-61",
+    "object_type": "significance",
+    "content_ref": "os-content-9.2-p391-55-746",
+    "printed_page": 391,
+    "pdf_page": 396,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-check-your-understanding-9.1",
+    "object_type": "check_your_understanding",
+    "number": "9.1",
+    "content_ref": "os-content-9.2-p391-55-746",
+    "printed_page": 391,
+    "pdf_page": 396,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-9.4",
+    "object_type": "example",
+    "number": "9.4",
+    "content_ref": "os-content-9.2-p391-55-746",
+    "printed_page": 391,
+    "pdf_page": 396,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-9.2-p391-55-746-strategy-351",
+    "object_type": "strategy",
+    "content_ref": "os-content-9.2-p391-55-746",
+    "printed_page": 391,
+    "pdf_page": 396,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-9.2-p391-55-746-solution-467",
+    "object_type": "solution",
+    "content_ref": "os-content-9.2-p391-55-746",
+    "printed_page": 391,
+    "pdf_page": 396,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-9.2-p393-55-746-significance-237",
+    "object_type": "significance",
+    "content_ref": "os-content-9.2-p393-55-746",
+    "printed_page": 393,
+    "pdf_page": 398,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-check-your-understanding-9.2",
+    "object_type": "check_your_understanding",
+    "number": "9.2",
+    "content_ref": "os-content-9.2-p393-55-746",
+    "printed_page": 393,
+    "pdf_page": 398,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-9.5",
+    "object_type": "example",
+    "number": "9.5",
+    "content_ref": "os-content-9.2-p394-55-746",
+    "printed_page": 394,
+    "pdf_page": 399,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-9.2-p394-55-746-strategy-626",
+    "object_type": "strategy",
+    "content_ref": "os-content-9.2-p394-55-746",
+    "printed_page": 394,
+    "pdf_page": 399,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-9.2-p395-55-357_21-solution-113",
+    "object_type": "solution",
+    "content_ref": "os-content-9.2-p395-55-357_21",
+    "printed_page": 395,
+    "pdf_page": 400,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-9.2-p395-55-357_21-significance-275",
+    "object_type": "significance",
+    "content_ref": "os-content-9.2-p395-55-357_21",
+    "printed_page": 395,
+    "pdf_page": 400,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-9.6",
+    "object_type": "example",
+    "number": "9.6",
+    "content_ref": "os-content-9.3-p399-55-746",
+    "printed_page": 399,
+    "pdf_page": 404,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-9.3-p399-55-746-strategy-332",
+    "object_type": "strategy",
+    "content_ref": "os-content-9.3-p399-55-746",
+    "printed_page": 399,
+    "pdf_page": 404,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-9.3-p399-55-746-solution-461",
+    "object_type": "solution",
+    "content_ref": "os-content-9.3-p399-55-746",
+    "printed_page": 399,
+    "pdf_page": 404,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-9.3-p400-55-746-significance-61",
+    "object_type": "significance",
+    "content_ref": "os-content-9.3-p400-55-746",
+    "printed_page": 400,
+    "pdf_page": 405,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-check-your-understanding-9.3",
+    "object_type": "check_your_understanding",
+    "number": "9.3",
+    "content_ref": "os-content-9.3-p400-55-746",
+    "printed_page": 400,
+    "pdf_page": 405,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-9.7",
+    "object_type": "example",
+    "number": "9.7",
+    "content_ref": "os-content-9.3-p400-55-746",
+    "printed_page": 400,
+    "pdf_page": 405,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-9.3-p400-55-746-strategy-701",
+    "object_type": "strategy",
+    "content_ref": "os-content-9.3-p400-55-746",
+    "printed_page": 400,
+    "pdf_page": 405,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-9.3-p401-55-746-solution-117",
+    "object_type": "solution",
+    "content_ref": "os-content-9.3-p401-55-746",
+    "printed_page": 401,
+    "pdf_page": 406,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-9.3-p402-55-746-significance-164",
+    "object_type": "significance",
+    "content_ref": "os-content-9.3-p402-55-746",
+    "printed_page": 402,
+    "pdf_page": 407,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-check-your-understanding-9.4",
+    "object_type": "check_your_understanding",
+    "number": "9.4",
+    "content_ref": "os-content-9.3-p402-55-746",
+    "printed_page": 402,
+    "pdf_page": 407,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-9.8",
+    "object_type": "example",
+    "number": "9.8",
+    "content_ref": "os-content-9.3-p402-55-746",
+    "printed_page": 402,
+    "pdf_page": 407,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-9.3-p402-55-746-strategy-561",
+    "object_type": "strategy",
+    "content_ref": "os-content-9.3-p402-55-746",
+    "printed_page": 402,
+    "pdf_page": 407,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-9.3-p403-55-746-solution-80",
+    "object_type": "solution",
+    "content_ref": "os-content-9.3-p403-55-746",
+    "printed_page": 403,
+    "pdf_page": 408,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-9.3-p403-55-746-significance-272",
+    "object_type": "significance",
+    "content_ref": "os-content-9.3-p403-55-746",
+    "printed_page": 403,
+    "pdf_page": 408,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-check-your-understanding-9.5",
+    "object_type": "check_your_understanding",
+    "number": "9.5",
+    "content_ref": "os-content-9.3-p403-55-746",
+    "printed_page": 403,
+    "pdf_page": 408,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-9.9",
+    "object_type": "example",
+    "number": "9.9",
+    "content_ref": "os-content-9.3-p403-55-746",
+    "printed_page": 403,
+    "pdf_page": 408,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-9.3-p404-55-746-strategy-180",
+    "object_type": "strategy",
+    "content_ref": "os-content-9.3-p404-55-746",
+    "printed_page": 404,
+    "pdf_page": 409,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-9.3-p404-55-746-solution-309",
+    "object_type": "solution",
+    "content_ref": "os-content-9.3-p404-55-746",
+    "printed_page": 404,
+    "pdf_page": 409,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-9.3-p404-55-746-significance-600",
+    "object_type": "significance",
+    "content_ref": "os-content-9.3-p404-55-746",
+    "printed_page": 404,
+    "pdf_page": 409,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-check-your-understanding-9.6",
+    "object_type": "check_your_understanding",
+    "number": "9.6",
+    "content_ref": "os-content-9.3-p404-55-746",
+    "printed_page": 404,
+    "pdf_page": 409,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-9.10",
+    "object_type": "example",
+    "number": "9.10",
+    "content_ref": "os-content-9.4-p406-55-746",
+    "printed_page": 406,
+    "pdf_page": 411,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-9.4-p406-55-746-strategy-469",
+    "object_type": "strategy",
+    "content_ref": "os-content-9.4-p406-55-746",
+    "printed_page": 406,
+    "pdf_page": 411,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-9.4-p406-55-746-solution-541",
+    "object_type": "solution",
+    "content_ref": "os-content-9.4-p406-55-746",
+    "printed_page": 406,
+    "pdf_page": 411,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-9.4-p406-55-746-significance-697",
+    "object_type": "significance",
+    "content_ref": "os-content-9.4-p406-55-746",
+    "printed_page": 406,
+    "pdf_page": 411,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-9.11",
+    "object_type": "example",
+    "number": "9.11",
+    "content_ref": "os-content-9.4-p407-55-746",
+    "printed_page": 407,
+    "pdf_page": 412,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-9.4-p407-55-746-strategy-382",
+    "object_type": "strategy",
+    "content_ref": "os-content-9.4-p407-55-746",
+    "printed_page": 407,
+    "pdf_page": 412,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-9.4-p407-55-746-solution-498",
+    "object_type": "solution",
+    "content_ref": "os-content-9.4-p407-55-746",
+    "printed_page": 407,
+    "pdf_page": 412,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-9.4-p408-55-746-significance-97",
+    "object_type": "significance",
+    "content_ref": "os-content-9.4-p408-55-746",
+    "printed_page": 408,
+    "pdf_page": 413,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-check-your-understanding-9.7",
+    "object_type": "check_your_understanding",
+    "number": "9.7",
+    "content_ref": "os-content-9.4-p408-55-746",
+    "printed_page": 408,
+    "pdf_page": 413,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-9.12",
+    "object_type": "example",
+    "number": "9.12",
+    "content_ref": "os-content-9.4-p408-55-746",
+    "printed_page": 408,
+    "pdf_page": 413,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-9.4-p408-55-746-strategy-406",
+    "object_type": "strategy",
+    "content_ref": "os-content-9.4-p408-55-746",
+    "printed_page": 408,
+    "pdf_page": 413,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-9.4-p408-55-746-solution-478",
+    "object_type": "solution",
+    "content_ref": "os-content-9.4-p408-55-746",
+    "printed_page": 408,
+    "pdf_page": 413,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-9.4-p409-55-746-significance-350",
+    "object_type": "significance",
+    "content_ref": "os-content-9.4-p409-55-746",
+    "printed_page": 409,
+    "pdf_page": 414,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-9.13",
+    "object_type": "example",
+    "number": "9.13",
+    "content_ref": "os-content-9.4-p409-55-746",
+    "printed_page": 409,
+    "pdf_page": 414,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-9.4-p409-55-746-strategy-542",
+    "object_type": "strategy",
+    "content_ref": "os-content-9.4-p409-55-746",
+    "printed_page": 409,
+    "pdf_page": 414,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-9.4-p410-55-746-solution-61",
+    "object_type": "solution",
+    "content_ref": "os-content-9.4-p410-55-746",
+    "printed_page": 410,
+    "pdf_page": 415,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-9.4-p411-55-746-significance-113",
+    "object_type": "significance",
+    "content_ref": "os-content-9.4-p411-55-746",
+    "printed_page": 411,
+    "pdf_page": 416,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-check-your-understanding-9.8",
+    "object_type": "check_your_understanding",
+    "number": "9.8",
+    "content_ref": "os-content-9.4-p411-55-746",
+    "printed_page": 411,
+    "pdf_page": 416,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-9.14",
+    "object_type": "example",
+    "number": "9.14",
+    "content_ref": "os-content-9.5-p414-55-746",
+    "printed_page": 414,
+    "pdf_page": 419,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-9.5-p415-55-746-strategy-361",
+    "object_type": "strategy",
+    "content_ref": "os-content-9.5-p415-55-746",
+    "printed_page": 415,
+    "pdf_page": 420,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-9.5-p415-55-746-solution-465",
+    "object_type": "solution",
+    "content_ref": "os-content-9.5-p415-55-746",
+    "printed_page": 415,
+    "pdf_page": 420,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-9.5-p416-55-746-significance-589",
+    "object_type": "significance",
+    "content_ref": "os-content-9.5-p416-55-746",
+    "printed_page": 416,
+    "pdf_page": 421,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-check-your-understanding-9.9",
+    "object_type": "check_your_understanding",
+    "number": "9.9",
+    "content_ref": "os-content-9.5-p416-55-746",
+    "printed_page": 416,
+    "pdf_page": 421,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-9.15",
+    "object_type": "example",
+    "number": "9.15",
+    "content_ref": "os-content-9.5-p417-55-746",
+    "printed_page": 417,
+    "pdf_page": 422,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-9.5-p417-55-746-strategy-338",
+    "object_type": "strategy",
+    "content_ref": "os-content-9.5-p417-55-746",
+    "printed_page": 417,
+    "pdf_page": 422,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-9.5-p417-55-746-solution-466",
+    "object_type": "solution",
+    "content_ref": "os-content-9.5-p417-55-746",
+    "printed_page": 417,
+    "pdf_page": 422,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-9.5-p419-55-319_07-significance-177",
+    "object_type": "significance",
+    "content_ref": "os-content-9.5-p419-55-319_07",
+    "printed_page": 419,
+    "pdf_page": 424,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-check-your-understanding-9.10",
+    "object_type": "check_your_understanding",
+    "number": "9.10",
+    "content_ref": "os-content-9.5-p419-55-319_07",
+    "printed_page": 419,
+    "pdf_page": 424,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-10.1",
+    "object_type": "example",
+    "number": "10.1",
+    "content_ref": "os-content-10.1-p455-55-746",
+    "printed_page": 455,
+    "pdf_page": 460,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-10.1-p455-55-746-strategy-415",
+    "object_type": "strategy",
+    "content_ref": "os-content-10.1-p455-55-746",
+    "printed_page": 455,
+    "pdf_page": 460,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-10.1-p455-55-746-solution-500",
+    "object_type": "solution",
+    "content_ref": "os-content-10.1-p455-55-746",
+    "printed_page": 455,
+    "pdf_page": 460,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-10.1-p455-55-746-significance-591",
+    "object_type": "significance",
+    "content_ref": "os-content-10.1-p455-55-746",
+    "printed_page": 455,
+    "pdf_page": 460,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-10.2",
+    "object_type": "example",
+    "number": "10.2",
+    "content_ref": "os-content-10.1-p457-55-746",
+    "printed_page": 457,
+    "pdf_page": 462,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-10.1-p457-55-746-strategy-457",
+    "object_type": "strategy",
+    "content_ref": "os-content-10.1-p457-55-746",
+    "printed_page": 457,
+    "pdf_page": 462,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-10.1-p457-55-746-solution-560",
+    "object_type": "solution",
+    "content_ref": "os-content-10.1-p457-55-746",
+    "printed_page": 457,
+    "pdf_page": 462,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-10.1-p458-55-746-significance-117",
+    "object_type": "significance",
+    "content_ref": "os-content-10.1-p458-55-746",
+    "printed_page": 458,
+    "pdf_page": 463,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-check-your-understanding-10.1",
+    "object_type": "check_your_understanding",
+    "number": "10.1",
+    "content_ref": "os-content-10.1-p458-55-746",
+    "printed_page": 458,
+    "pdf_page": 463,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-10.3",
+    "object_type": "example",
+    "number": "10.3",
+    "content_ref": "os-content-10.1-p458-55-746",
+    "printed_page": 458,
+    "pdf_page": 463,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-10.1-p459-55-746-strategy-324",
+    "object_type": "strategy",
+    "content_ref": "os-content-10.1-p459-55-746",
+    "printed_page": 459,
+    "pdf_page": 464,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-10.1-p459-55-746-solution-426",
+    "object_type": "solution",
+    "content_ref": "os-content-10.1-p459-55-746",
+    "printed_page": 459,
+    "pdf_page": 464,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-10.1-p459-55-746-significance-575",
+    "object_type": "significance",
+    "content_ref": "os-content-10.1-p459-55-746",
+    "printed_page": 459,
+    "pdf_page": 464,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-10.4",
+    "object_type": "example",
+    "number": "10.4",
+    "content_ref": "os-content-10.2-p462-55-746",
+    "printed_page": 462,
+    "pdf_page": 467,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-10.2-p462-55-746-strategy-558",
+    "object_type": "strategy",
+    "content_ref": "os-content-10.2-p462-55-746",
+    "printed_page": 462,
+    "pdf_page": 467,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-10.2-p462-55-746-solution-605",
+    "object_type": "solution",
+    "content_ref": "os-content-10.2-p462-55-746",
+    "printed_page": 462,
+    "pdf_page": 467,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-10.2-p463-55-746-significance-142",
+    "object_type": "significance",
+    "content_ref": "os-content-10.2-p463-55-746",
+    "printed_page": 463,
+    "pdf_page": 468,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-10.5",
+    "object_type": "example",
+    "number": "10.5",
+    "content_ref": "os-content-10.2-p463-55-746",
+    "printed_page": 463,
+    "pdf_page": 468,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-10.2-p463-55-746-strategy-328",
+    "object_type": "strategy",
+    "content_ref": "os-content-10.2-p463-55-746",
+    "printed_page": 463,
+    "pdf_page": 468,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-10.2-p463-55-746-solution-413",
+    "object_type": "solution",
+    "content_ref": "os-content-10.2-p463-55-746",
+    "printed_page": 463,
+    "pdf_page": 468,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-10.2-p463-55-746-significance-513",
+    "object_type": "significance",
+    "content_ref": "os-content-10.2-p463-55-746",
+    "printed_page": 463,
+    "pdf_page": 468,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-check-your-understanding-10.2",
+    "object_type": "check_your_understanding",
+    "number": "10.2",
+    "content_ref": "os-content-10.2-p463-55-746",
+    "printed_page": 463,
+    "pdf_page": 468,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-10.6",
+    "object_type": "example",
+    "number": "10.6",
+    "content_ref": "os-content-10.2-p464-55-746",
+    "printed_page": 464,
+    "pdf_page": 469,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-10.2-p464-55-746-strategy-378",
+    "object_type": "strategy",
+    "content_ref": "os-content-10.2-p464-55-746",
+    "printed_page": 464,
+    "pdf_page": 469,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-10.2-p464-55-746-solution-564",
+    "object_type": "solution",
+    "content_ref": "os-content-10.2-p464-55-746",
+    "printed_page": 464,
+    "pdf_page": 469,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-10.2-p465-55-508_59-significance-411",
+    "object_type": "significance",
+    "content_ref": "os-content-10.2-p465-55-508_59",
+    "printed_page": 465,
+    "pdf_page": 470,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-10.7",
+    "object_type": "example",
+    "number": "10.7",
+    "content_ref": "os-content-10.3-p468-55-746",
+    "printed_page": 468,
+    "pdf_page": 473,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-10.3-p468-55-746-strategy-334",
+    "object_type": "strategy",
+    "content_ref": "os-content-10.3-p468-55-746",
+    "printed_page": 468,
+    "pdf_page": 473,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-10.3-p468-55-746-solution-406",
+    "object_type": "solution",
+    "content_ref": "os-content-10.3-p468-55-746",
+    "printed_page": 468,
+    "pdf_page": 473,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-10.3-p469-55-560_75-significance-322",
+    "object_type": "significance",
+    "content_ref": "os-content-10.3-p469-55-560_75",
+    "printed_page": 469,
+    "pdf_page": 474,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-check-your-understanding-10.3",
+    "object_type": "check_your_understanding",
+    "number": "10.3",
+    "content_ref": "os-content-10.3-p469-55-560_75",
+    "printed_page": 469,
+    "pdf_page": 474,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-10.14",
+    "object_type": "example",
+    "number": "10.14",
+    "content_ref": "os-content-10.6-p487-55-746",
+    "printed_page": 487,
+    "pdf_page": 492,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-10.6-p488-55-746-strategy-252",
+    "object_type": "strategy",
+    "content_ref": "os-content-10.6-p488-55-746",
+    "printed_page": 488,
+    "pdf_page": 493,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-10.6-p488-55-746-solution-313",
+    "object_type": "solution",
+    "content_ref": "os-content-10.6-p488-55-746",
+    "printed_page": 488,
+    "pdf_page": 493,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-10.6-p488-55-746-significance-542",
+    "object_type": "significance",
+    "content_ref": "os-content-10.6-p488-55-746",
+    "printed_page": 488,
+    "pdf_page": 493,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-10.15",
+    "object_type": "example",
+    "number": "10.15",
+    "content_ref": "os-content-10.6-p488-55-746",
+    "printed_page": 488,
+    "pdf_page": 493,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-10.6-p489-55-746-strategy-309",
+    "object_type": "strategy",
+    "content_ref": "os-content-10.6-p489-55-746",
+    "printed_page": 489,
+    "pdf_page": 494,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-10.6-p489-55-746-solution-356",
+    "object_type": "solution",
+    "content_ref": "os-content-10.6-p489-55-746",
+    "printed_page": 489,
+    "pdf_page": 494,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-10.6-p489-55-746-significance-575",
+    "object_type": "significance",
+    "content_ref": "os-content-10.6-p489-55-746",
+    "printed_page": 489,
+    "pdf_page": 494,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-check-your-understanding-10.6",
+    "object_type": "check_your_understanding",
+    "number": "10.6",
+    "content_ref": "os-content-10.6-p489-55-746",
+    "printed_page": 489,
+    "pdf_page": 494,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-12.1",
+    "object_type": "example",
+    "number": "12.1",
+    "content_ref": "os-content-12.1-p557-55-746",
+    "printed_page": 557,
+    "pdf_page": 562,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-12.1-p558-55-746-strategy-237",
+    "object_type": "strategy",
+    "content_ref": "os-content-12.1-p558-55-746",
+    "printed_page": 558,
+    "pdf_page": 563,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-12.1-p558-55-746-solution-617",
+    "object_type": "solution",
+    "content_ref": "os-content-12.1-p558-55-746",
+    "printed_page": 558,
+    "pdf_page": 563,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-12.1-p559-55-746-solution-264",
+    "object_type": "solution",
+    "content_ref": "os-content-12.1-p559-55-746",
+    "printed_page": 559,
+    "pdf_page": 564,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-12.1-p559-55-746-significance-513",
+    "object_type": "significance",
+    "content_ref": "os-content-12.1-p559-55-746",
+    "printed_page": 559,
+    "pdf_page": 564,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-check-your-understanding-12.1",
+    "object_type": "check_your_understanding",
+    "number": "12.1",
+    "content_ref": "os-content-12.1-p559-55-746",
+    "printed_page": 559,
+    "pdf_page": 564,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-check-your-understanding-12.2",
+    "object_type": "check_your_understanding",
+    "number": "12.2",
+    "content_ref": "os-content-12.1-p559-55-746",
+    "printed_page": 559,
+    "pdf_page": 564,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-12.2",
+    "object_type": "example",
+    "number": "12.2",
+    "content_ref": "os-content-12.1-p560-55-746",
+    "printed_page": 560,
+    "pdf_page": 565,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-12.1-p560-55-746-strategy-498",
+    "object_type": "strategy",
+    "content_ref": "os-content-12.1-p560-55-746",
+    "printed_page": 560,
+    "pdf_page": 565,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-12.1-p561-55-746-solution-389",
+    "object_type": "solution",
+    "content_ref": "os-content-12.1-p561-55-746",
+    "printed_page": 561,
+    "pdf_page": 566,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-12.1-p562-55-190_09-significance-95",
+    "object_type": "significance",
+    "content_ref": "os-content-12.1-p562-55-190_09",
+    "printed_page": 562,
+    "pdf_page": 567,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-12.3",
+    "object_type": "example",
+    "number": "12.3",
+    "content_ref": "os-content-12.2-p563-55-746",
+    "printed_page": 563,
+    "pdf_page": 568,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-12.2-p563-55-746-strategy-493",
+    "object_type": "strategy",
+    "content_ref": "os-content-12.2-p563-55-746",
+    "printed_page": 563,
+    "pdf_page": 568,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-12.2-p564-55-746-solution-222",
+    "object_type": "solution",
+    "content_ref": "os-content-12.2-p564-55-746",
+    "printed_page": 564,
+    "pdf_page": 569,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-12.2-p565-55-746-significance-221",
+    "object_type": "significance",
+    "content_ref": "os-content-12.2-p565-55-746",
+    "printed_page": 565,
+    "pdf_page": 570,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-check-your-understanding-12.3",
+    "object_type": "check_your_understanding",
+    "number": "12.3",
+    "content_ref": "os-content-12.2-p565-55-746",
+    "printed_page": 565,
+    "pdf_page": 570,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-12.4",
+    "object_type": "example",
+    "number": "12.4",
+    "content_ref": "os-content-12.2-p565-55-746",
+    "printed_page": 565,
+    "pdf_page": 570,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-12.2-p566-55-746-strategy-280",
+    "object_type": "strategy",
+    "content_ref": "os-content-12.2-p566-55-746",
+    "printed_page": 566,
+    "pdf_page": 571,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-12.2-p566-55-746-solution-689",
+    "object_type": "solution",
+    "content_ref": "os-content-12.2-p566-55-746",
+    "printed_page": 566,
+    "pdf_page": 571,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-12.2-p567-55-746-significance-681",
+    "object_type": "significance",
+    "content_ref": "os-content-12.2-p567-55-746",
+    "printed_page": 567,
+    "pdf_page": 572,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-12.2-p568-55-746-solution-117",
+    "object_type": "solution",
+    "content_ref": "os-content-12.2-p568-55-746",
+    "printed_page": 568,
+    "pdf_page": 573,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-check-your-understanding-12.4",
+    "object_type": "check_your_understanding",
+    "number": "12.4",
+    "content_ref": "os-content-12.2-p568-55-746",
+    "printed_page": 568,
+    "pdf_page": 573,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-12.5",
+    "object_type": "example",
+    "number": "12.5",
+    "content_ref": "os-content-12.2-p569-55-746",
+    "printed_page": 569,
+    "pdf_page": 574,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-12.2-p569-55-746-strategy-337",
+    "object_type": "strategy",
+    "content_ref": "os-content-12.2-p569-55-746",
+    "printed_page": 569,
+    "pdf_page": 574,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-12.2-p570-55-746-solution-316",
+    "object_type": "solution",
+    "content_ref": "os-content-12.2-p570-55-746",
+    "printed_page": 570,
+    "pdf_page": 575,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-12.2-p571-55-746-significance-299",
+    "object_type": "significance",
+    "content_ref": "os-content-12.2-p571-55-746",
+    "printed_page": 571,
+    "pdf_page": 576,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-check-your-understanding-12.5",
+    "object_type": "check_your_understanding",
+    "number": "12.5",
+    "content_ref": "os-content-12.2-p571-55-746",
+    "printed_page": 571,
+    "pdf_page": 576,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-12.6",
+    "object_type": "example",
+    "number": "12.6",
+    "content_ref": "os-content-12.2-p571-55-746",
+    "printed_page": 571,
+    "pdf_page": 576,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-12.2-p572-55-746-strategy-351",
+    "object_type": "strategy",
+    "content_ref": "os-content-12.2-p572-55-746",
+    "printed_page": 572,
+    "pdf_page": 577,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-12.2-p573-55-746-solution-278",
+    "object_type": "solution",
+    "content_ref": "os-content-12.2-p573-55-746",
+    "printed_page": 573,
+    "pdf_page": 578,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-12.2-p574-55-746-significance-61",
+    "object_type": "significance",
+    "content_ref": "os-content-12.2-p574-55-746",
+    "printed_page": 574,
+    "pdf_page": 579,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-check-your-understanding-12.6",
+    "object_type": "check_your_understanding",
+    "number": "12.6",
+    "content_ref": "os-content-12.2-p574-55-746",
+    "printed_page": 574,
+    "pdf_page": 579,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-check-your-understanding-12.7",
+    "object_type": "check_your_understanding",
+    "number": "12.7",
+    "content_ref": "os-content-12.2-p574-55-746",
+    "printed_page": 574,
+    "pdf_page": 579,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-check-your-understanding-12.8",
+    "object_type": "check_your_understanding",
+    "number": "12.8",
+    "content_ref": "os-content-12.2-p574-55-746",
+    "printed_page": 574,
+    "pdf_page": 579,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-10.16",
+    "object_type": "example",
+    "number": "10.16",
+    "content_ref": "os-content-10.7-p492-55-746",
+    "printed_page": 492,
+    "pdf_page": 497,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-10.7-p493-55-746-strategy-61",
+    "object_type": "strategy",
+    "content_ref": "os-content-10.7-p493-55-746",
+    "printed_page": 493,
+    "pdf_page": 498,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-10.7-p493-55-746-solution-119",
+    "object_type": "solution",
+    "content_ref": "os-content-10.7-p493-55-746",
+    "printed_page": 493,
+    "pdf_page": 498,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-10.7-p493-55-746-significance-448",
+    "object_type": "significance",
+    "content_ref": "os-content-10.7-p493-55-746",
+    "printed_page": 493,
+    "pdf_page": 498,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-check-your-understanding-10.7",
+    "object_type": "check_your_understanding",
+    "number": "10.7",
+    "content_ref": "os-content-10.7-p493-55-746",
+    "printed_page": 493,
+    "pdf_page": 498,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-10.9",
+    "object_type": "example",
+    "number": "10.9",
+    "content_ref": "os-content-10.4-p475-55-746",
+    "printed_page": 475,
+    "pdf_page": 480,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-10.4-p475-55-746-strategy-372",
+    "object_type": "strategy",
+    "content_ref": "os-content-10.4-p475-55-746",
+    "printed_page": 475,
+    "pdf_page": 480,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-10.4-p475-55-746-solution-419",
+    "object_type": "solution",
+    "content_ref": "os-content-10.4-p475-55-746",
+    "printed_page": 475,
+    "pdf_page": 480,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-10.4-p476-55-746-significance-61",
+    "object_type": "significance",
+    "content_ref": "os-content-10.4-p476-55-746",
+    "printed_page": 476,
+    "pdf_page": 481,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-10.10",
+    "object_type": "example",
+    "number": "10.10",
+    "content_ref": "os-content-10.4-p476-55-746",
+    "printed_page": 476,
+    "pdf_page": 481,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-10.4-p476-55-746-strategy-460",
+    "object_type": "strategy",
+    "content_ref": "os-content-10.4-p476-55-746",
+    "printed_page": 476,
+    "pdf_page": 481,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-10.4-p476-55-746-solution-520",
+    "object_type": "solution",
+    "content_ref": "os-content-10.4-p476-55-746",
+    "printed_page": 476,
+    "pdf_page": 481,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-10.4-p477-55-374_75-significance-220",
+    "object_type": "significance",
+    "content_ref": "os-content-10.4-p477-55-374_75",
+    "printed_page": 477,
+    "pdf_page": 482,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-check-your-understanding-10.4",
+    "object_type": "check_your_understanding",
+    "number": "10.4",
+    "content_ref": "os-content-10.4-p477-55-374_75",
+    "printed_page": 477,
+    "pdf_page": 482,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-11.3",
+    "object_type": "example",
+    "number": "11.3",
+    "content_ref": "os-content-11.1-p522-55-746",
+    "printed_page": 522,
+    "pdf_page": 527,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-11.1-p522-55-746-strategy-572",
+    "object_type": "strategy",
+    "content_ref": "os-content-11.1-p522-55-746",
+    "printed_page": 522,
+    "pdf_page": 527,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-11.1-p522-55-746-solution-670",
+    "object_type": "solution",
+    "content_ref": "os-content-11.1-p522-55-746",
+    "printed_page": 522,
+    "pdf_page": 527,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-11.1-p523-55-394_36-significance-243",
+    "object_type": "significance",
+    "content_ref": "os-content-11.1-p523-55-394_36",
+    "printed_page": 523,
+    "pdf_page": 528,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-10.17",
+    "object_type": "example",
+    "number": "10.17",
+    "content_ref": "os-content-10.8-p496-55-746",
+    "printed_page": 496,
+    "pdf_page": 501,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-10.8-p496-55-746-strategy-154",
+    "object_type": "strategy",
+    "content_ref": "os-content-10.8-p496-55-746",
+    "printed_page": 496,
+    "pdf_page": 501,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-10.8-p496-55-746-solution-201",
+    "object_type": "solution",
+    "content_ref": "os-content-10.8-p496-55-746",
+    "printed_page": 496,
+    "pdf_page": 501,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-10.8-p496-55-746-significance-415",
+    "object_type": "significance",
+    "content_ref": "os-content-10.8-p496-55-746",
+    "printed_page": 496,
+    "pdf_page": 501,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-10.18",
+    "object_type": "example",
+    "number": "10.18",
+    "content_ref": "os-content-10.8-p496-55-746",
+    "printed_page": 496,
+    "pdf_page": 501,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-10.8-p497-55-746-strategy-269",
+    "object_type": "strategy",
+    "content_ref": "os-content-10.8-p497-55-746",
+    "printed_page": 497,
+    "pdf_page": 502,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-10.8-p497-55-746-solution-333",
+    "object_type": "solution",
+    "content_ref": "os-content-10.8-p497-55-746",
+    "printed_page": 497,
+    "pdf_page": 502,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-10.19",
+    "object_type": "example",
+    "number": "10.19",
+    "content_ref": "os-content-10.8-p498-55-746",
+    "printed_page": 498,
+    "pdf_page": 503,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-10.8-p498-55-746-strategy-156",
+    "object_type": "strategy",
+    "content_ref": "os-content-10.8-p498-55-746",
+    "printed_page": 498,
+    "pdf_page": 503,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-10.8-p498-55-746-solution-190",
+    "object_type": "solution",
+    "content_ref": "os-content-10.8-p498-55-746",
+    "printed_page": 498,
+    "pdf_page": 503,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-10.8-p498-55-746-significance-257",
+    "object_type": "significance",
+    "content_ref": "os-content-10.8-p498-55-746",
+    "printed_page": 498,
+    "pdf_page": 503,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-check-your-understanding-10.8",
+    "object_type": "check_your_understanding",
+    "number": "10.8",
+    "content_ref": "os-content-10.8-p498-55-746",
+    "printed_page": 498,
+    "pdf_page": 503,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-11.4",
+    "object_type": "example",
+    "number": "11.4",
+    "content_ref": "os-content-11.2-p525-55-746",
+    "printed_page": 525,
+    "pdf_page": 530,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-11.2-p525-55-746-strategy-587",
+    "object_type": "strategy",
+    "content_ref": "os-content-11.2-p525-55-746",
+    "printed_page": 525,
+    "pdf_page": 530,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-11.2-p525-55-746-solution-672",
+    "object_type": "solution",
+    "content_ref": "os-content-11.2-p525-55-746",
+    "printed_page": 525,
+    "pdf_page": 530,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-11.2-p526-55-746-significance-481",
+    "object_type": "significance",
+    "content_ref": "os-content-11.2-p526-55-746",
+    "printed_page": 526,
+    "pdf_page": 531,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-check-your-understanding-11.2",
+    "object_type": "check_your_understanding",
+    "number": "11.2",
+    "content_ref": "os-content-11.2-p526-55-746",
+    "printed_page": 526,
+    "pdf_page": 531,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-11.5",
+    "object_type": "example",
+    "number": "11.5",
+    "content_ref": "os-content-11.2-p527-55-746",
+    "printed_page": 527,
+    "pdf_page": 532,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-11.2-p528-55-746-strategy-350",
+    "object_type": "strategy",
+    "content_ref": "os-content-11.2-p528-55-746",
+    "printed_page": 528,
+    "pdf_page": 533,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-11.2-p528-55-746-solution-396",
+    "object_type": "solution",
+    "content_ref": "os-content-11.2-p528-55-746",
+    "printed_page": 528,
+    "pdf_page": 533,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-11.2-p528-55-746-significance-669",
+    "object_type": "significance",
+    "content_ref": "os-content-11.2-p528-55-746",
+    "printed_page": 528,
+    "pdf_page": 533,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-11.6",
+    "object_type": "example",
+    "number": "11.6",
+    "content_ref": "os-content-11.2-p530-55-746",
+    "printed_page": 530,
+    "pdf_page": 535,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-11.2-p530-55-746-strategy-621",
+    "object_type": "strategy",
+    "content_ref": "os-content-11.2-p530-55-746",
+    "printed_page": 530,
+    "pdf_page": 535,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-11.2-p531-55-629_04-solution-61",
+    "object_type": "solution",
+    "content_ref": "os-content-11.2-p531-55-629_04",
+    "printed_page": 531,
+    "pdf_page": 536,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-11.2-p531-55-629_04-significance-428",
+    "object_type": "significance",
+    "content_ref": "os-content-11.2-p531-55-629_04",
+    "printed_page": 531,
+    "pdf_page": 536,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-check-your-understanding-11.3",
+    "object_type": "check_your_understanding",
+    "number": "11.3",
+    "content_ref": "os-content-11.2-p531-55-629_04",
+    "printed_page": 531,
+    "pdf_page": 536,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-11.7",
+    "object_type": "example",
+    "number": "11.7",
+    "content_ref": "os-content-11.3-p534-55-746",
+    "printed_page": 534,
+    "pdf_page": 539,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-11.3-p535-55-746-strategy-209",
+    "object_type": "strategy",
+    "content_ref": "os-content-11.3-p535-55-746",
+    "printed_page": 535,
+    "pdf_page": 540,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-11.3-p535-55-746-solution-255",
+    "object_type": "solution",
+    "content_ref": "os-content-11.3-p535-55-746",
+    "printed_page": 535,
+    "pdf_page": 540,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-11.3-p535-55-746-significance-459",
+    "object_type": "significance",
+    "content_ref": "os-content-11.3-p535-55-746",
+    "printed_page": 535,
+    "pdf_page": 540,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-check-your-understanding-11.4",
+    "object_type": "check_your_understanding",
+    "number": "11.4",
+    "content_ref": "os-content-11.3-p535-55-746",
+    "printed_page": 535,
+    "pdf_page": 540,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-11.8",
+    "object_type": "example",
+    "number": "11.8",
+    "content_ref": "os-content-11.3-p535-55-746",
+    "printed_page": 535,
+    "pdf_page": 540,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-11.3-p536-55-746-strategy-321",
+    "object_type": "strategy",
+    "content_ref": "os-content-11.3-p536-55-746",
+    "printed_page": 536,
+    "pdf_page": 541,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-11.3-p536-55-746-solution-405",
+    "object_type": "solution",
+    "content_ref": "os-content-11.3-p536-55-746",
+    "printed_page": 536,
+    "pdf_page": 541,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-11.3-p536-55-746-significance-542",
+    "object_type": "significance",
+    "content_ref": "os-content-11.3-p536-55-746",
+    "printed_page": 536,
+    "pdf_page": 541,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-11.9",
+    "object_type": "example",
+    "number": "11.9",
+    "content_ref": "os-content-11.3-p536-55-746",
+    "printed_page": 536,
+    "pdf_page": 541,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-11.3-p537-55-625_01-strategy-210",
+    "object_type": "strategy",
+    "content_ref": "os-content-11.3-p537-55-625_01",
+    "printed_page": 537,
+    "pdf_page": 542,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-11.3-p537-55-625_01-solution-307",
+    "object_type": "solution",
+    "content_ref": "os-content-11.3-p537-55-625_01",
+    "printed_page": 537,
+    "pdf_page": 542,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-11.3-p537-55-625_01-significance-555",
+    "object_type": "significance",
+    "content_ref": "os-content-11.3-p537-55-625_01",
+    "printed_page": 537,
+    "pdf_page": 542,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-11.1",
+    "object_type": "example",
+    "number": "11.1",
+    "content_ref": "os-content-11.1-p518-55-746",
+    "printed_page": 518,
+    "pdf_page": 523,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-11.1-p518-55-746-strategy-156",
+    "object_type": "strategy",
+    "content_ref": "os-content-11.1-p518-55-746",
+    "printed_page": 518,
+    "pdf_page": 523,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-11.1-p518-55-746-solution-228",
+    "object_type": "solution",
+    "content_ref": "os-content-11.1-p518-55-746",
+    "printed_page": 518,
+    "pdf_page": 523,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-11.1-p519-55-746-significance-576",
+    "object_type": "significance",
+    "content_ref": "os-content-11.1-p519-55-746",
+    "printed_page": 519,
+    "pdf_page": 524,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-check-your-understanding-11.1",
+    "object_type": "check_your_understanding",
+    "number": "11.1",
+    "content_ref": "os-content-11.1-p520-55-746",
+    "printed_page": 520,
+    "pdf_page": 525,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-11.2",
+    "object_type": "example",
+    "number": "11.2",
+    "content_ref": "os-content-11.1-p520-55-746",
+    "printed_page": 520,
+    "pdf_page": 525,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-11.1-p520-55-746-strategy-565",
+    "object_type": "strategy",
+    "content_ref": "os-content-11.1-p520-55-746",
+    "printed_page": 520,
+    "pdf_page": 525,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-11.1-p521-55-746-solution-61",
+    "object_type": "solution",
+    "content_ref": "os-content-11.1-p521-55-746",
+    "printed_page": 521,
+    "pdf_page": 526,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-11.1-p521-55-746-significance-487",
+    "object_type": "significance",
+    "content_ref": "os-content-11.1-p521-55-746",
+    "printed_page": 521,
+    "pdf_page": 526,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-13.6",
+    "object_type": "example",
+    "number": "13.6",
+    "content_ref": "os-content-13.3-p613-55-746",
+    "printed_page": 613,
+    "pdf_page": 618,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-13.3-p613-55-746-strategy-480",
+    "object_type": "strategy",
+    "content_ref": "os-content-13.3-p613-55-746",
+    "printed_page": 613,
+    "pdf_page": 618,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-13.3-p613-55-746-solution-526",
+    "object_type": "solution",
+    "content_ref": "os-content-13.3-p613-55-746",
+    "printed_page": 613,
+    "pdf_page": 618,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-13.3-p613-55-746-significance-665",
+    "object_type": "significance",
+    "content_ref": "os-content-13.3-p613-55-746",
+    "printed_page": 613,
+    "pdf_page": 618,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-check-your-understanding-13.3",
+    "object_type": "check_your_understanding",
+    "number": "13.3",
+    "content_ref": "os-content-13.3-p614-55-746",
+    "printed_page": 614,
+    "pdf_page": 619,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-13.7",
+    "object_type": "example",
+    "number": "13.7",
+    "content_ref": "os-content-13.3-p615-55-746",
+    "printed_page": 615,
+    "pdf_page": 620,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-13.3-p615-55-746-strategy-141",
+    "object_type": "strategy",
+    "content_ref": "os-content-13.3-p615-55-746",
+    "printed_page": 615,
+    "pdf_page": 620,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-13.3-p615-55-746-solution-188",
+    "object_type": "solution",
+    "content_ref": "os-content-13.3-p615-55-746",
+    "printed_page": 615,
+    "pdf_page": 620,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-13.3-p615-55-746-significance-294",
+    "object_type": "significance",
+    "content_ref": "os-content-13.3-p615-55-746",
+    "printed_page": 615,
+    "pdf_page": 620,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-check-your-understanding-13.4",
+    "object_type": "check_your_understanding",
+    "number": "13.4",
+    "content_ref": "os-content-13.3-p615-55-746",
+    "printed_page": 615,
+    "pdf_page": 620,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-13.8",
+    "object_type": "example",
+    "number": "13.8",
+    "content_ref": "os-content-13.3-p616-55-746",
+    "printed_page": 616,
+    "pdf_page": 621,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-13.3-p616-55-746-strategy-374",
+    "object_type": "strategy",
+    "content_ref": "os-content-13.3-p616-55-746",
+    "printed_page": 616,
+    "pdf_page": 621,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-13.3-p616-55-746-solution-433",
+    "object_type": "solution",
+    "content_ref": "os-content-13.3-p616-55-746",
+    "printed_page": 616,
+    "pdf_page": 621,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-13.3-p616-55-746-significance-661",
+    "object_type": "significance",
+    "content_ref": "os-content-13.3-p616-55-746",
+    "printed_page": 616,
+    "pdf_page": 621,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-check-your-understanding-13.5",
+    "object_type": "check_your_understanding",
+    "number": "13.5",
+    "content_ref": "os-content-13.3-p617-55-141_12",
+    "printed_page": 617,
+    "pdf_page": 622,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-13.9",
+    "object_type": "example",
+    "number": "13.9",
+    "content_ref": "os-content-13.4-p619-55-746",
+    "printed_page": 619,
+    "pdf_page": 624,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-13.4-p619-55-746-strategy-547",
+    "object_type": "strategy",
+    "content_ref": "os-content-13.4-p619-55-746",
+    "printed_page": 619,
+    "pdf_page": 624,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-13.4-p619-55-746-solution-594",
+    "object_type": "solution",
+    "content_ref": "os-content-13.4-p619-55-746",
+    "printed_page": 619,
+    "pdf_page": 624,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-13.4-p620-55-746-significance-80",
+    "object_type": "significance",
+    "content_ref": "os-content-13.4-p620-55-746",
+    "printed_page": 620,
+    "pdf_page": 625,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-check-your-understanding-13.6",
+    "object_type": "check_your_understanding",
+    "number": "13.6",
+    "content_ref": "os-content-13.4-p620-55-746",
+    "printed_page": 620,
+    "pdf_page": 625,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-13.10",
+    "object_type": "example",
+    "number": "13.10",
+    "content_ref": "os-content-13.4-p620-55-746",
+    "printed_page": 620,
+    "pdf_page": 625,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-13.4-p620-55-746-strategy-343",
+    "object_type": "strategy",
+    "content_ref": "os-content-13.4-p620-55-746",
+    "printed_page": 620,
+    "pdf_page": 625,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-13.4-p620-55-746-solution-416",
+    "object_type": "solution",
+    "content_ref": "os-content-13.4-p620-55-746",
+    "printed_page": 620,
+    "pdf_page": 625,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-13.4-p620-55-746-significance-516",
+    "object_type": "significance",
+    "content_ref": "os-content-13.4-p620-55-746",
+    "printed_page": 620,
+    "pdf_page": 625,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-check-your-understanding-13.7",
+    "object_type": "check_your_understanding",
+    "number": "13.7",
+    "content_ref": "os-content-13.4-p620-55-746",
+    "printed_page": 620,
+    "pdf_page": 625,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-13.11",
+    "object_type": "example",
+    "number": "13.11",
+    "content_ref": "os-content-13.4-p621-55-746",
+    "printed_page": 621,
+    "pdf_page": 626,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-13.4-p621-55-746-strategy-153",
+    "object_type": "strategy",
+    "content_ref": "os-content-13.4-p621-55-746",
+    "printed_page": 621,
+    "pdf_page": 626,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-13.4-p621-55-746-solution-238",
+    "object_type": "solution",
+    "content_ref": "os-content-13.4-p621-55-746",
+    "printed_page": 621,
+    "pdf_page": 626,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-13.4-p622-55-746-significance-93",
+    "object_type": "significance",
+    "content_ref": "os-content-13.4-p622-55-746",
+    "printed_page": 622,
+    "pdf_page": 627,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-check-your-understanding-13.8",
+    "object_type": "check_your_understanding",
+    "number": "13.8",
+    "content_ref": "os-content-13.4-p622-55-746",
+    "printed_page": 622,
+    "pdf_page": 627,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-13.12",
+    "object_type": "example",
+    "number": "13.12",
+    "content_ref": "os-content-13.4-p623-55-746",
+    "printed_page": 623,
+    "pdf_page": 628,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-13.4-p623-55-746-strategy-482",
+    "object_type": "strategy",
+    "content_ref": "os-content-13.4-p623-55-746",
+    "printed_page": 623,
+    "pdf_page": 628,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-13.4-p623-55-746-solution-592",
+    "object_type": "solution",
+    "content_ref": "os-content-13.4-p623-55-746",
+    "printed_page": 623,
+    "pdf_page": 628,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-13.4-p624-55-464_31-significance-357",
+    "object_type": "significance",
+    "content_ref": "os-content-13.4-p624-55-464_31",
+    "printed_page": 624,
+    "pdf_page": 629,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-13.13",
+    "object_type": "example",
+    "number": "13.13",
+    "content_ref": "os-content-13.5-p629-55-746",
+    "printed_page": 629,
+    "pdf_page": 634,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-13.5-p629-55-746-strategy-651",
+    "object_type": "strategy",
+    "content_ref": "os-content-13.5-p629-55-746",
+    "printed_page": 629,
+    "pdf_page": 634,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-13.5-p630-55-460_46-solution-61",
+    "object_type": "solution",
+    "content_ref": "os-content-13.5-p630-55-460_46",
+    "printed_page": 630,
+    "pdf_page": 635,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-13.5-p630-55-460_46-significance-306",
+    "object_type": "significance",
+    "content_ref": "os-content-13.5-p630-55-460_46",
+    "printed_page": 630,
+    "pdf_page": 635,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-check-your-understanding-13.9",
+    "object_type": "check_your_understanding",
+    "number": "13.9",
+    "content_ref": "os-content-13.5-p630-55-460_46",
+    "printed_page": 630,
+    "pdf_page": 635,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-15.1",
+    "object_type": "example",
+    "number": "15.1",
+    "content_ref": "os-content-15.1-p711-55-746",
+    "printed_page": 711,
+    "pdf_page": 716,
+    "placement": "reading_flow",
+    "content_refs": [
+      "os-content-15.1-p711-55-746",
+      "os-content-15.1-p711-55-389_22"
+    ]
+  },
+  {
+    "object_id": "os-content-15.1-p711-55-746-strategy-179",
+    "object_type": "strategy",
+    "content_ref": "os-content-15.1-p711-55-746",
+    "printed_page": 711,
+    "pdf_page": 716,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-15.1-p711-55-746-solution-213",
+    "object_type": "solution",
+    "content_ref": "os-content-15.1-p711-55-746",
+    "printed_page": 711,
+    "pdf_page": 716,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-15.1-p711-55-746-significance-319",
+    "object_type": "significance",
+    "content_ref": "os-content-15.1-p711-55-746",
+    "printed_page": 711,
+    "pdf_page": 716,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-example-15.2",
+    "object_type": "example",
+    "number": "15.2",
+    "content_ref": "os-content-15.1-p715-55-746",
+    "printed_page": 715,
+    "pdf_page": 720,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-15.1-p715-55-746-strategy-525",
+    "object_type": "strategy",
+    "content_ref": "os-content-15.1-p715-55-746",
+    "printed_page": 715,
+    "pdf_page": 720,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-15.1-p715-55-746-solution-585",
+    "object_type": "solution",
+    "content_ref": "os-content-15.1-p715-55-746",
+    "printed_page": 715,
+    "pdf_page": 720,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-15.1-p716-55-746-significance-117",
+    "object_type": "significance",
+    "content_ref": "os-content-15.1-p716-55-746",
+    "printed_page": 716,
+    "pdf_page": 721,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-15.1-p711-55-389_22-strategy-179",
+    "object_type": "strategy",
+    "content_ref": "os-content-15.1-p711-55-389_22",
+    "printed_page": 711,
+    "pdf_page": 716,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-15.1-p711-55-389_22-solution-213",
+    "object_type": "solution",
+    "content_ref": "os-content-15.1-p711-55-389_22",
+    "printed_page": 711,
+    "pdf_page": 716,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-15.1-p711-55-389_22-significance-319",
+    "object_type": "significance",
+    "content_ref": "os-content-15.1-p711-55-389_22",
+    "printed_page": 711,
+    "pdf_page": 716,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-15.4-p730-55-633_82-strategy-276",
+    "object_type": "strategy",
+    "content_ref": "os-content-15.4-p730-55-633_82",
+    "printed_page": 730,
+    "pdf_page": 735,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-15.4-p730-55-633_82-solution-331",
+    "object_type": "solution",
+    "content_ref": "os-content-15.4-p730-55-633_82",
+    "printed_page": 730,
+    "pdf_page": 735,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-15.4-p730-55-633_82-significance-479",
+    "object_type": "significance",
+    "content_ref": "os-content-15.4-p730-55-633_82",
+    "printed_page": 730,
+    "pdf_page": 735,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-content-15.1-p716-55-175_19-significance-117",
+    "object_type": "significance",
+    "content_ref": "os-content-15.1-p716-55-175_19",
+    "printed_page": 716,
+    "pdf_page": 721,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-check-your-understanding-15.3",
+    "object_type": "check_your_understanding",
+    "number": "15.3",
+    "content_ref": "os-content-15.3-p728-55-596_74",
+    "printed_page": 728,
+    "pdf_page": 733,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-check-your-understanding-15.1",
+    "object_type": "check_your_understanding",
+    "number": "15.1",
+    "content_ref": "os-content-15.2-p725-55-326_11",
+    "printed_page": 725,
+    "pdf_page": 730,
+    "placement": "reading_flow"
+  },
+  {
+    "object_id": "os-check-your-understanding-15.2",
+    "object_type": "check_your_understanding",
+    "number": "15.2",
+    "content_ref": "os-content-15.2-p725-55-326_11",
+    "printed_page": 725,
+    "pdf_page": 730,
+    "placement": "reading_flow"
+  }
+]

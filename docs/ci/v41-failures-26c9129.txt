@@ -1,0 +1,107 @@
+Source: https://github.com/Lkm090514/GiveMeFive/actions/runs/40281010014/job/121434076799
+Commit: 26c912944e4930321545c658be09504c5e9cf4b8
+Unmodified failing TAP blocks extracted from the job log (timestamps retained).
+
+2026-10-26T06:38:53.2586254Z not ok 51 - All course bundles resolve canonical IDs and image assets
+2026-10-26T06:38:53.2587028Z   ---
+2026-10-26T06:38:53.2587277Z   duration_ms: 1.855773
+2026-10-26T06:38:53.2587511Z   type: 'test'
+2026-10-26T06:38:53.2587960Z   location: '/home/runner/work/GiveMeFive/GiveMeFive/tests/integration.test.mjs:13:1'
+2026-10-26T06:38:53.2588410Z   failureType: 'testCodeFailure'
+2026-10-26T06:38:53.2588883Z   error: "ENOENT: no such file or directory, open 'dist/data/topics/2026-10-21-378e0a8e6e/1.1.json'"
+2026-10-26T06:38:53.2589708Z   code: 'ENOENT'
+2026-10-26T06:38:53.2589944Z   stack: |-
+2026-10-26T06:38:53.2590173Z     Object.openSync (node:fs:560:18)
+2026-10-26T06:38:53.2590471Z     Object.readFileSync (node:fs:444:35)
+2026-10-26T06:38:53.2591018Z     TestContext.<anonymous> (file:///home/runner/work/GiveMeFive/GiveMeFive/tests/integration.test.mjs:13:341)
+2026-10-26T06:38:53.2591787Z     Test.runInAsyncScope (node:async_hooks:214:14)
+2026-10-26T06:38:53.2592136Z     Test.run (node:internal/test_runner/test:1047:25)
+2026-10-26T06:38:53.2592557Z     Test.processPendingSubtests (node:internal/test_runner/test:744:18)
+2026-10-26T06:38:53.2592981Z     Test.postRun (node:internal/test_runner/test:1173:19)
+2026-10-26T06:38:53.2593355Z     Test.run (node:internal/test_runner/test:1101:12)
+2026-10-26T06:38:53.2593797Z     async Test.processPendingSubtests (node:internal/test_runner/test:744:7)
+2026-10-26T06:38:53.2594144Z   ...
+
+2026-10-26T06:38:53.2595037Z not ok 52 - Canonical course data and Assessment executable assets unchanged
+2026-10-26T06:38:53.2595367Z   ---
+2026-10-26T06:38:53.2595552Z   duration_ms: 1.45194
+2026-10-26T06:38:53.2595749Z   type: 'test'
+2026-10-26T06:38:53.2596107Z   location: '/home/runner/work/GiveMeFive/GiveMeFive/tests/integration.test.mjs:14:1'
+2026-10-26T06:38:53.2596541Z   failureType: 'testCodeFailure'
+2026-10-26T06:38:53.2597253Z   error: "ENOENT: no such file or directory, open 'dist/data/reading-content.json'"
+2026-10-26T06:38:53.2597619Z   code: 'ENOENT'
+2026-10-26T06:38:53.2597804Z   stack: |-
+2026-10-26T06:38:53.2598022Z     Object.openSync (node:fs:560:18)
+2026-10-26T06:38:53.2598313Z     Object.readFileSync (node:fs:444:35)
+2026-10-26T06:38:53.2598861Z     TestContext.<anonymous> (file:///home/runner/work/GiveMeFive/GiveMeFive/tests/integration.test.mjs:14:221)
+2026-10-26T06:38:53.2599393Z     Test.runInAsyncScope (node:async_hooks:214:14)
+2026-10-26T06:38:53.2599747Z     Test.run (node:internal/test_runner/test:1047:25)
+2026-10-26T06:38:53.2600153Z     Test.processPendingSubtests (node:internal/test_runner/test:744:18)
+2026-10-26T06:38:53.2600613Z     Test.postRun (node:internal/test_runner/test:1173:19)
+2026-10-26T06:38:53.2600976Z     Test.run (node:internal/test_runner/test:1101:12)
+2026-10-26T06:38:53.2601412Z     async Test.processPendingSubtests (node:internal/test_runner/test:744:7)
+2026-10-26T06:38:53.2601762Z   ...
+
+2026-10-26T06:38:53.4066146Z not ok 58 - real Unit download pauses, resumes only missing resources, detects corruption and retries failures
+2026-10-26T06:38:53.4066970Z   ---
+2026-10-26T06:38:53.4067294Z   duration_ms: 124.250679
+2026-10-26T06:38:53.4067697Z   type: 'test'
+2026-10-26T06:38:53.4068333Z   location: '/home/runner/work/GiveMeFive/GiveMeFive/tests/offline-runtime.test.mjs:17:1'
+2026-10-26T06:38:53.4068911Z   failureType: 'testCodeFailure'
+2026-10-26T06:38:53.4084702Z   error: 'Download incomplete: data/topics/2026-10-21-378e0a8e6e/1.1.json, assets/pages/0092.webp, assets/pages/0093.webp, assets/pages/0094.webp, assets/pages/0095.webp, assets/pages/0096.webp, assets/pages/0097.webp, assets/pages/0098.webp, assets/pages/0099.webp, assets/pages/0100.webp, assets/pages/0047.webp, assets/pages/0048.webp, assets/pages/0049.webp, assets/pages/0050.webp, assets/pages/0051.webp, assets/pages/0052.webp, assets/pages/0053.webp, assets/pages/0054.webp, assets/pages/0055.webp, assets/pages/0056.webp, assets/pages/0057.webp, assets/pages/0058.webp, assets/pages/0059.webp, assets/pages/0060.webp, assets/pages/0061.webp, assets/pages/0062.webp, assets/pages/0063.webp, assets/pages/0064.webp, assets/pages/0065.webp, assets/pages/0066.webp, assets/pages/0067.webp, assets/pages/0068.webp, assets/pages/0069.webp, assets/pages/0070.webp, assets/pages/0071.webp, assets/pages/0072.webp, assets/pages/0073.webp, assets/pages/0074.webp, assets/pages/0075.webp, assets/pages/0076.webp, assets/pages/0077.webp, assets/pages/0078.webp, assets/pages/0079.webp, assets/pages/0080.webp, assets/pages/0081.webp, assets/pages/0082.webp, assets/pages/0083.webp, assets/pages/0084.webp, assets/pages/0085.webp, assets/pages/0086.webp, assets/pages/0087.webp, assets/pages/0088.webp, data/topics/2026-10-21-378e0a8e6e/1.2.json, assets/pages/0142.webp, assets/pages/0143.webp, assets/pages/0144.webp, assets/pages/0145.webp, assets/pages/0146.webp, assets/pages/0147.webp, assets/pages/0148.webp, assets/pages/0149.webp, assets/pages/0150.webp, assets/pages/0151.webp, assets/pages/0103.webp, assets/pages/0104.webp, assets/pages/0105.webp, assets/pages/0106.webp, assets/pages/0107.webp, assets/pages/0108.webp, assets/pages/0109.webp, assets/pages/0110.webp, assets/pages/0111.webp, assets/pages/0112.webp, assets/pages/0113.webp, assets/pages/0114.webp, assets/pages/0115.webp, assets/pages/0116.webp, assets/pages/0117.webp, assets/pages/0118.webp, assets/pages/0119.webp, assets/pages/0120.webp, assets/pages/0121.webp, assets/pages/0122.webp, assets/pages/0123.webp, assets/pages/0124.webp, assets/pages/0125.webp, assets/pages/0126.webp, assets/pages/0127.webp, assets/pages/0128.webp, assets/pages/0129.webp, assets/pages/0130.webp, assets/pages/0131.webp, assets/pages/0132.webp, assets/pages/0133.webp, assets/pages/0134.webp, assets/pages/0135.webp, assets/pages/0136.webp, assets/pages/0137.webp, assets/pages/0138.webp, assets/pages/0139.webp, assets/pages/0140.webp, data/topics/2026-10-21-378e0a8e6e/1.3.json, data/topics/2026-10-21-378e0a8e6e/1.4.json, assets/pages/0189.webp, assets/pages/0190.webp, assets/pages/0191.webp, assets/pages/0192.webp, assets/pages/0193.webp, assets/pages/0194.webp, assets/pages/0195.webp, assets/pages/0196.webp, assets/pages/0182.webp, assets/pages/0183.webp, assets/pages/0184.webp, assets/pages/0185.webp, assets/pages/0186.webp, data/topics/2026-10-21-378e0a8e6e/1.5.json, assets/pages/0153.webp, assets/pages/0154.webp, assets/pages/0155.webp, assets/pages/0156.webp, assets/pages/0157.webp, assets/pages/0158.webp, assets/pages/0159.webp, assets/pages/0160.webp, assets/pages/0161.webp, assets/pages/0162.webp, assets/pages/0163.webp, assets/pages/0164.webp, assets/pages/0165.webp, assets/pages/0166.webp, assets/pages/0167.webp, assets/pages/0168.webp, assets/pages/0169.webp, assets/pages/0170.webp, assets/pages/0171.webp, assets/pages/0172.webp, assets/pages/0173.webp, assets/pages/0174.webp, assets/pages/0175.webp, assets/pages/0176.webp, assets/pages/0177.webp, assets/pages/0178.webp, assets/pages/0179.webp, assets/pages/0180.webp, assets/pages/0181.webp'
+2026-10-26T06:38:53.4099822Z   code: 'ERR_TEST_FAILURE'
+2026-10-26T06:38:53.4100276Z   stack: |-
+2026-10-26T06:38:53.4100677Z     transfer (evalmachine.<anonymous>:19:1001)
+2026-10-26T06:38:53.4101409Z     async Object.download (evalmachine.<anonymous>:20:159)
+2026-10-26T06:38:53.4102291Z     async TestContext.<anonymous> (file:///home/runner/work/GiveMeFive/GiveMeFive/tests/offline-runtime.test.mjs:22:30)
+2026-10-26T06:38:53.4103041Z     async Test.run (node:internal/test_runner/test:1054:7)
+2026-10-26T06:38:53.4103643Z     async startSubtestAfterBootstrap (node:internal/test_runner/harness:296:3)
+2026-10-26T06:38:53.4104146Z   ...
+
+2026-10-26T06:38:53.5052025Z not ok 59 - whole real course is complete by inventory, offline SW serves deep links and images, deletion is course scoped
+2026-10-26T06:38:53.5052496Z   ---
+2026-10-26T06:38:53.5052754Z   duration_ms: 103.736076
+2026-10-26T06:38:53.5053014Z   type: 'test'
+2026-10-26T06:38:53.5053386Z   location: '/home/runner/work/GiveMeFive/GiveMeFive/tests/offline-runtime.test.mjs:32:1'
+2026-10-26T06:38:53.5053778Z   failureType: 'testCodeFailure'
+2026-10-26T06:38:53.5075668Z   error: 'Download incomplete: data/topics/2026-10-21-378e0a8e6e/1.1.json, assets/pages/0092.webp, assets/pages/0093.webp, assets/pages/0094.webp, assets/pages/0095.webp, assets/pages/0096.webp, assets/pages/0097.webp, assets/pages/0098.webp, assets/pages/0099.webp, assets/pages/0100.webp, assets/pages/0047.webp, assets/pages/0048.webp, assets/pages/0049.webp, assets/pages/0050.webp, assets/pages/0051.webp, assets/pages/0052.webp, assets/pages/0053.webp, assets/pages/0054.webp, assets/pages/0055.webp, assets/pages/0056.webp, assets/pages/0057.webp, assets/pages/0058.webp, assets/pages/0059.webp, assets/pages/0060.webp, assets/pages/0061.webp, assets/pages/0062.webp, assets/pages/0063.webp, assets/pages/0064.webp, assets/pages/0065.webp, assets/pages/0066.webp, assets/pages/0067.webp, assets/pages/0068.webp, assets/pages/0069.webp, assets/pages/0070.webp, assets/pages/0071.webp, assets/pages/0072.webp, assets/pages/0073.webp, assets/pages/0074.webp, assets/pages/0075.webp, assets/pages/0076.webp, assets/pages/0077.webp, assets/pages/0078.webp, assets/pages/0079.webp, assets/pages/0080.webp, assets/pages/0081.webp, assets/pages/0082.webp, assets/pages/0083.webp, assets/pages/0084.webp, assets/pages/0085.webp, assets/pages/0086.webp, assets/pages/0087.webp, assets/pages/0088.webp, data/topics/2026-10-21-378e0a8e6e/1.2.json, assets/pages/0142.webp, assets/pages/0143.webp, assets/pages/0144.webp, assets/pages/0145.webp, assets/pages/0146.webp, assets/pages/0147.webp, assets/pages/0148.webp, assets/pages/0149.webp, assets/pages/0150.webp, assets/pages/0151.webp, assets/pages/0103.webp, assets/pages/0104.webp, assets/pages/0105.webp, assets/pages/0106.webp, assets/pages/0107.webp, assets/pages/0108.webp, assets/pages/0109.webp, assets/pages/0110.webp, assets/pages/0111.webp, assets/pages/0112.webp, assets/pages/0113.webp, assets/pages/0114.webp, assets/pages/0115.webp, assets/pages/0116.webp, assets/pages/0117.webp, assets/pages/0118.webp, assets/pages/0119.webp, assets/pages/0120.webp, assets/pages/0121.webp, assets/pages/0122.webp, assets/pages/0123.webp, assets/pages/0124.webp, assets/pages/0125.webp, assets/pages/0126.webp, assets/pages/0127.webp, assets/pages/0128.webp, assets/pages/0129.webp, assets/pages/0130.webp, assets/pages/0131.webp, assets/pages/0132.webp, assets/pages/0133.webp, assets/pages/0134.webp, assets/pages/0135.webp, assets/pages/0136.webp, assets/pages/0137.webp, assets/pages/0138.webp, assets/pages/0139.webp, assets/pages/0140.webp, data/topics/2026-10-21-378e0a8e6e/1.3.json, data/topics/2026-10-21-378e0a8e6e/1.4.json, assets/pages/0189.webp, assets/pages/0190.webp, assets/pages/0191.webp, assets/pages/0192.webp, assets/pages/0193.webp, assets/pages/0194.webp, assets/pages/0195.webp, assets/pages/0196.webp, assets/pages/0182.webp, assets/pages/0183.webp, assets/pages/0184.webp, assets/pages/0185.webp, assets/pages/0186.webp, data/topics/2026-10-21-378e0a8e6e/1.5.json, assets/pages/0153.webp, assets/pages/0154.webp, assets/pages/0155.webp, assets/pages/0156.webp, assets/pages/0157.webp, assets/pages/0158.webp, assets/pages/0159.webp, assets/pages/0160.webp, assets/pages/0161.webp, assets/pages/0162.webp, assets/pages/0163.webp, assets/pages/0164.webp, assets/pages/0165.webp, assets/pages/0166.webp, assets/pages/0167.webp, assets/pages/0168.webp, assets/pages/0169.webp, assets/pages/0170.webp, assets/pages/0171.webp, assets/pages/0172.webp, assets/pages/0173.webp, assets/pages/0174.webp, assets/pages/0175.webp, assets/pages/0176.webp, assets/pages/0177.webp, assets/pages/0178.webp, assets/pages/0179.webp, assets/pages/0180.webp, assets/pages/0181.webp, data/topics/2026-10-21-378e0a8e6e/2.1.json, assets/pages/0207.webp, assets/pages/0208.webp, assets/pages/0242.webp, assets/pages/0243.webp, assets/pages/0244.webp, assets/pages/0245.webp, assets/pages/0246.webp, assets/pages/0247.webp, assets/pages/0248.webp, assets/pages/0249.webp, assets/pages/0250.webp, assets/pages/0251.webp, assets/pages/0252.webp, assets/pages/0445.webp, assets/pages/0446.webp, assets/pages/0447.webp, assets/pages/0448.webp, assets/pages/0449.webp, assets/pages/0450.webp, assets/pages/0451.webp, assets/pages/0452.webp, assets/pages/0453.webp, assets/pages/0454.webp, assets/pages/0455.webp, assets/pages/0424.webp, assets/pages/0425.webp, assets/pages/0426.webp, assets/pages/0427.webp, assets/pages/0428.webp, assets/pages/0429.webp, assets/pages/0430.webp, assets/pages/0431.webp, assets/pages/0432.webp, assets/pages/0433.webp, assets/pages/0434.webp, assets/pages/0435.webp, assets/pages/0436.webp, assets/pages/0437.webp, assets/pages/0438.webp, assets/pages/0439.webp, data/topics/2026-10-21-378e0a8e6e/2.2.json, assets/pages/0254.webp, assets/pages/0255.webp, assets/pages/0256.webp, assets/pages/0257.webp, assets/pages/0258.webp, assets/pages/0299.webp, assets/pages/0300.webp, assets/pages/0301.webp, assets/pages/0302.webp, assets/pages/0303.webp, assets/pages/0304.webp, assets/pages/0305.webp, assets/pages/0306.webp, assets/pages/0307.webp, assets/pages/0308.webp, assets/pages/0309.webp, assets/pages/0310.webp, assets/pages/0311.webp, assets/pages/0312.webp, assets/pages/0313.webp, assets/pages/0314.webp, assets/pages/0199.webp, assets/pages/0200.webp, assets/pages/0201.webp, assets/pages/0202.webp, assets/pages/0203.webp, assets/pages/0225.webp, assets/pages/0226.webp, assets/pages/0227.webp, assets/pages/0228.webp, assets/pages/0229.webp, assets/pages/0230.webp, assets/pages/0231.webp, assets/pages/0232.webp, assets/pages/0233.webp, assets/pages/0234.webp, assets/pages/0235.webp, assets/pages/0236.webp, assets/pages/0237.webp, assets/pages/0238.webp, assets/pages/0239.webp, data/topics/2026-10-21-378e0a8e6e/2.3.json, assets/pages/0219.webp, assets/pages/0220.webp, assets/pages/0221.webp, assets/pages/0222.webp, assets/pages/0223.webp, assets/pages/0224.webp, data/topics/2026-10-21-378e0a8e6e/2.4.json, assets/pages/0204.webp, assets/pages/0205.webp, assets/pages/0206.webp, data/topics/2026-10-21-378e0a8e6e/2.5.json, assets/pages/0209.webp, assets/pages/0210.webp, assets/pages/0211.webp, assets/pages/0212.webp, assets/pages/0213.webp, assets/pages/0214.webp, assets/pages/0215.webp, assets/pages/0216.webp, assets/pages/0259.webp, assets/pages/0260.webp, assets/pages/0261.webp, assets/pages/0262.webp, assets/pages/0263.webp, assets/pages/0264.webp, assets/pages/0265.webp, assets/pages/0266.webp, assets/pages/0267.webp, assets/pages/0268.webp, assets/pages/0269.webp, data/topics/2026-10-21-378e0a8e6e/2.6.json, assets/pages/0651.webp, assets/pages/0652.webp, assets/pages/0653.webp, assets/pages/0654.webp, assets/pages/0655.webp, assets/pages/0656.webp, assets/pages/0657.webp, assets/pages/0217.webp, assets/pages/0218.webp, assets/pages/0604.webp, assets/pages/0605.webp, assets/pages/0606.webp, assets/pages/0607.webp, assets/pages/0608.webp, assets/pages/0609.webp, assets/pages/0610.webp, assets/pages/0611.webp, assets/pages/0612.webp, assets/pages/0613.webp, assets/pages/0614.webp, assets/pages/0615.webp, assets/pages/0616.webp, assets/pages/0617.webp, data/topics/2026-10-21-378e0a8e6e/2.7.json, assets/pages/0270.webp, assets/pages/0271.webp, assets/pages/0272.webp, assets/pages/0273.webp, assets/pages/0274.webp, assets/pages/0275.webp, assets/pages/0276.webp, assets/pages/0277.webp, assets/pages/0278.webp, assets/pages/0279.webp, assets/pages/0280.webp, assets/pages/0281.webp, data/topics/2026-10-21-378e0a8e6e/2.8.json, data/topics/2026-10-21-378e0a8e6e/2.9.json, assets/pages/0289.webp, assets/pages/0290.webp, assets/pages/0291.webp, assets/pages/0292.webp, assets/pages/0293.webp, assets/pages/0294.webp, assets/pages/0295.webp, assets/pages/0296.webp, assets/pages/0297.webp, data/topics/2026-10-21-378e0a8e6e/2.10.json, assets/pages/0282.webp, assets/pages/0283.webp, assets/pages/0284.webp, assets/pages/0285.webp, assets/pages/0286.webp, assets/pages/0287.webp, assets/pages/0288.webp, data/topics/2026-10-21-378e0a8e6e/3.1.json, assets/pages/0337.webp, assets/pages/0338.webp, assets/pages/0339.webp, assets/pages/0340.webp, assets/pages/0341.webp, assets/pages/0342.webp, assets/pages/0343.webp, assets/pages/0344.webp, assets/pages/0345.webp, assets/pages/0325.webp, assets/pages/0326.webp, assets/pages/0327.webp, assets/pages/0328.webp, data/topics/2026-10-21-378e0a8e6e/3.2.json, assets/pages/0317.webp, assets/pages/0318.webp, assets/pages/0319.webp, assets/pages/0320.webp, assets/pages/0321.webp, assets/pages/0322.webp, assets/pages/0323.webp, assets/pages/0324.webp, assets/pages/0329.webp, assets/pages/0330.webp, assets/pages/0331.webp, assets/pages/0332.webp, data/topics/2026-10-21-378e0a8e6e/3.3.json, assets/pages/0373.webp, assets/pages/0374.webp, assets/pages/0375.webp, assets/pages/0376.webp, assets/pages/0377.webp, assets/pages/0379.webp, assets/pages/0380.webp, assets/pages/0381.webp, assets/pages/0382.webp, assets/pages/0346.webp, assets/pages/0347.webp, assets/pages/0348.webp, assets/pages/0349.webp, assets/pages/0350.webp, assets/pages/0351.webp, assets/pages/0352.webp, assets/pages/0353.webp, assets/pages/0354.webp, assets/pages/0355.webp, assets/pages/0356.webp, assets/pages/0357.webp, assets/pages/0358.webp, assets/pages/0364.webp, assets/pages/0365.webp, assets/pages/0366.webp, assets/pages/0367.webp, assets/pages/0368.webp, data/topics/2026-10-21-378e0a8e6e/3.4.json, assets/pages/0359.webp, assets/pages/0360.webp, assets/pages/0361.webp, assets/pages/0362.webp, assets/pages/0363.webp, data/topics/2026-10-21-378e0a8e6e/3.5.json, assets/pages/0333.webp, assets/pages/0334.webp, assets/pages/0335.webp, data/topics/2026-10-21-378e0a8e6e/4.1.json, assets/pages/0385.webp, assets/pages/0386.webp, data/topics/2026-10-21-378e0a8e6e/4.2.json, assets/pages/0387.webp, assets/pages/0388.webp, assets/pages/0389.webp, assets/pages/0390.webp, assets/pages/0391.webp, assets/pages/0392.webp, assets/pages/0393.webp, assets/pages/0394.webp, assets/pages/0395.webp, assets/pages/0396.webp, assets/pages/0397.webp, assets/pages/0398.webp, assets/pag'... 5456 more characters
+2026-10-26T06:38:53.5093776Z   code: 'ERR_TEST_FAILURE'
+2026-10-26T06:38:53.5093914Z   stack: |-
+2026-10-26T06:38:53.5094068Z     transfer (evalmachine.<anonymous>:19:1001)
+2026-10-26T06:38:53.5094320Z     async Object.download (evalmachine.<anonymous>:20:159)
+2026-10-26T06:38:53.5094694Z     async TestContext.<anonymous> (file:///home/runner/work/GiveMeFive/GiveMeFive/tests/offline-runtime.test.mjs:33:51)
+2026-10-26T06:38:53.5095144Z     async Test.run (node:internal/test_runner/test:1054:7)
+2026-10-26T06:38:53.5095415Z     async Test.processPendingSubtests (node:internal/test_runner/test:744:7)
+2026-10-26T06:38:53.5095751Z   ...
+
+2026-10-26T06:38:53.5200015Z not ok 60 - version inventories match every shipped byte and reject mixing releases
+2026-10-26T06:38:53.5200424Z   ---
+2026-10-26T06:38:53.5200933Z   duration_ms: 11.135152
+2026-10-26T06:38:53.5201150Z   type: 'test'
+2026-10-26T06:38:53.5201542Z   location: '/home/runner/work/GiveMeFive/GiveMeFive/tests/offline-runtime.test.mjs:45:1'
+2026-10-26T06:38:53.5201973Z   failureType: 'testCodeFailure'
+2026-10-26T06:38:53.5202534Z   error: "ENOENT: no such file or directory, open '/home/runner/work/GiveMeFive/GiveMeFive/dist/assets/pages/0047.webp'"
+2026-10-26T06:38:53.5203018Z   code: 'ENOENT'
+2026-10-26T06:38:53.5203205Z   stack: |-
+2026-10-26T06:38:53.5203425Z     Object.openSync (node:fs:560:18)
+2026-10-26T06:38:53.5203728Z     Object.readFileSync (node:fs:444:35)
+2026-10-26T06:38:53.5204294Z     TestContext.<anonymous> (file:///home/runner/work/GiveMeFive/GiveMeFive/tests/offline-runtime.test.mjs:46:78)
+2026-10-26T06:38:53.5204847Z     async Test.run (node:internal/test_runner/test:1054:7)
+2026-10-26T06:38:53.5205269Z     async Test.processPendingSubtests (node:internal/test_runner/test:744:7)
+2026-10-26T06:38:53.5205610Z   ...
+
+2026-10-26T06:38:53.5214161Z not ok 62 - PDF export reconstructs the real original file and does not mark browser offline content complete
+2026-10-26T06:38:53.5214612Z   ---
+2026-10-26T06:38:53.5214797Z   duration_ms: 3.837985
+2026-10-26T06:38:53.5215002Z   type: 'test'
+2026-10-26T06:38:53.5215406Z   location: '/home/runner/work/GiveMeFive/GiveMeFive/tests/offline-runtime.test.mjs:62:1'
+2026-10-26T06:38:53.5215835Z   failureType: 'testCodeFailure'
+2026-10-26T06:38:53.5216180Z   error: 'PDF verification failed: source/physics-range-0001.bin'
+2026-10-26T06:38:53.5216509Z   code: 'ERR_TEST_FAILURE'
+2026-10-26T06:38:53.5216905Z   stack: |-
+2026-10-26T06:38:53.5217176Z     Object.downloadPDF (evalmachine.<anonymous>:23:539)
+2026-10-26T06:38:53.5217821Z     async TestContext.<anonymous> (file:///home/runner/work/GiveMeFive/GiveMeFive/tests/offline-runtime.test.mjs:64:25)
+2026-10-26T06:38:53.5218874Z     async Test.run (node:internal/test_runner/test:1054:7)
+2026-10-26T06:38:53.5219349Z     async Test.processPendingSubtests (node:internal/test_runner/test:744:7)
+2026-10-26T06:38:53.5219725Z   ...
+

@@ -1,0 +1,11 @@
+import {spawn} from 'node:child_process';
+import {existsSync} from 'node:fs';
+import {fileURLToPath} from 'node:url';
+const root=fileURLToPath(new URL('../',import.meta.url));
+const venv=fileURLToPath(new URL(process.platform==='win32'?'../.venv/Scripts/python.exe':'../.venv/bin/python',import.meta.url));
+const python=existsSync(venv)?venv:(process.platform==='win32'?'python':'python3');
+console.log('此兼容入口将启动完整 Python 网站与题库服务。');
+const managed=process.argv.includes('--strictPort');
+const child=spawn(python,[managed?'scripts/managed-preview.py':'scripts/run-v4.py',...process.argv.slice(2).filter(x=>!managed||x!=='--open')],{cwd:root,stdio:'inherit',windowsHide:true,env:managed?{...process.env,SITES_MANAGED_LINUX_CONTAINER:'1',PYTHONHOME:root+'preview-runtime-python',PYTHONPATH:root+'.venv/lib/python3.12/site-packages'}:process.env});
+child.on('error',()=>{console.error('请双击项目根目录 Start-GiveMeFive.cmd 安装并启动。');process.exitCode=1;});
+child.on('exit',code=>{process.exitCode=code??1;});

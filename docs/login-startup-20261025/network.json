@@ -1,0 +1,16 @@
+{
+  "main_api_requests": {
+    "GET /api/v4/sessions 200": 904,
+    "GET /api/v4/health 200": 1,
+    "POST /api/v4/local-launch 200": 1,
+    "GET /api/v4/me 200": 2,
+    "GET /api/v4/registry 200": 2,
+    "GET /api/v4/papers/imports 200": 1,
+    "GET /api/v4/questions 200": 1
+  },
+  "aggregate_requests_during_click_observation": {
+    "GET /api/v4/me 200": 1,
+    "GET /api/v4/registry 200": 1
+  },
+  "limitation": "Counts include other open tabs and cannot prove that repeated clicks caused these requests. Draft persistence was observed in the browser."
+}

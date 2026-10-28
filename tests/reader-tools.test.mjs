@@ -1,0 +1,4 @@
+import test from 'node:test';import assert from 'node:assert/strict';import fs from 'node:fs';
+import {searchCourse,snippet} from '../dist/reader-tools.mjs';
+test('real Topic text, figure captions and exercises retain resolvable search anchors',()=>{const course=JSON.parse(fs.readFileSync('dist/data/course.json')),manifest=JSON.parse(fs.readFileSync('dist/data/runtime-manifest.json')),b=JSON.parse(fs.readFileSync('dist/'+manifest.topics['5.4'].path)),data={course,...b},out=searchCourse(data,'inertia','5.4');for(const kind of ['标题','正文','图注','习题'])assert.ok(out.some(m=>m.kind===kind),kind);for(const m of out.filter(m=>['正文','图注'].includes(m.kind)))assert.ok(data.readings.some(r=>'source-'+r.content_id===m.anchor));assert.equal(searchCourse(data,'   ').length,0);});
+test('search snippets escape untrusted document text and highlight only the query',()=>{assert.equal(snippet('<script>term</script>','term'),'&lt;script&gt;<mark>term</mark>&lt;/script&gt;');});

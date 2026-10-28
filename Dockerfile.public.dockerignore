@@ -1,0 +1,16 @@
+.git
+.github
+runtime
+private
+uploads
+backups
+.venv
+qa-env
+node_modules
+**/__pycache__
+.env*
+*.zip
+*.db
+*.sqlite*
+.openai
+# Keep dist/ in build context: it is audited before the image can be built.

@@ -1,0 +1,1436 @@
+{
+  "chapters": [
+    {
+      "chapter": 1,
+      "title": "Units and Measurement",
+      "printed_start": 5,
+      "review_start": 33
+    },
+    {
+      "chapter": 2,
+      "title": "Vectors",
+      "printed_start": 41,
+      "review_start": 84
+    },
+    {
+      "chapter": 3,
+      "title": "Motion Along a Straight Line",
+      "printed_start": 97,
+      "review_start": 136
+    },
+    {
+      "chapter": 4,
+      "title": "Motion in Two and Three Dimensions",
+      "printed_start": 147,
+      "review_start": 182
+    },
+    {
+      "chapter": 5,
+      "title": "Newton's Laws of Motion",
+      "printed_start": 193,
+      "review_start": 235
+    },
+    {
+      "chapter": 6,
+      "title": "Applications of Newton's Laws",
+      "printed_start": 249,
+      "review_start": 293
+    },
+    {
+      "chapter": 7,
+      "title": "Work and Kinetic Energy",
+      "printed_start": 311,
+      "review_start": 331
+    },
+    {
+      "chapter": 8,
+      "title": "Potential Energy and Conservation of Energy",
+      "printed_start": 341,
+      "review_start": 367
+    },
+    {
+      "chapter": 9,
+      "title": "Linear Momentum and Collisions",
+      "printed_start": 379,
+      "review_start": 439
+    },
+    {
+      "chapter": 10,
+      "title": "Fixed-Axis Rotation",
+      "printed_start": 451,
+      "review_start": 500
+    },
+    {
+      "chapter": 11,
+      "title": "Angular Momentum",
+      "printed_start": 515,
+      "review_start": 542
+    },
+    {
+      "chapter": 12,
+      "title": "Static Equilibrium and Elasticity",
+      "printed_start": 553,
+      "review_start": 587
+    },
+    {
+      "chapter": 13,
+      "title": "Gravitation",
+      "printed_start": 599,
+      "review_start": 644
+    },
+    {
+      "chapter": 14,
+      "title": "Fluid Mechanics",
+      "printed_start": 653,
+      "review_start": 696
+    },
+    {
+      "chapter": 15,
+      "title": "Oscillations",
+      "printed_start": 709,
+      "review_start": 742
+    },
+    {
+      "chapter": 16,
+      "title": "Waves",
+      "printed_start": 751,
+      "review_start": 791
+    },
+    {
+      "chapter": 17,
+      "title": "Sound",
+      "printed_start": 807,
+      "review_start": 850
+    }
+  ],
+  "sections": [
+    {
+      "source_id": "os-section-1.1",
+      "section": "1.1",
+      "chapter": 1,
+      "title": "The Scope and Scale of Physics",
+      "printed_start": 6,
+      "printed_end_exclusive_boundary": 12,
+      "start_pdf_page": 11,
+      "status": "indexed",
+      "content_policy": "section_marker_to_next_section_marker; partial selectors are explicit in topic mapping",
+      "topic_refs": []
+    },
+    {
+      "source_id": "os-section-1.2",
+      "section": "1.2",
+      "chapter": 1,
+      "title": "Units and Standards",
+      "printed_start": 12,
+      "printed_end_exclusive_boundary": 18,
+      "start_pdf_page": 17,
+      "status": "indexed",
+      "content_policy": "section_marker_to_next_section_marker; partial selectors are explicit in topic mapping",
+      "topic_refs": []
+    },
+    {
+      "source_id": "os-section-1.3",
+      "section": "1.3",
+      "chapter": 1,
+      "title": "Unit Conversion",
+      "printed_start": 18,
+      "printed_end_exclusive_boundary": 20,
+      "start_pdf_page": 23,
+      "status": "indexed",
+      "content_policy": "section_marker_to_next_section_marker; partial selectors are explicit in topic mapping",
+      "topic_refs": []
+    },
+    {
+      "source_id": "os-section-1.4",
+      "section": "1.4",
+      "chapter": 1,
+      "title": "Dimensional Analysis",
+      "printed_start": 20,
+      "printed_end_exclusive_boundary": 23,
+      "start_pdf_page": 25,
+      "status": "indexed",
+      "content_policy": "section_marker_to_next_section_marker; partial selectors are explicit in topic mapping",
+      "topic_refs": []
+    },
+    {
+      "source_id": "os-section-1.5",
+      "section": "1.5",
+      "chapter": 1,
+      "title": "Estimates and Fermi Calculations",
+      "printed_start": 23,
+      "printed_end_exclusive_boundary": 26,
+      "start_pdf_page": 28,
+      "status": "indexed",
+      "content_policy": "section_marker_to_next_section_marker; partial selectors are explicit in topic mapping",
+      "topic_refs": []
+    },
+    {
+      "source_id": "os-section-1.6",
+      "section": "1.6",
+      "chapter": 1,
+      "title": "Significant Figures",
+      "printed_start": 26,
+      "printed_end_exclusive_boundary": 30,
+      "start_pdf_page": 31,
+      "status": "indexed",
+      "content_policy": "section_marker_to_next_section_marker; partial selectors are explicit in topic mapping",
+      "topic_refs": []
+    },
+    {
+      "source_id": "os-section-1.7",
+      "section": "1.7",
+      "chapter": 1,
+      "title": "Solving Problems in Physics",
+      "printed_start": 30,
+      "printed_end_exclusive_boundary": 33,
+      "start_pdf_page": 35,
+      "status": "indexed",
+      "content_policy": "section_marker_to_next_section_marker; partial selectors are explicit in topic mapping",
+      "topic_refs": []
+    },
+    {
+      "source_id": "os-section-2.1",
+      "section": "2.1",
+      "chapter": 2,
+      "title": "Scalars and Vectors",
+      "printed_start": 42,
+      "printed_end_exclusive_boundary": 53,
+      "start_pdf_page": 47,
+      "status": "indexed",
+      "content_policy": "section_marker_to_next_section_marker; partial selectors are explicit in topic mapping",
+      "topic_refs": [
+        "1.1"
+      ]
+    },
+    {
+      "source_id": "os-section-2.2",
+      "section": "2.2",
+      "chapter": 2,
+      "title": "Coordinate Systems and Components of a Vector",
+      "printed_start": 53,
+      "printed_end_exclusive_boundary": 63,
+      "start_pdf_page": 58,
+      "status": "indexed",
+      "content_policy": "section_marker_to_next_section_marker; partial selectors are explicit in topic mapping",
+      "topic_refs": [
+        "1.1"
+      ]
+    },
+    {
+      "source_id": "os-section-2.3",
+      "section": "2.3",
+      "chapter": 2,
+      "title": "Algebra of Vectors",
+      "printed_start": 63,
+      "printed_end_exclusive_boundary": 72,
+      "start_pdf_page": 68,
+      "status": "indexed",
+      "content_policy": "section_marker_to_next_section_marker; partial selectors are explicit in topic mapping",
+      "topic_refs": [
+        "1.1"
+      ]
+    },
+    {
+      "source_id": "os-section-2.4",
+      "section": "2.4",
+      "chapter": 2,
+      "title": "Products of Vectors",
+      "printed_start": 72,
+      "printed_end_exclusive_boundary": 84,
+      "start_pdf_page": 77,
+      "status": "indexed",
+      "content_policy": "section_marker_to_next_section_marker; partial selectors are explicit in topic mapping",
+      "topic_refs": []
+    },
+    {
+      "source_id": "os-section-3.1",
+      "section": "3.1",
+      "chapter": 3,
+      "title": "Position, Displacement, and Average Velocity",
+      "printed_start": 98,
+      "printed_end_exclusive_boundary": 102,
+      "start_pdf_page": 103,
+      "status": "indexed",
+      "content_policy": "section_marker_to_next_section_marker; partial selectors are explicit in topic mapping",
+      "topic_refs": [
+        "1.2",
+        "1.3"
+      ]
+    },
+    {
+      "source_id": "os-section-3.2",
+      "section": "3.2",
+      "chapter": 3,
+      "title": "Instantaneous Velocity and Speed",
+      "printed_start": 102,
+      "printed_end_exclusive_boundary": 107,
+      "start_pdf_page": 107,
+      "status": "indexed",
+      "content_policy": "section_marker_to_next_section_marker; partial selectors are explicit in topic mapping",
+      "topic_refs": [
+        "1.2",
+        "1.3"
+      ]
+    },
+    {
+      "source_id": "os-section-3.3",
+      "section": "3.3",
+      "chapter": 3,
+      "title": "Average and Instantaneous Acceleration",
+      "printed_start": 107,
+      "printed_end_exclusive_boundary": 115,
+      "start_pdf_page": 112,
+      "status": "indexed",
+      "content_policy": "section_marker_to_next_section_marker; partial selectors are explicit in topic mapping",
+      "topic_refs": [
+        "1.2",
+        "1.3"
+      ]
+    },
+    {
+      "source_id": "os-section-3.4",
+      "section": "3.4",
+      "chapter": 3,
+      "title": "Motion with Constant Acceleration",
+      "printed_start": 115,
+      "printed_end_exclusive_boundary": 126,
+      "start_pdf_page": 120,
+      "status": "indexed",
+      "content_policy": "section_marker_to_next_section_marker; partial selectors are explicit in topic mapping",
+      "topic_refs": [
+        "1.2",
+        "1.3"
+      ]
+    },
+    {
+      "source_id": "os-section-3.5",
+      "section": "3.5",
+      "chapter": 3,
+      "title": "Free Fall",
+      "printed_start": 126,
+      "printed_end_exclusive_boundary": 132,
+      "start_pdf_page": 131,
+      "status": "indexed",
+      "content_policy": "section_marker_to_next_section_marker; partial selectors are explicit in topic mapping",
+      "topic_refs": [
+        "1.2",
+        "1.3"
+      ]
+    },
+    {
+      "source_id": "os-section-3.6",
+      "section": "3.6",
+      "chapter": 3,
+      "title": "Finding Velocity and Displacement from Acceleration",
+      "printed_start": 132,
+      "printed_end_exclusive_boundary": 136,
+      "start_pdf_page": 137,
+      "status": "indexed",
+      "content_policy": "section_marker_to_next_section_marker; partial selectors are explicit in topic mapping",
+      "topic_refs": [
+        "1.2",
+        "1.3"
+      ]
+    },
+    {
+      "source_id": "os-section-4.1",
+      "section": "4.1",
+      "chapter": 4,
+      "title": "Displacement and Velocity Vectors",
+      "printed_start": 148,
+      "printed_end_exclusive_boundary": 155,
+      "start_pdf_page": 153,
+      "status": "indexed",
+      "content_policy": "section_marker_to_next_section_marker; partial selectors are explicit in topic mapping",
+      "topic_refs": [
+        "1.5"
+      ]
+    },
+    {
+      "source_id": "os-section-4.2",
+      "section": "4.2",
+      "chapter": 4,
+      "title": "Acceleration Vector",
+      "printed_start": 155,
+      "printed_end_exclusive_boundary": 160,
+      "start_pdf_page": 160,
+      "status": "indexed",
+      "content_policy": "section_marker_to_next_section_marker; partial selectors are explicit in topic mapping",
+      "topic_refs": [
+        "1.5"
+      ]
+    },
+    {
+      "source_id": "os-section-4.3",
+      "section": "4.3",
+      "chapter": 4,
+      "title": "Projectile Motion",
+      "printed_start": 160,
+      "printed_end_exclusive_boundary": 170,
+      "start_pdf_page": 165,
+      "status": "indexed",
+      "content_policy": "section_marker_to_next_section_marker; partial selectors are explicit in topic mapping",
+      "topic_refs": [
+        "1.5"
+      ]
+    },
+    {
+      "source_id": "os-section-4.4",
+      "section": "4.4",
+      "chapter": 4,
+      "title": "Uniform and Nonuniform Circular Motion",
+      "printed_start": 170,
+      "printed_end_exclusive_boundary": 177,
+      "start_pdf_page": 175,
+      "status": "indexed",
+      "content_policy": "section_marker_to_next_section_marker; partial selectors are explicit in topic mapping",
+      "topic_refs": [
+        "1.5",
+        "2.10"
+      ]
+    },
+    {
+      "source_id": "os-section-4.5",
+      "section": "4.5",
+      "chapter": 4,
+      "title": "Relative Motion in One and Two Dimensions",
+      "printed_start": 177,
+      "printed_end_exclusive_boundary": 182,
+      "start_pdf_page": 182,
+      "status": "indexed",
+      "content_policy": "section_marker_to_next_section_marker; partial selectors are explicit in topic mapping",
+      "topic_refs": [
+        "1.4"
+      ]
+    },
+    {
+      "source_id": "os-section-5.1",
+      "section": "5.1",
+      "chapter": 5,
+      "title": "Forces",
+      "printed_start": 194,
+      "printed_end_exclusive_boundary": 198,
+      "start_pdf_page": 199,
+      "status": "indexed",
+      "content_policy": "section_marker_to_next_section_marker; partial selectors are explicit in topic mapping",
+      "topic_refs": [
+        "2.2"
+      ]
+    },
+    {
+      "source_id": "os-section-5.2",
+      "section": "5.2",
+      "chapter": 5,
+      "title": "Newton's First Law",
+      "printed_start": 198,
+      "printed_end_exclusive_boundary": 202,
+      "start_pdf_page": 203,
+      "status": "indexed",
+      "content_policy": "section_marker_to_next_section_marker; partial selectors are explicit in topic mapping",
+      "topic_refs": [
+        "2.4"
+      ]
+    },
+    {
+      "source_id": "os-section-5.3",
+      "section": "5.3",
+      "chapter": 5,
+      "title": "Newton's Second Law",
+      "printed_start": 202,
+      "printed_end_exclusive_boundary": 212,
+      "start_pdf_page": 207,
+      "status": "indexed",
+      "content_policy": "section_marker_to_next_section_marker; partial selectors are explicit in topic mapping",
+      "topic_refs": [
+        "2.1",
+        "2.5"
+      ]
+    },
+    {
+      "source_id": "os-section-5.4",
+      "section": "5.4",
+      "chapter": 5,
+      "title": "Mass and Weight",
+      "printed_start": 212,
+      "printed_end_exclusive_boundary": 214,
+      "start_pdf_page": 217,
+      "status": "indexed",
+      "content_policy": "section_marker_to_next_section_marker; partial selectors are explicit in topic mapping",
+      "topic_refs": [
+        "2.6"
+      ]
+    },
+    {
+      "source_id": "os-section-5.5",
+      "section": "5.5",
+      "chapter": 5,
+      "title": "Newton’s Third Law",
+      "printed_start": 214,
+      "printed_end_exclusive_boundary": 220,
+      "start_pdf_page": 219,
+      "status": "indexed",
+      "content_policy": "section_marker_to_next_section_marker; partial selectors are explicit in topic mapping",
+      "topic_refs": [
+        "2.3"
+      ]
+    },
+    {
+      "source_id": "os-section-5.6",
+      "section": "5.6",
+      "chapter": 5,
+      "title": "Common Forces",
+      "printed_start": 220,
+      "printed_end_exclusive_boundary": 230,
+      "start_pdf_page": 225,
+      "status": "indexed",
+      "content_policy": "section_marker_to_next_section_marker; partial selectors are explicit in topic mapping",
+      "topic_refs": [
+        "2.2",
+        "2.8"
+      ]
+    },
+    {
+      "source_id": "os-section-5.7",
+      "section": "5.7",
+      "chapter": 5,
+      "title": "Drawing Free-Body Diagrams",
+      "printed_start": 230,
+      "printed_end_exclusive_boundary": 235,
+      "start_pdf_page": 235,
+      "status": "indexed",
+      "content_policy": "section_marker_to_next_section_marker; partial selectors are explicit in topic mapping",
+      "topic_refs": [
+        "2.2"
+      ]
+    },
+    {
+      "source_id": "os-section-6.1",
+      "section": "6.1",
+      "chapter": 6,
+      "title": "Solving Problems with Newton’s Laws",
+      "printed_start": 249,
+      "printed_end_exclusive_boundary": 265,
+      "start_pdf_page": 254,
+      "status": "indexed",
+      "content_policy": "section_marker_to_next_section_marker; partial selectors are explicit in topic mapping",
+      "topic_refs": [
+        "2.2",
+        "2.4",
+        "2.5"
+      ]
+    },
+    {
+      "source_id": "os-section-6.2",
+      "section": "6.2",
+      "chapter": 6,
+      "title": "Friction",
+      "printed_start": 265,
+      "printed_end_exclusive_boundary": 276,
+      "start_pdf_page": 270,
+      "status": "indexed",
+      "content_policy": "section_marker_to_next_section_marker; partial selectors are explicit in topic mapping",
+      "topic_refs": [
+        "2.7"
+      ]
+    },
+    {
+      "source_id": "os-section-6.3",
+      "section": "6.3",
+      "chapter": 6,
+      "title": "Centripetal Force",
+      "printed_start": 276,
+      "printed_end_exclusive_boundary": 284,
+      "start_pdf_page": 281,
+      "status": "indexed",
+      "content_policy": "section_marker_to_next_section_marker; partial selectors are explicit in topic mapping",
+      "topic_refs": [
+        "2.10"
+      ]
+    },
+    {
+      "source_id": "os-section-6.4",
+      "section": "6.4",
+      "chapter": 6,
+      "title": "Drag Force and Terminal Speed",
+      "printed_start": 284,
+      "printed_end_exclusive_boundary": 293,
+      "start_pdf_page": 289,
+      "status": "indexed",
+      "content_policy": "section_marker_to_next_section_marker; partial selectors are explicit in topic mapping",
+      "topic_refs": [
+        "2.9"
+      ]
+    },
+    {
+      "source_id": "os-section-7.1",
+      "section": "7.1",
+      "chapter": 7,
+      "title": "Work",
+      "printed_start": 312,
+      "printed_end_exclusive_boundary": 320,
+      "start_pdf_page": 317,
+      "status": "indexed",
+      "content_policy": "section_marker_to_next_section_marker; partial selectors are explicit in topic mapping",
+      "topic_refs": [
+        "3.2"
+      ]
+    },
+    {
+      "source_id": "os-section-7.2",
+      "section": "7.2",
+      "chapter": 7,
+      "title": "Kinetic Energy",
+      "printed_start": 320,
+      "printed_end_exclusive_boundary": 323,
+      "start_pdf_page": 325,
+      "status": "indexed",
+      "content_policy": "section_marker_to_next_section_marker; partial selectors are explicit in topic mapping",
+      "topic_refs": [
+        "3.1"
+      ]
+    },
+    {
+      "source_id": "os-section-7.3",
+      "section": "7.3",
+      "chapter": 7,
+      "title": "Work-Energy Theorem",
+      "printed_start": 323,
+      "printed_end_exclusive_boundary": 328,
+      "start_pdf_page": 328,
+      "status": "indexed",
+      "content_policy": "section_marker_to_next_section_marker; partial selectors are explicit in topic mapping",
+      "topic_refs": [
+        "3.2"
+      ]
+    },
+    {
+      "source_id": "os-section-7.4",
+      "section": "7.4",
+      "chapter": 7,
+      "title": "Power",
+      "printed_start": 328,
+      "printed_end_exclusive_boundary": 331,
+      "start_pdf_page": 333,
+      "status": "indexed",
+      "content_policy": "section_marker_to_next_section_marker; partial selectors are explicit in topic mapping",
+      "topic_refs": [
+        "3.5"
+      ]
+    },
+    {
+      "source_id": "os-section-8.1",
+      "section": "8.1",
+      "chapter": 8,
+      "title": "Potential Energy of a System",
+      "printed_start": 341,
+      "printed_end_exclusive_boundary": 350,
+      "start_pdf_page": 346,
+      "status": "indexed",
+      "content_policy": "section_marker_to_next_section_marker; partial selectors are explicit in topic mapping",
+      "topic_refs": [
+        "3.3"
+      ]
+    },
+    {
+      "source_id": "os-section-8.2",
+      "section": "8.2",
+      "chapter": 8,
+      "title": "Conservative and Non-Conservative Forces",
+      "printed_start": 350,
+      "printed_end_exclusive_boundary": 353,
+      "start_pdf_page": 355,
+      "status": "indexed",
+      "content_policy": "section_marker_to_next_section_marker; partial selectors are explicit in topic mapping",
+      "topic_refs": [
+        "3.3"
+      ]
+    },
+    {
+      "source_id": "os-section-8.3",
+      "section": "8.3",
+      "chapter": 8,
+      "title": "Conservation of Energy",
+      "printed_start": 353,
+      "printed_end_exclusive_boundary": 359,
+      "start_pdf_page": 358,
+      "status": "indexed",
+      "content_policy": "section_marker_to_next_section_marker; partial selectors are explicit in topic mapping",
+      "topic_refs": [
+        "3.4"
+      ]
+    },
+    {
+      "source_id": "os-section-8.4",
+      "section": "8.4",
+      "chapter": 8,
+      "title": "Potential Energy Diagrams and Stability",
+      "printed_start": 359,
+      "printed_end_exclusive_boundary": 363,
+      "start_pdf_page": 364,
+      "status": "indexed",
+      "content_policy": "section_marker_to_next_section_marker; partial selectors are explicit in topic mapping",
+      "topic_refs": [
+        "3.3",
+        "3.4"
+      ]
+    },
+    {
+      "source_id": "os-section-8.5",
+      "section": "8.5",
+      "chapter": 8,
+      "title": "Sources of Energy",
+      "printed_start": 363,
+      "printed_end_exclusive_boundary": 367,
+      "start_pdf_page": 368,
+      "status": "indexed",
+      "content_policy": "section_marker_to_next_section_marker; partial selectors are explicit in topic mapping",
+      "topic_refs": []
+    },
+    {
+      "source_id": "os-section-9.1",
+      "section": "9.1",
+      "chapter": 9,
+      "title": "Linear Momentum",
+      "printed_start": 380,
+      "printed_end_exclusive_boundary": 382,
+      "start_pdf_page": 385,
+      "status": "indexed",
+      "content_policy": "section_marker_to_next_section_marker; partial selectors are explicit in topic mapping",
+      "topic_refs": [
+        "4.1"
+      ]
+    },
+    {
+      "source_id": "os-section-9.2",
+      "section": "9.2",
+      "chapter": 9,
+      "title": "Impulse and Collisions",
+      "printed_start": 382,
+      "printed_end_exclusive_boundary": 395,
+      "start_pdf_page": 387,
+      "status": "indexed",
+      "content_policy": "section_marker_to_next_section_marker; partial selectors are explicit in topic mapping",
+      "topic_refs": [
+        "4.2"
+      ]
+    },
+    {
+      "source_id": "os-section-9.3",
+      "section": "9.3",
+      "chapter": 9,
+      "title": "Conservation of Linear Momentum",
+      "printed_start": 395,
+      "printed_end_exclusive_boundary": 405,
+      "start_pdf_page": 400,
+      "status": "indexed",
+      "content_policy": "section_marker_to_next_section_marker; partial selectors are explicit in topic mapping",
+      "topic_refs": [
+        "4.3"
+      ]
+    },
+    {
+      "source_id": "os-section-9.4",
+      "section": "9.4",
+      "chapter": 9,
+      "title": "Types of Collisions",
+      "printed_start": 405,
+      "printed_end_exclusive_boundary": 412,
+      "start_pdf_page": 410,
+      "status": "indexed",
+      "content_policy": "section_marker_to_next_section_marker; partial selectors are explicit in topic mapping",
+      "topic_refs": [
+        "4.4"
+      ]
+    },
+    {
+      "source_id": "os-section-9.5",
+      "section": "9.5",
+      "chapter": 9,
+      "title": "Collisions in Multiple Dimensions",
+      "printed_start": 412,
+      "printed_end_exclusive_boundary": 419,
+      "start_pdf_page": 417,
+      "status": "indexed",
+      "content_policy": "section_marker_to_next_section_marker; partial selectors are explicit in topic mapping",
+      "topic_refs": [
+        "4.4"
+      ]
+    },
+    {
+      "source_id": "os-section-9.6",
+      "section": "9.6",
+      "chapter": 9,
+      "title": "Center of Mass",
+      "printed_start": 419,
+      "printed_end_exclusive_boundary": 434,
+      "start_pdf_page": 424,
+      "status": "indexed",
+      "content_policy": "section_marker_to_next_section_marker; partial selectors are explicit in topic mapping",
+      "topic_refs": [
+        "2.1",
+        "4.3"
+      ]
+    },
+    {
+      "source_id": "os-section-9.7",
+      "section": "9.7",
+      "chapter": 9,
+      "title": "Rocket Propulsion",
+      "printed_start": 434,
+      "printed_end_exclusive_boundary": 439,
+      "start_pdf_page": 439,
+      "status": "indexed",
+      "content_policy": "section_marker_to_next_section_marker; partial selectors are explicit in topic mapping",
+      "topic_refs": []
+    },
+    {
+      "source_id": "os-section-10.1",
+      "section": "10.1",
+      "chapter": 10,
+      "title": "Rotational Variables",
+      "printed_start": 452,
+      "printed_end_exclusive_boundary": 460,
+      "start_pdf_page": 457,
+      "status": "indexed",
+      "content_policy": "section_marker_to_next_section_marker; partial selectors are explicit in topic mapping",
+      "topic_refs": [
+        "5.1"
+      ]
+    },
+    {
+      "source_id": "os-section-10.2",
+      "section": "10.2",
+      "chapter": 10,
+      "title": "Rotation with Constant Angular Acceleration",
+      "printed_start": 460,
+      "printed_end_exclusive_boundary": 465,
+      "start_pdf_page": 465,
+      "status": "indexed",
+      "content_policy": "section_marker_to_next_section_marker; partial selectors are explicit in topic mapping",
+      "topic_refs": [
+        "5.1"
+      ]
+    },
+    {
+      "source_id": "os-section-10.3",
+      "section": "10.3",
+      "chapter": 10,
+      "title": "Relating Angular and Translational Quantities",
+      "printed_start": 465,
+      "printed_end_exclusive_boundary": 469,
+      "start_pdf_page": 470,
+      "status": "indexed",
+      "content_policy": "section_marker_to_next_section_marker; partial selectors are explicit in topic mapping",
+      "topic_refs": [
+        "5.2"
+      ]
+    },
+    {
+      "source_id": "os-section-10.4",
+      "section": "10.4",
+      "chapter": 10,
+      "title": "Moment of Inertia and Rotational Kinetic Energy",
+      "printed_start": 469,
+      "printed_end_exclusive_boundary": 477,
+      "start_pdf_page": 474,
+      "status": "indexed",
+      "content_policy": "section_marker_to_next_section_marker; partial selectors are explicit in topic mapping",
+      "topic_refs": [
+        "5.4",
+        "6.1"
+      ]
+    },
+    {
+      "source_id": "os-section-10.5",
+      "section": "10.5",
+      "chapter": 10,
+      "title": "Calculating Moments of Inertia",
+      "printed_start": 477,
+      "printed_end_exclusive_boundary": 485,
+      "start_pdf_page": 482,
+      "status": "indexed",
+      "content_policy": "section_marker_to_next_section_marker; partial selectors are explicit in topic mapping",
+      "topic_refs": [
+        "5.4"
+      ]
+    },
+    {
+      "source_id": "os-section-10.6",
+      "section": "10.6",
+      "chapter": 10,
+      "title": "Torque",
+      "printed_start": 485,
+      "printed_end_exclusive_boundary": 490,
+      "start_pdf_page": 490,
+      "status": "indexed",
+      "content_policy": "section_marker_to_next_section_marker; partial selectors are explicit in topic mapping",
+      "topic_refs": [
+        "5.3"
+      ]
+    },
+    {
+      "source_id": "os-section-10.7",
+      "section": "10.7",
+      "chapter": 10,
+      "title": "Newton’s Second Law for Rotation",
+      "printed_start": 490,
+      "printed_end_exclusive_boundary": 494,
+      "start_pdf_page": 495,
+      "status": "indexed",
+      "content_policy": "section_marker_to_next_section_marker; partial selectors are explicit in topic mapping",
+      "topic_refs": [
+        "5.6"
+      ]
+    },
+    {
+      "source_id": "os-section-10.8",
+      "section": "10.8",
+      "chapter": 10,
+      "title": "Work and Power for Rotational Motion",
+      "printed_start": 494,
+      "printed_end_exclusive_boundary": 500,
+      "start_pdf_page": 499,
+      "status": "indexed",
+      "content_policy": "section_marker_to_next_section_marker; partial selectors are explicit in topic mapping",
+      "topic_refs": [
+        "6.2"
+      ]
+    },
+    {
+      "source_id": "os-section-11.1",
+      "section": "11.1",
+      "chapter": 11,
+      "title": "Rolling Motion",
+      "printed_start": 516,
+      "printed_end_exclusive_boundary": 523,
+      "start_pdf_page": 521,
+      "status": "indexed",
+      "content_policy": "section_marker_to_next_section_marker; partial selectors are explicit in topic mapping",
+      "topic_refs": [
+        "6.1",
+        "6.5"
+      ]
+    },
+    {
+      "source_id": "os-section-11.2",
+      "section": "11.2",
+      "chapter": 11,
+      "title": "Angular Momentum",
+      "printed_start": 523,
+      "printed_end_exclusive_boundary": 531,
+      "start_pdf_page": 528,
+      "status": "indexed",
+      "content_policy": "section_marker_to_next_section_marker; partial selectors are explicit in topic mapping",
+      "topic_refs": [
+        "6.3"
+      ]
+    },
+    {
+      "source_id": "os-section-11.3",
+      "section": "11.3",
+      "chapter": 11,
+      "title": "Conservation of Angular Momentum",
+      "printed_start": 531,
+      "printed_end_exclusive_boundary": 537,
+      "start_pdf_page": 536,
+      "status": "indexed",
+      "content_policy": "section_marker_to_next_section_marker; partial selectors are explicit in topic mapping",
+      "topic_refs": [
+        "6.4"
+      ]
+    },
+    {
+      "source_id": "os-section-11.4",
+      "section": "11.4",
+      "chapter": 11,
+      "title": "Precession of a Gyroscope",
+      "printed_start": 537,
+      "printed_end_exclusive_boundary": 542,
+      "start_pdf_page": 542,
+      "status": "indexed",
+      "content_policy": "section_marker_to_next_section_marker; partial selectors are explicit in topic mapping",
+      "topic_refs": []
+    },
+    {
+      "source_id": "os-section-12.1",
+      "section": "12.1",
+      "chapter": 12,
+      "title": "Conditions for Static Equilibrium",
+      "printed_start": 554,
+      "printed_end_exclusive_boundary": 562,
+      "start_pdf_page": 559,
+      "status": "indexed",
+      "content_policy": "section_marker_to_next_section_marker; partial selectors are explicit in topic mapping",
+      "topic_refs": [
+        "5.5"
+      ]
+    },
+    {
+      "source_id": "os-section-12.2",
+      "section": "12.2",
+      "chapter": 12,
+      "title": "Examples of Static Equilibrium",
+      "printed_start": 562,
+      "printed_end_exclusive_boundary": 575,
+      "start_pdf_page": 567,
+      "status": "indexed",
+      "content_policy": "section_marker_to_next_section_marker; partial selectors are explicit in topic mapping",
+      "topic_refs": [
+        "5.5"
+      ]
+    },
+    {
+      "source_id": "os-section-12.3",
+      "section": "12.3",
+      "chapter": 12,
+      "title": "Stress, Strain, and Elastic Modulus",
+      "printed_start": 575,
+      "printed_end_exclusive_boundary": 585,
+      "start_pdf_page": 580,
+      "status": "indexed",
+      "content_policy": "section_marker_to_next_section_marker; partial selectors are explicit in topic mapping",
+      "topic_refs": []
+    },
+    {
+      "source_id": "os-section-12.4",
+      "section": "12.4",
+      "chapter": 12,
+      "title": "Elasticity and Plasticity",
+      "printed_start": 585,
+      "printed_end_exclusive_boundary": 587,
+      "start_pdf_page": 590,
+      "status": "indexed",
+      "content_policy": "section_marker_to_next_section_marker; partial selectors are explicit in topic mapping",
+      "topic_refs": []
+    },
+    {
+      "source_id": "os-section-13.1",
+      "section": "13.1",
+      "chapter": 13,
+      "title": "Newton's Law of Universal Gravitation",
+      "printed_start": 599,
+      "printed_end_exclusive_boundary": 605,
+      "start_pdf_page": 604,
+      "status": "indexed",
+      "content_policy": "section_marker_to_next_section_marker; partial selectors are explicit in topic mapping",
+      "topic_refs": [
+        "2.6"
+      ]
+    },
+    {
+      "source_id": "os-section-13.2",
+      "section": "13.2",
+      "chapter": 13,
+      "title": "Gravitation Near Earth's Surface",
+      "printed_start": 605,
+      "printed_end_exclusive_boundary": 612,
+      "start_pdf_page": 610,
+      "status": "indexed",
+      "content_policy": "section_marker_to_next_section_marker; partial selectors are explicit in topic mapping",
+      "topic_refs": [
+        "2.6"
+      ]
+    },
+    {
+      "source_id": "os-section-13.3",
+      "section": "13.3",
+      "chapter": 13,
+      "title": "Gravitational Potential Energy and Total Energy",
+      "printed_start": 612,
+      "printed_end_exclusive_boundary": 617,
+      "start_pdf_page": 617,
+      "status": "indexed",
+      "content_policy": "section_marker_to_next_section_marker; partial selectors are explicit in topic mapping",
+      "topic_refs": [
+        "6.6"
+      ]
+    },
+    {
+      "source_id": "os-section-13.4",
+      "section": "13.4",
+      "chapter": 13,
+      "title": "Satellite Orbits and Energy",
+      "printed_start": 617,
+      "printed_end_exclusive_boundary": 624,
+      "start_pdf_page": 622,
+      "status": "indexed",
+      "content_policy": "section_marker_to_next_section_marker; partial selectors are explicit in topic mapping",
+      "topic_refs": [
+        "6.6"
+      ]
+    },
+    {
+      "source_id": "os-section-13.5",
+      "section": "13.5",
+      "chapter": 13,
+      "title": "Kepler's Laws of Planetary Motion",
+      "printed_start": 624,
+      "printed_end_exclusive_boundary": 630,
+      "start_pdf_page": 629,
+      "status": "indexed",
+      "content_policy": "section_marker_to_next_section_marker; partial selectors are explicit in topic mapping",
+      "topic_refs": [
+        "6.6"
+      ]
+    },
+    {
+      "source_id": "os-section-13.6",
+      "section": "13.6",
+      "chapter": 13,
+      "title": "Tidal Forces",
+      "printed_start": 630,
+      "printed_end_exclusive_boundary": 636,
+      "start_pdf_page": 635,
+      "status": "indexed",
+      "content_policy": "section_marker_to_next_section_marker; partial selectors are explicit in topic mapping",
+      "topic_refs": []
+    },
+    {
+      "source_id": "os-section-13.7",
+      "section": "13.7",
+      "chapter": 13,
+      "title": "Einstein's Theory of Gravity",
+      "printed_start": 636,
+      "printed_end_exclusive_boundary": 644,
+      "start_pdf_page": 641,
+      "status": "indexed",
+      "content_policy": "section_marker_to_next_section_marker; partial selectors are explicit in topic mapping",
+      "topic_refs": []
+    },
+    {
+      "source_id": "os-section-14.1",
+      "section": "14.1",
+      "chapter": 14,
+      "title": "Fluids, Density, and Pressure",
+      "printed_start": 654,
+      "printed_end_exclusive_boundary": 665,
+      "start_pdf_page": 659,
+      "status": "indexed",
+      "content_policy": "section_marker_to_next_section_marker; partial selectors are explicit in topic mapping",
+      "topic_refs": []
+    },
+    {
+      "source_id": "os-section-14.2",
+      "section": "14.2",
+      "chapter": 14,
+      "title": "Measuring Pressure",
+      "printed_start": 665,
+      "printed_end_exclusive_boundary": 669,
+      "start_pdf_page": 670,
+      "status": "indexed",
+      "content_policy": "section_marker_to_next_section_marker; partial selectors are explicit in topic mapping",
+      "topic_refs": []
+    },
+    {
+      "source_id": "os-section-14.3",
+      "section": "14.3",
+      "chapter": 14,
+      "title": "Pascal's Principle and Hydraulics",
+      "printed_start": 669,
+      "printed_end_exclusive_boundary": 674,
+      "start_pdf_page": 674,
+      "status": "indexed",
+      "content_policy": "section_marker_to_next_section_marker; partial selectors are explicit in topic mapping",
+      "topic_refs": []
+    },
+    {
+      "source_id": "os-section-14.4",
+      "section": "14.4",
+      "chapter": 14,
+      "title": "Archimedes’ Principle and Buoyancy",
+      "printed_start": 674,
+      "printed_end_exclusive_boundary": 678,
+      "start_pdf_page": 679,
+      "status": "indexed",
+      "content_policy": "section_marker_to_next_section_marker; partial selectors are explicit in topic mapping",
+      "topic_refs": []
+    },
+    {
+      "source_id": "os-section-14.5",
+      "section": "14.5",
+      "chapter": 14,
+      "title": "Fluid Dynamics",
+      "printed_start": 678,
+      "printed_end_exclusive_boundary": 682,
+      "start_pdf_page": 683,
+      "status": "indexed",
+      "content_policy": "section_marker_to_next_section_marker; partial selectors are explicit in topic mapping",
+      "topic_refs": []
+    },
+    {
+      "source_id": "os-section-14.6",
+      "section": "14.6",
+      "chapter": 14,
+      "title": "Bernoulli’s Equation",
+      "printed_start": 682,
+      "printed_end_exclusive_boundary": 688,
+      "start_pdf_page": 687,
+      "status": "indexed",
+      "content_policy": "section_marker_to_next_section_marker; partial selectors are explicit in topic mapping",
+      "topic_refs": []
+    },
+    {
+      "source_id": "os-section-14.7",
+      "section": "14.7",
+      "chapter": 14,
+      "title": "Viscosity and Turbulence",
+      "printed_start": 688,
+      "printed_end_exclusive_boundary": 696,
+      "start_pdf_page": 693,
+      "status": "indexed",
+      "content_policy": "section_marker_to_next_section_marker; partial selectors are explicit in topic mapping",
+      "topic_refs": []
+    },
+    {
+      "source_id": "os-section-15.1",
+      "section": "15.1",
+      "chapter": 15,
+      "title": "Simple Harmonic Motion",
+      "printed_start": 710,
+      "printed_end_exclusive_boundary": 718,
+      "start_pdf_page": 715,
+      "status": "indexed",
+      "content_policy": "section_marker_to_next_section_marker; partial selectors are explicit in topic mapping",
+      "topic_refs": [
+        "7.1",
+        "7.2",
+        "7.3"
+      ]
+    },
+    {
+      "source_id": "os-section-15.2",
+      "section": "15.2",
+      "chapter": 15,
+      "title": "Energy in Simple Harmonic Motion",
+      "printed_start": 718,
+      "printed_end_exclusive_boundary": 725,
+      "start_pdf_page": 723,
+      "status": "indexed",
+      "content_policy": "section_marker_to_next_section_marker; partial selectors are explicit in topic mapping",
+      "topic_refs": [
+        "7.4"
+      ]
+    },
+    {
+      "source_id": "os-section-15.3",
+      "section": "15.3",
+      "chapter": 15,
+      "title": "Comparing Simple Harmonic Motion and Circular Motion",
+      "printed_start": 725,
+      "printed_end_exclusive_boundary": 728,
+      "start_pdf_page": 730,
+      "status": "indexed",
+      "content_policy": "section_marker_to_next_section_marker; partial selectors are explicit in topic mapping",
+      "topic_refs": [
+        "7.3"
+      ]
+    },
+    {
+      "source_id": "os-section-15.4",
+      "section": "15.4",
+      "chapter": 15,
+      "title": "Pendulums",
+      "printed_start": 728,
+      "printed_end_exclusive_boundary": 734,
+      "start_pdf_page": 733,
+      "status": "indexed",
+      "content_policy": "section_marker_to_next_section_marker; partial selectors are explicit in topic mapping",
+      "topic_refs": [
+        "7.2",
+        "7.5"
+      ]
+    },
+    {
+      "source_id": "os-section-15.5",
+      "section": "15.5",
+      "chapter": 15,
+      "title": "Damped Oscillations",
+      "printed_start": 734,
+      "printed_end_exclusive_boundary": 737,
+      "start_pdf_page": 739,
+      "status": "indexed",
+      "content_policy": "section_marker_to_next_section_marker; partial selectors are explicit in topic mapping",
+      "topic_refs": []
+    },
+    {
+      "source_id": "os-section-15.6",
+      "section": "15.6",
+      "chapter": 15,
+      "title": "Forced Oscillations",
+      "printed_start": 737,
+      "printed_end_exclusive_boundary": 742,
+      "start_pdf_page": 742,
+      "status": "indexed",
+      "content_policy": "section_marker_to_next_section_marker; partial selectors are explicit in topic mapping",
+      "topic_refs": []
+    },
+    {
+      "source_id": "os-section-16.1",
+      "section": "16.1",
+      "chapter": 16,
+      "title": "Traveling Waves",
+      "printed_start": 752,
+      "printed_end_exclusive_boundary": 757,
+      "start_pdf_page": 757,
+      "status": "indexed",
+      "content_policy": "section_marker_to_next_section_marker; partial selectors are explicit in topic mapping",
+      "topic_refs": []
+    },
+    {
+      "source_id": "os-section-16.2",
+      "section": "16.2",
+      "chapter": 16,
+      "title": "Mathematics of Waves",
+      "printed_start": 757,
+      "printed_end_exclusive_boundary": 766,
+      "start_pdf_page": 762,
+      "status": "indexed",
+      "content_policy": "section_marker_to_next_section_marker; partial selectors are explicit in topic mapping",
+      "topic_refs": []
+    },
+    {
+      "source_id": "os-section-16.3",
+      "section": "16.3",
+      "chapter": 16,
+      "title": "Wave Speed on a Stretched String",
+      "printed_start": 766,
+      "printed_end_exclusive_boundary": 769,
+      "start_pdf_page": 771,
+      "status": "indexed",
+      "content_policy": "section_marker_to_next_section_marker; partial selectors are explicit in topic mapping",
+      "topic_refs": []
+    },
+    {
+      "source_id": "os-section-16.4",
+      "section": "16.4",
+      "chapter": 16,
+      "title": "Energy and Power of a Wave",
+      "printed_start": 769,
+      "printed_end_exclusive_boundary": 774,
+      "start_pdf_page": 774,
+      "status": "indexed",
+      "content_policy": "section_marker_to_next_section_marker; partial selectors are explicit in topic mapping",
+      "topic_refs": []
+    },
+    {
+      "source_id": "os-section-16.5",
+      "section": "16.5",
+      "chapter": 16,
+      "title": "Interference of Waves",
+      "printed_start": 774,
+      "printed_end_exclusive_boundary": 781,
+      "start_pdf_page": 779,
+      "status": "indexed",
+      "content_policy": "section_marker_to_next_section_marker; partial selectors are explicit in topic mapping",
+      "topic_refs": []
+    },
+    {
+      "source_id": "os-section-16.6",
+      "section": "16.6",
+      "chapter": 16,
+      "title": "Standing Waves and Resonance",
+      "printed_start": 781,
+      "printed_end_exclusive_boundary": 791,
+      "start_pdf_page": 786,
+      "status": "indexed",
+      "content_policy": "section_marker_to_next_section_marker; partial selectors are explicit in topic mapping",
+      "topic_refs": []
+    },
+    {
+      "source_id": "os-section-17.1",
+      "section": "17.1",
+      "chapter": 17,
+      "title": "Sound Waves",
+      "printed_start": 808,
+      "printed_end_exclusive_boundary": 810,
+      "start_pdf_page": 813,
+      "status": "indexed",
+      "content_policy": "section_marker_to_next_section_marker; partial selectors are explicit in topic mapping",
+      "topic_refs": []
+    },
+    {
+      "source_id": "os-section-17.2",
+      "section": "17.2",
+      "chapter": 17,
+      "title": "Speed of Sound",
+      "printed_start": 810,
+      "printed_end_exclusive_boundary": 818,
+      "start_pdf_page": 815,
+      "status": "indexed",
+      "content_policy": "section_marker_to_next_section_marker; partial selectors are explicit in topic mapping",
+      "topic_refs": []
+    },
+    {
+      "source_id": "os-section-17.3",
+      "section": "17.3",
+      "chapter": 17,
+      "title": "Sound Intensity",
+      "printed_start": 818,
+      "printed_end_exclusive_boundary": 826,
+      "start_pdf_page": 823,
+      "status": "indexed",
+      "content_policy": "section_marker_to_next_section_marker; partial selectors are explicit in topic mapping",
+      "topic_refs": []
+    },
+    {
+      "source_id": "os-section-17.4",
+      "section": "17.4",
+      "chapter": 17,
+      "title": "Normal Modes of a Standing Sound Wave",
+      "printed_start": 826,
+      "printed_end_exclusive_boundary": 834,
+      "start_pdf_page": 831,
+      "status": "indexed",
+      "content_policy": "section_marker_to_next_section_marker; partial selectors are explicit in topic mapping",
+      "topic_refs": []
+    },
+    {
+      "source_id": "os-section-17.5",
+      "section": "17.5",
+      "chapter": 17,
+      "title": "Sources of Musical Sound",
+      "printed_start": 834,
+      "printed_end_exclusive_boundary": 838,
+      "start_pdf_page": 839,
+      "status": "indexed",
+      "content_policy": "section_marker_to_next_section_marker; partial selectors are explicit in topic mapping",
+      "topic_refs": []
+    },
+    {
+      "source_id": "os-section-17.6",
+      "section": "17.6",
+      "chapter": 17,
+      "title": "Beats",
+      "printed_start": 838,
+      "printed_end_exclusive_boundary": 840,
+      "start_pdf_page": 843,
+      "status": "indexed",
+      "content_policy": "section_marker_to_next_section_marker; partial selectors are explicit in topic mapping",
+      "topic_refs": []
+    },
+    {
+      "source_id": "os-section-17.7",
+      "section": "17.7",
+      "chapter": 17,
+      "title": "The Doppler Effect",
+      "printed_start": 840,
+      "printed_end_exclusive_boundary": 846,
+      "start_pdf_page": 845,
+      "status": "indexed",
+      "content_policy": "section_marker_to_next_section_marker; partial selectors are explicit in topic mapping",
+      "topic_refs": []
+    },
+    {
+      "source_id": "os-section-17.8",
+      "section": "17.8",
+      "chapter": 17,
+      "title": "Shock Waves",
+      "printed_start": 846,
+      "printed_end_exclusive_boundary": 850,
+      "start_pdf_page": 851,
+      "status": "indexed",
+      "content_policy": "section_marker_to_next_section_marker; partial selectors are explicit in topic mapping",
+      "topic_refs": []
+    }
+  ]
+}

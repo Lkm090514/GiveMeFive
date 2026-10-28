@@ -1,0 +1,23 @@
+# Reviewable specification only. Creating this paid service requires owner approval.
+services:
+  - type: web
+    name: givemefive-assessment
+    runtime: docker
+    repo: https://github.com/Lkm090514/GiveMeFive
+    branch: fix/v4.3-assessment-online-backend-20261027
+    plan: 1c-2g
+    region: singapore
+    dockerfilePath: ./Dockerfile
+    healthCheckPath: /api/v4/ready
+    autoDeployTrigger: "off"
+    disk:
+      name: givemefive-private-data
+      mountPath: /var/data
+      sizeGB: 2
+    envVars:
+      - key: GMF_PUBLIC_ORIGIN
+        value: https://gmf-fusion-dev-20261021.lkm31620.chatgpt.site
+      - key: GMF_GATEWAY_KEY
+        sync: false
+      - key: GMF_PERSISTENCE_CONFIRMED
+        value: "1"

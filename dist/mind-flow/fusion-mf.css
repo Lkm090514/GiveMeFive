@@ -1,0 +1,32 @@
+:root{--bg:#F5F7FB;--surface:#FFFFFF;--ink:#0C1733;--muted:#61708D;--line:#DCE2ED;--accent:#142C6E;--accent-soft:#ddf9f2;--primary:#142C6E}body{background:#F5F7FB;color:#0C1733}body.dark{background:#101929;color:#edf3ff}.shell{max-width:1100px}.topbar{padding-top:12px;padding-bottom:12px}.brand-mark{background:#142C6E;color:#55E0BD}.brand-version{display:none}.primary-button{background:#142C6E;color:white}.pl-session-note{font-size:12px;color:#61708D;margin:0 0 20px;line-height:1.6}.run-head h1{font-size:clamp(22px,3vw,32px);letter-spacing:-.035em}.pl-retrieval{border-top:1px solid #DCE2ED;padding:20px 0;margin:15px 0}.pl-retrieval h2{font-size:16px;margin:0 0 10px}.pl-retrieval p{font-size:13px;line-height:1.6}.pl-retrieval label{font-size:12px;display:block;margin-bottom:8px}.pl-retrieval textarea{width:100%;padding:12px;border:1px solid #DCE2ED;border-radius:10px;background:white;color:#0C1733;font:inherit;resize:vertical;font-size:14px}.pl-selfcheck{display:flex!important;align-items:center;gap:7px;margin-top:10px}.pl-selfcheck input{width:auto;min-width:15px;accent-color:#2B65D9}.pl-retrieval-actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:12px}#pl-attempt-status{font-size:12px;color:#61708D}#pl-return-area{max-width:1040px;margin:0 auto;padding:0 28px 30px;display:flex;gap:15px;align-items:center}#pl-return-area.hidden{display:none}.dark .pl-retrieval textarea{background:#18243a;color:#edf3ff;border-color:#314361}.dark .pl-session-note,.dark #pl-attempt-status{color:#b0bfdb}:focus-visible{outline:3px solid #2B65D9;outline-offset:3px}
+.pathline-integrated #summary-view .summary-actions{display:none}
+body.dark{--bg:#101010;--paper:#191919;--surface:#191919;--ink:#E8E8E8;--muted:#B0B0B0;--line:#333333;--accent:#C4C4C4;--accent-ink:#171717;--soft:#252525;--lime:#BBBBBB;--shadow:0 12px 34px #0003;background:#101010;color:#E8E8E8}
+html:has(body.dark){background:#101010;color:#E8E8E8}
+body.dark .primary-button{background:#414141;color:#F2F2F2;border-color:#5A5A5A}
+body.dark .secondary-button{background:#191919;color:#E8E8E8;border-color:#444444}
+body.dark .brand-mark{background:#444444;color:#E8E8E8}
+body.dark .pl-retrieval{border-color:#333333}
+body.dark .pl-retrieval textarea{background:#191919;color:#E8E8E8;border-color:#444444}
+body.dark .pl-retrieval textarea::placeholder{color:#A0A0A0}
+body.dark .pl-selfcheck input{accent-color:#BBBBBB}
+body.dark .pl-session-note,body.dark #pl-attempt-status,body.dark .section-kicker,body.dark .quest-eyebrow{color:#B0B0B0}
+body.dark .mode-badge,body.dark .plan-row,body.dark .rescue-panel,body.dark .hint-panel,body.dark .note-form{background:#252525;color:#E0E0E0;border-color:#444444}
+body.dark .track-item.current,body.dark .path-point.current{background:#BBBBBB;box-shadow:none}
+body.dark .track-item.done,body.dark .path-point.done,body.dark .rescue-dot,body.dark .quest-kind:before{background:#888888}
+body.dark :focus-visible{outline-color:#C4C4C4}
+body.dark{--bg:#15181D;--paper:#20262D;--surface:#20262D;--ink:#E6EBF1;--muted:#ACB6C2;--line:#343E49;--accent:#B3C7DF;--accent-ink:#18202A;--soft:#2B343E;--lime:#BDD5CA;--shadow:0 14px 36px #0003;background:#15181D;color:#E6EBF1}
+html:has(body.dark){background:#15181D;color:#E6EBF1}
+body.dark .primary-button{background:#405469;color:#F0F4FA;border-color:#566A80}
+body.dark .secondary-button{background:#20262D;color:#E6EBF1;border-color:#465464}
+body.dark .brand-mark{background:#364454;color:#D5E2F1}
+body.dark .pl-retrieval{border-color:#343E49}
+body.dark .pl-retrieval textarea{background:#2B343E;color:#E6EBF1;border-color:#465464}
+body.dark .pl-retrieval textarea::placeholder{color:#ACB6C2}
+body.dark .pl-selfcheck input{accent-color:#93B6A6}
+body.dark .pl-session-note,body.dark #pl-attempt-status,body.dark .section-kicker,body.dark .quest-eyebrow{color:#ACB6C2}
+body.dark .mode-badge,body.dark .plan-row,body.dark .rescue-panel,body.dark .hint-panel,body.dark .note-form{background:#2B343E;color:#DCE6F2;border-color:#465464}
+body.dark .track-item.current,body.dark .path-point.current{background:#93B6A6}
+body.dark .track-item.done,body.dark .path-point.done,body.dark .rescue-dot,body.dark .quest-kind:before{background:#79958A}
+body.dark :focus-visible{outline-color:#B3C7DF}
+.primary-button,.secondary-button{transition:background 180ms ease,transform 180ms ease,border-color 180ms ease}.primary-button:active,.secondary-button:active{transform:translateY(1px)}
+@media(prefers-reduced-motion:reduce){.primary-button,.secondary-button{transition:none;transform:none!important}}

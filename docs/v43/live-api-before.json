@@ -1,0 +1,38 @@
+[
+  {
+    "path": "/api/v4/health",
+    "status": 404,
+    "content_type": null,
+    "json": false
+  },
+  {
+    "path": "/api/v4/me",
+    "status": 404,
+    "content_type": null,
+    "json": false
+  },
+  {
+    "path": "/api/v4/registry",
+    "status": 404,
+    "content_type": null,
+    "json": false
+  },
+  {
+    "path": "/api/v4/library",
+    "status": 404,
+    "content_type": null,
+    "json": false
+  },
+  {
+    "path": "/api/v4/sets",
+    "status": 404,
+    "content_type": null,
+    "json": false
+  },
+  {
+    "path": "/api/v4/sessions",
+    "status": 404,
+    "content_type": null,
+    "json": false
+  }
+]

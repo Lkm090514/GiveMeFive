@@ -1,0 +1,27 @@
+error: dist/Assessment-原始源码/app/page.tsx: No such file or directory
+error: dist/Assessment-原始源码/cloudbase/main.tsx: No such file or directory
+error: dist/Assessment-原始源码/lib/docx-option-parsing.ts: No such file or directory
+error: dist/Assessment-原始源码/lib/learning-bridge.ts: No such file or directory
+error: dist/Assessment-原始源码/lib/paper-draft.ts: No such file or directory
+error: dist/Assessment-原始源码/lib/question-splitting.ts: No such file or directory
+error: dist/Assessment-原始源码/scripts/test-docx-option-parsing.mjs: No such file or directory
+error: dist/Assessment-原始源码/scripts/test-question-splitting.mjs: No such file or directory
+error: patch failed: dist/app.js:275
+error: dist/app.js: patch does not apply
+error: dist/assessment/assets/index-DMAjvqzH.js: No such file or directory
+error: dist/assessment/assets/index-DY5N0YRM.css: No such file or directory
+error: dist/assessment/assets/lib-CaZExxQO.js: No such file or directory
+error: dist/assessment/assets/pdf-browser-Bid3RWAb.js: No such file or directory
+error: patch failed: dist/assessment/index.html:9
+error: dist/assessment/index.html: patch does not apply
+error: patch failed: dist/data/app-shell.json:1
+error: dist/data/app-shell.json: patch does not apply
+error: patch failed: dist/index.html:3
+error: dist/index.html: patch does not apply
+error: patch failed: dist/learning-store.js:1
+error: dist/learning-store.js: patch does not apply
+error: patch failed: dist/mind-flow/app.js:333
+error: dist/mind-flow/app.js: patch does not apply
+error: patch failed: dist/mind-flow/index.html:5
+error: dist/mind-flow/index.html: patch does not apply
+error: dist/scripts/check-assessment-integrity.cjs: No such file or directory

@@ -1,0 +1,50 @@
+[
+  {
+    "supplement_id": "ap-spring-combinations",
+    "ap_topic": "2.8",
+    "title": "AP Supplement · 纯串联与纯并联弹簧",
+    "formulas": [
+      "纯串联：1/k_eq = Σ(1/k_i)",
+      "纯并联：k_eq = Σk_i"
+    ],
+    "notes": [
+      "仅适用于纯串联或纯并联，不展开混合弹簧网络。"
+    ]
+  },
+  {
+    "supplement_id": "ap-inertia-integrals",
+    "ap_topic": "5.4",
+    "title": "AP Supplement · 非均匀杆与圆盘/圆环",
+    "formulas": [
+      "非均匀杆：dm = λ(x) dx",
+      "绕 x = a：I = ∫(x−a)² λ(x) dx",
+      "圆盘/圆环：dm = σ 2πr dr",
+      "I = ∫r² dm"
+    ],
+    "notes": [
+      "积分上下限使用物体实际边界；圆盘从 0 到 R，圆环从 R_inner 到 R_outer。"
+    ]
+  },
+  {
+    "supplement_id": "ap-rotational-work",
+    "ap_topic": "6.2",
+    "title": "AP Supplement · 转动功",
+    "formulas": [
+      "W = ∫τ dθ"
+    ],
+    "notes": [
+      "τ–θ 图的有符号面积等于转动功。"
+    ]
+  },
+  {
+    "supplement_id": "ap-angular-impulse",
+    "ap_topic": "6.3",
+    "title": "AP Supplement · 角冲量",
+    "formulas": [
+      "ΔL = ∫τ dt"
+    ],
+    "notes": [
+      "τ–t 图的有符号面积等于角冲量，也等于 ΔL。"
+    ]
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "archive": "GiveMeFive-source-only(1)(1).zip",
+    "sha256": "95f44a91f941349809df436c5e97d763b38c67eca88f9d6fc1ae7c2a506d1976",
+    "files": 145,
+    "root": "audit-inputs/source-only"
+  },
+  {
+    "archive": "GiveMeFive-V2.1-补丁与验收材料(1).zip",
+    "sha256": "1827b5449a45aadb21f472676aa9d9a88d2e51ac5768f04226266a78a9871a42",
+    "files": 37,
+    "root": "audit-inputs/patch-v21"
+  },
+  {
+    "archive": "GiveMeFive-Fusion-V2-reviewed(1)(1).zip",
+    "sha256": "b6c99b03235229f61744d42f29fdc5a711052f37305ca87e4f3f0a3f2a03eb9f",
+    "files": 174,
+    "root": "audit-inputs/fusion-v2"
+  },
+  {
+    "archive": "GiveMeFive-AS-V3-Modules-v0.2.0-2026-10-20.zip",
+    "sha256": "36d48b8ac0e21da285ee36984c93334c8f8862e4387a2dac362d8ba2d71651c6",
+    "files": 108,
+    "root": "audit-inputs/as-v3"
+  }
+]

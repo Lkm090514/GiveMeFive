@@ -1,0 +1,38 @@
+[
+  {
+    "path": "/api/v4/health",
+    "status": 503,
+    "content_type": "application/json",
+    "json": true
+  },
+  {
+    "path": "/api/v4/me",
+    "status": 503,
+    "content_type": "application/json",
+    "json": true
+  },
+  {
+    "path": "/api/v4/registry",
+    "status": 503,
+    "content_type": "application/json",
+    "json": true
+  },
+  {
+    "path": "/api/v4/library",
+    "status": 503,
+    "content_type": "application/json",
+    "json": true
+  },
+  {
+    "path": "/api/v4/sets",
+    "status": 503,
+    "content_type": "application/json",
+    "json": true
+  },
+  {
+    "path": "/api/v4/sessions",
+    "status": 503,
+    "content_type": "application/json",
+    "json": true
+  }
+]

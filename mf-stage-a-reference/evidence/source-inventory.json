@@ -1,0 +1,2207 @@
+[
+  {
+    "path": "audit-inputs/as-v3/gmf-assessment-v3-modules/.env.example",
+    "bytes": 514,
+    "sha256": "366ecc2d4e4a1d8649f802702f606d0bca098e0920959d9c4a0fffdcac217974"
+  },
+  {
+    "path": "audit-inputs/as-v3/gmf-assessment-v3-modules/.gitignore",
+    "bytes": 102,
+    "sha256": "3888e3a738a7dd1a5a2a89da7a833dd90e3f65b3cf12a7e1b9b7df72ce2ed816"
+  },
+  {
+    "path": "audit-inputs/as-v3/gmf-assessment-v3-modules/CHANGELOG.md",
+    "bytes": 1192,
+    "sha256": "1c9cd37900bcd58aeae946929da606c639c4732395308009c017156446de7c2b"
+  },
+  {
+    "path": "audit-inputs/as-v3/gmf-assessment-v3-modules/LICENSES.md",
+    "bytes": 3572,
+    "sha256": "145a64b54ebaefd2b6c526546cb79641fce5e3f403ee3621ef2dd84518ef5ffc"
+  },
+  {
+    "path": "audit-inputs/as-v3/gmf-assessment-v3-modules/README.md",
+    "bytes": 8436,
+    "sha256": "986871c3f584e8ae04a84f9deeee8403e08e6441e0a6e3165f8ffa2260be820a"
+  },
+  {
+    "path": "audit-inputs/as-v3/gmf-assessment-v3-modules/RELEASE.json",
+    "bytes": 178,
+    "sha256": "b2eabab58acd084f1ca7f9f2a811036a633aa5b600ce87e988e961acc9a302a1"
+  },
+  {
+    "path": "audit-inputs/as-v3/gmf-assessment-v3-modules/docs/CONTRACTS.md",
+    "bytes": 6474,
+    "sha256": "63d1a81244e77657260500c87a8ee05e52b94016feb5a8923fefac824975d42c"
+  },
+  {
+    "path": "audit-inputs/as-v3/gmf-assessment-v3-modules/docs/FILES_CHANGED.txt",
+    "bytes": 671,
+    "sha256": "5640656e891a1e50bf689111fdce924b9ee2a8724e10bfac79bb128603c73285"
+  },
+  {
+    "path": "audit-inputs/as-v3/gmf-assessment-v3-modules/docs/INTEGRATION.md",
+    "bytes": 3251,
+    "sha256": "1256c23e0680fdf8988075a1746f695b08f89bb97bec052810d4ec5454630980"
+  },
+  {
+    "path": "audit-inputs/as-v3/gmf-assessment-v3-modules/docs/TEST_REPORT.md",
+    "bytes": 6211,
+    "sha256": "4579ca43b3dc9061d33344d9fd4a7820f1803a31f30bfaf65f840648ac77802f"
+  },
+  {
+    "path": "audit-inputs/as-v3/gmf-assessment-v3-modules/docs/baseline-files.sha256.json",
+    "bytes": 57656,
+    "sha256": "18de09ce8749e02937a67b360a8058447a7dc6c685b38a46cbf0f3be44586ca7"
+  },
+  {
+    "path": "audit-inputs/as-v3/gmf-assessment-v3-modules/docs/contracts.schema.json",
+    "bytes": 22698,
+    "sha256": "6db48e7683cf5b619462f5309eea460b9f589953c8112b809cbf615db2e88cf6"
+  },
+  {
+    "path": "audit-inputs/as-v3/gmf-assessment-v3-modules/docs/dependency-audit.json",
+    "bytes": 1690,
+    "sha256": "116e0fddfb9a1f0aee853e24e4a93af342a6e39c53448f99f9a4b2a2054e8f15"
+  },
+  {
+    "path": "audit-inputs/as-v3/gmf-assessment-v3-modules/docs/dependency-inventory.json",
+    "bytes": 3239,
+    "sha256": "2a62731ccfb3e35f89af14d220d822f243873ec80e8fe042fd57d2628db96e9d"
+  },
+  {
+    "path": "audit-inputs/as-v3/gmf-assessment-v3-modules/docs/environment.json",
+    "bytes": 338,
+    "sha256": "02e31bc8529a9c4511870fc5ecfc5ce4ee246fd39a939c7ca96c47d21fd67a04"
+  },
+  {
+    "path": "audit-inputs/as-v3/gmf-assessment-v3-modules/docs/http-smoke.json",
+    "bytes": 332,
+    "sha256": "6ea2295724a2e12a8d6fde28a8179ca553339e6a3dff699ae8f2af53be0ac768"
+  },
+  {
+    "path": "audit-inputs/as-v3/gmf-assessment-v3-modules/docs/openapi.json",
+    "bytes": 39405,
+    "sha256": "7c2f595edd3acb487ced9be473aa44d98788b5c58252be2a846d6a2dca93d024"
+  },
+  {
+    "path": "audit-inputs/as-v3/gmf-assessment-v3-modules/docs/original-integrity.json",
+    "bytes": 67,
+    "sha256": "ae1f4c629186f791f4cdc3747b6745c3374fe40811a987b6f4b4a682561127f1"
+  },
+  {
+    "path": "audit-inputs/as-v3/gmf-assessment-v3-modules/docs/real-ap-validation.json",
+    "bytes": 7031,
+    "sha256": "5f1dd914d2dd39d026fb33d89339fd22fac9df565efa74ad4525d8c2a3a795f6"
+  },
+  {
+    "path": "audit-inputs/as-v3/gmf-assessment-v3-modules/docs/test-results.xml",
+    "bytes": 6033,
+    "sha256": "a5ffde55a711b0437376e8f3456ebb793118e89f9b3e42705b4fa6e97e74ee43"
+  },
+  {
+    "path": "audit-inputs/as-v3/gmf-assessment-v3-modules/docs/v02-migration-check.json",
+    "bytes": 284,
+    "sha256": "963fed98fa72b1cef46a6e686f2ff824070994f833b8ea76e0cf8d72825afeb1"
+  },
+  {
+    "path": "audit-inputs/as-v3/gmf-assessment-v3-modules/docs/v02-process-recovery.json",
+    "bytes": 192,
+    "sha256": "72bd000cb031abd4038d784086dea7a36df76f445d9116ff9de347a700505fb0"
+  },
+  {
+    "path": "audit-inputs/as-v3/gmf-assessment-v3-modules/examples/mechanics-no-answers.pdf",
+    "bytes": 3004,
+    "sha256": "30417d160e66acd273eb215a180f294bfab6bf0e611ba4853d2d551073894760"
+  },
+  {
+    "path": "audit-inputs/as-v3/gmf-assessment-v3-modules/examples/mechanics-partial.pdf",
+    "bytes": 3020,
+    "sha256": "99aa2baa43de64e2fca5ed4755bea725ac73036be2ebf73e338e670b61b0f629"
+  },
+  {
+    "path": "audit-inputs/as-v3/gmf-assessment-v3-modules/gmf_v3/__init__.py",
+    "bytes": 95,
+    "sha256": "ce2a48fb1d0691b5cfc5cda24af7506821b287cace0efbc0b6ca8255040777ac"
+  },
+  {
+    "path": "audit-inputs/as-v3/gmf-assessment-v3-modules/gmf_v3/answers.py",
+    "bytes": 9984,
+    "sha256": "72938d5cc54b774fa8edbee610f0b820e0a229048175534a98ea5ac9a9854021"
+  },
+  {
+    "path": "audit-inputs/as-v3/gmf-assessment-v3-modules/gmf_v3/api.py",
+    "bytes": 11062,
+    "sha256": "cee700b54fac2567f47808edc7a70ff92cd1359084bcfab23852100bd658034a"
+  },
+  {
+    "path": "audit-inputs/as-v3/gmf-assessment-v3-modules/gmf_v3/classification.py",
+    "bytes": 3250,
+    "sha256": "1aaf9e340856de1c7f324c83afd54ada597df43b5d2f92c08f0681ccdde25f0d"
+  },
+  {
+    "path": "audit-inputs/as-v3/gmf-assessment-v3-modules/gmf_v3/cli.py",
+    "bytes": 3768,
+    "sha256": "dc236395f955326b9d7546ce0f77404ebf9b025480a7bc8c333295ff01e8156f"
+  },
+  {
+    "path": "audit-inputs/as-v3/gmf-assessment-v3-modules/gmf_v3/contracts.py",
+    "bytes": 7176,
+    "sha256": "1bb42ec7bb63a5fb2ba233135ade35e327c9e2810622731c7de4f9bf2a46e6b9"
+  },
+  {
+    "path": "audit-inputs/as-v3/gmf-assessment-v3-modules/gmf_v3/integration.py",
+    "bytes": 1369,
+    "sha256": "3f8dcce2697e4894bf109fca4cfa4efdc89dac7f93301cd6400121023f2028c8"
+  },
+  {
+    "path": "audit-inputs/as-v3/gmf-assessment-v3-modules/gmf_v3/jobs.py",
+    "bytes": 7544,
+    "sha256": "21d3053774cc1bb1801576b2ba7eb10ee150cef47c40dc7f4f29aea059072443"
+  },
+  {
+    "path": "audit-inputs/as-v3/gmf-assessment-v3-modules/gmf_v3/math_verify.py",
+    "bytes": 2902,
+    "sha256": "63273174c435951543cdb04c6f881c4a5289c658a10de551750c0df8d7de2b0b"
+  },
+  {
+    "path": "audit-inputs/as-v3/gmf-assessment-v3-modules/gmf_v3/migrations/001_initial.sql",
+    "bytes": 3123,
+    "sha256": "3019c28eb95c6200218c7c89dc5abafd1fa7507c1b68e4c5de082ba420548809"
+  },
+  {
+    "path": "audit-inputs/as-v3/gmf-assessment-v3-modules/gmf_v3/migrations/002_reliability.sql",
+    "bytes": 1675,
+    "sha256": "644e341013db0a12f9ee62f47ff09c2c2adbfbab604050ea121bd7eb38bcaa75"
+  },
+  {
+    "path": "audit-inputs/as-v3/gmf-assessment-v3-modules/gmf_v3/openassess_adapter.py",
+    "bytes": 683,
+    "sha256": "75e9746fa84f276658eb1bada6ba0601c605561d9849bcf2a0be69d64e5ca180"
+  },
+  {
+    "path": "audit-inputs/as-v3/gmf-assessment-v3-modules/gmf_v3/pdf_core.py",
+    "bytes": 21042,
+    "sha256": "90422aac965d70f7960b9457bf1bd8b21007d76b20f0be93a1585200c77b6a49"
+  },
+  {
+    "path": "audit-inputs/as-v3/gmf-assessment-v3-modules/gmf_v3/service.py",
+    "bytes": 3430,
+    "sha256": "9bf9b512b55451d9e361695d832b420bc19b0768ffe4f5930a44d729c62258f8"
+  },
+  {
+    "path": "audit-inputs/as-v3/gmf-assessment-v3-modules/gmf_v3/store.py",
+    "bytes": 21257,
+    "sha256": "d2fad17b405dffbf6d57e2e277758552b4c7597c95c9806f97e21c391c28a9dd"
+  },
+  {
+    "path": "audit-inputs/as-v3/gmf-assessment-v3-modules/history.bundle",
+    "bytes": 202115,
+    "sha256": "01aad63fd1aff1eb1f3f2fe83e31facd1157e655d6883501cf3ed920bdb1a2f1"
+  },
+  {
+    "path": "audit-inputs/as-v3/gmf-assessment-v3-modules/pyproject.toml",
+    "bytes": 881,
+    "sha256": "4e0076d0b5689de0d1b8ebd64939e29d6bef0e102c9d1a7c836bd11f0c78685f"
+  },
+  {
+    "path": "audit-inputs/as-v3/gmf-assessment-v3-modules/requirements-dev.txt",
+    "bytes": 51,
+    "sha256": "7e09a700994b769bb18707c9c2f42f9870ad0d3f4543ec5bc838888e3322fc30"
+  },
+  {
+    "path": "audit-inputs/as-v3/gmf-assessment-v3-modules/requirements-lock.txt",
+    "bytes": 527,
+    "sha256": "486754e0640e168ca517415c39c3e6c8b64834a4ae9648cdd2ee3a4a17e20043"
+  },
+  {
+    "path": "audit-inputs/as-v3/gmf-assessment-v3-modules/requirements.txt",
+    "bytes": 151,
+    "sha256": "204fbf8176a4e23c1e233ae52e559b856e2d6ef01bbab28db0dbf16a04008fca"
+  },
+  {
+    "path": "audit-inputs/as-v3/gmf-assessment-v3-modules/scripts/export_contracts.py",
+    "bytes": 862,
+    "sha256": "0c3f7200441d9c9c3f8d6ce31596076d9de8ba09a84ccb1040d25948e244475f"
+  },
+  {
+    "path": "audit-inputs/as-v3/gmf-assessment-v3-modules/scripts/make_fixtures.py",
+    "bytes": 3126,
+    "sha256": "ce09339a425847ee0377b0f0092dd6226eb8fe2bb018ae53caadf0e169e3a2a4"
+  },
+  {
+    "path": "audit-inputs/as-v3/gmf-assessment-v3-modules/scripts/real_ap_check.py",
+    "bytes": 3058,
+    "sha256": "bdcc8e2df397dc8f283264b35ab19ee91d5aad2fe4882515433794a68c98f5f7"
+  },
+  {
+    "path": "audit-inputs/as-v3/gmf-assessment-v3-modules/scripts/start.ps1",
+    "bytes": 854,
+    "sha256": "f4c3f22f6d8fbe42fc94bd89ffa2e17bede131c1ca7b03eb4d2fc3ba0158ee1a"
+  },
+  {
+    "path": "audit-inputs/as-v3/gmf-assessment-v3-modules/start.cmd",
+    "bytes": 103,
+    "sha256": "3ee4945bdedf02622e1d3144e8304403914ca9599f6426331039c5c1f758048d"
+  },
+  {
+    "path": "audit-inputs/as-v3/gmf-assessment-v3-modules/tests/conftest.py",
+    "bytes": 821,
+    "sha256": "020e2b272bc6c9f310eac96d5e1f860e265f3d3bfb3c2e6eaf7bdbdbffaa4964"
+  },
+  {
+    "path": "audit-inputs/as-v3/gmf-assessment-v3-modules/tests/test_additional.py",
+    "bytes": 4758,
+    "sha256": "54f5bbc3a254aec56ab1263ad6cf57329cda90f58f6391fb652e9edb0a6d3131"
+  },
+  {
+    "path": "audit-inputs/as-v3/gmf-assessment-v3-modules/tests/test_modules.py",
+    "bytes": 12618,
+    "sha256": "e27d289c9f6177204ece37d6b11b27918ec53c30dd63cb97cee23386b293fbaf"
+  },
+  {
+    "path": "audit-inputs/as-v3/gmf-assessment-v3-modules/tests/test_reliability_v02.py",
+    "bytes": 11404,
+    "sha256": "ad5cb4d4c8c6346ca67cc385faf63a74706ca27c52abb309c37e0ed63563bc9d"
+  },
+  {
+    "path": "audit-inputs/as-v3/gmf-assessment-v3-modules/third_party/licenses/annotated-doc/annotated_doc-0.0.5.dist-info__licenses__LICENSE",
+    "bytes": 1086,
+    "sha256": "fff170779a6acbf65abdb405c087f1cee1786691e4a96a4034517e4a504a0cdf"
+  },
+  {
+    "path": "audit-inputs/as-v3/gmf-assessment-v3-modules/third_party/licenses/annotated-types/annotated_types-0.8.0.dist-info__licenses__LICENSE",
+    "bytes": 1083,
+    "sha256": "fe1049884b1a0d9342901e88e07f32925d24b3121d9972b6a6805fb9824b095d"
+  },
+  {
+    "path": "audit-inputs/as-v3/gmf-assessment-v3-modules/third_party/licenses/anyio/anyio-4.15.1.dist-info__licenses__LICENSE",
+    "bytes": 1081,
+    "sha256": "5361ac9dc58f2ef5fd2e9b09c68297c17f04950909bbc8023bdb82eacf22c2b0"
+  },
+  {
+    "path": "audit-inputs/as-v3/gmf-assessment-v3-modules/third_party/licenses/certifi/certifi-2026.10.19.dist-info__licenses__LICENSE",
+    "bytes": 989,
+    "sha256": "e93716da6b9c0d5a4a1df60fe695b370f0695603d21f6f83f053e42cfc10caf7"
+  },
+  {
+    "path": "audit-inputs/as-v3/gmf-assessment-v3-modules/third_party/licenses/cffi/cffi-2.1.1.dist-info__licenses__LICENSE",
+    "bytes": 1123,
+    "sha256": "5ba24ddc57067f9249add644c3afc41a5d6dc37e23433ef759d95df370b0af63"
+  },
+  {
+    "path": "audit-inputs/as-v3/gmf-assessment-v3-modules/third_party/licenses/charset-normalizer/charset_normalizer-3.5.2.dist-info__licenses__LICENSE",
+    "bytes": 1071,
+    "sha256": "6d0d41bfe170ac6c7dc248c9a63e254d0fb45a60d50a8257d0af92c6e249b887"
+  },
+  {
+    "path": "audit-inputs/as-v3/gmf-assessment-v3-modules/third_party/licenses/click/click-8.5.0.dist-info__licenses__LICENSE.txt",
+    "bytes": 1475,
+    "sha256": "9a8ad106a394e853bfe21f42f4e72d592819a22805d991b5f3275029292b658d"
+  },
+  {
+    "path": "audit-inputs/as-v3/gmf-assessment-v3-modules/third_party/licenses/cryptography/cryptography-50.0.2.dist-info__licenses__LICENSE",
+    "bytes": 197,
+    "sha256": "3e0c7c091a948b82533ba98fd7cbb40432d6f1a9acbf85f5922d2f99a93ae6bb"
+  },
+  {
+    "path": "audit-inputs/as-v3/gmf-assessment-v3-modules/third_party/licenses/cryptography/cryptography-50.0.2.dist-info__licenses__LICENSE.APACHE",
+    "bytes": 11360,
+    "sha256": "aac73b3148f6d1d7111dbca32099f68d26c644c6813ae1e4f05f6579aa2663fe"
+  },
+  {
+    "path": "audit-inputs/as-v3/gmf-assessment-v3-modules/third_party/licenses/cryptography/cryptography-50.0.2.dist-info__licenses__LICENSE.BSD",
+    "bytes": 1532,
+    "sha256": "602c4c7482de6479dd2e9793cda275e5e63d773dacd1eca689232ab7008fb4fb"
+  },
+  {
+    "path": "audit-inputs/as-v3/gmf-assessment-v3-modules/third_party/licenses/fastapi/fastapi-0.150.0.dist-info__licenses__LICENSE",
+    "bytes": 1086,
+    "sha256": "4ec89ffc81485b97fec584b2d4a961032eeffe834453894fd9c1274906cc744e"
+  },
+  {
+    "path": "audit-inputs/as-v3/gmf-assessment-v3-modules/third_party/licenses/h11/h11-0.16.0.dist-info__licenses__LICENSE.txt",
+    "bytes": 1124,
+    "sha256": "37db5bb85926db28a427a25867f10b1232003aea1be69ccb851138adb8e6f361"
+  },
+  {
+    "path": "audit-inputs/as-v3/gmf-assessment-v3-modules/third_party/licenses/httpcore/httpcore-1.0.9.dist-info__licenses__LICENSE.md",
+    "bytes": 1518,
+    "sha256": "fdcb59154c74cbaba16a11242f7740bea9f23d6feb5547917d8c5f94a80392a5"
+  },
+  {
+    "path": "audit-inputs/as-v3/gmf-assessment-v3-modules/third_party/licenses/httpx/httpx-0.28.1.dist-info__licenses__LICENSE.md",
+    "bytes": 1508,
+    "sha256": "4ec59d544f12b5f539a3a716fd321ac58ccd8030b465221f2c880200cdf28d8d"
+  },
+  {
+    "path": "audit-inputs/as-v3/gmf-assessment-v3-modules/third_party/licenses/idna/idna-3.19.dist-info__licenses__LICENSE.md",
+    "bytes": 1541,
+    "sha256": "1a9a4f0e3d479a27240ddd59a9137a66ab4a0f9dfdc8ca6188cc0bfd85187f04"
+  },
+  {
+    "path": "audit-inputs/as-v3/gmf-assessment-v3-modules/third_party/licenses/mpmath/mpmath-1.3.0.dist-info__LICENSE",
+    "bytes": 1537,
+    "sha256": "c26cae81da4508e5e249985777a33821f183223ebb74d7f8cfbf90fe7eef2fb7"
+  },
+  {
+    "path": "audit-inputs/as-v3/gmf-assessment-v3-modules/third_party/licenses/opentelemetry-api/opentelemetry_api-1.45.1.dist-info__licenses__LICENSE",
+    "bytes": 11357,
+    "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+  },
+  {
+    "path": "audit-inputs/as-v3/gmf-assessment-v3-modules/third_party/licenses/pdfminer.six/pdfminer_six-20251230.dist-info__licenses__LICENSE",
+    "bytes": 1093,
+    "sha256": "f01e5d699a33766b5caf4a5099f2856aba4f3f75ea1df05dc0572b34b4bea8f2"
+  },
+  {
+    "path": "audit-inputs/as-v3/gmf-assessment-v3-modules/third_party/licenses/pdfplumber/pdfplumber-0.11.9.dist-info__licenses__LICENSE.txt",
+    "bytes": 1086,
+    "sha256": "0d48994da4d1321e395b5e64a724ed4dec63fb96b88ac5b88fc014771e690821"
+  },
+  {
+    "path": "audit-inputs/as-v3/gmf-assessment-v3-modules/third_party/licenses/pillow/pillow-12.3.0.dist-info__licenses__LICENSE",
+    "bytes": 70307,
+    "sha256": "dda12a98c1979cf3d94df1cff45d27a4cb3f04a60c76f76902ac54cac03ec0ce"
+  },
+  {
+    "path": "audit-inputs/as-v3/gmf-assessment-v3-modules/third_party/licenses/pip-audit/pip_audit-2.10.1.dist-info__licenses__LICENSE",
+    "bytes": 10174,
+    "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594"
+  },
+  {
+    "path": "audit-inputs/as-v3/gmf-assessment-v3-modules/third_party/licenses/pycparser/pycparser-3.11.dist-info__licenses__LICENSE",
+    "bytes": 1543,
+    "sha256": "0a9e78156ae8b96caf1b4f11ac2df424b83de29736f9e757630548a6272fdf90"
+  },
+  {
+    "path": "audit-inputs/as-v3/gmf-assessment-v3-modules/third_party/licenses/pydantic/pydantic-2.14.0.dist-info__licenses__LICENSE",
+    "bytes": 1129,
+    "sha256": "a9e186f3ca16b5eef84318e7a701721351a00cb7b8ae3a4394b67b49e3529ef3"
+  },
+  {
+    "path": "audit-inputs/as-v3/gmf-assessment-v3-modules/third_party/licenses/pydantic_core/pydantic_core-2.50.0.dist-info__licenses__LICENSE",
+    "bytes": 1080,
+    "sha256": "2afdd30d54b4d62b6f488a6bcc1546e84ec5061f13f4209c03d012348783795a"
+  },
+  {
+    "path": "audit-inputs/as-v3/gmf-assessment-v3-modules/third_party/licenses/pypdf/pypdf-6.21.1.dist-info__licenses__LICENSE",
+    "bytes": 1605,
+    "sha256": "a97ac230e5f33ef10a5367a850eb01f91f1a0b064e34742c7794d2294557f524"
+  },
+  {
+    "path": "audit-inputs/as-v3/gmf-assessment-v3-modules/third_party/licenses/pypdfium2/pypdfium2-5.14.0.dist-info__licenses__LICENSES__Apache-2.0.txt",
+    "bytes": 11358,
+    "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+  },
+  {
+    "path": "audit-inputs/as-v3/gmf-assessment-v3-modules/third_party/licenses/pypdfium2/pypdfium2-5.14.0.dist-info__licenses__LICENSES__BSD-3-Clause.txt",
+    "bytes": 1459,
+    "sha256": "a6d11f0694c0137e9b02924b9d33a159f6c72f220fa4655bb2e1ea3654377d39"
+  },
+  {
+    "path": "audit-inputs/as-v3/gmf-assessment-v3-modules/third_party/licenses/pypdfium2/pypdfium2-5.14.0.dist-info__licenses__LICENSES__CC-BY-4.0.txt",
+    "bytes": 14527,
+    "sha256": "419896aea50c15d6e40c5b4baf4bd346f78223b9a354c7357ad00262afdc08ec"
+  },
+  {
+    "path": "audit-inputs/as-v3/gmf-assessment-v3-modules/third_party/licenses/pypdfium2/pypdfium2-5.14.0.dist-info__licenses__data__linux_x64__BUILD_LICENSES__abseil.txt",
+    "bytes": 11361,
+    "sha256": "c79a7fea0e3cac04cd43f20e7b648e5a0ff8fa5344e644b0ee09ca1162b62747"
+  },
+  {
+    "path": "audit-inputs/as-v3/gmf-assessment-v3-modules/third_party/licenses/pypdfium2/pypdfium2-5.14.0.dist-info__licenses__data__linux_x64__BUILD_LICENSES__agg23.txt",
+    "bytes": 725,
+    "sha256": "c110d3ea2ad77467ce0dcff7d3337e6c8be8049a5103f4b9bd5fd911a77972e5"
+  },
+  {
+    "path": "audit-inputs/as-v3/gmf-assessment-v3-modules/third_party/licenses/pypdfium2/pypdfium2-5.14.0.dist-info__licenses__data__linux_x64__BUILD_LICENSES__fast_float.txt",
+    "bytes": 1079,
+    "sha256": "e562f3f974ced7e69dd1db77b820b36bcf8f30377f1aa105723fba449c53c4e6"
+  },
+  {
+    "path": "audit-inputs/as-v3/gmf-assessment-v3-modules/third_party/licenses/pypdfium2/pypdfium2-5.14.0.dist-info__licenses__data__linux_x64__BUILD_LICENSES__freetype.txt",
+    "bytes": 6741,
+    "sha256": "f4b133e25df1f86ad3ffea453aa0e613f0474f34778dbbb3e437e7b2724937d8"
+  },
+  {
+    "path": "audit-inputs/as-v3/gmf-assessment-v3-modules/third_party/licenses/pypdfium2/pypdfium2-5.14.0.dist-info__licenses__data__linux_x64__BUILD_LICENSES__icu.txt",
+    "bytes": 27718,
+    "sha256": "e55522d81edc687a341a4411e0776e54ca654e90147f354a90458aaced4116af"
+  },
+  {
+    "path": "audit-inputs/as-v3/gmf-assessment-v3-modules/third_party/licenses/pypdfium2/pypdfium2-5.14.0.dist-info__licenses__data__linux_x64__BUILD_LICENSES__lcms.txt",
+    "bytes": 1353,
+    "sha256": "7312b68c5b25e9bf2b828706fb4e29588f22705112f411fd42e1f7d84c3d139a"
+  },
+  {
+    "path": "audit-inputs/as-v3/gmf-assessment-v3-modules/third_party/licenses/pypdfium2/pypdfium2-5.14.0.dist-info__licenses__data__linux_x64__BUILD_LICENSES__libjpeg_turbo.ijg",
+    "bytes": 12799,
+    "sha256": "75815e3bf6484201a3c3d17a1bbf10f2e8e3237f84df10a2357ea896db2a81d6"
+  },
+  {
+    "path": "audit-inputs/as-v3/gmf-assessment-v3-modules/third_party/licenses/pypdfium2/pypdfium2-5.14.0.dist-info__licenses__data__linux_x64__BUILD_LICENSES__libjpeg_turbo.md",
+    "bytes": 5620,
+    "sha256": "96f5b328adbb78eeaaec6980d73fd558cb1e4d62560ed615646bc3cf5e532430"
+  },
+  {
+    "path": "audit-inputs/as-v3/gmf-assessment-v3-modules/third_party/licenses/pypdfium2/pypdfium2-5.14.0.dist-info__licenses__data__linux_x64__BUILD_LICENSES__libopenjpeg.txt",
+    "bytes": 1794,
+    "sha256": "c5ab0890a737c2dfa7ba675036554f6d17741d98629b0c2a145354d00617e6b2"
+  },
+  {
+    "path": "audit-inputs/as-v3/gmf-assessment-v3-modules/third_party/licenses/pypdfium2/pypdfium2-5.14.0.dist-info__licenses__data__linux_x64__BUILD_LICENSES__libpng.txt",
+    "bytes": 5345,
+    "sha256": "bdb0a645ea18c60507d0368379b1ac5474b92255fcc2d115e07486a7672ba526"
+  },
+  {
+    "path": "audit-inputs/as-v3/gmf-assessment-v3-modules/third_party/licenses/pypdfium2/pypdfium2-5.14.0.dist-info__licenses__data__linux_x64__BUILD_LICENSES__llvm-libc.txt",
+    "bytes": 15140,
+    "sha256": "ebcd9bbf783a73d05c53ba4d586b8d5813dcdf3bbec50265860ccc885e606f47"
+  },
+  {
+    "path": "audit-inputs/as-v3/gmf-assessment-v3-modules/third_party/licenses/pypdfium2/pypdfium2-5.14.0.dist-info__licenses__data__linux_x64__BUILD_LICENSES__pdfium-binaries.txt",
+    "bytes": 1177,
+    "sha256": "ba26c1263131696b86c10496b5066b918a20b7161822a80c274d0080105f6c93"
+  },
+  {
+    "path": "audit-inputs/as-v3/gmf-assessment-v3-modules/third_party/licenses/pypdfium2/pypdfium2-5.14.0.dist-info__licenses__data__linux_x64__BUILD_LICENSES__pdfium.txt",
+    "bytes": 12818,
+    "sha256": "961eacd9633fff6d051db7208b755e9210e30efac7adec3e6a6d52798f0ccf0e"
+  },
+  {
+    "path": "audit-inputs/as-v3/gmf-assessment-v3-modules/third_party/licenses/pypdfium2/pypdfium2-5.14.0.dist-info__licenses__data__linux_x64__BUILD_LICENSES__simdutf.txt",
+    "bytes": 1059,
+    "sha256": "fc8dbc04e03ad4efc08a647ffe7f995b811a95bc04c0e85a56d5277c6593fa5f"
+  },
+  {
+    "path": "audit-inputs/as-v3/gmf-assessment-v3-modules/third_party/licenses/pypdfium2/pypdfium2-5.14.0.dist-info__licenses__data__linux_x64__BUILD_LICENSES__zlib.txt",
+    "bytes": 1332,
+    "sha256": "33fd641c9f3b0e0be64bc78fea9e94807674cdd70c48477599226cb8956565fe"
+  },
+  {
+    "path": "audit-inputs/as-v3/gmf-assessment-v3-modules/third_party/licenses/pytest/pytest-9.1.1.dist-info__licenses__LICENSE",
+    "bytes": 1091,
+    "sha256": "ca836a5f9ecca3b2f350230faa20a48fb8b145653b5568d784862df864706b9b"
+  },
+  {
+    "path": "audit-inputs/as-v3/gmf-assessment-v3-modules/third_party/licenses/python-multipart/python_multipart-0.0.32.dist-info__licenses__LICENSE.txt",
+    "bytes": 11358,
+    "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+  },
+  {
+    "path": "audit-inputs/as-v3/gmf-assessment-v3-modules/third_party/licenses/reportlab/reportlab-4.4.9.dist-info__licenses__LICENSE",
+    "bytes": 1707,
+    "sha256": "ef831761646313921375fc2cb888e8eeaf7da213d0b92852c10c42f3a0b4d138"
+  },
+  {
+    "path": "audit-inputs/as-v3/gmf-assessment-v3-modules/third_party/licenses/reportlab/reportlab__fonts__bitstream-vera-license.txt",
+    "bytes": 5954,
+    "sha256": "3361d054759a2fc686a2c058be82deaf9c2e6fe549be9004d7935a6c1736315d"
+  },
+  {
+    "path": "audit-inputs/as-v3/gmf-assessment-v3-modules/third_party/licenses/starlette/starlette-1.9.0.dist-info__licenses__LICENSE.md",
+    "bytes": 1518,
+    "sha256": "dcb95677a02240243187e964f941847d19b17821cf99e5afae684fab328c19bf"
+  },
+  {
+    "path": "audit-inputs/as-v3/gmf-assessment-v3-modules/third_party/licenses/sympy/sympy-1.14.0.dist-info__licenses__AUTHORS",
+    "bytes": 55779,
+    "sha256": "82b1038521b0696c63c90b31ed4a0a2c9c4c16871c648b157b07ca44b6f18f8d"
+  },
+  {
+    "path": "audit-inputs/as-v3/gmf-assessment-v3-modules/third_party/licenses/sympy/sympy-1.14.0.dist-info__licenses__LICENSE",
+    "bytes": 7885,
+    "sha256": "07a5e9819f727b4986ad2829c7a29a6320d42575f720eb24d71b7fef573a0286"
+  },
+  {
+    "path": "audit-inputs/as-v3/gmf-assessment-v3-modules/third_party/licenses/sympy/sympy__parsing__latex__LICENSE.txt",
+    "bytes": 1075,
+    "sha256": "007bc30a58fa40a996e772047120de4eaf31f5110e4f9c3b5f93fcdfbe2eaca1"
+  },
+  {
+    "path": "audit-inputs/as-v3/gmf-assessment-v3-modules/third_party/licenses/typing-inspection/typing_inspection-0.4.4.dist-info__licenses__LICENSE",
+    "bytes": 1090,
+    "sha256": "804b59b25f2c31bd278f9202a19ae49a3945aa2664387e2d0a128c7cacc61ec3"
+  },
+  {
+    "path": "audit-inputs/as-v3/gmf-assessment-v3-modules/third_party/licenses/typing_extensions/typing_extensions-4.16.0.dist-info__licenses__LICENSE",
+    "bytes": 13936,
+    "sha256": "3b2f81fe21d181c499c59a256c8e1968455d6689d269aa85373bfb6af41da3bf"
+  },
+  {
+    "path": "audit-inputs/as-v3/gmf-assessment-v3-modules/third_party/licenses/uvicorn/uvicorn-0.54.0.dist-info__licenses__LICENSE.md",
+    "bytes": 1526,
+    "sha256": "efe1acf3e62fb99c288b0ec73e5a773b7268ef4320fe757ea994214e4b63c371"
+  },
+  {
+    "path": "audit-inputs/as-v3/gmf-assessment-v3-modules/third_party/openassess-LICENSE.txt",
+    "bytes": 1072,
+    "sha256": "c09fd69ae53afc8f12ab0843722ed34f81e96a6651e35258398d0aa99d13885c"
+  },
+  {
+    "path": "audit-inputs/fusion-v2/GiveMeFive-Fusion-V2-reviewed/.gitignore",
+    "bytes": 21,
+    "sha256": "01d8d0360f02a0c00e236a4eb2a1d8bdf83377acf442eaafad7a136bf14d6bb0"
+  },
+  {
+    "path": "audit-inputs/fusion-v2/GiveMeFive-Fusion-V2-reviewed/Assessment-σÄƒσºïµ║Éτáü/.gitignore",
+    "bytes": 1034,
+    "sha256": "cea8f4b3d99f18d4308fb9b149aaa0e0c574e0710424caaf0fe01fe9e6092d44"
+  },
+  {
+    "path": "audit-inputs/fusion-v2/GiveMeFive-Fusion-V2-reviewed/Assessment-σÄƒσºïµ║Éτáü/.npmrc",
+    "bytes": 48,
+    "sha256": "7cd80af2e968119afd7b1803b6ac51b51ea010b8da57c3606ea1ef8071a86068"
+  },
+  {
+    "path": "audit-inputs/fusion-v2/GiveMeFive-Fusion-V2-reviewed/Assessment-σÄƒσºïµ║Éτáü/.openai/hosting.json",
+    "bytes": 96,
+    "sha256": "eee76aa2e565504568c6e9cfd260efb7c343f3e2ca7f350b26f4a4aef3452204"
+  },
+  {
+    "path": "audit-inputs/fusion-v2/GiveMeFive-Fusion-V2-reviewed/Assessment-σÄƒσºïµ║Éτáü/app/chatgpt-auth.ts",
+    "bytes": 2640,
+    "sha256": "e19651c2d1db12696883ae3eb79d4f09dce249f7afa1144a62d544e2e18299ca"
+  },
+  {
+    "path": "audit-inputs/fusion-v2/GiveMeFive-Fusion-V2-reviewed/Assessment-σÄƒσºïµ║Éτáü/app/globals.css",
+    "bytes": 35509,
+    "sha256": "7f36115e8b34528c2373c7e753331c80dd85c79de6630dbdef98517e63c33e53"
+  },
+  {
+    "path": "audit-inputs/fusion-v2/GiveMeFive-Fusion-V2-reviewed/Assessment-σÄƒσºïµ║Éτáü/app/layout.tsx",
+    "bytes": 535,
+    "sha256": "8930b7e0c557afa4e4c52c098742b79f02e30c91481a7c85ddb043ed662c4b78"
+  },
+  {
+    "path": "audit-inputs/fusion-v2/GiveMeFive-Fusion-V2-reviewed/Assessment-σÄƒσºïµ║Éτáü/app/page.tsx",
+    "bytes": 44036,
+    "sha256": "27f043b6f4a8c1dd94aba78e94b930ddfc5612efd906a744ca546461bb3bc4fe"
+  },
+  {
+    "path": "audit-inputs/fusion-v2/GiveMeFive-Fusion-V2-reviewed/Assessment-σÄƒσºïµ║Éτáü/build/sites-vite-plugin.ts",
+    "bytes": 7415,
+    "sha256": "5b2d671313fe4ac10a1709e112d570da1267cb916f68655996a3ac3ea1dd80a9"
+  },
+  {
+    "path": "audit-inputs/fusion-v2/GiveMeFive-Fusion-V2-reviewed/Assessment-σÄƒσºïµ║Éτáü/cloudbase/main.tsx",
+    "bytes": 256,
+    "sha256": "9e16595eb94de396de9cd75cd8f2753dfc894be68b6656805dcba7dbdb2e6e74"
+  },
+  {
+    "path": "audit-inputs/fusion-v2/GiveMeFive-Fusion-V2-reviewed/Assessment-σÄƒσºïµ║Éτáü/cloudflare-env.d.ts",
+    "bytes": 105,
+    "sha256": "2ac980b29c91b8324a0d7864ec329c41e513fe81165aaffbc1220b8e85812759"
+  },
+  {
+    "path": "audit-inputs/fusion-v2/GiveMeFive-Fusion-V2-reviewed/Assessment-σÄƒσºïµ║Éτáü/components/ui/accordion.tsx",
+    "bytes": 2114,
+    "sha256": "810fded6b5f4f1d92370c8fa84b130cd9f26f1f37e30b1efcb48330338d91a70"
+  },
+  {
+    "path": "audit-inputs/fusion-v2/GiveMeFive-Fusion-V2-reviewed/Assessment-σÄƒσºïµ║Éτáü/components/ui/alert-dialog.tsx",
+    "bytes": 5635,
+    "sha256": "1ca7530a1f4727642aa96c619a320bc21488eb3bd6cf00666ef6fa3b1e346de0"
+  },
+  {
+    "path": "audit-inputs/fusion-v2/GiveMeFive-Fusion-V2-reviewed/Assessment-σÄƒσºïµ║Éτáü/components/ui/alert.tsx",
+    "bytes": 1680,
+    "sha256": "a36704ebac55c71e83302b1557d6bf188bb59552a46ea4e564acb4c913976926"
+  },
+  {
+    "path": "audit-inputs/fusion-v2/GiveMeFive-Fusion-V2-reviewed/Assessment-σÄƒσºïµ║Éτáü/components/ui/aspect-ratio.tsx",
+    "bytes": 285,
+    "sha256": "cdcb1701d142b15ad09bd3982493b82c5eb17e6512b8d0719325e6e723850bbd"
+  },
+  {
+    "path": "audit-inputs/fusion-v2/GiveMeFive-Fusion-V2-reviewed/Assessment-σÄƒσºïµ║Éτáü/components/ui/attachment.tsx",
+    "bytes": 6206,
+    "sha256": "c79fd808704543da1df455bbbdbcac7031979e126bafeadd2d5c97513b426159"
+  },
+  {
+    "path": "audit-inputs/fusion-v2/GiveMeFive-Fusion-V2-reviewed/Assessment-σÄƒσºïµ║Éτáü/components/ui/avatar.tsx",
+    "bytes": 3025,
+    "sha256": "d37287410ad1f496bcbd788f94245542984e3a124008d9dc72f92afa0f96de27"
+  },
+  {
+    "path": "audit-inputs/fusion-v2/GiveMeFive-Fusion-V2-reviewed/Assessment-σÄƒσºïµ║Éτáü/components/ui/badge.tsx",
+    "bytes": 1824,
+    "sha256": "9f25d280c75ac367fb5bbeea5f2f0f0fe10be226e364678b065069ec62dfaa06"
+  },
+  {
+    "path": "audit-inputs/fusion-v2/GiveMeFive-Fusion-V2-reviewed/Assessment-σÄƒσºïµ║Éτáü/components/ui/breadcrumb.tsx",
+    "bytes": 2459,
+    "sha256": "1d179a7717f52c7aaceed5a305a4be38f3fc08c3aaf0f593de718ecb59b25ca1"
+  },
+  {
+    "path": "audit-inputs/fusion-v2/GiveMeFive-Fusion-V2-reviewed/Assessment-σÄƒσºïµ║Éτáü/components/ui/bubble.tsx",
+    "bytes": 4824,
+    "sha256": "df3ead10c41081e73ef64e60cbff3f4ad7740af9fd2c21784294dee1504cbbc1"
+  },
+  {
+    "path": "audit-inputs/fusion-v2/GiveMeFive-Fusion-V2-reviewed/Assessment-σÄƒσºïµ║Éτáü/components/ui/button-group.tsx",
+    "bytes": 2285,
+    "sha256": "90f87a3b4398540a58d8fb05559df0939d8073a7550a8af646d86c97145dd00e"
+  },
+  {
+    "path": "audit-inputs/fusion-v2/GiveMeFive-Fusion-V2-reviewed/Assessment-σÄƒσºïµ║Éτáü/components/ui/button.tsx",
+    "bytes": 2456,
+    "sha256": "38447e736fdb7524f96f4adb6eada4ff9e4e68cf9eeb2415c357544ff347e8a3"
+  },
+  {
+    "path": "audit-inputs/fusion-v2/GiveMeFive-Fusion-V2-reviewed/Assessment-σÄƒσºïµ║Éτáü/components/ui/calendar.tsx",
+    "bytes": 8052,
+    "sha256": "0349754fe228253ae94ba9f641d903fdb5917b502bef2087f8f5c6b0a93326ba"
+  },
+  {
+    "path": "audit-inputs/fusion-v2/GiveMeFive-Fusion-V2-reviewed/Assessment-σÄƒσºïµ║Éτáü/components/ui/card.tsx",
+    "bytes": 2079,
+    "sha256": "d213fee777a9c38c3276b0e6b14707987302b83308baf4656dc1d5ae0610053f"
+  },
+  {
+    "path": "audit-inputs/fusion-v2/GiveMeFive-Fusion-V2-reviewed/Assessment-σÄƒσºïµ║Éτáü/components/ui/carousel.tsx",
+    "bytes": 5797,
+    "sha256": "45c8d7786dcbc4e08ed3506fb8946f1c8abf1fa720b228792fe8430a56f3da6a"
+  },
+  {
+    "path": "audit-inputs/fusion-v2/GiveMeFive-Fusion-V2-reviewed/Assessment-σÄƒσºïµ║Éτáü/components/ui/chart.tsx",
+    "bytes": 10991,
+    "sha256": "f60244582b56d42fb6631f9ac7026f3ea421d8cc31bfdda0e7727cae2a064687"
+  },
+  {
+    "path": "audit-inputs/fusion-v2/GiveMeFive-Fusion-V2-reviewed/Assessment-σÄƒσºïµ║Éτáü/components/ui/checkbox.tsx",
+    "bytes": 1246,
+    "sha256": "afcdd47885bdfa92997ef8da0fe231ae19b728594f7448eb437f7d7e94fc5b4f"
+  },
+  {
+    "path": "audit-inputs/fusion-v2/GiveMeFive-Fusion-V2-reviewed/Assessment-σÄƒσºïµ║Éτáü/components/ui/collapsible.tsx",
+    "bytes": 828,
+    "sha256": "c3649a69d53668fcceba2d83c97a3146fc2930a00c30fe281875238384e7bff2"
+  },
+  {
+    "path": "audit-inputs/fusion-v2/GiveMeFive-Fusion-V2-reviewed/Assessment-σÄƒσºïµ║Éτáü/components/ui/combobox.tsx",
+    "bytes": 9468,
+    "sha256": "63f37425ab8eac82374dcb9d7ac4fec1406ffabd1c64006c59800f295fd43f6c"
+  },
+  {
+    "path": "audit-inputs/fusion-v2/GiveMeFive-Fusion-V2-reviewed/Assessment-σÄƒσºïµ║Éτáü/components/ui/command.tsx",
+    "bytes": 5002,
+    "sha256": "67bc4de1f69b46c405ea1209a40a9b08a2e301aa8d36d3c54ce1b05c3039eb6e"
+  },
+  {
+    "path": "audit-inputs/fusion-v2/GiveMeFive-Fusion-V2-reviewed/Assessment-σÄƒσºïµ║Éτáü/components/ui/context-menu.tsx",
+    "bytes": 8520,
+    "sha256": "0e0f98b6cf175912c541330f3b492476f8fa2712f13f265e8779ad0b93437d16"
+  },
+  {
+    "path": "audit-inputs/fusion-v2/GiveMeFive-Fusion-V2-reviewed/Assessment-σÄƒσºïµ║Éτáü/components/ui/dialog.tsx",
+    "bytes": 4461,
+    "sha256": "7ba15f4c9dd993977d4d3dc70aef92d3e95548a32e5edc6f268c44921bbc15e8"
+  },
+  {
+    "path": "audit-inputs/fusion-v2/GiveMeFive-Fusion-V2-reviewed/Assessment-σÄƒσºïµ║Éτáü/components/ui/direction.tsx",
+    "bytes": 528,
+    "sha256": "cd2c00d9757eea6dcf3242d71de8f397d29291a67fba5c39fb03c4c60746f36c"
+  },
+  {
+    "path": "audit-inputs/fusion-v2/GiveMeFive-Fusion-V2-reviewed/Assessment-σÄƒσºïµ║Éτáü/components/ui/drawer.tsx",
+    "bytes": 4390,
+    "sha256": "9c21e1c99e256689192ab009f461568ea9ea99137b3b0e3010f56b7ee2bbd444"
+  },
+  {
+    "path": "audit-inputs/fusion-v2/GiveMeFive-Fusion-V2-reviewed/Assessment-σÄƒσºïµ║Éτáü/components/ui/dropdown-menu.tsx",
+    "bytes": 8675,
+    "sha256": "fe670b2a67ac46915410a17cd5e4d529be2424c1b0fd8b8f41c178ac53ff6c3b"
+  },
+  {
+    "path": "audit-inputs/fusion-v2/GiveMeFive-Fusion-V2-reviewed/Assessment-σÄƒσºïµ║Éτáü/components/ui/empty.tsx",
+    "bytes": 2500,
+    "sha256": "1523589e7664f743fc6cddf7daa7b7c030fbac6c5613a80f79478562277eda56"
+  },
+  {
+    "path": "audit-inputs/fusion-v2/GiveMeFive-Fusion-V2-reviewed/Assessment-σÄƒσºïµ║Éτáü/components/ui/field.tsx",
+    "bytes": 6407,
+    "sha256": "ae5a1b6af5009609b3855acea85cf6cee9dd2698304d61995df458145319be53"
+  },
+  {
+    "path": "audit-inputs/fusion-v2/GiveMeFive-Fusion-V2-reviewed/Assessment-σÄƒσºïµ║Éτáü/components/ui/form.tsx",
+    "bytes": 3924,
+    "sha256": "27d0cc0e59d9102f5287e857a5bf489e9cdd66f4d53cbfac8d0d967c7f2835b7"
+  },
+  {
+    "path": "audit-inputs/fusion-v2/GiveMeFive-Fusion-V2-reviewed/Assessment-σÄƒσºïµ║Éτáü/components/ui/hover-card.tsx",
+    "bytes": 1570,
+    "sha256": "ce70a075f5422d9055eff971f1214b820806637d9fbce235df83206d1448cdb3"
+  },
+  {
+    "path": "audit-inputs/fusion-v2/GiveMeFive-Fusion-V2-reviewed/Assessment-σÄƒσºïµ║Éτáü/components/ui/input-group.tsx",
+    "bytes": 5235,
+    "sha256": "dd5a0fc5dd10d7a829041ca19a3b8f040758761f657783dbae632c851ad10044"
+  },
+  {
+    "path": "audit-inputs/fusion-v2/GiveMeFive-Fusion-V2-reviewed/Assessment-σÄƒσºïµ║Éτáü/components/ui/input-otp.tsx",
+    "bytes": 2331,
+    "sha256": "aa8d62769d9e9a0bf40aec5aa427a3a34be5852a6f61b390aa7aa5fa50ab3b46"
+  },
+  {
+    "path": "audit-inputs/fusion-v2/GiveMeFive-Fusion-V2-reviewed/Assessment-σÄƒσºïµ║Éτáü/components/ui/input.tsx",
+    "bytes": 983,
+    "sha256": "44714284bdbafbf7634a4807eff5d6b493b5b5fc1a562a269a874de1eb50ea7c"
+  },
+  {
+    "path": "audit-inputs/fusion-v2/GiveMeFive-Fusion-V2-reviewed/Assessment-σÄƒσºïµ║Éτáü/components/ui/item.tsx",
+    "bytes": 4679,
+    "sha256": "9ff8e5411d0684cb97a717c8c3498e6c11d56c21ce84dbcd6ba15f5167b1038b"
+  },
+  {
+    "path": "audit-inputs/fusion-v2/GiveMeFive-Fusion-V2-reviewed/Assessment-σÄƒσºïµ║Éτáü/components/ui/kbd.tsx",
+    "bytes": 890,
+    "sha256": "087e34753566167ad99b8c69c6c0a3cfeaabf0d2a579e739ec1dd8d66910da1f"
+  },
+  {
+    "path": "audit-inputs/fusion-v2/GiveMeFive-Fusion-V2-reviewed/Assessment-σÄƒσºïµ║Éτáü/components/ui/label.tsx",
+    "bytes": 630,
+    "sha256": "43e7cadacf1e0d71c1668dc388271656d2db8c4d45f2144d52d594f9aca31ca5"
+  },
+  {
+    "path": "audit-inputs/fusion-v2/GiveMeFive-Fusion-V2-reviewed/Assessment-σÄƒσºïµ║Éτáü/components/ui/marker.tsx",
+    "bytes": 1933,
+    "sha256": "d94da269dd74ff4410393c57bd57bf965808314ce7cd5710e795a33f8b62240e"
+  },
+  {
+    "path": "audit-inputs/fusion-v2/GiveMeFive-Fusion-V2-reviewed/Assessment-σÄƒσºïµ║Éτáü/components/ui/menubar.tsx",
+    "bytes": 8665,
+    "sha256": "1625b156556efa470d6a767596eb3237ece71fb5a799040f6921a367b1e26bc7"
+  },
+  {
+    "path": "audit-inputs/fusion-v2/GiveMeFive-Fusion-V2-reviewed/Assessment-σÄƒσºïµ║Éτáü/components/ui/message-scroller.tsx",
+    "bytes": 4122,
+    "sha256": "abb2e962ef1d6952bb1caee7a135b079fedbd3833a1b871cd9079c880bbc0ffa"
+  },
+  {
+    "path": "audit-inputs/fusion-v2/GiveMeFive-Fusion-V2-reviewed/Assessment-σÄƒσºïµ║Éτáü/components/ui/message.tsx",
+    "bytes": 2324,
+    "sha256": "a4a7f8a104559536a531e198d1a7a239cdd55748da74a0a3e2088f275e153287"
+  },
+  {
+    "path": "audit-inputs/fusion-v2/GiveMeFive-Fusion-V2-reviewed/Assessment-σÄƒσºïµ║Éτáü/components/ui/native-select.tsx",
+    "bytes": 2057,
+    "sha256": "d62b4479c6419a37ee748b1a6536c51d6676a3a04afdea27619e6481b6cdb442"
+  },
+  {
+    "path": "audit-inputs/fusion-v2/GiveMeFive-Fusion-V2-reviewed/Assessment-σÄƒσºïµ║Éτáü/components/ui/navigation-menu.tsx",
+    "bytes": 6826,
+    "sha256": "a42f6e39ce4b18d0cadfe91265b9419ddd8b157a9778a5ed754f45e72a902252"
+  },
+  {
+    "path": "audit-inputs/fusion-v2/GiveMeFive-Fusion-V2-reviewed/Assessment-σÄƒσºïµ║Éτáü/components/ui/pagination.tsx",
+    "bytes": 2844,
+    "sha256": "9d9ba519da639b1993b7df95e8b0d394e8dc2c61fda7320c05ec1c5332ae56fb"
+  },
+  {
+    "path": "audit-inputs/fusion-v2/GiveMeFive-Fusion-V2-reviewed/Assessment-σÄƒσºïµ║Éτáü/components/ui/popover.tsx",
+    "bytes": 2446,
+    "sha256": "2520e46424ba0ce4407c83c47cb717e1a5e7e51c26449b1eabeaeab779c05e76"
+  },
+  {
+    "path": "audit-inputs/fusion-v2/GiveMeFive-Fusion-V2-reviewed/Assessment-σÄƒσºïµ║Éτáü/components/ui/progress.tsx",
+    "bytes": 787,
+    "sha256": "c6f42ff7f284ce9e965b1bad059dd401a951d6254e5070877b129ff8195c7707"
+  },
+  {
+    "path": "audit-inputs/fusion-v2/GiveMeFive-Fusion-V2-reviewed/Assessment-σÄƒσºïµ║Éτáü/components/ui/radio-group.tsx",
+    "bytes": 1505,
+    "sha256": "45af968f5e426f9268a6623ccc55d67f1a0973742dd01f12917f981690d13a68"
+  },
+  {
+    "path": "audit-inputs/fusion-v2/GiveMeFive-Fusion-V2-reviewed/Assessment-σÄƒσºïµ║Éτáü/components/ui/resizable.tsx",
+    "bytes": 1868,
+    "sha256": "bfb26b64a3c1d6e0a71bebe06738f209724588deb8ff3048a10f130ca920828a"
+  },
+  {
+    "path": "audit-inputs/fusion-v2/GiveMeFive-Fusion-V2-reviewed/Assessment-σÄƒσºïµ║Éτáü/components/ui/scroll-area.tsx",
+    "bytes": 1697,
+    "sha256": "509e700a8f6a26386a0e61dcacc3f6b4fe42fa31c5444a2b27d9952e772b80fd"
+  },
+  {
+    "path": "audit-inputs/fusion-v2/GiveMeFive-Fusion-V2-reviewed/Assessment-σÄƒσºïµ║Éτáü/components/ui/select.tsx",
+    "bytes": 6543,
+    "sha256": "f4434ef49e240b581e951cee362cb57e11e8a9bbbe4238395a034ba599ce298c"
+  },
+  {
+    "path": "audit-inputs/fusion-v2/GiveMeFive-Fusion-V2-reviewed/Assessment-σÄƒσºïµ║Éτáü/components/ui/separator.tsx",
+    "bytes": 722,
+    "sha256": "8cdd3c705eb6b04bbe8fbe87cc5f193de72b17d85f02020f7e4e9bd206c50f59"
+  },
+  {
+    "path": "audit-inputs/fusion-v2/GiveMeFive-Fusion-V2-reviewed/Assessment-σÄƒσºïµ║Éτáü/components/ui/sheet.tsx",
+    "bytes": 4331,
+    "sha256": "57d5e84b5b1ac6d1769dc53632b52236096140df8f3a4a10e8343bd73d186290"
+  },
+  {
+    "path": "audit-inputs/fusion-v2/GiveMeFive-Fusion-V2-reviewed/Assessment-σÄƒσºïµ║Éτáü/components/ui/sidebar.tsx",
+    "bytes": 22249,
+    "sha256": "74ecebd633481b76e425e8b40c9cdad7e43c2872cd699d8a56690e889da9620b"
+  },
+  {
+    "path": "audit-inputs/fusion-v2/GiveMeFive-Fusion-V2-reviewed/Assessment-σÄƒσºïµ║Éτáü/components/ui/skeleton.tsx",
+    "bytes": 289,
+    "sha256": "85957151311e53eb49bdb54f5e2e6d8ff4461b14d887d8073e0cde846d539691"
+  },
+  {
+    "path": "audit-inputs/fusion-v2/GiveMeFive-Fusion-V2-reviewed/Assessment-σÄƒσºïµ║Éτáü/components/ui/slider.tsx",
+    "bytes": 2054,
+    "sha256": "deb4c937a6036d33236c8defcb6df42ba5886fef32dc1d67763eecfebcff5b69"
+  },
+  {
+    "path": "audit-inputs/fusion-v2/GiveMeFive-Fusion-V2-reviewed/Assessment-σÄƒσºïµ║Éτáü/components/ui/sonner.tsx",
+    "bytes": 1074,
+    "sha256": "f4d2c855754828ceed89ad6455aa8082f80566d82c3ab79b8db5271c5102b632"
+  },
+  {
+    "path": "audit-inputs/fusion-v2/GiveMeFive-Fusion-V2-reviewed/Assessment-σÄƒσºïµ║Éτáü/components/ui/spinner.tsx",
+    "bytes": 347,
+    "sha256": "cbf9073613aed22ffd4ba21219adc1d1b8dce311d4280800f772b5eae587eeff"
+  },
+  {
+    "path": "audit-inputs/fusion-v2/GiveMeFive-Fusion-V2-reviewed/Assessment-σÄƒσºïµ║Éτáü/components/ui/switch.tsx",
+    "bytes": 1443,
+    "sha256": "21126011e315385b26ba57c494fa18553ac81f85f5814c3c9a79ff864ae66ee5"
+  },
+  {
+    "path": "audit-inputs/fusion-v2/GiveMeFive-Fusion-V2-reviewed/Assessment-σÄƒσºïµ║Éτáü/components/ui/table.tsx",
+    "bytes": 2594,
+    "sha256": "02d16a0d04c4fd2990ef41d9c5963335aa0eec93d41518e18476656113894626"
+  },
+  {
+    "path": "audit-inputs/fusion-v2/GiveMeFive-Fusion-V2-reviewed/Assessment-σÄƒσºïµ║Éτáü/components/ui/tabs.tsx",
+    "bytes": 3873,
+    "sha256": "3a200c6fa6d683681f066f1e9b3868ef22d3cf9d3d925d7364edae9900484aa3"
+  },
+  {
+    "path": "audit-inputs/fusion-v2/GiveMeFive-Fusion-V2-reviewed/Assessment-σÄƒσºïµ║Éτáü/components/ui/textarea.tsx",
+    "bytes": 777,
+    "sha256": "d5084a2bc607d9e2322e440d36643610478982bc4ecd4ddf5ee2b805418e1198"
+  },
+  {
+    "path": "audit-inputs/fusion-v2/GiveMeFive-Fusion-V2-reviewed/Assessment-σÄƒσºïµ║Éτáü/components/ui/toggle-group.tsx",
+    "bytes": 2391,
+    "sha256": "cf2efaaad5b80f1df4636a3e730fe0bfc25e55674fa37414c2f8f1ba02c20708"
+  },
+  {
+    "path": "audit-inputs/fusion-v2/GiveMeFive-Fusion-V2-reviewed/Assessment-σÄƒσºïµ║Éτáü/components/ui/toggle.tsx",
+    "bytes": 1612,
+    "sha256": "961640a6cfdfd1cdfbc2196f6d4b8bc7a0606347769bc0d0d929bd50b6d86140"
+  },
+  {
+    "path": "audit-inputs/fusion-v2/GiveMeFive-Fusion-V2-reviewed/Assessment-σÄƒσºïµ║Éτáü/components/ui/tooltip.tsx",
+    "bytes": 1887,
+    "sha256": "2ed212576e61f83f86a4ea00d40751181e5889b2bf8d660eede5d0adee46cb76"
+  },
+  {
+    "path": "audit-inputs/fusion-v2/GiveMeFive-Fusion-V2-reviewed/Assessment-σÄƒσºïµ║Éτáü/components.json",
+    "bytes": 441,
+    "sha256": "820e913f34219d16b5e7ec5865df9c444bb5b8acf230db4e589d660e4a21743e"
+  },
+  {
+    "path": "audit-inputs/fusion-v2/GiveMeFive-Fusion-V2-reviewed/Assessment-σÄƒσºïµ║Éτáü/db/index.ts",
+    "bytes": 436,
+    "sha256": "effa59e46bcbb42dfb7b46911e809a1de0f2c37df1fd935e3dca89023eaf97e4"
+  },
+  {
+    "path": "audit-inputs/fusion-v2/GiveMeFive-Fusion-V2-reviewed/Assessment-σÄƒσºïµ║Éτáü/db/schema.ts",
+    "bytes": 173,
+    "sha256": "48b4f7fafee1f2720b8977ba31bc0cf03dedb7ea8826c4bcbc8dfd74f2d8744f"
+  },
+  {
+    "path": "audit-inputs/fusion-v2/GiveMeFive-Fusion-V2-reviewed/Assessment-σÄƒσºïµ║Éτáü/drizzle/meta/_journal.json",
+    "bytes": 66,
+    "sha256": "5a5f57f8f48fcf1d065725c0f3dab19e590e96e7e1e5bf8ddff17339a0de8d9a"
+  },
+  {
+    "path": "audit-inputs/fusion-v2/GiveMeFive-Fusion-V2-reviewed/Assessment-σÄƒσºïµ║Éτáü/drizzle.config.ts",
+    "bytes": 155,
+    "sha256": "73d0807c58e541dc3eaf175909fb5acc966faed61f74ff659d9d55027bf3e25b"
+  },
+  {
+    "path": "audit-inputs/fusion-v2/GiveMeFive-Fusion-V2-reviewed/Assessment-σÄƒσºïµ║Éτáü/eslint.config.mjs",
+    "bytes": 905,
+    "sha256": "3d47f86e2eb3eb5e8bd7721482c76a97aabaeb68c733d3d319879b68b27137cd"
+  },
+  {
+    "path": "audit-inputs/fusion-v2/GiveMeFive-Fusion-V2-reviewed/Assessment-σÄƒσºïµ║Éτáü/examples/d1/app/api/notes/route.ts",
+    "bytes": 1758,
+    "sha256": "b0b134b9b0b4a9f5947abbd13fd4425b88b59c64f91db1aacb0cecbc16c38f45"
+  },
+  {
+    "path": "audit-inputs/fusion-v2/GiveMeFive-Fusion-V2-reviewed/Assessment-σÄƒσºïµ║Éτáü/examples/d1/db/schema.ts",
+    "bytes": 379,
+    "sha256": "1acd70317bcaf22cb140436fb47754c2144e7c2adfc59a3f427ecb1d816fa0f3"
+  },
+  {
+    "path": "audit-inputs/fusion-v2/GiveMeFive-Fusion-V2-reviewed/Assessment-σÄƒσºïµ║Éτáü/hooks/use-mobile.ts",
+    "bytes": 584,
+    "sha256": "d2377fbad5ad2bdf7fa896a68c36ac8bf4aa74a974b2061f77b41ae58d623001"
+  },
+  {
+    "path": "audit-inputs/fusion-v2/GiveMeFive-Fusion-V2-reviewed/Assessment-σÄƒσºïµ║Éτáü/lib/docx-option-parsing.ts",
+    "bytes": 14497,
+    "sha256": "adf4a7c057a110d0a16b7862897db84e2a37f3261b6a450cd0606b6b9eda6939"
+  },
+  {
+    "path": "audit-inputs/fusion-v2/GiveMeFive-Fusion-V2-reviewed/Assessment-σÄƒσºïµ║Éτáü/lib/learning-bridge.ts",
+    "bytes": 1799,
+    "sha256": "fd174bf2dbb0909773a4582c73d0f32010decd065d197e6f8a34663f5a09cbd6"
+  },
+  {
+    "path": "audit-inputs/fusion-v2/GiveMeFive-Fusion-V2-reviewed/Assessment-σÄƒσºïµ║Éτáü/lib/paper-draft.ts",
+    "bytes": 2348,
+    "sha256": "314ff5b115d51058079ad5587e41cf0f0d7e233acfee51c34e1eb8441a4c45bf"
+  },
+  {
+    "path": "audit-inputs/fusion-v2/GiveMeFive-Fusion-V2-reviewed/Assessment-σÄƒσºïµ║Éτáü/lib/pdf-browser.ts",
+    "bytes": 2324,
+    "sha256": "865cc847f911aab3bdcba92906529f69a1c03feaa6b77c96fd7caee0a58c69d4"
+  },
+  {
+    "path": "audit-inputs/fusion-v2/GiveMeFive-Fusion-V2-reviewed/Assessment-σÄƒσºïµ║Éτáü/lib/question-splitting.ts",
+    "bytes": 1956,
+    "sha256": "d35bf6b139218edd0d67f745cbc3d6cc634129432350d61899677e6fbc6571d0"
+  },
+  {
+    "path": "audit-inputs/fusion-v2/GiveMeFive-Fusion-V2-reviewed/Assessment-σÄƒσºïµ║Éτáü/lib/utils.ts",
+    "bytes": 183,
+    "sha256": "c2aa0cde88a8b5b5db7718003da1a345bdcce5f31085800b66ff0dddedfb0254"
+  },
+  {
+    "path": "audit-inputs/fusion-v2/GiveMeFive-Fusion-V2-reviewed/Assessment-σÄƒσºïµ║Éτáü/next.config.ts",
+    "bytes": 140,
+    "sha256": "a972c4f0ffa6dd714e7909b02d1ac19d2f2fe3d01f191efd2c5054bd6f142ec1"
+  },
+  {
+    "path": "audit-inputs/fusion-v2/GiveMeFive-Fusion-V2-reviewed/Assessment-σÄƒσºïµ║Éτáü/package.json",
+    "bytes": 2378,
+    "sha256": "2bd5495163efbb671da922fc284b2fb8d68ac56798c072f90f8998f6d8a12b7f"
+  },
+  {
+    "path": "audit-inputs/fusion-v2/GiveMeFive-Fusion-V2-reviewed/Assessment-σÄƒσºïµ║Éτáü/pnpm-lock.yaml",
+    "bytes": 361785,
+    "sha256": "2da4c0d0bd8496ecad5ea759dc926bfb472b5b47ccd66e4dd0fa5eaf798e9bc9"
+  },
+  {
+    "path": "audit-inputs/fusion-v2/GiveMeFive-Fusion-V2-reviewed/Assessment-σÄƒσºïµ║Éτáü/pnpm-workspace.yaml",
+    "bytes": 780,
+    "sha256": "f1c80413554cf1621dc346937b9330f0941d780550d0365a60e20ca067c05ec3"
+  },
+  {
+    "path": "audit-inputs/fusion-v2/GiveMeFive-Fusion-V2-reviewed/Assessment-σÄƒσºïµ║Éτáü/postcss.config.mjs",
+    "bytes": 101,
+    "sha256": "7b299d3d3b16699ddda397c0b2373b3af4f25f8fc9ccc9b3d9e64ef083bc1c21"
+  },
+  {
+    "path": "audit-inputs/fusion-v2/GiveMeFive-Fusion-V2-reviewed/Assessment-σÄƒσºïµ║Éτáü/scripts/build-verified.sh",
+    "bytes": 687,
+    "sha256": "61024a70b28a732585428398f58ca96331b6850642683bf4a35297974a0125f4"
+  },
+  {
+    "path": "audit-inputs/fusion-v2/GiveMeFive-Fusion-V2-reviewed/Assessment-σÄƒσºïµ║Éτáü/scripts/execution-profile.mjs",
+    "bytes": 640,
+    "sha256": "2581f6f47a0903d0d6cb3b26def05fae88026a7ae8c88f5d7dabe5dbcbd6ee32"
+  },
+  {
+    "path": "audit-inputs/fusion-v2/GiveMeFive-Fusion-V2-reviewed/Assessment-σÄƒσºïµ║Éτáü/scripts/install-ci.mjs",
+    "bytes": 1667,
+    "sha256": "7b211ba1d60beb4c899ac491f9de050b5dc4355ae1ffddebfb9794597125567d"
+  },
+  {
+    "path": "audit-inputs/fusion-v2/GiveMeFive-Fusion-V2-reviewed/Assessment-σÄƒσºïµ║Éτáü/scripts/install-ci.sh",
+    "bytes": 7705,
+    "sha256": "20c31683bd6c0c1e468a1c5337cce91369bbeb0f21cc176531bf9af3b5409d59"
+  },
+  {
+    "path": "audit-inputs/fusion-v2/GiveMeFive-Fusion-V2-reviewed/Assessment-σÄƒσºïµ║Éτáü/scripts/install-pnpm.sh",
+    "bytes": 9240,
+    "sha256": "88c00401d197e7dff5ce9a05c6a795c2de86c7675f3089293ae3a61bb94c14fd"
+  },
+  {
+    "path": "audit-inputs/fusion-v2/GiveMeFive-Fusion-V2-reviewed/Assessment-σÄƒσºïµ║Éτáü/scripts/package-cloudbase.mjs",
+    "bytes": 1153,
+    "sha256": "684ece4d0258723beef09d4bc6d223b94333eb3fbf1191404d7c2f73008b59e6"
+  },
+  {
+    "path": "audit-inputs/fusion-v2/GiveMeFive-Fusion-V2-reviewed/Assessment-σÄƒσºïµ║Éτáü/scripts/pnpm-install.mjs",
+    "bytes": 10903,
+    "sha256": "cb6fe1aca71b0f6486fa6ed3afea11fc5c88d2496d98dffeb5bd0d272b6c7dac"
+  },
+  {
+    "path": "audit-inputs/fusion-v2/GiveMeFive-Fusion-V2-reviewed/Assessment-σÄƒσºïµ║Éτáü/scripts/run-framework.mjs",
+    "bytes": 1016,
+    "sha256": "72075798db6191995dee4e15ba5e0a5b0c23060ff0be4acc5be085062b27fcff"
+  },
+  {
+    "path": "audit-inputs/fusion-v2/GiveMeFive-Fusion-V2-reviewed/Assessment-σÄƒσºïµ║Éτáü/scripts/sites-env.mjs",
+    "bytes": 928,
+    "sha256": "4cb12e49c5eec402d920cd98d74ebc3267c9a38b0f63445a619d4271979dd774"
+  },
+  {
+    "path": "audit-inputs/fusion-v2/GiveMeFive-Fusion-V2-reviewed/Assessment-σÄƒσºïµ║Éτáü/scripts/sites-env.sh",
+    "bytes": 1582,
+    "sha256": "29bc00ff806de5fe25039b869e32e9a458e273555b139a09b4f9c1ed8f59df73"
+  },
+  {
+    "path": "audit-inputs/fusion-v2/GiveMeFive-Fusion-V2-reviewed/Assessment-σÄƒσºïµ║Éτáü/scripts/test-docx-option-parsing.mjs",
+    "bytes": 6825,
+    "sha256": "f643a88e3380ba6187c4d9b70ce0433752d23ed37a5b7c194c962cc8a96e3733"
+  },
+  {
+    "path": "audit-inputs/fusion-v2/GiveMeFive-Fusion-V2-reviewed/Assessment-σÄƒσºïµ║Éτáü/scripts/test-question-splitting.mjs",
+    "bytes": 1977,
+    "sha256": "5acd500a54b5bd1855d7f88c67ad7f9e04e05bd96a00c7e44d43be9d7e621681"
+  },
+  {
+    "path": "audit-inputs/fusion-v2/GiveMeFive-Fusion-V2-reviewed/Assessment-σÄƒσºïµ║Éτáü/tsconfig.json",
+    "bytes": 847,
+    "sha256": "755d473a6eb4f384deb37066c554995d9af3d3eb1e5b566ee7fbbf80a9dda208"
+  },
+  {
+    "path": "audit-inputs/fusion-v2/GiveMeFive-Fusion-V2-reviewed/Assessment-σÄƒσºïµ║Éτáü/types/mammoth-browser.d.ts",
+    "bytes": 283,
+    "sha256": "85fd443abde411e962a3f945e6cf854bda3ad2fc35d3cbe0f5eadcadeb9b55d8"
+  },
+  {
+    "path": "audit-inputs/fusion-v2/GiveMeFive-Fusion-V2-reviewed/Assessment-σÄƒσºïµ║Éτáü/types/vite-assets.d.ts",
+    "bytes": 84,
+    "sha256": "4cc98d05ff925fe476db8959583780834480e891b946436949634ea8990a6953"
+  },
+  {
+    "path": "audit-inputs/fusion-v2/GiveMeFive-Fusion-V2-reviewed/Assessment-σÄƒσºïµ║Éτáü/vite.cloudbase.config.ts",
+    "bytes": 415,
+    "sha256": "c5c40ad3a9158144012893790dec6cce1b3df41623dcc881e002f7ee890eb99d"
+  },
+  {
+    "path": "audit-inputs/fusion-v2/GiveMeFive-Fusion-V2-reviewed/Assessment-σÄƒσºïµ║Éτáü/vite.config.ts",
+    "bytes": 2308,
+    "sha256": "7c283af12e8cb19188c98d8571a0b68c3e5fee5a8e7749518754778dabd2a4cd"
+  },
+  {
+    "path": "audit-inputs/fusion-v2/GiveMeFive-Fusion-V2-reviewed/FINAL_VERIFICATION.txt",
+    "bytes": 3838,
+    "sha256": "8e0d3c44e37c2ba458c257dfc48658daacb965cc1b5aa7cd93ef752490807b94"
+  },
+  {
+    "path": "audit-inputs/fusion-v2/GiveMeFive-Fusion-V2-reviewed/FUSION_V2_AUDIT.md",
+    "bytes": 14320,
+    "sha256": "24e55e7d3aa79cdb16b81b9760cc0a80afecba3a81b5313813447f7d5c73e912"
+  },
+  {
+    "path": "audit-inputs/fusion-v2/GiveMeFive-Fusion-V2-reviewed/app.js",
+    "bytes": 75170,
+    "sha256": "59d7700420ee10e76f2ef719af241f21ad637ddf9f1d91efc59dc498402e2fe4"
+  },
+  {
+    "path": "audit-inputs/fusion-v2/GiveMeFive-Fusion-V2-reviewed/content-runtime.js",
+    "bytes": 7390,
+    "sha256": "3d6c355eaaa51ee0fe75522151774b0021a2db97eba6cdbaa184bf541cd7cdc5"
+  },
+  {
+    "path": "audit-inputs/fusion-v2/GiveMeFive-Fusion-V2-reviewed/fusion-core.js",
+    "bytes": 19389,
+    "sha256": "fa9ab4b11131f281db7495845da28141adb06f70342871b123ffb8f9916359cb"
+  },
+  {
+    "path": "audit-inputs/fusion-v2/GiveMeFive-Fusion-V2-reviewed/fusion.css",
+    "bytes": 35761,
+    "sha256": "28a29920744e2e1ad5d7d850dc5b776730e8535533af47999e5823f2386ab649"
+  },
+  {
+    "path": "audit-inputs/fusion-v2/GiveMeFive-Fusion-V2-reviewed/index.html",
+    "bytes": 1195,
+    "sha256": "789d6ca494d4beb1bd22f1f390a77caa8c810dcb6bd4c023b277e44a4e8b5da6"
+  },
+  {
+    "path": "audit-inputs/fusion-v2/GiveMeFive-Fusion-V2-reviewed/learning-store.js",
+    "bytes": 4653,
+    "sha256": "e0317bdf1c20abcc8ed98054c17a839b535b57c10feb769aaf3dad03f8c44742"
+  },
+  {
+    "path": "audit-inputs/fusion-v2/GiveMeFive-Fusion-V2-reviewed/mind-flow/app.js",
+    "bytes": 56444,
+    "sha256": "cbb902fa414cb7884d0138dafd92a0a0e59f427f021d9eca3efe089e977f95e0"
+  },
+  {
+    "path": "audit-inputs/fusion-v2/GiveMeFive-Fusion-V2-reviewed/mind-flow/blueprints.js",
+    "bytes": 6749,
+    "sha256": "cbce4470ad60b3e0550ca84f61fb7c0c986921b39b74fcbeab7736eb7be8e427"
+  },
+  {
+    "path": "audit-inputs/fusion-v2/GiveMeFive-Fusion-V2-reviewed/mind-flow/flow-core.js",
+    "bytes": 8373,
+    "sha256": "f2fcb7341f606034bd077e4966a0e419d96f612ef13fc1bd81ce7e0be57f4a02"
+  },
+  {
+    "path": "audit-inputs/fusion-v2/GiveMeFive-Fusion-V2-reviewed/mind-flow/fusion-mf.css",
+    "bytes": 11543,
+    "sha256": "5ad8a83d02b5c0bce998d8ed020dbccc5c4e60fe7d2a9da62c112ecef2d93919"
+  },
+  {
+    "path": "audit-inputs/fusion-v2/GiveMeFive-Fusion-V2-reviewed/mind-flow/index.html",
+    "bytes": 18097,
+    "sha256": "30ce1591e35513f1c7ac177c6e66d48efa28ede907ec73952a1ff78dabdc8183"
+  },
+  {
+    "path": "audit-inputs/fusion-v2/GiveMeFive-Fusion-V2-reviewed/mind-flow/pathline-bridge.js",
+    "bytes": 1258,
+    "sha256": "4557278ea6e6307b48de8495e035e5847c7624a81c37f3f546d2314b5cd36a3c"
+  },
+  {
+    "path": "audit-inputs/fusion-v2/GiveMeFive-Fusion-V2-reviewed/mind-flow/styles.css",
+    "bytes": 24508,
+    "sha256": "79c590af2da9ff0e0303ac933d87dab007c548d31cf4e59788b6a87c769872b0"
+  },
+  {
+    "path": "audit-inputs/fusion-v2/GiveMeFive-Fusion-V2-reviewed/mind-flow/v1.js",
+    "bytes": 5120,
+    "sha256": "e649a5fefccc5aa54384529320a0a28a9f6d2c2f5c4d23a19dda79a8d84fa9d0"
+  },
+  {
+    "path": "audit-inputs/fusion-v2/GiveMeFive-Fusion-V2-reviewed/pathline-base.css",
+    "bytes": 20557,
+    "sha256": "59bc04e7db85c1d760e5623ff9d3febabcd36036b90062e9c9747e9eb3b5773d"
+  },
+  {
+    "path": "audit-inputs/fusion-v2/GiveMeFive-Fusion-V2-reviewed/pathline-core.js",
+    "bytes": 47821,
+    "sha256": "36c1160f272876f4635ed353a59244e0679015be149fbf6218147a0b47dffc8d"
+  },
+  {
+    "path": "audit-inputs/fusion-v2/GiveMeFive-Fusion-V2-reviewed/review-contract.js",
+    "bytes": 1185,
+    "sha256": "572a4bec59ff7f6730a3b91a12f52e4a9aaadf46fec060655ca3f14ec989ec53"
+  },
+  {
+    "path": "audit-inputs/fusion-v2/GiveMeFive-Fusion-V2-reviewed/scripts/audit_content.py",
+    "bytes": 8107,
+    "sha256": "86603c94fef3985d0d2b1b69d23e4e63404809cfaeaf580e5ec38ec256813823"
+  },
+  {
+    "path": "audit-inputs/fusion-v2/GiveMeFive-Fusion-V2-reviewed/scripts/build_textbook.py",
+    "bytes": 24624,
+    "sha256": "f0d9274f64352b366e2dd3b006746f25f81e919ad4e15c8004fa1bfa83d19671"
+  },
+  {
+    "path": "audit-inputs/fusion-v2/GiveMeFive-Fusion-V2-reviewed/scripts/check-fusion-v2.cjs",
+    "bytes": 4716,
+    "sha256": "61ebe51a15eb0ea33280bd1e61a63cf55f472c117c263fc1f4d33647a1a3a1a9"
+  },
+  {
+    "path": "audit-inputs/fusion-v2/GiveMeFive-Fusion-V2-reviewed/scripts/check-fusion.cjs",
+    "bytes": 9918,
+    "sha256": "d9f13bbe3e093a4743275b8cdae213bf14b78c0061ec2d68010ccc0f00e3cb5b"
+  },
+  {
+    "path": "audit-inputs/fusion-v2/GiveMeFive-Fusion-V2-reviewed/scripts/check-learning-store-v2.cjs",
+    "bytes": 1150,
+    "sha256": "05b47b90f88e1b7b772dc6752c75c304af85551d9954525d64f6b950083c063d"
+  },
+  {
+    "path": "audit-inputs/fusion-v2/GiveMeFive-Fusion-V2-reviewed/scripts/check-mf-review-v2.cjs",
+    "bytes": 1782,
+    "sha256": "13965082c10897430f8ad89fb72f7f623d41ac780cb372481af75db09d4e4f90"
+  },
+  {
+    "path": "audit-inputs/fusion-v2/GiveMeFive-Fusion-V2-reviewed/scripts/check-mf-v1.cjs",
+    "bytes": 5802,
+    "sha256": "8c66cdaae74c887c08ac105ecc71ef967556f05a8989be5ceab8f03e8737bf8d"
+  },
+  {
+    "path": "audit-inputs/fusion-v2/GiveMeFive-Fusion-V2-reviewed/scripts/check-mf.cjs",
+    "bytes": 4166,
+    "sha256": "a3f47d69cd0c9b751586ac93194f9f5a984427b35bc212e5642c73b65acb1159"
+  },
+  {
+    "path": "audit-inputs/fusion-v2/GiveMeFive-Fusion-V2-reviewed/scripts/check-reader-v2.cjs",
+    "bytes": 2776,
+    "sha256": "ca3296555a752d557063ac6962af95bc0e08ddc3f9450ecad158f12e33b05735"
+  },
+  {
+    "path": "audit-inputs/fusion-v2/GiveMeFive-Fusion-V2-reviewed/scripts/check-stabilization.cjs",
+    "bytes": 5580,
+    "sha256": "22f9997af143462701ec5aa2090dca06f4affc0c7647b72547354d0112aeb23b"
+  },
+  {
+    "path": "audit-inputs/fusion-v2/GiveMeFive-Fusion-V2-reviewed/scripts/check_content_complete.py",
+    "bytes": 6138,
+    "sha256": "81fba492dc1cf02c7c47e47ae47055ebbcd40a723d86b5424fb72a0676c2d71e"
+  },
+  {
+    "path": "audit-inputs/fusion-v2/GiveMeFive-Fusion-V2-reviewed/scripts/check_textbook.py",
+    "bytes": 4886,
+    "sha256": "b2775bcfedb8d8a495fb58eeb511f6d2c126ec46044c74be59dc164d6bb5de85"
+  },
+  {
+    "path": "audit-inputs/fusion-v2/GiveMeFive-Fusion-V2-reviewed/scripts/complete_textbook.py",
+    "bytes": 22146,
+    "sha256": "6bd5772848cb1e56da4b1c25986f924f9ab277db69218d83e46813f0a5507e9e"
+  },
+  {
+    "path": "audit-inputs/fusion-v2/GiveMeFive-Fusion-V2-reviewed/scripts/curate_content.py",
+    "bytes": 8889,
+    "sha256": "b7985bbb5163edfa5f68f59603d6e91f2e8c554a229c12d2750aa377c53253a6"
+  },
+  {
+    "path": "audit-inputs/fusion-v2/GiveMeFive-Fusion-V2-reviewed/scripts/original-priority-engine.js",
+    "bytes": 4945,
+    "sha256": "73c32163af3f836bfa0eb988c01444037ede53bafe65527411598fd796e6f0e3"
+  },
+  {
+    "path": "audit-inputs/fusion-v2/GiveMeFive-Fusion-V2-reviewed/scripts/report_content.py",
+    "bytes": 10279,
+    "sha256": "d3c518f01d9ce11f2e02e490a6ca1543df73a07b19d7252f1583ece85618bae5"
+  },
+  {
+    "path": "audit-inputs/fusion-v2/GiveMeFive-Fusion-V2-reviewed/scripts/sync-assessment.cjs",
+    "bytes": 1244,
+    "sha256": "589724770f0ca14ad7ff6d19bf3d293e3cc9ad3183723d8ee88d9e12ea655680"
+  },
+  {
+    "path": "audit-inputs/fusion-v2/GiveMeFive-Fusion-V2-reviewed/start-preview.ps1",
+    "bytes": 933,
+    "sha256": "5bed3b809da8c96a2a578594973ae1d07f4071b4e07deada43290aa6aa5f5434"
+  },
+  {
+    "path": "audit-inputs/fusion-v2/GiveMeFive-Fusion-V2-reviewed/study-sessions.js",
+    "bytes": 1795,
+    "sha256": "81b8a835189ff5244c373c4cd7a99c1ed23adb863f67bdc95f51654a4153bdce"
+  },
+  {
+    "path": "audit-inputs/fusion-v2/GiveMeFive-Fusion-V2-reviewed/sw.js",
+    "bytes": 1661,
+    "sha256": "98f420a0fabff11f319c3f0f170a21f4187f0ee3787ff98e043a5c90050b9c19"
+  },
+  {
+    "path": "audit-inputs/fusion-v2/GiveMeFive-Fusion-V2-reviewed/topic-content.js",
+    "bytes": 12815,
+    "sha256": "03ec7be79f184073d0ae1511854a63adc256ff3f4e481c92861b80bb78a41649"
+  },
+  {
+    "path": "audit-inputs/fusion-v2/GiveMeFive-Fusion-V2-reviewed/ui-text.js",
+    "bytes": 15837,
+    "sha256": "b7837aec85259781319bda9276733ac7b6569c28741c8d8f55b30ea2248b83ab"
+  },
+  {
+    "path": "audit-inputs/fusion-v2/GiveMeFive-Fusion-V2-reviewed/σÉ»σè¿ GiveMeFive.cmd",
+    "bytes": 100,
+    "sha256": "fadd83f04112892dc489149493a7905de08cda6b6a3987da153f32b8016e0977"
+  },
+  {
+    "path": "audit-inputs/patch-v21/Fusion-V2.1-最终验收报告-2026-10-11.md",
+    "bytes": 17233,
+    "sha256": "8e4070fc87565fcb7da134c2e4b20ae00a7c6dd8e4bef02d70fc650eb5131ad7"
+  },
+  {
+    "path": "audit-inputs/patch-v21/Fusion-V2.1-浏览器证据.json",
+    "bytes": 54362,
+    "sha256": "cf97b766c310aed18950d7fb0c575b090f50edceabb7cf35e890df310fe1fd65"
+  },
+  {
+    "path": "audit-inputs/patch-v21/Fusion-V2.1-逻辑测试结果.json",
+    "bytes": 5496,
+    "sha256": "048a1588ae55dfb6d2f215e73183c57fca94bed953bbb49454ced356df0ccb92"
+  },
+  {
+    "path": "audit-inputs/patch-v21/Fusion-V2.1-隔离数据核对.json",
+    "bytes": 374,
+    "sha256": "918a109ff7b970369e296cdfeee31eae52deadf71964d04b83301543b6b11e3c"
+  },
+  {
+    "path": "audit-inputs/patch-v21/Fusion-V2.1.bundle",
+    "bytes": 527769,
+    "sha256": "4a4e9b17b05dd577997fd1fb70678468bc97d1fd12a79f6758aed404198dbea9"
+  },
+  {
+    "path": "audit-inputs/patch-v21/Fusion-V2.1.patch",
+    "bytes": 3108802,
+    "sha256": "f372ccd8375e24db5f694d6ab793f3f7d4fe45dd481581281ce208a57f76b996"
+  },
+  {
+    "path": "audit-inputs/patch-v21/V21-03-PDF-two-questions.jpg",
+    "bytes": 62812,
+    "sha256": "6f946b3e6b151f810ba8733df1f7a3241eb02842e01bb5a23d44cdefdcfa6c10"
+  },
+  {
+    "path": "audit-inputs/patch-v21/V21-04-exam-refresh-restored.jpg",
+    "bytes": 45794,
+    "sha256": "e72b2e0e5aa0351ec9078fd699cdd4215a30a66b4bd931ec49cef53c43d2b3f3"
+  },
+  {
+    "path": "audit-inputs/patch-v21/V21-05-exam-tab-reopen.jpg",
+    "bytes": 50362,
+    "sha256": "854b70f1a8266c781d4ed6e13e8d65c42f9ebb247c0025c3f8f0b1e3574e8f46"
+  },
+  {
+    "path": "audit-inputs/patch-v21/V21-07-recall-correct.jpg",
+    "bytes": 51390,
+    "sha256": "a8023a92e64bf4dd989eb3dd6676709b8cddfdadd2956a76d2c2f9549e76bea6"
+  },
+  {
+    "path": "audit-inputs/patch-v21/V21-08-auto-submit-100.jpg",
+    "bytes": 56975,
+    "sha256": "94cf60a0cf61a381c4afae64417fe7ad3921dacb85bc5bae64715d1a9509ec90"
+  },
+  {
+    "path": "audit-inputs/patch-v21/V21-09-MF-independent-success.jpg",
+    "bytes": 39981,
+    "sha256": "8fe4352efaad3c0a159ad752e4225c5180e76d94a5507137cd27cc8c7cfb163f"
+  },
+  {
+    "path": "audit-inputs/patch-v21/V21-10-DOCX-clean-editor.jpg",
+    "bytes": 64784,
+    "sha256": "284d860b83d07bfeebc64373fd7bee2a2df2b39cdc49ac42742c40345814b580"
+  },
+  {
+    "path": "audit-inputs/patch-v21/V21-12-MF-partial-repaired.jpg",
+    "bytes": 39044,
+    "sha256": "8bb7982e9d945b8c4075ab31075659a73a687670c07c612740b8b90e55ecbf2e"
+  },
+  {
+    "path": "audit-inputs/patch-v21/V21-14-DOCX-exam-no-leak-dark.jpg",
+    "bytes": 52938,
+    "sha256": "09efb72e7463dc12f2605438d6bea01b3fa7aca6c1bf3f98e665059f24370be9"
+  },
+  {
+    "path": "audit-inputs/patch-v21/V21-15-second-exam-result.jpg",
+    "bytes": 64616,
+    "sha256": "ea943ae973811c485bde7a563530f9a721ceeb60661d628697b0559fa17be303"
+  },
+  {
+    "path": "audit-inputs/patch-v21/V21-17-real-metadata-confirmed.jpg",
+    "bytes": 70211,
+    "sha256": "fc312ee55e83176680e12715b7c0fe1a7c3b27f6b7ebfc32070628e48ffba5bb"
+  },
+  {
+    "path": "audit-inputs/patch-v21/V21-18-mapped-repair-uncertain.jpg",
+    "bytes": 50963,
+    "sha256": "adbaa48733433c00aa51e72297c52da186d241a94708fa5e18637ffa3f98238a"
+  },
+  {
+    "path": "audit-inputs/patch-v21/V21-19-repair-return-topic.jpg",
+    "bytes": 103583,
+    "sha256": "877d26694d1d28bb117d45cc9b256f5a89f95a8178ffc1fc31b8f7df65181610"
+  },
+  {
+    "path": "audit-inputs/patch-v21/V21-30-MF-portrait-final.jpg",
+    "bytes": 42094,
+    "sha256": "9f51fd481ced15f954d3e59bf7805c9fdd3a1cc069fbcc755fa30ed45dd1d915"
+  },
+  {
+    "path": "audit-inputs/patch-v21/V21-31-PL-portrait-final.jpg",
+    "bytes": 56451,
+    "sha256": "b0955becf2dcddd5d36f96184df20821545a1c63e5b9cbb55ec64e0514c17517"
+  },
+  {
+    "path": "audit-inputs/patch-v21/V21-32-AS-editor-portrait.jpg",
+    "bytes": 68106,
+    "sha256": "58f2990edcb0ab34f77cb3d96fd09de59c9f1fabac0aed6254b9430c1a1e5e4a"
+  },
+  {
+    "path": "audit-inputs/patch-v21/V21-33-AS-portrait-final.jpg",
+    "bytes": 55672,
+    "sha256": "83fc6d110f9d8d07cadf9534bb9252d1bdd75b7e825b7237ad7d48f64ae4d9a5"
+  },
+  {
+    "path": "audit-inputs/patch-v21/V21-35-editor-light-final.jpg",
+    "bytes": 57502,
+    "sha256": "bb1d5593de50914b9f4f092dec2a750869402d8c4ae2fd1974c72ed35438dc6a"
+  },
+  {
+    "path": "audit-inputs/patch-v21/V21-36-editor-dark-final.jpg",
+    "bytes": 55467,
+    "sha256": "c9137b3907d683fea9a9013311dd159a082c92750ff57233229a4b288e001ca9"
+  },
+  {
+    "path": "audit-inputs/patch-v21/V21-37-AS-desktop-final.jpg",
+    "bytes": 65557,
+    "sha256": "d724b04b2f1bd1251f66bc274c977a72fe4754be29b8d6c7fb71b08942eab5e6"
+  },
+  {
+    "path": "audit-inputs/patch-v21/V21-39-MF-desktop-final.jpg",
+    "bytes": 37573,
+    "sha256": "bf87ef7f6ac2d9025b6486dd9c2a9e930b60e4498b596edea4eceb34b3eda7d9"
+  },
+  {
+    "path": "audit-inputs/patch-v21/V21-40-MF-landscape-verified.jpg",
+    "bytes": 26521,
+    "sha256": "76b250abcf36011905ca959462c971b6ce6eae3f7a0973cc73f1c7f44b7fb7d2"
+  },
+  {
+    "path": "audit-inputs/patch-v21/V21-41-exam-light-final.jpg",
+    "bytes": 60164,
+    "sha256": "074127249f7c9837ab13951590517458082b30c481d34f5b2360f9afb1615d1c"
+  },
+  {
+    "path": "audit-inputs/patch-v21/V21-45-result-frozen-time-final.jpg",
+    "bytes": 56761,
+    "sha256": "b19867a99b03851a2f6100cf8bb10d1ee9b75cf8828a7e980242ac81ef5fe261"
+  },
+  {
+    "path": "audit-inputs/patch-v21/V21-47-result-refresh-time-still-17.jpg",
+    "bytes": 55808,
+    "sha256": "2f1371b4c4cb288e78b9cbc62aec7520ee90cc90f5c0646462d604ce74bdd528"
+  },
+  {
+    "path": "audit-inputs/patch-v21/V21-48-no-course-honest-local-result.jpg",
+    "bytes": 59865,
+    "sha256": "2cccd57bf0764b9842a7a21e8d2b6c8669c711ab6b2a883cf3f58f0549be0aa7"
+  },
+  {
+    "path": "audit-inputs/patch-v21/V21-49-four-exams-three-MF-progress.jpg",
+    "bytes": 54336,
+    "sha256": "2f801a688bb73e17c231fdb46f0d3e6c8e06161aba427787faa813a055b76d5d"
+  },
+  {
+    "path": "audit-inputs/patch-v21/V21-50-old-tab-does-not-overwrite-language.jpg",
+    "bytes": 73790,
+    "sha256": "f4cf6b67d3ac1047afd33f7da69c67a97176d7c179078d546ba9d5f328cd1cfb"
+  },
+  {
+    "path": "audit-inputs/patch-v21/V21-51-native-DB-and-preferences-final.jpg",
+    "bytes": 49120,
+    "sha256": "750e88862b665009e8e100d8fb86ec24e428b07f24b5f8d4460eac8d073ea990"
+  },
+  {
+    "path": "audit-inputs/patch-v21/V21-52-delivery-Pathline.jpg",
+    "bytes": 72226,
+    "sha256": "e016be20f5d9ad197e2269f6f2c5dc8c66a6049e206befe13f19768637b2393d"
+  },
+  {
+    "path": "audit-inputs/patch-v21/V21-isolated-backup-final.json",
+    "bytes": 34109,
+    "sha256": "fb43591fd478272b9561bea801a451524deeb9d9d67ba75fbe50d4bf0f9d560d"
+  },
+  {
+    "path": "audit-inputs/source-only/GiveMeFive-Source-Only/.gitignore",
+    "bytes": 21,
+    "sha256": "01d8d0360f02a0c00e236a4eb2a1d8bdf83377acf442eaafad7a136bf14d6bb0"
+  },
+  {
+    "path": "audit-inputs/source-only/GiveMeFive-Source-Only/Assessment-原始源码/.gitignore",
+    "bytes": 1034,
+    "sha256": "cea8f4b3d99f18d4308fb9b149aaa0e0c574e0710424caaf0fe01fe9e6092d44"
+  },
+  {
+    "path": "audit-inputs/source-only/GiveMeFive-Source-Only/Assessment-原始源码/.npmrc",
+    "bytes": 48,
+    "sha256": "7cd80af2e968119afd7b1803b6ac51b51ea010b8da57c3606ea1ef8071a86068"
+  },
+  {
+    "path": "audit-inputs/source-only/GiveMeFive-Source-Only/Assessment-原始源码/.openai/hosting.json",
+    "bytes": 96,
+    "sha256": "eee76aa2e565504568c6e9cfd260efb7c343f3e2ca7f350b26f4a4aef3452204"
+  },
+  {
+    "path": "audit-inputs/source-only/GiveMeFive-Source-Only/Assessment-原始源码/app/chatgpt-auth.ts",
+    "bytes": 2640,
+    "sha256": "e19651c2d1db12696883ae3eb79d4f09dce249f7afa1144a62d544e2e18299ca"
+  },
+  {
+    "path": "audit-inputs/source-only/GiveMeFive-Source-Only/Assessment-原始源码/app/globals.css",
+    "bytes": 27123,
+    "sha256": "5b699ec78fd93020216ff511e7b1718635adcb2761e67f64407cba3f7228512f"
+  },
+  {
+    "path": "audit-inputs/source-only/GiveMeFive-Source-Only/Assessment-原始源码/app/layout.tsx",
+    "bytes": 535,
+    "sha256": "8930b7e0c557afa4e4c52c098742b79f02e30c91481a7c85ddb043ed662c4b78"
+  },
+  {
+    "path": "audit-inputs/source-only/GiveMeFive-Source-Only/Assessment-原始源码/app/page.tsx",
+    "bytes": 42142,
+    "sha256": "4d1bfdc6fd69872f0259b896e6116259452cef1fcc2f696dcbfcf779d2a7aad7"
+  },
+  {
+    "path": "audit-inputs/source-only/GiveMeFive-Source-Only/Assessment-原始源码/build/sites-vite-plugin.ts",
+    "bytes": 7415,
+    "sha256": "5b2d671313fe4ac10a1709e112d570da1267cb916f68655996a3ac3ea1dd80a9"
+  },
+  {
+    "path": "audit-inputs/source-only/GiveMeFive-Source-Only/Assessment-原始源码/cloudbase/main.tsx",
+    "bytes": 256,
+    "sha256": "9e16595eb94de396de9cd75cd8f2753dfc894be68b6656805dcba7dbdb2e6e74"
+  },
+  {
+    "path": "audit-inputs/source-only/GiveMeFive-Source-Only/Assessment-原始源码/cloudflare-env.d.ts",
+    "bytes": 105,
+    "sha256": "2ac980b29c91b8324a0d7864ec329c41e513fe81165aaffbc1220b8e85812759"
+  },
+  {
+    "path": "audit-inputs/source-only/GiveMeFive-Source-Only/Assessment-原始源码/components/ui/accordion.tsx",
+    "bytes": 2114,
+    "sha256": "810fded6b5f4f1d92370c8fa84b130cd9f26f1f37e30b1efcb48330338d91a70"
+  },
+  {
+    "path": "audit-inputs/source-only/GiveMeFive-Source-Only/Assessment-原始源码/components/ui/alert-dialog.tsx",
+    "bytes": 5635,
+    "sha256": "1ca7530a1f4727642aa96c619a320bc21488eb3bd6cf00666ef6fa3b1e346de0"
+  },
+  {
+    "path": "audit-inputs/source-only/GiveMeFive-Source-Only/Assessment-原始源码/components/ui/alert.tsx",
+    "bytes": 1680,
+    "sha256": "a36704ebac55c71e83302b1557d6bf188bb59552a46ea4e564acb4c913976926"
+  },
+  {
+    "path": "audit-inputs/source-only/GiveMeFive-Source-Only/Assessment-原始源码/components/ui/aspect-ratio.tsx",
+    "bytes": 285,
+    "sha256": "cdcb1701d142b15ad09bd3982493b82c5eb17e6512b8d0719325e6e723850bbd"
+  },
+  {
+    "path": "audit-inputs/source-only/GiveMeFive-Source-Only/Assessment-原始源码/components/ui/attachment.tsx",
+    "bytes": 6206,
+    "sha256": "c79fd808704543da1df455bbbdbcac7031979e126bafeadd2d5c97513b426159"
+  },
+  {
+    "path": "audit-inputs/source-only/GiveMeFive-Source-Only/Assessment-原始源码/components/ui/avatar.tsx",
+    "bytes": 3025,
+    "sha256": "d37287410ad1f496bcbd788f94245542984e3a124008d9dc72f92afa0f96de27"
+  },
+  {
+    "path": "audit-inputs/source-only/GiveMeFive-Source-Only/Assessment-原始源码/components/ui/badge.tsx",
+    "bytes": 1824,
+    "sha256": "9f25d280c75ac367fb5bbeea5f2f0f0fe10be226e364678b065069ec62dfaa06"
+  },
+  {
+    "path": "audit-inputs/source-only/GiveMeFive-Source-Only/Assessment-原始源码/components/ui/breadcrumb.tsx",
+    "bytes": 2459,
+    "sha256": "1d179a7717f52c7aaceed5a305a4be38f3fc08c3aaf0f593de718ecb59b25ca1"
+  },
+  {
+    "path": "audit-inputs/source-only/GiveMeFive-Source-Only/Assessment-原始源码/components/ui/bubble.tsx",
+    "bytes": 4824,
+    "sha256": "df3ead10c41081e73ef64e60cbff3f4ad7740af9fd2c21784294dee1504cbbc1"
+  },
+  {
+    "path": "audit-inputs/source-only/GiveMeFive-Source-Only/Assessment-原始源码/components/ui/button-group.tsx",
+    "bytes": 2285,
+    "sha256": "90f87a3b4398540a58d8fb05559df0939d8073a7550a8af646d86c97145dd00e"
+  },
+  {
+    "path": "audit-inputs/source-only/GiveMeFive-Source-Only/Assessment-原始源码/components/ui/button.tsx",
+    "bytes": 2456,
+    "sha256": "38447e736fdb7524f96f4adb6eada4ff9e4e68cf9eeb2415c357544ff347e8a3"
+  },
+  {
+    "path": "audit-inputs/source-only/GiveMeFive-Source-Only/Assessment-原始源码/components/ui/calendar.tsx",
+    "bytes": 8052,
+    "sha256": "0349754fe228253ae94ba9f641d903fdb5917b502bef2087f8f5c6b0a93326ba"
+  },
+  {
+    "path": "audit-inputs/source-only/GiveMeFive-Source-Only/Assessment-原始源码/components/ui/card.tsx",
+    "bytes": 2079,
+    "sha256": "d213fee777a9c38c3276b0e6b14707987302b83308baf4656dc1d5ae0610053f"
+  },
+  {
+    "path": "audit-inputs/source-only/GiveMeFive-Source-Only/Assessment-原始源码/components/ui/carousel.tsx",
+    "bytes": 5797,
+    "sha256": "45c8d7786dcbc4e08ed3506fb8946f1c8abf1fa720b228792fe8430a56f3da6a"
+  },
+  {
+    "path": "audit-inputs/source-only/GiveMeFive-Source-Only/Assessment-原始源码/components/ui/chart.tsx",
+    "bytes": 10991,
+    "sha256": "f60244582b56d42fb6631f9ac7026f3ea421d8cc31bfdda0e7727cae2a064687"
+  },
+  {
+    "path": "audit-inputs/source-only/GiveMeFive-Source-Only/Assessment-原始源码/components/ui/checkbox.tsx",
+    "bytes": 1246,
+    "sha256": "afcdd47885bdfa92997ef8da0fe231ae19b728594f7448eb437f7d7e94fc5b4f"
+  },
+  {
+    "path": "audit-inputs/source-only/GiveMeFive-Source-Only/Assessment-原始源码/components/ui/collapsible.tsx",
+    "bytes": 828,
+    "sha256": "c3649a69d53668fcceba2d83c97a3146fc2930a00c30fe281875238384e7bff2"
+  },
+  {
+    "path": "audit-inputs/source-only/GiveMeFive-Source-Only/Assessment-原始源码/components/ui/combobox.tsx",
+    "bytes": 9468,
+    "sha256": "63f37425ab8eac82374dcb9d7ac4fec1406ffabd1c64006c59800f295fd43f6c"
+  },
+  {
+    "path": "audit-inputs/source-only/GiveMeFive-Source-Only/Assessment-原始源码/components/ui/command.tsx",
+    "bytes": 5002,
+    "sha256": "67bc4de1f69b46c405ea1209a40a9b08a2e301aa8d36d3c54ce1b05c3039eb6e"
+  },
+  {
+    "path": "audit-inputs/source-only/GiveMeFive-Source-Only/Assessment-原始源码/components/ui/context-menu.tsx",
+    "bytes": 8520,
+    "sha256": "0e0f98b6cf175912c541330f3b492476f8fa2712f13f265e8779ad0b93437d16"
+  },
+  {
+    "path": "audit-inputs/source-only/GiveMeFive-Source-Only/Assessment-原始源码/components/ui/dialog.tsx",
+    "bytes": 4461,
+    "sha256": "7ba15f4c9dd993977d4d3dc70aef92d3e95548a32e5edc6f268c44921bbc15e8"
+  },
+  {
+    "path": "audit-inputs/source-only/GiveMeFive-Source-Only/Assessment-原始源码/components/ui/direction.tsx",
+    "bytes": 528,
+    "sha256": "cd2c00d9757eea6dcf3242d71de8f397d29291a67fba5c39fb03c4c60746f36c"
+  },
+  {
+    "path": "audit-inputs/source-only/GiveMeFive-Source-Only/Assessment-原始源码/components/ui/drawer.tsx",
+    "bytes": 4390,
+    "sha256": "9c21e1c99e256689192ab009f461568ea9ea99137b3b0e3010f56b7ee2bbd444"
+  },
+  {
+    "path": "audit-inputs/source-only/GiveMeFive-Source-Only/Assessment-原始源码/components/ui/dropdown-menu.tsx",
+    "bytes": 8675,
+    "sha256": "fe670b2a67ac46915410a17cd5e4d529be2424c1b0fd8b8f41c178ac53ff6c3b"
+  },
+  {
+    "path": "audit-inputs/source-only/GiveMeFive-Source-Only/Assessment-原始源码/components/ui/empty.tsx",
+    "bytes": 2500,
+    "sha256": "1523589e7664f743fc6cddf7daa7b7c030fbac6c5613a80f79478562277eda56"
+  },
+  {
+    "path": "audit-inputs/source-only/GiveMeFive-Source-Only/Assessment-原始源码/components/ui/field.tsx",
+    "bytes": 6407,
+    "sha256": "ae5a1b6af5009609b3855acea85cf6cee9dd2698304d61995df458145319be53"
+  },
+  {
+    "path": "audit-inputs/source-only/GiveMeFive-Source-Only/Assessment-原始源码/components/ui/form.tsx",
+    "bytes": 3924,
+    "sha256": "27d0cc0e59d9102f5287e857a5bf489e9cdd66f4d53cbfac8d0d967c7f2835b7"
+  },
+  {
+    "path": "audit-inputs/source-only/GiveMeFive-Source-Only/Assessment-原始源码/components/ui/hover-card.tsx",
+    "bytes": 1570,
+    "sha256": "ce70a075f5422d9055eff971f1214b820806637d9fbce235df83206d1448cdb3"
+  },
+  {
+    "path": "audit-inputs/source-only/GiveMeFive-Source-Only/Assessment-原始源码/components/ui/input-group.tsx",
+    "bytes": 5235,
+    "sha256": "dd5a0fc5dd10d7a829041ca19a3b8f040758761f657783dbae632c851ad10044"
+  },
+  {
+    "path": "audit-inputs/source-only/GiveMeFive-Source-Only/Assessment-原始源码/components/ui/input-otp.tsx",
+    "bytes": 2331,
+    "sha256": "aa8d62769d9e9a0bf40aec5aa427a3a34be5852a6f61b390aa7aa5fa50ab3b46"
+  },
+  {
+    "path": "audit-inputs/source-only/GiveMeFive-Source-Only/Assessment-原始源码/components/ui/input.tsx",
+    "bytes": 983,
+    "sha256": "44714284bdbafbf7634a4807eff5d6b493b5b5fc1a562a269a874de1eb50ea7c"
+  },
+  {
+    "path": "audit-inputs/source-only/GiveMeFive-Source-Only/Assessment-原始源码/components/ui/item.tsx",
+    "bytes": 4679,
+    "sha256": "9ff8e5411d0684cb97a717c8c3498e6c11d56c21ce84dbcd6ba15f5167b1038b"
+  },
+  {
+    "path": "audit-inputs/source-only/GiveMeFive-Source-Only/Assessment-原始源码/components/ui/kbd.tsx",
+    "bytes": 890,
+    "sha256": "087e34753566167ad99b8c69c6c0a3cfeaabf0d2a579e739ec1dd8d66910da1f"
+  },
+  {
+    "path": "audit-inputs/source-only/GiveMeFive-Source-Only/Assessment-原始源码/components/ui/label.tsx",
+    "bytes": 630,
+    "sha256": "43e7cadacf1e0d71c1668dc388271656d2db8c4d45f2144d52d594f9aca31ca5"
+  },
+  {
+    "path": "audit-inputs/source-only/GiveMeFive-Source-Only/Assessment-原始源码/components/ui/marker.tsx",
+    "bytes": 1933,
+    "sha256": "d94da269dd74ff4410393c57bd57bf965808314ce7cd5710e795a33f8b62240e"
+  },
+  {
+    "path": "audit-inputs/source-only/GiveMeFive-Source-Only/Assessment-原始源码/components/ui/menubar.tsx",
+    "bytes": 8665,
+    "sha256": "1625b156556efa470d6a767596eb3237ece71fb5a799040f6921a367b1e26bc7"
+  },
+  {
+    "path": "audit-inputs/source-only/GiveMeFive-Source-Only/Assessment-原始源码/components/ui/message-scroller.tsx",
+    "bytes": 4122,
+    "sha256": "abb2e962ef1d6952bb1caee7a135b079fedbd3833a1b871cd9079c880bbc0ffa"
+  },
+  {
+    "path": "audit-inputs/source-only/GiveMeFive-Source-Only/Assessment-原始源码/components/ui/message.tsx",
+    "bytes": 2324,
+    "sha256": "a4a7f8a104559536a531e198d1a7a239cdd55748da74a0a3e2088f275e153287"
+  },
+  {
+    "path": "audit-inputs/source-only/GiveMeFive-Source-Only/Assessment-原始源码/components/ui/native-select.tsx",
+    "bytes": 2057,
+    "sha256": "d62b4479c6419a37ee748b1a6536c51d6676a3a04afdea27619e6481b6cdb442"
+  },
+  {
+    "path": "audit-inputs/source-only/GiveMeFive-Source-Only/Assessment-原始源码/components/ui/navigation-menu.tsx",
+    "bytes": 6826,
+    "sha256": "a42f6e39ce4b18d0cadfe91265b9419ddd8b157a9778a5ed754f45e72a902252"
+  },
+  {
+    "path": "audit-inputs/source-only/GiveMeFive-Source-Only/Assessment-原始源码/components/ui/pagination.tsx",
+    "bytes": 2844,
+    "sha256": "9d9ba519da639b1993b7df95e8b0d394e8dc2c61fda7320c05ec1c5332ae56fb"
+  },
+  {
+    "path": "audit-inputs/source-only/GiveMeFive-Source-Only/Assessment-原始源码/components/ui/popover.tsx",
+    "bytes": 2446,
+    "sha256": "2520e46424ba0ce4407c83c47cb717e1a5e7e51c26449b1eabeaeab779c05e76"
+  },
+  {
+    "path": "audit-inputs/source-only/GiveMeFive-Source-Only/Assessment-原始源码/components/ui/progress.tsx",
+    "bytes": 787,
+    "sha256": "c6f42ff7f284ce9e965b1bad059dd401a951d6254e5070877b129ff8195c7707"
+  },
+  {
+    "path": "audit-inputs/source-only/GiveMeFive-Source-Only/Assessment-原始源码/components/ui/radio-group.tsx",
+    "bytes": 1505,
+    "sha256": "45af968f5e426f9268a6623ccc55d67f1a0973742dd01f12917f981690d13a68"
+  },
+  {
+    "path": "audit-inputs/source-only/GiveMeFive-Source-Only/Assessment-原始源码/components/ui/resizable.tsx",
+    "bytes": 1868,
+    "sha256": "bfb26b64a3c1d6e0a71bebe06738f209724588deb8ff3048a10f130ca920828a"
+  },
+  {
+    "path": "audit-inputs/source-only/GiveMeFive-Source-Only/Assessment-原始源码/components/ui/scroll-area.tsx",
+    "bytes": 1697,
+    "sha256": "509e700a8f6a26386a0e61dcacc3f6b4fe42fa31c5444a2b27d9952e772b80fd"
+  },
+  {
+    "path": "audit-inputs/source-only/GiveMeFive-Source-Only/Assessment-原始源码/components/ui/select.tsx",
+    "bytes": 6543,
+    "sha256": "f4434ef49e240b581e951cee362cb57e11e8a9bbbe4238395a034ba599ce298c"
+  },
+  {
+    "path": "audit-inputs/source-only/GiveMeFive-Source-Only/Assessment-原始源码/components/ui/separator.tsx",
+    "bytes": 722,
+    "sha256": "8cdd3c705eb6b04bbe8fbe87cc5f193de72b17d85f02020f7e4e9bd206c50f59"
+  },
+  {
+    "path": "audit-inputs/source-only/GiveMeFive-Source-Only/Assessment-原始源码/components/ui/sheet.tsx",
+    "bytes": 4331,
+    "sha256": "57d5e84b5b1ac6d1769dc53632b52236096140df8f3a4a10e8343bd73d186290"
+  },
+  {
+    "path": "audit-inputs/source-only/GiveMeFive-Source-Only/Assessment-原始源码/components/ui/sidebar.tsx",
+    "bytes": 22249,
+    "sha256": "74ecebd633481b76e425e8b40c9cdad7e43c2872cd699d8a56690e889da9620b"
+  },
+  {
+    "path": "audit-inputs/source-only/GiveMeFive-Source-Only/Assessment-原始源码/components/ui/skeleton.tsx",
+    "bytes": 289,
+    "sha256": "85957151311e53eb49bdb54f5e2e6d8ff4461b14d887d8073e0cde846d539691"
+  },
+  {
+    "path": "audit-inputs/source-only/GiveMeFive-Source-Only/Assessment-原始源码/components/ui/slider.tsx",
+    "bytes": 2054,
+    "sha256": "deb4c937a6036d33236c8defcb6df42ba5886fef32dc1d67763eecfebcff5b69"
+  },
+  {
+    "path": "audit-inputs/source-only/GiveMeFive-Source-Only/Assessment-原始源码/components/ui/sonner.tsx",
+    "bytes": 1074,
+    "sha256": "f4d2c855754828ceed89ad6455aa8082f80566d82c3ab79b8db5271c5102b632"
+  },
+  {
+    "path": "audit-inputs/source-only/GiveMeFive-Source-Only/Assessment-原始源码/components/ui/spinner.tsx",
+    "bytes": 347,
+    "sha256": "cbf9073613aed22ffd4ba21219adc1d1b8dce311d4280800f772b5eae587eeff"
+  },
+  {
+    "path": "audit-inputs/source-only/GiveMeFive-Source-Only/Assessment-原始源码/components/ui/switch.tsx",
+    "bytes": 1443,
+    "sha256": "21126011e315385b26ba57c494fa18553ac81f85f5814c3c9a79ff864ae66ee5"
+  },
+  {
+    "path": "audit-inputs/source-only/GiveMeFive-Source-Only/Assessment-原始源码/components/ui/table.tsx",
+    "bytes": 2594,
+    "sha256": "02d16a0d04c4fd2990ef41d9c5963335aa0eec93d41518e18476656113894626"
+  },
+  {
+    "path": "audit-inputs/source-only/GiveMeFive-Source-Only/Assessment-原始源码/components/ui/tabs.tsx",
+    "bytes": 3873,
+    "sha256": "3a200c6fa6d683681f066f1e9b3868ef22d3cf9d3d925d7364edae9900484aa3"
+  },
+  {
+    "path": "audit-inputs/source-only/GiveMeFive-Source-Only/Assessment-原始源码/components/ui/textarea.tsx",
+    "bytes": 777,
+    "sha256": "d5084a2bc607d9e2322e440d36643610478982bc4ecd4ddf5ee2b805418e1198"
+  },
+  {
+    "path": "audit-inputs/source-only/GiveMeFive-Source-Only/Assessment-原始源码/components/ui/toggle-group.tsx",
+    "bytes": 2391,
+    "sha256": "cf2efaaad5b80f1df4636a3e730fe0bfc25e55674fa37414c2f8f1ba02c20708"
+  },
+  {
+    "path": "audit-inputs/source-only/GiveMeFive-Source-Only/Assessment-原始源码/components/ui/toggle.tsx",
+    "bytes": 1612,
+    "sha256": "961640a6cfdfd1cdfbc2196f6d4b8bc7a0606347769bc0d0d929bd50b6d86140"
+  },
+  {
+    "path": "audit-inputs/source-only/GiveMeFive-Source-Only/Assessment-原始源码/components/ui/tooltip.tsx",
+    "bytes": 1887,
+    "sha256": "2ed212576e61f83f86a4ea00d40751181e5889b2bf8d660eede5d0adee46cb76"
+  },
+  {
+    "path": "audit-inputs/source-only/GiveMeFive-Source-Only/Assessment-原始源码/components.json",
+    "bytes": 441,
+    "sha256": "820e913f34219d16b5e7ec5865df9c444bb5b8acf230db4e589d660e4a21743e"
+  },
+  {
+    "path": "audit-inputs/source-only/GiveMeFive-Source-Only/Assessment-原始源码/db/index.ts",
+    "bytes": 436,
+    "sha256": "effa59e46bcbb42dfb7b46911e809a1de0f2c37df1fd935e3dca89023eaf97e4"
+  },
+  {
+    "path": "audit-inputs/source-only/GiveMeFive-Source-Only/Assessment-原始源码/db/schema.ts",
+    "bytes": 173,
+    "sha256": "48b4f7fafee1f2720b8977ba31bc0cf03dedb7ea8826c4bcbc8dfd74f2d8744f"
+  },
+  {
+    "path": "audit-inputs/source-only/GiveMeFive-Source-Only/Assessment-原始源码/drizzle/meta/_journal.json",
+    "bytes": 66,
+    "sha256": "5a5f57f8f48fcf1d065725c0f3dab19e590e96e7e1e5bf8ddff17339a0de8d9a"
+  },
+  {
+    "path": "audit-inputs/source-only/GiveMeFive-Source-Only/Assessment-原始源码/drizzle.config.ts",
+    "bytes": 155,
+    "sha256": "73d0807c58e541dc3eaf175909fb5acc966faed61f74ff659d9d55027bf3e25b"
+  },
+  {
+    "path": "audit-inputs/source-only/GiveMeFive-Source-Only/Assessment-原始源码/eslint.config.mjs",
+    "bytes": 905,
+    "sha256": "3d47f86e2eb3eb5e8bd7721482c76a97aabaeb68c733d3d319879b68b27137cd"
+  },
+  {
+    "path": "audit-inputs/source-only/GiveMeFive-Source-Only/Assessment-原始源码/examples/d1/app/api/notes/route.ts",
+    "bytes": 1758,
+    "sha256": "b0b134b9b0b4a9f5947abbd13fd4425b88b59c64f91db1aacb0cecbc16c38f45"
+  },
+  {
+    "path": "audit-inputs/source-only/GiveMeFive-Source-Only/Assessment-原始源码/examples/d1/db/schema.ts",
+    "bytes": 379,
+    "sha256": "1acd70317bcaf22cb140436fb47754c2144e7c2adfc59a3f427ecb1d816fa0f3"
+  },
+  {
+    "path": "audit-inputs/source-only/GiveMeFive-Source-Only/Assessment-原始源码/hooks/use-mobile.ts",
+    "bytes": 584,
+    "sha256": "d2377fbad5ad2bdf7fa896a68c36ac8bf4aa74a974b2061f77b41ae58d623001"
+  },
+  {
+    "path": "audit-inputs/source-only/GiveMeFive-Source-Only/Assessment-原始源码/lib/docx-option-parsing.ts",
+    "bytes": 14497,
+    "sha256": "adf4a7c057a110d0a16b7862897db84e2a37f3261b6a450cd0606b6b9eda6939"
+  },
+  {
+    "path": "audit-inputs/source-only/GiveMeFive-Source-Only/Assessment-原始源码/lib/learning-bridge.ts",
+    "bytes": 667,
+    "sha256": "8c031cace0b86256109da5361129f11151ddfe66c33debde77f4294fa16bacf2"
+  },
+  {
+    "path": "audit-inputs/source-only/GiveMeFive-Source-Only/Assessment-原始源码/lib/paper-draft.ts",
+    "bytes": 2348,
+    "sha256": "314ff5b115d51058079ad5587e41cf0f0d7e233acfee51c34e1eb8441a4c45bf"
+  },
+  {
+    "path": "audit-inputs/source-only/GiveMeFive-Source-Only/Assessment-原始源码/lib/pdf-browser.ts",
+    "bytes": 2324,
+    "sha256": "865cc847f911aab3bdcba92906529f69a1c03feaa6b77c96fd7caee0a58c69d4"
+  },
+  {
+    "path": "audit-inputs/source-only/GiveMeFive-Source-Only/Assessment-原始源码/lib/question-splitting.ts",
+    "bytes": 1956,
+    "sha256": "d35bf6b139218edd0d67f745cbc3d6cc634129432350d61899677e6fbc6571d0"
+  },
+  {
+    "path": "audit-inputs/source-only/GiveMeFive-Source-Only/Assessment-原始源码/lib/utils.ts",
+    "bytes": 183,
+    "sha256": "c2aa0cde88a8b5b5db7718003da1a345bdcce5f31085800b66ff0dddedfb0254"
+  },
+  {
+    "path": "audit-inputs/source-only/GiveMeFive-Source-Only/Assessment-原始源码/next.config.ts",
+    "bytes": 140,
+    "sha256": "a972c4f0ffa6dd714e7909b02d1ac19d2f2fe3d01f191efd2c5054bd6f142ec1"
+  },
+  {
+    "path": "audit-inputs/source-only/GiveMeFive-Source-Only/Assessment-原始源码/package.json",
+    "bytes": 2378,
+    "sha256": "2bd5495163efbb671da922fc284b2fb8d68ac56798c072f90f8998f6d8a12b7f"
+  },
+  {
+    "path": "audit-inputs/source-only/GiveMeFive-Source-Only/Assessment-原始源码/pnpm-lock.yaml",
+    "bytes": 361785,
+    "sha256": "2da4c0d0bd8496ecad5ea759dc926bfb472b5b47ccd66e4dd0fa5eaf798e9bc9"
+  },
+  {
+    "path": "audit-inputs/source-only/GiveMeFive-Source-Only/Assessment-原始源码/pnpm-workspace.yaml",
+    "bytes": 780,
+    "sha256": "f1c80413554cf1621dc346937b9330f0941d780550d0365a60e20ca067c05ec3"
+  },
+  {
+    "path": "audit-inputs/source-only/GiveMeFive-Source-Only/Assessment-原始源码/postcss.config.mjs",
+    "bytes": 101,
+    "sha256": "7b299d3d3b16699ddda397c0b2373b3af4f25f8fc9ccc9b3d9e64ef083bc1c21"
+  },
+  {
+    "path": "audit-inputs/source-only/GiveMeFive-Source-Only/Assessment-原始源码/scripts/build-verified.sh",
+    "bytes": 687,
+    "sha256": "61024a70b28a732585428398f58ca96331b6850642683bf4a35297974a0125f4"
+  },
+  {
+    "path": "audit-inputs/source-only/GiveMeFive-Source-Only/Assessment-原始源码/scripts/execution-profile.mjs",
+    "bytes": 640,
+    "sha256": "2581f6f47a0903d0d6cb3b26def05fae88026a7ae8c88f5d7dabe5dbcbd6ee32"
+  },
+  {
+    "path": "audit-inputs/source-only/GiveMeFive-Source-Only/Assessment-原始源码/scripts/install-ci.mjs",
+    "bytes": 1667,
+    "sha256": "7b211ba1d60beb4c899ac491f9de050b5dc4355ae1ffddebfb9794597125567d"
+  },
+  {
+    "path": "audit-inputs/source-only/GiveMeFive-Source-Only/Assessment-原始源码/scripts/install-ci.sh",
+    "bytes": 7705,
+    "sha256": "20c31683bd6c0c1e468a1c5337cce91369bbeb0f21cc176531bf9af3b5409d59"
+  },
+  {
+    "path": "audit-inputs/source-only/GiveMeFive-Source-Only/Assessment-原始源码/scripts/install-pnpm.sh",
+    "bytes": 9240,
+    "sha256": "88c00401d197e7dff5ce9a05c6a795c2de86c7675f3089293ae3a61bb94c14fd"
+  },
+  {
+    "path": "audit-inputs/source-only/GiveMeFive-Source-Only/Assessment-原始源码/scripts/package-cloudbase.mjs",
+    "bytes": 1153,
+    "sha256": "684ece4d0258723beef09d4bc6d223b94333eb3fbf1191404d7c2f73008b59e6"
+  },
+  {
+    "path": "audit-inputs/source-only/GiveMeFive-Source-Only/Assessment-原始源码/scripts/pnpm-install.mjs",
+    "bytes": 10903,
+    "sha256": "cb6fe1aca71b0f6486fa6ed3afea11fc5c88d2496d98dffeb5bd0d272b6c7dac"
+  },
+  {
+    "path": "audit-inputs/source-only/GiveMeFive-Source-Only/Assessment-原始源码/scripts/run-framework.mjs",
+    "bytes": 1016,
+    "sha256": "72075798db6191995dee4e15ba5e0a5b0c23060ff0be4acc5be085062b27fcff"
+  },
+  {
+    "path": "audit-inputs/source-only/GiveMeFive-Source-Only/Assessment-原始源码/scripts/sites-env.mjs",
+    "bytes": 928,
+    "sha256": "4cb12e49c5eec402d920cd98d74ebc3267c9a38b0f63445a619d4271979dd774"
+  },
+  {
+    "path": "audit-inputs/source-only/GiveMeFive-Source-Only/Assessment-原始源码/scripts/sites-env.sh",
+    "bytes": 1582,
+    "sha256": "29bc00ff806de5fe25039b869e32e9a458e273555b139a09b4f9c1ed8f59df73"
+  },
+  {
+    "path": "audit-inputs/source-only/GiveMeFive-Source-Only/Assessment-原始源码/scripts/test-docx-option-parsing.mjs",
+    "bytes": 6825,
+    "sha256": "f643a88e3380ba6187c4d9b70ce0433752d23ed37a5b7c194c962cc8a96e3733"
+  },
+  {
+    "path": "audit-inputs/source-only/GiveMeFive-Source-Only/Assessment-原始源码/scripts/test-question-splitting.mjs",
+    "bytes": 1977,
+    "sha256": "5acd500a54b5bd1855d7f88c67ad7f9e04e05bd96a00c7e44d43be9d7e621681"
+  },
+  {
+    "path": "audit-inputs/source-only/GiveMeFive-Source-Only/Assessment-原始源码/tsconfig.json",
+    "bytes": 847,
+    "sha256": "755d473a6eb4f384deb37066c554995d9af3d3eb1e5b566ee7fbbf80a9dda208"
+  },
+  {
+    "path": "audit-inputs/source-only/GiveMeFive-Source-Only/Assessment-原始源码/types/mammoth-browser.d.ts",
+    "bytes": 283,
+    "sha256": "85fd443abde411e962a3f945e6cf854bda3ad2fc35d3cbe0f5eadcadeb9b55d8"
+  },
+  {
+    "path": "audit-inputs/source-only/GiveMeFive-Source-Only/Assessment-原始源码/types/vite-assets.d.ts",
+    "bytes": 84,
+    "sha256": "4cc98d05ff925fe476db8959583780834480e891b946436949634ea8990a6953"
+  },
+  {
+    "path": "audit-inputs/source-only/GiveMeFive-Source-Only/Assessment-原始源码/vite.cloudbase.config.ts",
+    "bytes": 415,
+    "sha256": "c5c40ad3a9158144012893790dec6cce1b3df41623dcc881e002f7ee890eb99d"
+  },
+  {
+    "path": "audit-inputs/source-only/GiveMeFive-Source-Only/Assessment-原始源码/vite.config.ts",
+    "bytes": 2308,
+    "sha256": "7c283af12e8cb19188c98d8571a0b68c3e5fee5a8e7749518754778dabd2a4cd"
+  },
+  {
+    "path": "audit-inputs/source-only/GiveMeFive-Source-Only/app.js",
+    "bytes": 75852,
+    "sha256": "93b5591683c407a3966515a2705b3dfa64897662d8044a754213b5c9f8774a57"
+  },
+  {
+    "path": "audit-inputs/source-only/GiveMeFive-Source-Only/content-runtime.js",
+    "bytes": 2409,
+    "sha256": "0789da0884c9e7ebaa050252a731836e0cacf472751cb182eaeab0284b42d009"
+  },
+  {
+    "path": "audit-inputs/source-only/GiveMeFive-Source-Only/fusion-core.js",
+    "bytes": 17461,
+    "sha256": "171329b31c906b41fb7de9fc1bd6dfffc34e2cc342ace03165f1694ae367c30e"
+  },
+  {
+    "path": "audit-inputs/source-only/GiveMeFive-Source-Only/fusion.css",
+    "bytes": 22521,
+    "sha256": "cc507de1a9886e63dacbb5c9213440c1fba259d243b51f8fa46d2c46996601ed"
+  },
+  {
+    "path": "audit-inputs/source-only/GiveMeFive-Source-Only/index.html",
+    "bytes": 1195,
+    "sha256": "789d6ca494d4beb1bd22f1f390a77caa8c810dcb6bd4c023b277e44a4e8b5da6"
+  },
+  {
+    "path": "audit-inputs/source-only/GiveMeFive-Source-Only/learning-store.js",
+    "bytes": 4521,
+    "sha256": "cdc872052fd2248826adb992304eb69ecb47df73a41288d6dfc7f3bab7ea6990"
+  },
+  {
+    "path": "audit-inputs/source-only/GiveMeFive-Source-Only/mind-flow/app.js",
+    "bytes": 50737,
+    "sha256": "398432fd5ebba5dcc8be7e8bd2ade3ba94106755277821a8628f7d0cccfeebd1"
+  },
+  {
+    "path": "audit-inputs/source-only/GiveMeFive-Source-Only/mind-flow/blueprints.js",
+    "bytes": 6749,
+    "sha256": "cbce4470ad60b3e0550ca84f61fb7c0c986921b39b74fcbeab7736eb7be8e427"
+  },
+  {
+    "path": "audit-inputs/source-only/GiveMeFive-Source-Only/mind-flow/flow-core.js",
+    "bytes": 8373,
+    "sha256": "f2fcb7341f606034bd077e4966a0e419d96f612ef13fc1bd81ce7e0be57f4a02"
+  },
+  {
+    "path": "audit-inputs/source-only/GiveMeFive-Source-Only/mind-flow/fusion-mf.css",
+    "bytes": 4572,
+    "sha256": "258ed6181ed54c77c670ddf2804390d07fde6f8a3d08caed0b1f82bcb96f3efd"
+  },
+  {
+    "path": "audit-inputs/source-only/GiveMeFive-Source-Only/mind-flow/index.html",
+    "bytes": 16817,
+    "sha256": "ccbb91f5ddeda1a85d69c430234cfab18baf3edc8da8e7b6a2a4560440ce97c2"
+  },
+  {
+    "path": "audit-inputs/source-only/GiveMeFive-Source-Only/mind-flow/pathline-bridge.js",
+    "bytes": 1258,
+    "sha256": "4557278ea6e6307b48de8495e035e5847c7624a81c37f3f546d2314b5cd36a3c"
+  },
+  {
+    "path": "audit-inputs/source-only/GiveMeFive-Source-Only/mind-flow/styles.css",
+    "bytes": 24508,
+    "sha256": "79c590af2da9ff0e0303ac933d87dab007c548d31cf4e59788b6a87c769872b0"
+  },
+  {
+    "path": "audit-inputs/source-only/GiveMeFive-Source-Only/mind-flow/v1.js",
+    "bytes": 5120,
+    "sha256": "e649a5fefccc5aa54384529320a0a28a9f6d2c2f5c4d23a19dda79a8d84fa9d0"
+  },
+  {
+    "path": "audit-inputs/source-only/GiveMeFive-Source-Only/pathline-base.css",
+    "bytes": 20557,
+    "sha256": "59bc04e7db85c1d760e5623ff9d3febabcd36036b90062e9c9747e9eb3b5773d"
+  },
+  {
+    "path": "audit-inputs/source-only/GiveMeFive-Source-Only/pathline-core.js",
+    "bytes": 47788,
+    "sha256": "27a6d7ecf7194c01cda80e5ab9f544b3736d5b615e961d383cb300b00922ffb3"
+  },
+  {
+    "path": "audit-inputs/source-only/GiveMeFive-Source-Only/review-contract.js",
+    "bytes": 1185,
+    "sha256": "572a4bec59ff7f6730a3b91a12f52e4a9aaadf46fec060655ca3f14ec989ec53"
+  },
+  {
+    "path": "audit-inputs/source-only/GiveMeFive-Source-Only/scripts/audit_content.py",
+    "bytes": 8107,
+    "sha256": "86603c94fef3985d0d2b1b69d23e4e63404809cfaeaf580e5ec38ec256813823"
+  },
+  {
+    "path": "audit-inputs/source-only/GiveMeFive-Source-Only/scripts/build_textbook.py",
+    "bytes": 24624,
+    "sha256": "f0d9274f64352b366e2dd3b006746f25f81e919ad4e15c8004fa1bfa83d19671"
+  },
+  {
+    "path": "audit-inputs/source-only/GiveMeFive-Source-Only/scripts/check-fusion.cjs",
+    "bytes": 9918,
+    "sha256": "d9f13bbe3e093a4743275b8cdae213bf14b78c0061ec2d68010ccc0f00e3cb5b"
+  },
+  {
+    "path": "audit-inputs/source-only/GiveMeFive-Source-Only/scripts/check-mf-v1.cjs",
+    "bytes": 5802,
+    "sha256": "8c66cdaae74c887c08ac105ecc71ef967556f05a8989be5ceab8f03e8737bf8d"
+  },
+  {
+    "path": "audit-inputs/source-only/GiveMeFive-Source-Only/scripts/check-mf.cjs",
+    "bytes": 4166,
+    "sha256": "a3f47d69cd0c9b751586ac93194f9f5a984427b35bc212e5642c73b65acb1159"
+  },
+  {
+    "path": "audit-inputs/source-only/GiveMeFive-Source-Only/scripts/check-stabilization.cjs",
+    "bytes": 5580,
+    "sha256": "22f9997af143462701ec5aa2090dca06f4affc0c7647b72547354d0112aeb23b"
+  },
+  {
+    "path": "audit-inputs/source-only/GiveMeFive-Source-Only/scripts/check_content_complete.py",
+    "bytes": 6138,
+    "sha256": "81fba492dc1cf02c7c47e47ae47055ebbcd40a723d86b5424fb72a0676c2d71e"
+  },
+  {
+    "path": "audit-inputs/source-only/GiveMeFive-Source-Only/scripts/check_textbook.py",
+    "bytes": 4886,
+    "sha256": "b2775bcfedb8d8a495fb58eeb511f6d2c126ec46044c74be59dc164d6bb5de85"
+  },
+  {
+    "path": "audit-inputs/source-only/GiveMeFive-Source-Only/scripts/complete_textbook.py",
+    "bytes": 22146,
+    "sha256": "6bd5772848cb1e56da4b1c25986f924f9ab277db69218d83e46813f0a5507e9e"
+  },
+  {
+    "path": "audit-inputs/source-only/GiveMeFive-Source-Only/scripts/curate_content.py",
+    "bytes": 8889,
+    "sha256": "b7985bbb5163edfa5f68f59603d6e91f2e8c554a229c12d2750aa377c53253a6"
+  },
+  {
+    "path": "audit-inputs/source-only/GiveMeFive-Source-Only/scripts/original-priority-engine.js",
+    "bytes": 4945,
+    "sha256": "73c32163af3f836bfa0eb988c01444037ede53bafe65527411598fd796e6f0e3"
+  },
+  {
+    "path": "audit-inputs/source-only/GiveMeFive-Source-Only/scripts/report_content.py",
+    "bytes": 10279,
+    "sha256": "d3c518f01d9ce11f2e02e490a6ca1543df73a07b19d7252f1583ece85618bae5"
+  },
+  {
+    "path": "audit-inputs/source-only/GiveMeFive-Source-Only/scripts/sync-assessment.cjs",
+    "bytes": 1152,
+    "sha256": "4d77a5ba47c15fd177d80f0b39822657d4ddf52a63c321d2913a008506450f19"
+  },
+  {
+    "path": "audit-inputs/source-only/GiveMeFive-Source-Only/start-preview.ps1",
+    "bytes": 933,
+    "sha256": "5bed3b809da8c96a2a578594973ae1d07f4071b4e07deada43290aa6aa5f5434"
+  },
+  {
+    "path": "audit-inputs/source-only/GiveMeFive-Source-Only/study-sessions.js",
+    "bytes": 1795,
+    "sha256": "81b8a835189ff5244c373c4cd7a99c1ed23adb863f67bdc95f51654a4153bdce"
+  },
+  {
+    "path": "audit-inputs/source-only/GiveMeFive-Source-Only/sw.js",
+    "bytes": 994,
+    "sha256": "635f684bccca9470b9a5cfa2e4d7a4ce3785e1e6612c7d1f9a4646083e8024a7"
+  },
+  {
+    "path": "audit-inputs/source-only/GiveMeFive-Source-Only/topic-content.js",
+    "bytes": 8616,
+    "sha256": "1ec36a25a539cb41a88055731a9c4343e7d85d3abb31b766d51c86fd8bdd73b3"
+  },
+  {
+    "path": "audit-inputs/source-only/GiveMeFive-Source-Only/ui-text.js",
+    "bytes": 15837,
+    "sha256": "b7837aec85259781319bda9276733ac7b6569c28741c8d8f55b30ea2248b83ab"
+  },
+  {
+    "path": "audit-inputs/source-only/GiveMeFive-Source-Only/启动 GiveMeFive.cmd",
+    "bytes": 100,
+    "sha256": "fadd83f04112892dc489149493a7905de08cda6b6a3987da153f32b8016e0977"
+  }
+]

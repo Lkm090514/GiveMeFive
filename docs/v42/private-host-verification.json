@@ -1,0 +1,23 @@
+{
+  "access": [
+    {
+      "path": "data/course.json",
+      "anonymous_blocked": true,
+      "status": 403
+    },
+    {
+      "path": "data/reading-content.json",
+      "anonymous_blocked": true,
+      "status": 403
+    }
+  ],
+  "online_non_html_shell_verified": 65,
+  "clean_restore": {
+    "mode": "authenticated-tree",
+    "verified_existing": 91,
+    "restored": 1134,
+    "resource_count": 1225,
+    "seconds": 224.02
+  },
+  "resource_version": "67a1afc3cac4f5ac0321"
+}

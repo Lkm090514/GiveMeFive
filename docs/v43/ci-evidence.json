@@ -1,0 +1,317 @@
+[
+  {
+    "id": 122179672454,
+    "name": "Strict Pathline resource integrity (release gate)",
+    "sha": "e9d8cac3d27741abcc299db51a00b40e400b9f48",
+    "url": "https://github.com/Lkm090514/GiveMeFive/actions/runs/40501392819/job/122179672454",
+    "status": "completed",
+    "conclusion": "failure",
+    "steps": [
+      {
+        "name": "Set up job",
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "name": "Checkout exact repository snapshot",
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "name": "Set up Python",
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "name": "Restore private licensed course resources",
+        "status": "completed",
+        "conclusion": "failure"
+      },
+      {
+        "name": "Audit all manifest assets",
+        "status": "completed",
+        "conclusion": "skipped"
+      },
+      {
+        "name": "Summarize course asset readiness",
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "name": "Upload asset metadata only (never licensed content)",
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "name": "Post Set up Python",
+        "status": "completed",
+        "conclusion": "skipped"
+      },
+      {
+        "name": "Post Checkout exact repository snapshot",
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "name": "Complete job",
+        "status": "completed",
+        "conclusion": "success"
+      }
+    ]
+  },
+  {
+    "id": 122179672766,
+    "name": "DOCX conversion regression (LibreOffice required)",
+    "sha": "e9d8cac3d27741abcc299db51a00b40e400b9f48",
+    "url": "https://github.com/Lkm090514/GiveMeFive/actions/runs/40501392819/job/122179672766",
+    "status": "completed",
+    "conclusion": "success",
+    "steps": [
+      {
+        "name": "Set up job",
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "name": "Checkout exact repository snapshot",
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "name": "Set up Python",
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "name": "Install Python test dependencies",
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "name": "Build the verified deployment image with LibreOffice",
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "name": "Run the same four DOCX regressions inside the deployment image",
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "name": "Post Set up Python",
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "name": "Post Checkout exact repository snapshot",
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "name": "Complete job",
+        "status": "completed",
+        "conclusion": "success"
+      }
+    ]
+  },
+  {
+    "id": 122179672785,
+    "name": "Backend regression excluding 4 separately-gated DOCX cases",
+    "sha": "e9d8cac3d27741abcc299db51a00b40e400b9f48",
+    "url": "https://github.com/Lkm090514/GiveMeFive/actions/runs/40501392819/job/122179672785",
+    "status": "completed",
+    "conclusion": "success",
+    "steps": [
+      {
+        "name": "Set up job",
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "name": "Checkout exact repository snapshot",
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "name": "Set up Python",
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "name": "Install Python test dependencies",
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "name": "Run non-DOCX backend suite",
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "name": "Post Set up Python",
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "name": "Post Checkout exact repository snapshot",
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "name": "Complete job",
+        "status": "completed",
+        "conclusion": "success"
+      }
+    ]
+  },
+  {
+    "id": 122179672897,
+    "name": "Frontend regression (verified private course assets)",
+    "sha": "e9d8cac3d27741abcc299db51a00b40e400b9f48",
+    "url": "https://github.com/Lkm090514/GiveMeFive/actions/runs/40501392819/job/122179672897",
+    "status": "completed",
+    "conclusion": "failure",
+    "steps": [
+      {
+        "name": "Set up job",
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "name": "Checkout exact repository snapshot",
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "name": "Set up Node.js",
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "name": "Restore private licensed course resources",
+        "status": "completed",
+        "conclusion": "failure"
+      },
+      {
+        "name": "Frontend regression tests (isolated test-file processes)",
+        "status": "completed",
+        "conclusion": "skipped"
+      },
+      {
+        "name": "Post Set up Node.js",
+        "status": "completed",
+        "conclusion": "skipped"
+      },
+      {
+        "name": "Post Checkout exact repository snapshot",
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "name": "Complete job",
+        "status": "completed",
+        "conclusion": "success"
+      }
+    ]
+  },
+  {
+    "id": 122179673021,
+    "name": "Mind Flow standalone UX & session regressions (no private assets)",
+    "sha": "e9d8cac3d27741abcc299db51a00b40e400b9f48",
+    "url": "https://github.com/Lkm090514/GiveMeFive/actions/runs/40501392819/job/122179673021",
+    "status": "completed",
+    "conclusion": "success",
+    "steps": [
+      {
+        "name": "Set up job",
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "name": "Run actions/checkout@v4",
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "name": "Run actions/setup-node@v4",
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "name": "Run focus UX, dialogs, records and MF state machine tests",
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "name": "Post Run actions/setup-node@v4",
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "name": "Post Run actions/checkout@v4",
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "name": "Complete job",
+        "status": "completed",
+        "conclusion": "success"
+      }
+    ]
+  },
+  {
+    "id": 122179671893,
+    "name": "persistent-backend",
+    "sha": "e9d8cac3d27741abcc299db51a00b40e400b9f48",
+    "url": "https://github.com/Lkm090514/GiveMeFive/actions/runs/40501392837/job/122179671893",
+    "status": "completed",
+    "conclusion": "success",
+    "steps": [
+      {
+        "name": "Set up job",
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "name": "Run actions/checkout@v4",
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "name": "Run actions/setup-python@v5",
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "name": "Run python -m pip install httpx",
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "name": "Build actual FastAPI and LibreOffice image",
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "name": "Test real HTTP uploads, queue, authentication, exams and restart",
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "name": "Post Run actions/setup-python@v5",
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "name": "Post Run actions/checkout@v4",
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "name": "Complete job",
+        "status": "completed",
+        "conclusion": "success"
+      }
+    ]
+  }
+]

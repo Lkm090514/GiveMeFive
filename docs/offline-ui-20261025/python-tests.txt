@@ -1,0 +1,63 @@
+.F............F...........................                               [100%]
+================================== FAILURES ===================================
+______________________ test_docx_answers_not_in_options _______________________
+
+env = (<fastapi.applications.FastAPI object at 0x000002838D3AC290>, <starlette.testclient.TestClient object at 0x000002838D6...0000000.0], WindowsPath('C:/Users/wojia/AppData/Local/Temp/pytest-of-wojia/pytest-16/test_docx_answers_not_in_optio0'))
+
+    def test_docx_answers_not_in_options(env):
+>    app,c,clock,temp=env;b=upload(env,docx_file(temp/'mixed.docx'));assert b.status=='completed',b
+                                                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E    AssertionError: ImportBatch(batch_id='batch_55980cd9c87a4102a4646f1af17049f6', scope='bank', owner_id='owner', status='failed', files=...': 'job_3dad6e9a7c504a3f8a34e669d9e60669', 'attempts': 1}], warnings=[], created_at='2026-10-25T04:02:46.365018+00:00')
+E    assert 'failed' == 'completed'
+E
+E      - completed
+E      + failed
+
+tests\test_v4.py:43: AssertionError
+_________ test_admin_many_papers_batch_reuses_queue_and_is_idempotent _________
+
+env = (<fastapi.applications.FastAPI object at 0x000002838E5535D0>, <starlette.testclient.TestClient object at 0x000002838E4...0000000.0], WindowsPath('C:/Users/wojia/AppData/Local/Temp/pytest-of-wojia/pytest-16/test_admin_many_papers_batch_r0'))
+
+    def test_admin_many_papers_batch_reuses_queue_and_is_idempotent(env):
+     app,c,clock,temp=env;p=mixed_pdf(temp/'a.pdf');d=docx_file(temp/'b.docx')
+     def send():
+      with p.open('rb') as f,d.open('rb') as g:return c.post('/api/v4/admin/imports/batch',headers=headers('admin'),files=[('files',('a.pdf',f)),('files',('b.docx',g))],data={'request_key':'many','reuse_confirmed':'true','license_name':'CC0'})
+     r=send();assert r.status_code==200,r.text;bid=r.json()['batch_id'];assert send().json()['batch_id']==bid
+>    app.state.bank.jobs.work(limit=20);b=app.state.bank.store.batch(bid);assert len(b.files)==2;assert all(f['status']=='imported' for f in b.files)
+                                                                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E    assert False
+E     +  where False = all(<generator object test_admin_many_papers_batch_reuses_queue_and_is_idempotent.<locals>.<genexpr> at 0x000002838E40BD30>)
+
+tests\test_v4.py:141: AssertionError
+============================== warnings summary ===============================
+.venv\Lib\site-packages\fastapi\testclient.py:1
+  C:\codex项目\GiveMeFive-AS-V4.1\.venv\Lib\site-packages\fastapi\testclient.py:1: StarletteDeprecationWarning: Using `httpx` with `starlette.testclient` is deprecated; install `httpx2` instead.
+    from starlette.testclient import TestClient as TestClient  # noqa
+
+tests/test_v4.py: 29 warnings
+tests/test_v41.py: 9 warnings
+tests/test_experience_audit.py: 2 warnings
+  C:\codex项目\GiveMeFive-AS-V4.1\backend\app.py:293: DeprecationWarning:
+          on_event is deprecated, use lifespan event handlers instead.
+
+          Read more about it in the
+          [FastAPI docs for Lifespan Events](https://fastapi.tiangolo.com/advanced/events/).
+
+    @app.on_event('shutdown')
+
+tests/test_v4.py: 29 warnings
+tests/test_v41.py: 9 warnings
+tests/test_experience_audit.py: 2 warnings
+  C:\codex项目\GiveMeFive-AS-V4.1\.venv\Lib\site-packages\fastapi\applications.py:4723: DeprecationWarning:
+          on_event is deprecated, use lifespan event handlers instead.
+
+          Read more about it in the
+          [FastAPI docs for Lifespan Events](https://fastapi.tiangolo.com/advanced/events/).
+
+    return self.router.on_event(event_type)  # ty: ignore[deprecated]
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+=========================== short test summary info ===========================
+FAILED tests/test_v4.py::test_docx_answers_not_in_options - AssertionError: I...
+FAILED tests/test_v4.py::test_admin_many_papers_batch_reuses_queue_and_is_idempotent
+2 failed, 40 passed, 81 warnings in 68.82s (0:01:08)

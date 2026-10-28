@@ -1,0 +1,143 @@
+name: GMF V4.1 regression
+
+on:
+  push:
+    branches:
+      - fix/v4.1-validation-20261026
+      - feat/v4.3-multicourse-platform-foundation
+      - fix/v4.3-assessment-online-backend-20261027
+      - feat/v4.2-ux-reliability-preview
+      - fix/v4.2-private-preview-mf-polish-20261027
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  mf-experience:
+    name: Mind Flow standalone UX & session regressions (no private assets)
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Run focus UX, dialogs, records and MF state machine tests
+        run: node --test --test-concurrency=1 tests/v42-mf-interface.test.mjs mf-stage-a-reference/tests/*.test.mjs
+
+  frontend:
+    name: Frontend regression (verified private course assets)
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - name: Checkout exact repository snapshot
+        uses: actions/checkout@v4
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Restore private licensed course resources
+        env:
+          COURSE_ASSETS_URL: ${{ secrets.GMF_COURSE_ASSETS_URL || 'https://gmf-fusion-dev-20261021.lkm31620.chatgpt.site' }}
+          COURSE_ASSETS_FORMAT: ${{ vars.GMF_COURSE_ASSETS_FORMAT || 'tree' }}
+          COURSE_ASSETS_AUTH: ${{ vars.GMF_COURSE_ASSETS_AUTH || 'sites' }}
+          COURSE_ASSETS_TOKEN: ${{ secrets.GMF_COURSE_ASSETS_TOKEN }}
+        run: bash scripts/fetch-private-course-assets.sh
+      - name: Frontend regression tests (isolated test-file processes)
+        run: node --test --test-concurrency=1 tests/*.test.mjs mf-stage-a-reference/tests/*.test.mjs
+
+  backend-core:
+    name: Backend regression excluding 4 separately-gated DOCX cases
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout exact repository snapshot
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Install Python test dependencies
+        run: python -m pip install -r requirements-dev.txt
+      - name: Run non-DOCX backend suite
+        run: >-
+          python -m pytest -q tests
+          -k 'not test_docx_answers_not_in_options and not test_admin_many_papers_batch_reuses_queue_and_is_idempotent and not test_student_docx_preserves_original_and_ungraded_answers and not test_student_docx_online_review_and_original_bytes'
+
+  backend-docx:
+    name: DOCX conversion regression (LibreOffice required)
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - name: Checkout exact repository snapshot
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Install Python test dependencies
+        run: python -m pip install -r requirements-dev.txt
+      - name: Build the verified deployment image with LibreOffice
+        run: docker build -t gmf-docx-v43 .
+      - name: Run the same four DOCX regressions inside the deployment image
+        run: |
+          docker run --rm --entrypoint sh -v "$PWD:/work:ro" -w /work \
+            -e GMF_AUTH_MODE=local -e GMF_ENV=testing \
+            -e PYTHONPATH=/work:/work/as-v3-reference gmf-docx-v43 -c '
+              python -m pip install -r requirements-dev.txt &&
+              python -m pytest -q \
+                tests/test_v4.py::test_docx_answers_not_in_options \
+                tests/test_v4.py::test_admin_many_papers_batch_reuses_queue_and_is_idempotent \
+                tests/test_v42.py::test_student_docx_preserves_original_and_ungraded_answers \
+                tests/test_online_auth.py::test_student_docx_online_review_and_original_bytes
+            '
+
+  course-resources:
+    name: Strict Pathline resource integrity (release gate)
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - name: Checkout exact repository snapshot
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Restore private licensed course resources
+        env:
+          COURSE_ASSETS_URL: ${{ secrets.GMF_COURSE_ASSETS_URL || 'https://gmf-fusion-dev-20261021.lkm31620.chatgpt.site' }}
+          COURSE_ASSETS_FORMAT: ${{ vars.GMF_COURSE_ASSETS_FORMAT || 'tree' }}
+          COURSE_ASSETS_AUTH: ${{ vars.GMF_COURSE_ASSETS_AUTH || 'sites' }}
+          COURSE_ASSETS_TOKEN: ${{ secrets.GMF_COURSE_ASSETS_TOKEN }}
+        run: bash scripts/fetch-private-course-assets.sh
+      - name: Audit all manifest assets
+        run: python scripts/audit-runtime-assets.py --dist dist --output /tmp/gmf-asset-audit.json
+      - name: Summarize course asset readiness
+        if: always()
+        shell: bash
+        run: |
+          python - <<'PY'
+          import json, os
+          from pathlib import Path
+          path = Path('/tmp/gmf-asset-audit.json')
+          if path.is_file():
+              report = json.loads(path.read_text())
+              status = 'PASS' if report['complete'] else 'FAIL — incomplete content'
+              summary = (f"### Pathline integrity: {status}\n\n"
+                         f"Verified: {report['verified']}/{report['resource_count']}; "
+                         f"failures: {len(report['failures'])}.\n")
+          else:
+              summary = '### Pathline integrity: NOT VERIFIED (restore or audit failed)\n'
+          summary += '\nCourse assets stay private; browser/PDF/iPad Safari acceptance is separate.\n'
+          with open(os.environ['GITHUB_STEP_SUMMARY'], 'a') as output:
+              output.write(summary)
+          PY
+      - name: Upload asset metadata only (never licensed content)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: pathline-resource-audit
+          path: /tmp/gmf-asset-audit.json
+          if-no-files-found: ignore
