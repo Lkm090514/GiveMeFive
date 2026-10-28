@@ -24,6 +24,7 @@ def check(db, data_root, minimum):
     if not db.is_file():
         problems.append("Persistent database missing; do not deploy an empty public bank")
         return report
+    covered_topics = set()
     try:
         with sqlite3.connect(f"file:{db.resolve()}?mode=ro", uri=True) as con:
             con.row_factory = sqlite3.Row
@@ -49,6 +50,7 @@ def check(db, data_root, minimum):
                         raise ValueError("publication payload inconsistent")
                     if not document.get("reuse_confirmed"):
                         raise ValueError("source reuse permission unconfirmed")
+                    covered_topics.update(metadata.get("core") or [])
                     if not metadata.get("published_at") or not metadata.get("published_by"):
                         raise ValueError("missing publication audit")
                     if not version.get("stem", "").strip():
@@ -90,6 +92,16 @@ def check(db, data_root, minimum):
                     break
     except (sqlite3.Error, OSError, ValueError) as error:
         problems.append(f"Database read error: {error}")
+    if minimum >= 369:
+        try:
+            course = json.loads((Path(__file__).resolve().parents[1] / "dist/data/course.json").read_text())
+            required_topics = {t["topic_id"] for t in course["topics"]}
+            report["covered_topics"] = len(required_topics & covered_topics)
+            missing_topics = sorted(required_topics - covered_topics)
+            if missing_topics:
+                problems.append(f"Public bank has no reviewed questions for {len(missing_topics)} topics: {missing_topics[:8]}")
+        except (OSError, ValueError, KeyError, TypeError) as error:
+            problems.append(f"Cannot verify 41-topic public bank coverage: {error}")
     report["passed"] = not problems
     return report
 
