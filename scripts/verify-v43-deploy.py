@@ -36,11 +36,11 @@ def verify(dist):
                 report["verified_resources"] += 1
         pdfjs = dist / "source/pdfjs"
         for name in ("pdf.mjs", "pdf.worker.mjs"):
-            if not (pdfjs / name).is_file():
+            if not (pdfjs / name).is_file() or (pdfjs / name).stat().st_size < 100000:
                 problems.append("Missing PDF.js runtime: " + name)
-        if len(list((pdfjs / "cmaps").glob("*.bcmap"))) < 160:
+        if len([p for p in (pdfjs / "cmaps").glob("*.bcmap") if p.stat().st_size > 0]) < 168:
             problems.append("PDF.js CMap collection incomplete")
-        if len(list((pdfjs / "wasm").glob("*.wasm"))) < 3:
+        if len([p for p in (pdfjs / "wasm").glob("*.wasm") if p.stat().st_size > 1000]) < 3:
             problems.append("PDF.js WASM decoders incomplete")
         required_fonts = ("FoxitDingbats.pfb", "FoxitFixed.pfb", "FoxitFixedBold.pfb",
                           "FoxitFixedBoldItalic.pfb", "FoxitFixedItalic.pfb",
@@ -49,7 +49,7 @@ def verify(dist):
                           "LiberationSans-Bold.ttf", "LiberationSans-BoldItalic.ttf",
                           "LiberationSans-Italic.ttf", "LiberationSans-Regular.ttf")
         for font in required_fonts:
-            if not (pdfjs / "standard_fonts" / font).is_file():
+            if not (pdfjs / "standard_fonts" / font).is_file() or (pdfjs / "standard_fonts" / font).stat().st_size == 0:
                 problems.append("Missing PDF.js font: " + font)
         course = json.loads((dist / "data/course.json").read_text(encoding="utf-8"))
         report["units"] = len(course.get("units", []))
