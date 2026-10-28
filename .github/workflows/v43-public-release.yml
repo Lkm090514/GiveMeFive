@@ -1,0 +1,81 @@
+name: V4.3 public release — fail closed
+on:
+  push:
+    branches: [fix/v43-fail-closed-fullsite-20261028]
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  source-and-negative-gates:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Validate release gate unit tests
+        run: python -m unittest discover -s tests -p 'test_public_release_gate.py' -v
+      - name: Confirm clean public checkout is rejected (never empty-deploy)
+        shell: bash
+        run: |
+          if python scripts/verify-v43-deploy.py --dist dist --mode assets-only; then
+            echo "::error::Unrestored public checkout unexpectedly passed asset gate"
+            exit 1
+          fi
+          if python scripts/verify-public-bank.py --db /tmp/nonexistent-gmf.sqlite3 --data-root /tmp --min-published 369; then
+            echo "::error::Missing public bank unexpectedly passed"
+            exit 1
+          fi
+          echo "Missing content correctly blocks production"
+      - name: Run standalone Mind Flow tests
+        run: node --test --test-concurrency=1 tests/v42-mf-interface.test.mjs mf-stage-a-reference/tests/*.test.mjs
+      - name: Package SOURCE ONLY for review (never include licensed assets)
+        run: git archive --format=zip --output=/tmp/GMF-V4.3-source-only.zip HEAD
+      - uses: actions/upload-artifact@v4
+        with:
+          name: gmf-v43-source-only
+          path: /tmp/GMF-V4.3-source-only.zip
+          retention-days: 7
+  licensed-content-and-image:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Refuse release without owner-approved private asset source
+        env:
+          COURSE_ASSETS_URL: ${{ secrets.GMF_COURSE_ASSETS_URL }}
+          COURSE_ASSETS_TOKEN: ${{ secrets.GMF_COURSE_ASSETS_TOKEN }}
+        shell: bash
+        run: |
+          if [ -z "$COURSE_ASSETS_URL" ] || [ -z "$COURSE_ASSETS_TOKEN" ]; then
+            echo "::error::BLOCKED: authorized private course asset URL/token not configured"
+            exit 1
+          fi
+      - name: Restore privately, verify SHA-256, never upload assets
+        env:
+          COURSE_ASSETS_URL: ${{ secrets.GMF_COURSE_ASSETS_URL }}
+          COURSE_ASSETS_TOKEN: ${{ secrets.GMF_COURSE_ASSETS_TOKEN }}
+          COURSE_ASSETS_FORMAT: ${{ vars.GMF_COURSE_ASSETS_FORMAT || 'zip' }}
+          COURSE_ASSETS_AUTH: ${{ vars.GMF_COURSE_ASSETS_AUTH || 'bearer' }}
+        run: bash scripts/fetch-private-course-assets.sh
+      - name: Verify all 1228 assets and all 41 topics
+        run: python scripts/verify-v43-deploy.py --dist dist --mode assets-only
+      - name: Run all frontend tests on restored resources
+        run: node --test --test-concurrency=1 tests/*.test.mjs mf-stage-a-reference/tests/*.test.mjs
+      - name: Build real full-site image (not API-only Dockerfile)
+        run: docker build -f Dockerfile.public -t gmf-v43-fullsite .
+      - name: No published bank = no running public site
+        run: |
+          docker run --rm --entrypoint python gmf-v43-fullsite \
+            scripts/verify-public-bank.py --db /var/data/gmf/modules.sqlite3 \
+            --data-root /var/data/gmf --min-published 369 && exit 1 || test "$?" -eq 2
