@@ -1,0 +1,27 @@
+name: Export V4.3 source for verified recovery
+on:
+  push:
+    branches:
+      - work/v43-recovery-20261028
+    paths:
+      - .github/workflows/export-v43-source.yml
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Package tracked public source only
+        run: |
+          git archive --format=tar.gz --output=/tmp/gmf-v43-tracked-source.tar.gz HEAD
+          test -s /tmp/gmf-v43-tracked-source.tar.gz
+      - uses: actions/upload-artifact@v4
+        with:
+          name: gmf-v43-tracked-source
+          path: /tmp/gmf-v43-tracked-source.tar.gz
+          retention-days: 2
+          if-no-files-found: error
